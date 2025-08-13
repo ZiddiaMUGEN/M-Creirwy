@@ -12,7 +12,7 @@ localcoord = 320,240
 [Files]
 cmd      = System/Creirwy.commands
 cns      = System/Creirwy.constants
-stcommon = States/Creirwy-Devil.st
+stcommon = States/Creirwy-Devil.mtl
 sprite   = System/Creirwy.sff
 anim     = System/Creirwy.air
 sound    = System/Creirwy.snd
@@ -38,3 +38,4 @@ no_numeric = true
 no_implicit_bool = true
 no_implicit_enum = false
 no_changestate_expression = false
+no_compiler_internal = true

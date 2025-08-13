@@ -1,4 +1,4 @@
-﻿[Data]
+[Data]
 ;Amount of life to start with
 life = 1000
 ;attack power (more is stronger)

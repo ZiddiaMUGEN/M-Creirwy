@@ -1,0 +1,34 @@
+[Files]
+stcommon = common1.cns
+st = M-Creirwy.st
+cmd = M-Creirwy.commands
+cns = M-Creirwy.constants
+sprite = Creirwy.sff
+sound = Creirwy.snd
+anim = Creirwy.air
+
+[Info]
+name = "M-Creirwy"
+displayname = "Creirwy"
+versiondate = 13,08,2025
+mugenversion = 1.0
+author = "rebi24 + Ziddia"
+pal.defaults = 1
+localcoord = 320,240
+
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
+
+[Compiler]
+no_implicit_conversion = true
+no_numeric = true
+no_implicit_bool = true
+no_implicit_enum = false
+no_changestate_expression = false
+no_compiler_internal = true
+
