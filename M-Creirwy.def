@@ -39,3 +39,4 @@ no_implicit_bool = true
 no_implicit_enum = false
 no_changestate_expression = false
 no_compiler_internal = true
+allow_changestate_target = true

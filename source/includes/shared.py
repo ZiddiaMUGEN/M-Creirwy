@@ -1,8 +1,13 @@
-from mdk.compiler import template
-from mdk.stdlib import Name, IsHelper, root, ChangeState
-from mdk.types import StateNoType, Expression
+from mdk.compiler import statefunc
+from mdk.stdlib import Name, IsHelper, root
 
-@template(inputs = [StateNoType], library = "States/Creirwy-Shared.inc")
-def SendToDevilsEye(target_state: Expression):
+from source.brain import TargetLandingState
+
+@statefunc
+def SendToDevilsEye():
+    """
+    Checks if an enemy landed in this state, and redirects to TargetLandingState.
+    This needs to be applied at the start of every player state!
+    """
     if Name != "M-Creirwy" or (IsHelper() and root.Name != "M-Creirwy"): 
-        ChangeState(value = target_state, ignorehitpause = True)
+        TargetLandingState(ignorehitpause = True)
