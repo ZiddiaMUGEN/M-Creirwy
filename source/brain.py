@@ -7,7 +7,7 @@ from .includes.constants import MC_DEVILS_TARGET_STATE
 @statedef(stateno = MC_DEVILS_TARGET_STATE, scope = SCOPE_TARGET)
 def TargetLandingState():
     """
-    Initial target state for enemies after they pass through Devil's Eye Killer states.
+    Entry point for P2-sided work after enemies pass through Devil's Eye Killer states.
     This will redirect targets further based on what attack the character is attempting.
     """
     Null()

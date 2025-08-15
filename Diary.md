@@ -2,6 +2,17 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-15
+
+- work on ImageRepro intro
+- set up shared globals for state/time tracking
+- set up helper-scoped global flag for imagerepro intro run
+- add a couple statefuncs for state/time updates
+- add a trigger for random range (`includes.shared.RandRange`)
+- fix for signed variable display in mtldbg
+- add a trigger to pick between 2 values at random (`includes.shared.RandPick`)
+- add break by state name in mtldbg
+
 ### 2025-08-14
 
 - update MDK to support scoped output

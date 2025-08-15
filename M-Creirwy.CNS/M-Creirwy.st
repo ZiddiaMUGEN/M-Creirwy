@@ -18002,12 +18002,60 @@ stateno = 10000
 supermovetime = 2147483647
 pausemovetime = 2147483647
 ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = TargetDrop
+trigger1 = !IsHelper
+keepone = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = !IsHelper
+flag = Invisible
+flag2 = NoShadow
+flag3 = TimerFreeze
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlayerPush
+trigger1 = !IsHelper
+value = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ScreenBound
+trigger1 = !IsHelper
+value = 0
+movecamera = 0, 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = !IsHelper
+value = SCA, AA, AP, AT
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = !IsHelper
+trigger1 = (var(0) := ((var(0)) + 1)) || 1
+value = var(1)
+ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = PlayerPush
 trigger1 = IsHelper(10000)
 value = 0
 ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = ScreenBound
@@ -18015,6 +18063,7 @@ trigger1 = IsHelper(10000)
 value = 1
 movecamera = 1, 1
 ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = AfterImage
@@ -18024,16 +18073,21 @@ time = -1
 length = 8
 framegap = 2
 ignorehitpause = 1
-
-[State ]
-type = VarSet
-trigger1 = IsHelper(10000)
-var(0) = ((var(0)) + 1)
+persistent = 256
 
 [State ]
 type = SelfState
 trigger1 = IsHelper(10000)
+trigger1 = (var(0) := ((var(0)) + 1)) || 1
 value = 10000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = DestroySelf
+trigger1 = IsHelper
+ignorehitpause = 1
+persistent = 256
 
 
 [Statedef -3]
@@ -18076,10 +18130,157 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = ChangeState
-trigger1 = (var(0) := 0) || 1
-value = 10000
+type = VelSet
+trigger1 = 1
+y = 0
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = 1
+y = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = !(var(2) & 1)
+trigger1 = (var(0) := 0) || 1
+var(1) = 1002
+
+[State ]
+type = VarSet
+trigger1 = !(var(2) & 1)
+var(2) = ((((1) & 1) * 1) + (var(2) & -2))
+
+[State ]
+type = ChangeState
+trigger1 = 1
+value = var(1)
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1001]
+type = S
+movetype = I
+physics = U
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = Anim != 0
+value = 0
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+var(3) = ((-55) + (Random % ((-35) - (-55))))
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+var(4) = ((-125) + (Random % ((-25) - (-125))))
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
+
+
+[Statedef 1002]
+type = S
+movetype = I
+physics = U
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Intro
+
+[State ]
+type = ChangeAnim
+trigger1 = Anim != 190
+value = 190
+
+[State ]
+type = ChangeState
+trigger1 = (var(0)) >= 180
+trigger1 = (var(0) := 0) || 1
+trigger1 = (var(1) := 1003) || 1
+value = var(1)
+
+
+[Statedef 1003]
+type = S
+movetype = I
+physics = U
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Intro
+
+[State ]
+type = ChangeAnim
+trigger1 = (RoundState = 1) && (Anim != 193)
+value = 193
+
+[State ]
+type = PlaySnd
+trigger1 = (RoundState = 1) && ((var(0)) = 0)
+value = 180, (Random % 3)
+
+[State ]
+type = Explod
+trigger1 = (((NumExplod(191)) = 0) && ((AnimElemTime(4)) = 0)) && (Anim = 193)
+anim = 191
+id = 191
+pos = 0, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 23
+
+[State ]
+type = Explod
+trigger1 = (((NumExplod(192)) = 0) && ((AnimElemTime(4)) = 0)) && (Anim = 193)
+anim = 192
+id = 192
+pos = 0, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 22
+
+[State ]
+type = ChangeState
+trigger1 = AnimTime = 0
+trigger1 = (var(0) := 0) || 1
+trigger1 = (var(1) := 1001) || 1
+value = var(1)
 
 
