@@ -35,7 +35,7 @@ c = 6
 [Compiler]
 no_implicit_conversion = true
 no_numeric = true
-no_implicit_bool = true
+no_implicit_bool = false
 no_implicit_enum = false
 no_changestate_expression = false
 no_compiler_internal = true

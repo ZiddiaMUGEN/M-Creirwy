@@ -18051,11 +18051,35 @@ trigger1 = 1
 
 
 [Statedef 10000]
+type = S
+movetype = I
+physics = U
 
 [State ]
 type = ChangeState
 trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
 value = 2694491
 ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SprPriority
+trigger1 = 1
+value = 100
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Turn
+trigger1 = ((Facing = 1) && (enemy,Pos X < Pos X)) || ((Facing = (-1)) && (enemy,Pos X > Pos X))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeState
+trigger1 = (var(0) := 0) || 1
+value = 10000
+ignorehitpause = 1
+persistent = 256
 
 
