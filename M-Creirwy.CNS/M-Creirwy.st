@@ -9082,15 +9082,6 @@ value = 2694491
 ignorehitpause = 1
 
 
-[Statedef 11000]
-
-[State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
-ignorehitpause = 1
-
-
 [Statedef 12000]
 
 [State ]
@@ -17988,12 +17979,24 @@ ignorehitpause = 1
 [State ]
 type = Null
 trigger1 = 1
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1001]
+
+[State ]
+type = Null
+trigger1 = 1
+ignorehitpause = 1
+persistent = 256
 
 
 [Statedef -2]
 
 [State ]
 type = Helper
+trigger1 = !IsHelper
 trigger1 = (NumHelper(10000)) = 0
 helpertype = Player
 name = "Image Reproduction"
@@ -18003,6 +18006,714 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 1"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 1"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 2"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 2"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 3"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 3"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 4"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 4"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 5"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 5"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 6"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 6"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 7"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 7"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 8"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 8"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 9"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 9"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 10"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 10"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 11"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 11"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 12"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 12"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 13"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 13"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 14"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 14"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 15"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 15"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 16"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 16"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 17"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 17"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 18"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 18"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 19"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 19"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 20"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 20"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 21"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 21"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 22"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 22"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 23"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 23"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 24"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 24"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 25"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 25"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 26"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 26"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Helper 27"
+id = 11000
+stateno = 11000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 27) && (!(var(2) & 1))
+helpertype = Player
+name = "Crosstalk Target 27"
+id = 12000
+stateno = 12000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = !IsHelper
+trigger1 = (var(1)) = 0
+var(1) = 1001
 
 [State ]
 type = TargetDrop
@@ -18084,6 +18795,29 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = AssertSpecial
+trigger1 = IsHelper(11000)
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Null
+trigger1 = IsHelper(11000)
+trigger1 = (root,var(2) & 1) = 0
+trigger1 = root,cond(((var(2) := ((((1) & 1) * 1) + (var(2) & -2))) & 1), 1, 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper(11000)
+value = 11000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = DestroySelf
 trigger1 = IsHelper
 ignorehitpause = 1
@@ -18095,6 +18829,8 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = 1
+ignorehitpause = 1
+persistent = 256
 
 
 [Statedef -1]
@@ -18102,6 +18838,8 @@ trigger1 = 1
 [State ]
 type = Null
 trigger1 = 1
+ignorehitpause = 1
+persistent = 256
 
 
 [Statedef 10000]
@@ -18147,7 +18885,7 @@ persistent = 256
 type = VarSet
 trigger1 = !(var(2) & 1)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1002
+var(1) = 1003
 
 [State ]
 type = VarSet
@@ -18160,39 +18898,6 @@ trigger1 = 1
 value = var(1)
 ignorehitpause = 1
 persistent = 256
-
-
-[Statedef 1001]
-type = S
-movetype = I
-physics = U
-
-[State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim
-trigger1 = Anim != 0
-value = 0
-
-[State ]
-type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(3) = ((-55) + (Random % ((-35) - (-55))))
-
-[State ]
-type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(4) = ((-125) + (Random % ((-25) - (-125))))
-
-[State ]
-type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 
 
 [Statedef 1002]
@@ -18208,21 +18913,26 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = AssertSpecial
-trigger1 = 1
-flag = Intro
-
-[State ]
 type = ChangeAnim
-trigger1 = Anim != 190
-value = 190
+trigger1 = Anim != 0
+value = 0
+ignorehitpause = 1
+persistent = 256
 
 [State ]
-type = ChangeState
-trigger1 = (var(0)) >= 180
-trigger1 = (var(0) := 0) || 1
-trigger1 = (var(1) := 1003) || 1
-value = var(1)
+type = VarSet
+trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+var(3) = ((-55) + (Random % ((-35) - (-55))))
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+var(4) = ((-125) + (Random % ((-25) - (-125))))
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 
 
 [Statedef 1003]
@@ -18241,16 +18951,58 @@ persistent = 256
 type = AssertSpecial
 trigger1 = 1
 flag = Intro
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = Anim != 190
+value = 190
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeState
+trigger1 = (var(0)) >= 180
+trigger1 = (var(0) := 0) || 1
+trigger1 = (var(1) := 1004) || 1
+value = var(1)
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1004]
+type = S
+movetype = I
+physics = U
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Intro
+ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = ChangeAnim
 trigger1 = (RoundState = 1) && (Anim != 193)
 value = 193
+ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = PlaySnd
 trigger1 = (RoundState = 1) && ((var(0)) = 0)
 value = 180, (Random % 3)
+ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = Explod
@@ -18263,6 +19015,8 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
 sprpriority = 23
+ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = Explod
@@ -18275,12 +19029,29 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
 sprpriority = 22
+ignorehitpause = 1
+persistent = 256
 
 [State ]
 type = ChangeState
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-trigger1 = (var(1) := 1001) || 1
+trigger1 = (var(1) := 1002) || 1
 value = var(1)
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 11000]
+type = S
+movetype = A
+physics = U
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
 
 

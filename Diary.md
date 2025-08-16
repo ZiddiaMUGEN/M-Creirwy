@@ -2,6 +2,14 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-16
+
+- start working on adding Crosstalk
+- add a helper for setting bool vars on root via Condbug
+- work on testing mtldbg under helper occupancy
+- set up a variable for crosstalk init under root
+- set up a temp state with PLAYER scope for root
+
 ### 2025-08-15
 
 - work on ImageRepro intro

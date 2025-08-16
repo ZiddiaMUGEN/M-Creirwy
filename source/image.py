@@ -1,6 +1,6 @@
 ### States for ImageRepro helper.
 ### This helper provides visuals for the character (while the root does more interesting things).
-from mdk.compiler import statedef, statefunc, ControllerProps
+from mdk.compiler import statedef, statefunc
 from mdk.types import (
     SCOPE_HELPER, ConvertibleExpression,
     BoolVar, IntVar, FloatVar,
@@ -46,19 +46,18 @@ def ImageRepro_Base():
     """
     SendToDevilsEye()
 
-    with ControllerProps(ignorehitpause = True, persistent = 256):
-        SprPriority(value = 100)
-        if (Facing == 1 and enemy.Pos.x < Pos.x) or (Facing == -1 and enemy.Pos.x > Pos.x):
-            Turn()
+    SprPriority(value = 100)
+    if (Facing == 1 and enemy.Pos.x < Pos.x) or (Facing == -1 and enemy.Pos.x > Pos.x):
+        Turn()
 
-        VelSet(y = 0)
-        PosSet(y = 0)
+    VelSet(y = 0)
+    PosSet(y = 0)
 
-        if not ImageRepro_HasRunIntro:
-            ResetTimeAndSetState(ImageRepro_IntroIdle)
-            ImageRepro_HasRunIntro.set(True)
-        
-        ChangeState(value = SavedState)
+    if not ImageRepro_HasRunIntro:
+        ResetTimeAndSetState(ImageRepro_IntroIdle)
+        ImageRepro_HasRunIntro.set(True)
+    
+    ChangeState(value = SavedState)
 
 @statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.U)
 def ImageRepro_Idle():
