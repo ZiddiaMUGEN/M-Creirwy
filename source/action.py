@@ -8,19 +8,18 @@ from mdk.stdlib import (
 from mdk.types import HelperType, AssertType, HitType, HitAttr, BoolVar, SCOPE_PLAYER
 
 from .includes.constants import (
-    IMAGEREPRO_HELPER_ID, IMAGEREPRO_HELPER_STATE, 
+    IMAGEREPRO_HELPER_ID, 
     PAUSETIME_MAX,
-    CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_STATE, CROSSTALK_TARGET_STATE, CROSSTALK_HELPER_COUNT,
-    OCCUPANCY_HELPER_ID, OCCUPANCY_HELPER_STATE,
-    LAST_HELPER_ID, LAST_HELPER_STATE
+    CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_COUNT,
+    OCCUPANCY_HELPER_ID,
+    LAST_HELPER_ID
 )
-from .includes.variables import TrackedTime, SavedState
+from .includes.variables import TrackedTime, SavedState, Root_CrosstalkInitialized
 from .includes.shared import SelfState_TimeIncrease, RootFlagSet
 
 from .brain import TempPlayerState
-
-Root_CrosstalkInitialized = BoolVar(scope = SCOPE_PLAYER)
-"""Set to True when the crosstalk system has been fully initialized."""
+from .image import ImageRepro_Base
+from .crosstalk import CrossTalk_Base, CrossTalk_Target
 
 @statedef(stateno = -2, scope = SCOPE_PLAYER)
 def Think():
@@ -34,7 +33,7 @@ def Think():
         Think_Root()
     if IsHelper(IMAGEREPRO_HELPER_ID): Think_ImageRepro()
     if IsHelper(CROSSTALK_HELPER_ID): Think_CrossTalk()
-    #if IsHelper(CROSSTALK_TARGET_ID): Think_CrossTalk_Target()
+    if IsHelper(CROSSTALK_TARGET_ID): SelfState(value = CrossTalk_Target)
 
     ## this is a failsafe.
     ## the only way a helper ever reaches here is if I screw up,
@@ -62,15 +61,14 @@ def Act():
 @statefunc
 def Think_SpawnBaseHelpers():
     """
-    Spawns base (i.e. non-crosstalk, non-occupancy) helpers.
-    Crosstalk is handled separately.
+    Spawns all helpers used by the root (excluding special cases like end-of-round occupancy).
     """
     if NumHelper(IMAGEREPRO_HELPER_ID) == 0:
         Helper(
             helpertype = HelperType.Player,
             name = "Image Reproduction",
             id = IMAGEREPRO_HELPER_ID,
-            stateno = IMAGEREPRO_HELPER_STATE,
+            stateno = ImageRepro_Base,
             supermovetime = PAUSETIME_MAX,
             pausemovetime = PAUSETIME_MAX
         )
@@ -82,7 +80,7 @@ def Think_SpawnBaseHelpers():
                 helpertype = HelperType.Player,
                 name = f"Crosstalk Helper {idx + 1}",
                 id = CROSSTALK_HELPER_ID,
-                stateno = CROSSTALK_HELPER_STATE,
+                stateno = CrossTalk_Base,
                 supermovetime = PAUSETIME_MAX,
                 pausemovetime = PAUSETIME_MAX
             )
@@ -91,7 +89,7 @@ def Think_SpawnBaseHelpers():
                 helpertype = HelperType.Player,
                 name = f"Crosstalk Target {idx + 1}",
                 id = CROSSTALK_TARGET_ID,
-                stateno = CROSSTALK_TARGET_STATE,
+                stateno = CrossTalk_Target,
                 supermovetime = PAUSETIME_MAX,
                 pausemovetime = PAUSETIME_MAX
             )
@@ -119,14 +117,14 @@ def Think_ImageRepro():
     ScreenBound(value = True, movecamera = (True, True))
     if RoundState < 2: AfterImage(time = -1, length = 8, framegap = 2)
 
-    SelfState_TimeIncrease(IMAGEREPRO_HELPER_STATE)
+    SelfState_TimeIncrease(ImageRepro_Base)
 
 @statefunc
 def Think_CrossTalk():
     """
-    Responsible for dispatch CT helpers to their main state.
+    Responsible for dispatching CT helpers to their main state.
     """
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow) ## display
     if root.Root_CrosstalkInitialized == False: RootFlagSet(Root_CrosstalkInitialized, True)
 
-    SelfState(value = CROSSTALK_HELPER_STATE)
+    SelfState(value = CrossTalk_Base)

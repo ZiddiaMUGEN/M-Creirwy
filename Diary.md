@@ -2,6 +2,15 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-17
+
+- allow arbitrary scope changes out of negative states (this is important for e.g. Helper SelfState out of -2)
+- implement idle explods for imagerepro, start working on imagerepro attacks
+- allow implicit use of int types (int, short, byte) in triggers (in MDK)
+- set up a variable to track the substate machine for ImageRepro attack selection
+- converted substate variable to an Enum, added type definition emits to mdk, work on basic enum operators in MTL
+- ensure MTL can output integer values for user-defined enums
+
 ### 2025-08-16
 
 - start working on adding Crosstalk

@@ -33,7 +33,7 @@ c = 6
 ;c2 = 12
 
 [Compiler]
-no_implicit_conversion = true
+no_implicit_conversion = false
 no_numeric = true
 no_implicit_bool = false
 no_implicit_enum = false

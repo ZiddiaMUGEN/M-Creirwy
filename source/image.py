@@ -3,24 +3,24 @@
 from mdk.compiler import statedef, statefunc
 from mdk.types import (
     SCOPE_HELPER, ConvertibleExpression,
-    BoolVar, IntVar, FloatVar,
-    StateType, MoveType, PhysicsType, PosType, AssertType
+    BoolVar, IntVar, FloatVar, ByteVar,
+    StateType, MoveType, PhysicsType, PosType, AssertType, SpaceType
 )
 from mdk.stdlib import (
     SprPriority, Turn, Explod, VelSet, PosSet, ChangeState, AssertSpecial, ChangeAnim, PlaySnd,
-    Facing, Pos, Anim, RoundState, AnimTime, Random, NumExplod, AnimElemTime, GameTime,
+    Facing, Pos, Anim, RoundState, AnimTime, Random, NumExplod, AnimElemTime, GameTime, Cond, Vel,
+    FrontEdgeDist,
     enemy
 )
 
 from .includes.variables import (
     SavedState, 
-    TrackedTime # type: ignore
+    TrackedTime, # type: ignore
+    ImageRepro_HasRunIntro, ImageRepro_SelectedMove
 )
+from .includes.types import ImageReproActionType
 from .includes.constants import IMAGEREPRO_HELPER_ID, PAUSETIME_MAX
 from .includes.shared import SendToDevilsEye, RandRange, RandPick
-
-ImageRepro_HasRunIntro = BoolVar(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
-"""Flag indicating whether ImageRepro has gone through its into animation + returned to idle already."""
 
 @statefunc
 def ResetTimeAndSetState(value: ConvertibleExpression):
@@ -56,10 +56,15 @@ def ImageRepro_Base():
     if not ImageRepro_HasRunIntro:
         ResetTimeAndSetState(ImageRepro_IntroIdle)
         ImageRepro_HasRunIntro.set(True)
+
+    ## select a move to use.
+    if RoundState == 2:
+        if ImageRepro_SelectedMove == ImageReproActionType.Idle:
+            ResetTimeAndSetState(ImageRepro_DashToEnemy)
     
     ChangeState(value = SavedState)
 
-@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.U)
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.U, sprpriority = 3)
 def ImageRepro_Idle():
     """
     Idle/standing animation.
@@ -71,10 +76,48 @@ def ImageRepro_Idle():
     SendToDevilsEye()
     if Anim != 0: ChangeAnim(value = 0)
 
-    if TrackedTime >= 6 and GameTime % 3 == 0:
-        local_xOffs.set(RandRange(-55, -35))
-        local_yOffs.set(RandRange(-125, -25))
-        local_scale.set(RandPick(1, -1) * (0.25 + 0.01 * (Random % 5)))
+    ## spawn 2 batches of 2 Explods with similar behaviour, but different randomized scale + offset.
+    ## these display energy balls of varying size rising from the blade.
+    for _ in range(2):
+        if TrackedTime >= 6 and GameTime % 3 == 0:
+            local_xOffs.set(RandRange(-125, -25))
+            local_yOffs.set(RandRange(-55, -35))
+            local_scale.set(RandPick(1, -1) * (0.25 + 0.01 * (Random % 5)))
+            ## spawn 2 Explods based on these variables.
+            for idx in range(2):
+                Explod(
+                    anim = 30020 + idx,
+                    vel = (0, -3),
+                    space = SpaceType.Stage,
+                    facing = Facing,
+                    postype = PosType.P1,
+                    pos = (local_xOffs, local_yOffs),
+                    ownpal = True,
+                    sprpriority = Cond(local_scale < 0, -7 + idx, 6 + idx),
+                    scale = (abs(local_scale), abs(local_scale)),
+                    pausemovetime = PAUSETIME_MAX,
+                    supermovetime = PAUSETIME_MAX
+                )
+
+    ## 1 additional Explod.
+    ## this displays a halo-like energy effect around the blade.
+    if TrackedTime >= 6 and (GameTime % 6) == 0:
+        local_xOffs.set(RandRange(-125, -25))
+        local_yOffs.set(RandRange(-65, -45))
+        local_scale.set(0.05 + 0.01 * (Random % 5))
+        Explod(
+            anim = 30022,
+            vel = (0, 0),
+            space = SpaceType.Stage,
+            facing = Facing,
+            postype = PosType.P1,
+            pos = (local_xOffs, local_yOffs),
+            ownpal = True,
+            sprpriority = RandPick(2, 4),
+            scale = (abs(local_scale), abs(local_scale)),
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
 
 
 @statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.U)
@@ -115,3 +158,32 @@ def ImageRepro_IntroAnim():
 
     if AnimTime == 0:
         ResetTimeAndChangeState(ImageRepro_Idle)
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.N)
+def ImageRepro_DashToEnemy():
+    """
+    Move towards the enemy root prior to selecting any attack to use.
+    """
+    SendToDevilsEye()
+
+    if Anim != 270: ChangeAnim(value = 270)
+
+    ## move towards the opponent (ImageRepro_Base turns us towards the opponent)
+    if TrackedTime == 0 or Vel.x == 0: VelSet(x = 6.8)
+    
+    ## transition to the dash-finished state once we are in close enough range
+    if abs(Pos.x - enemy.Pos.x) <= 60 or FrontEdgeDist <= 70:
+        ResetTimeAndChangeState(ImageRepro_DashToEnemy_Finished)
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
+def ImageRepro_DashToEnemy_Finished():
+    """
+    Displays an animation for dash completion before returning to the base state.
+    """
+    SendToDevilsEye()
+
+    if Anim != 271: ChangeAnim(value = 271)
+    if TrackedTime == 0: VelSet(x = 0) ## this is just for safety, really it's covered by ImageRepro_Base already
+
+    if AnimTime == 0 and (ImageRepro_SelectedMove := ImageReproActionType.DashForward): 
+        ResetTimeAndSetState(ImageRepro_Base)

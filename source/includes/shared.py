@@ -51,7 +51,8 @@ def RandPick(val1: Expression, val2: Expression) -> Expression:
 
 @statefunc
 def RootFlagSet(var_name: Expression, value: Expression):
-    """Use Cond-bug with a Null controller to set a value on the root. This will not work as expected if executed from a non-Helper context."""
+    """Use Cond-bug with a Null controller to set a value on the root. 
+    This will not work as expected if executed from a non-Helper context."""
     if RootFlagSet_Cond(var_name, value):
         Null()
 
