@@ -9,6 +9,7 @@ This is a log of any work I do on the character so I remember what I worked on.
 - work on testing mtldbg under helper occupancy
 - set up a variable for crosstalk init under root
 - set up a temp state with PLAYER scope for root
+- dramatically improve mtldbg performance by implementing custom ASM processing inside MUGEN process
 
 ### 2025-08-15
 
