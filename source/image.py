@@ -8,7 +8,7 @@ from mdk.types import (
 )
 from mdk.stdlib import (
     SprPriority, Turn, Explod, VelSet, PosSet, ChangeState, AssertSpecial, ChangeAnim, PlaySnd,
-    EnvShake, ModifyExplod, BGPalFX, AllPalFX, PlayerPush, StateTypeSet,
+    EnvShake, ModifyExplod, BGPalFX, AllPalFX, PlayerPush, StateTypeSet, VelAdd,
     Facing, Pos, Anim, RoundState, AnimTime, Random, NumExplod, AnimElemTime, GameTime, Cond, Vel,
     FrontEdgeDist, Const, Sin, Cos, StateType as ST,
     enemy
@@ -53,8 +53,9 @@ def ImageRepro_Base():
     if (Facing == 1 and enemy.Pos.x < Pos.x) or (Facing == -1 and enemy.Pos.x > Pos.x):
         Turn()
 
-    VelSet(y = 0)
-    PosSet(y = 0)
+    if ImageRepro_MotionState != ImageReproActionType.Attacking:
+        VelSet(y = 0)
+        PosSet(y = 0)
 
     if not ImageRepro_HasRunIntro:
         ResetTimeAndSetState(ImageRepro_IntroIdle)
@@ -356,8 +357,8 @@ def ImageRepro_Attack_JumpSuper():
     if Pos.y >= 0: StateTypeSet(statetype = StateType.S)
     if AnimElemTime(3) >= 0: StateTypeSet(statetype = StateType.A)
     if ST == StateType.S: VelSet(x = 0, y = 0)
-    if ST == StateType.A and AnimElemTime(3) == 0: VelSet(x = 7, y = -12)
-    if ST == StateType.A: VelSet(y = 0.45)
+    if ST == StateType.A and AnimElemTime(3) == 0: VelAdd(x = 7, y = -12)
+    if ST == StateType.A: VelAdd(y = 0.45)
 
     if AnimElemTime(1) == 0:
         Explod(

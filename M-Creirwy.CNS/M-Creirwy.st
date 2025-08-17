@@ -18010,14 +18010,14 @@ persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = 1
+trigger1 = (var(3)) != 3
 y = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = 1
+trigger1 = (var(3)) != 3
 y = 0
 ignorehitpause = 1
 persistent = 256
@@ -18920,7 +18920,7 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = VelSet
+type = VelAdd
 trigger1 = (StateType = A) && ((AnimElemTime(3)) = 0)
 x = 7
 y = -12
@@ -18928,7 +18928,7 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = VelSet
+type = VelAdd
 trigger1 = StateType = A
 y = 0.45
 ignorehitpause = 1
