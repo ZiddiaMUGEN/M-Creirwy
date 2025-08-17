@@ -18078,7 +18078,7 @@ trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
 trigger1 = !(((var(4)) >= 0) && ((var(4)) < 40))
 trigger1 = (var(0) := 0) || 1
-var(1) = 1008
+var(1) = 1007
 ignorehitpause = 1
 persistent = 256
 
@@ -18457,16 +18457,363 @@ value = 2694491
 ignorehitpause = 1
 persistent = 256
 
-
-[Statedef 1008]
-type = S
-movetype = I
-physics = S
+[State ]
+type = PlayerPush
+trigger1 = 1
+value = 0
+ignorehitpause = 1
+persistent = 256
 
 [State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
+type = ChangeAnim
+trigger1 = Anim != 3500
+value = 3500
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 0
+value = 10, 32
+freqmul = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 0
+value = 2300, 0
+freqmul = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = EnvShake
+trigger1 = (var(0)) = 0
+time = 20
+ampl = 10
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 0
+anim = 32072
+id = 32072
+removetime = 15
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ModifyExplod
+trigger1 = (NumExplod(32072)) && ((var(0)) <= 15)
+id = 32072
+scale = (((var(0)) * 0.12) + 0.5), (((var(0)) * 0.12) + 0.5)
+trans = addalpha
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = BGPalFX
+trigger1 = 1
+time = 2
+add = (-128), (-128), (-128)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AllPalFX
+trigger1 = ((var(0)) >= 30) && ((var(0)) < 33)
+time = 2
+add = ((((var(0)) - 30) * 25) - 255), ((((var(0)) - 30) * 25) - 255), ((((var(0)) - 30) * 25) - 255)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = EnvShake
+trigger1 = (var(0)) = 30
+time = 30
+freq = 120
+ampl = 20
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VelSet
+trigger1 = ((var(0)) >= 0) && ((var(0)) < 31)
+x = 3
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(7)) = 0
+anim = 3004
+id = 3004
+pos = 0, 0
+postype = P2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = 400, 400
+sprpriority = 4
+ontop = 1
+ownpal = 0
+removeongethit = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(7)) = 0
+anim = 3006
+id = 3006
+pos = 0, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = (Const(size.xscale)), (Const(size.xscale))
+sprpriority = 4
+ontop = 0
+ownpal = 0
+removeongethit = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VelSet
+trigger1 = (var(0)) = 32
+x = 14
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 32
+value = 10, 27
+freqmul = 0.8
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 32
+value = 10, 30
+freqmul = 0.8
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 32
+value = 10, 37
+freqmul = 0.8
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 32
+value = 10, 49
+freqmul = 0.8
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 32
+trigger1 = Facing = 1
+anim = 31061
+pos = 0, 0
+postype = Right
+facing = 1
+bindtime = -1
+sprpriority = 99
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 32
+trigger1 = Facing = (-1)
+anim = 31061
+pos = 0, 0
+postype = Left
+facing = -1
+bindtime = -1
+sprpriority = 99
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (var(0)) = 33
+value = 10, 26
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 34
+anim = 30026
+pos = 0, (-60)
+postype = P2
+facing = 1
+scale = 1.2, 1.2
+sprpriority = 99
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 34
+anim = 30090
+pos = 0, (-60)
+postype = P2
+facing = 1
+scale = 1.2, 1.2
+sprpriority = 99
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 34
+anim = 30065
+pos = 0, (-60)
+postype = P2
+facing = -1
+scale = 0.6, 0.6
+sprpriority = 99
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 34
+anim = 30040
+pos = 0, (-10)
+postype = P2
+facing = -1
+scale = 1.3, 0.7
+sprpriority = 99
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (var(0)) = 34
+anim = 30040
+pos = 0, (-10)
+postype = P2
+facing = 1
+scale = 1.8, 1
+sprpriority = 99
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+fvar(0) = (Random % 360)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+anim = 30020
+pos = 0, (-50)
+postype = P2
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+anim = 30021
+pos = 0, (-50)
+postype = P2
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.24999999999999997, 0.24999999999999997
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+fvar(0) = (Random % 360)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+anim = 30020
+pos = 0, (-50)
+postype = P2
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+anim = 30021
+pos = 0, (-50)
+postype = P2
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.24999999999999997, 0.24999999999999997
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = AnimTime = 0
+var(3) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = AnimTime = 0
+trigger1 = (var(0) := 0) || 1
+var(1) = 10000
 ignorehitpause = 1
 persistent = 256
 

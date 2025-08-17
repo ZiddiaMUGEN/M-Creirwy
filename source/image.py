@@ -4,12 +4,13 @@ from mdk.compiler import statedef, statefunc
 from mdk.types import (
     SCOPE_HELPER, ConvertibleExpression,
     BoolVar, IntVar, FloatVar, ByteVar,
-    StateType, MoveType, PhysicsType, PosType, AssertType, SpaceType
+    StateType, MoveType, PhysicsType, PosType, AssertType, SpaceType, TransType
 )
 from mdk.stdlib import (
     SprPriority, Turn, Explod, VelSet, PosSet, ChangeState, AssertSpecial, ChangeAnim, PlaySnd,
+    EnvShake, ModifyExplod, BGPalFX, AllPalFX, PlayerPush,
     Facing, Pos, Anim, RoundState, AnimTime, Random, NumExplod, AnimElemTime, GameTime, Cond, Vel,
-    FrontEdgeDist,
+    FrontEdgeDist, Const, Sin, Cos,
     enemy
 )
 
@@ -71,9 +72,9 @@ def ImageRepro_Base():
         if ImageRepro_MotionState == ImageReproActionType.DashFinished:
             local_selectAttackState.set(Random)
             if InRange(local_selectAttackState, 0, 40):
-                ResetTimeAndSetState(ImageRepro_AttackOne)
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
             else:
-                ResetTimeAndSetState(ImageRepro_AttackFinal)
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
             ImageRepro_MotionState.set(ImageReproActionType.Attacking)
     
     ChangeState(value = SavedState)
@@ -203,15 +204,127 @@ def ImageRepro_DashToEnemy_Finished():
         ResetTimeAndSetState(ImageRepro_Base)
 
 @statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
-def ImageRepro_AttackOne():
+def ImageRepro_Attack_SlashDash():
     """
-    Displays an animation for dash completion before returning to the base state.
+    
     """
     SendToDevilsEye()
 
-@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
-def ImageRepro_AttackFinal():
-    """
-    Displays an animation for dash completion before returning to the base state.
-    """
-    SendToDevilsEye()
+    EXPLOSION_FX_ID = 32072
+    local_velScale = FloatVar()
+
+    PlayerPush(value = False)
+    if Anim != 3500: ChangeAnim(value = 3500)
+    if TrackedTime == 0:
+        PlaySnd(value = (10, 32), freqmul = 1)
+        PlaySnd(value = (2300, 0), freqmul = 1)
+        EnvShake(time = 20, ampl = 10)
+        Explod(
+            id = EXPLOSION_FX_ID, 
+            anim = EXPLOSION_FX_ID, 
+            ownpal = True, 
+            removetime = 15, 
+            pausemovetime = PAUSETIME_MAX, 
+            supermovetime = PAUSETIME_MAX
+        )
+
+    if NumExplod(EXPLOSION_FX_ID) and TrackedTime <= 15:
+        scale = 0.5 + (0.12 * TrackedTime)
+        ModifyExplod(
+            id = EXPLOSION_FX_ID,
+            scale = (scale, scale),
+            trans = TransType.addalpha,
+            alpha = (255 - 16 * (TrackedTime - 15), 255)
+        )
+
+    BGPalFX(add = (-128, -128, -128), time = 2)
+    if InRange(TrackedTime, 30, 33):
+        color = 255 - (25 * (TrackedTime - 30))
+        AllPalFX(add = (color, color, color), time = 2)
+
+    if TrackedTime == 30:
+        EnvShake(time = 30, freq = 120, ampl = 20)
+
+    if InRange(TrackedTime, 0, 31):
+        VelSet(x = 3)
+
+    if AnimElemTime(7) == 0:
+        for idx in range(2):
+            scale = 400 if idx == 0 else Const("size.xscale")
+            Explod(
+                anim = 3004 + idx * 2,
+                id = 3004 + idx * 2,
+                pos = (0, 0),
+                postype = PosType.P2 if idx == 0 else PosType.P1,
+                facing = 1,
+                bindtime = 1,
+                removetime = -2,
+                scale = (scale, scale),
+                sprpriority = 4,
+                removeongethit = True,
+                ontop = True if idx == 0 else False,
+                ownpal = False
+            )
+            
+    if TrackedTime == 32:
+        VelSet(x = 14)
+        for snd in [27, 30, 37, 49]:
+            PlaySnd(value = (10, snd), freqmul = 0.8)
+        for facing in [1, -1]:
+            if Facing == facing:
+                Explod(
+                    anim = 31061,
+                    pos = (0, 0),
+                    facing = facing,
+                    bindtime = -1,
+                    sprpriority = 99,
+                    ownpal = True,
+                    postype = PosType.Right if facing == 1 else PosType.Left
+                )
+
+    if TrackedTime == 33:
+        PlaySnd(value = (10, 26))
+
+    if TrackedTime == 34:
+        for anim in [30026, 30090, 30065]:
+            Explod(
+                anim = anim,
+                postype = PosType.P2,
+                pos = (0, -60),
+                ownpal = True,
+                ontop = False if anim == 30026 else True,
+                facing = -1 if anim == 30065 else 1,
+                scale = (0.6, 0.6) if anim == 30065 else (1.2, 1.2),
+                sprpriority = 99
+            )
+        for facing in [-1, 1]:
+            Explod(
+                anim = 30040,
+                postype = PosType.P2,
+                pos = (0, -10),
+                facing = facing,
+                ownpal = True,
+                ontop = True,
+                scale = (1.3, 0.7) if facing == -1 else (1.8, 1),
+                sprpriority = 99
+            )
+    
+    if InRange(TrackedTime, 34, 38):
+        for _ in range(2):
+            local_velScale.set(Random % 360)
+            for idx in range(2):
+                Explod(
+                    anim = 30020 + idx,
+                    postype = PosType.P2,
+                    pos = (0, -50),
+                    vel = (15 * Cos(local_velScale), 15 * Sin(local_velScale)),
+                    scale = (0.35 - 0.1 * idx, 0.35 - 0.1 * idx),
+                    ontop = True,
+                    ownpal = True,
+                    pausemovetime = PAUSETIME_MAX,
+                    supermovetime = PAUSETIME_MAX
+                )
+
+    if AnimTime == 0:
+        ImageRepro_MotionState.set(ImageReproActionType.Idle)
+        ResetTimeAndSetState(ImageRepro_Base)
