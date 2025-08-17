@@ -8,9 +8,9 @@ from mdk.types import (
 )
 from mdk.stdlib import (
     SprPriority, Turn, Explod, VelSet, PosSet, ChangeState, AssertSpecial, ChangeAnim, PlaySnd,
-    EnvShake, ModifyExplod, BGPalFX, AllPalFX, PlayerPush,
+    EnvShake, ModifyExplod, BGPalFX, AllPalFX, PlayerPush, StateTypeSet,
     Facing, Pos, Anim, RoundState, AnimTime, Random, NumExplod, AnimElemTime, GameTime, Cond, Vel,
-    FrontEdgeDist, Const, Sin, Cos,
+    FrontEdgeDist, Const, Sin, Cos, StateType as ST,
     enemy
 )
 
@@ -71,9 +71,21 @@ def ImageRepro_Base():
         ## attack states will carry her out of range and she will try to dash again on completion.
         if ImageRepro_MotionState == ImageReproActionType.DashFinished:
             local_selectAttackState.set(Random)
-            if InRange(local_selectAttackState, 0, 40):
+            if InRange(local_selectAttackState, 0, 120):
                 ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
-            else:
+            if InRange(local_selectAttackState, 120, 240):
+                ResetTimeAndSetState(ImageRepro_Attack_JumpSuper)
+            if InRange(local_selectAttackState, 240, 360):
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+            if InRange(local_selectAttackState, 360, 480):
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+            if InRange(local_selectAttackState, 480, 600):
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+            if InRange(local_selectAttackState, 600, 720):
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+            if InRange(local_selectAttackState, 720, 840):
+                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+            if local_selectAttackState >= 840:
                 ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
             ImageRepro_MotionState.set(ImageReproActionType.Attacking)
     
@@ -237,6 +249,7 @@ def ImageRepro_Attack_SlashDash():
             alpha = (255 - 16 * (TrackedTime - 15), 255)
         )
 
+    ## background flashes
     BGPalFX(add = (-128, -128, -128), time = 2)
     if InRange(TrackedTime, 30, 33):
         color = 255 - (25 * (TrackedTime - 30))
@@ -248,6 +261,7 @@ def ImageRepro_Attack_SlashDash():
     if InRange(TrackedTime, 0, 31):
         VelSet(x = 3)
 
+    ## burst explosion behind the player and the enemy
     if AnimElemTime(7) == 0:
         for idx in range(2):
             scale = 400 if idx == 0 else Const("size.xscale")
@@ -321,6 +335,110 @@ def ImageRepro_Attack_SlashDash():
                     scale = (0.35 - 0.1 * idx, 0.35 - 0.1 * idx),
                     ontop = True,
                     ownpal = True,
+                    pausemovetime = PAUSETIME_MAX,
+                    supermovetime = PAUSETIME_MAX
+                )
+
+    if AnimTime == 0:
+        ImageRepro_MotionState.set(ImageReproActionType.Idle)
+        ResetTimeAndSetState(ImageRepro_Base)
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.U, movetype = MoveType.I, physics = PhysicsType.N)
+def ImageRepro_Attack_JumpSuper():
+    """
+    
+    """
+    SendToDevilsEye()
+
+    local_velScale = FloatVar()
+
+    if Anim != 1200: ChangeAnim(value = 1200)
+    if Pos.y >= 0: StateTypeSet(statetype = StateType.S)
+    if AnimElemTime(3) >= 0: StateTypeSet(statetype = StateType.A)
+    if ST == StateType.S: VelSet(x = 0, y = 0)
+    if ST == StateType.A and AnimElemTime(3) == 0: VelSet(x = 7, y = -12)
+    if ST == StateType.A: VelSet(y = 0.45)
+
+    if AnimElemTime(1) == 0:
+        Explod(
+            anim = 30065, 
+            ownpal = True,
+            postype = PosType.P1,
+            pos = (-75, -30),
+            sprpriority = 100,
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+        PlaySnd(value = (901, 10))
+
+    if AnimElemTime(3) == 0:
+        for snd in [29, 12, 30, 27]:
+            PlaySnd(value = (10, snd))
+
+        for scale in [(1, 1), (1.8, 0.4)]:
+            Explod(
+                anim = 30040,
+                ownpal = True,
+                postype = PosType.P1,
+                vfacing = -1,
+                pos = (0, 0),
+                sprpriority = 10000,
+                scale = scale,
+                pausemovetime = PAUSETIME_MAX,
+                supermovetime = PAUSETIME_MAX
+            )
+        
+        for anim in [30026, 30025, 30024, 31064]:
+            Explod(
+                anim = anim,
+                ownpal = True,
+                ontop = True,
+                postype = PosType.P2,
+                pos = (0, -60),
+                sprpriority = 10000,
+                pausemovetime = PAUSETIME_MAX,
+                supermovetime = PAUSETIME_MAX
+            )
+
+        EnvShake(time = 15, ampl = 12)
+
+    if AnimElemTime(3) < 0 and (GameTime % 2) == 0:
+        Explod(
+            anim = 30054,
+            ownpal = True,
+            postype = PosType.P1,
+            pos = (-75, -30),
+            random = (50, 10),
+            sprpriority = 100,
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+
+    if AnimElemTime(6) == 0:
+        Explod(
+            anim = 30038,
+            ownpal = True,
+            vfacing = -1,
+            postype = PosType.P1,
+            pos = (0, -60),
+            sprpriority = 100,
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+
+    if InRange(AnimElemTime(3), 1, 5):
+        for _ in range(2):
+            local_velScale.set(Random % 360)
+            for idx in range(2):
+                Explod(
+                    anim = 30020 + idx,
+                    ownpal = True,
+                    ontop = True,
+                    postype = PosType.P2,
+                    pos = (0, -50),
+                    vel = (15 * Cos(local_velScale), 15 * Sin(local_velScale)),
+                    sprpriority = 10000,
+                    scale = (0.35 - 0.1 * idx, 0.35 - 0.1 * idx),
                     pausemovetime = PAUSETIME_MAX,
                     supermovetime = PAUSETIME_MAX
                 )
