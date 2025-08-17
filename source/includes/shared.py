@@ -60,3 +60,12 @@ def RootFlagSet(var_name: Expression, value: Expression):
 def RootFlagSet_Cond(var_name: Expression, value: Expression) -> Expression:
     """Use Cond-bug to set a bool value on the root. This will not work as expected if executed from a non-Helper context."""
     return Expression(f"root,Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType)
+
+@trigger(inputs = [IntType, IntType, IntType], result = BoolType, library = "States/Creirwy-SharedFunc.inc")
+def InRange(test_value: Expression, min: Expression, max: Expression) -> Expression:
+    """
+    Tests if a variable or expression falls inside a range. 
+    
+    The range is tested inclusive on the lower end and exclusive on the upper end.
+    """
+    return test_value >= min and test_value < max

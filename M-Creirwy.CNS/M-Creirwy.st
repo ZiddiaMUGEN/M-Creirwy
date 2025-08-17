@@ -18047,6 +18047,50 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 0
+var(3) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+var(4) = Random
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+trigger1 = ((var(4)) >= 0) && ((var(4)) < 40)
+trigger1 = (var(0) := 0) || 1
+var(1) = 1007
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+trigger1 = !(((var(4)) >= 0) && ((var(4)) < 40))
+trigger1 = (var(0) := 0) || 1
+var(1) = 1008
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+var(3) = 3
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = ChangeState
 trigger1 = 1
 value = var(1)
@@ -18394,9 +18438,35 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (AnimTime = 0) && (var(3) := 1)
+trigger1 = (AnimTime = 0) && (var(3) := 2)
 trigger1 = (var(0) := 0) || 1
 var(1) = 10000
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1007]
+type = S
+movetype = I
+physics = S
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1008]
+type = S
+movetype = I
+physics = S
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
 ignorehitpause = 1
 persistent = 256
 

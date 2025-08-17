@@ -16,11 +16,11 @@ from mdk.stdlib import (
 from .includes.variables import (
     SavedState, 
     TrackedTime, # type: ignore
-    ImageRepro_HasRunIntro, ImageRepro_SelectedMove
+    ImageRepro_HasRunIntro, ImageRepro_MotionState 
 )
 from .includes.types import ImageReproActionType
 from .includes.constants import IMAGEREPRO_HELPER_ID, PAUSETIME_MAX
-from .includes.shared import SendToDevilsEye, RandRange, RandPick
+from .includes.shared import SendToDevilsEye, RandRange, RandPick, InRange
 
 @statefunc
 def ResetTimeAndSetState(value: ConvertibleExpression):
@@ -46,6 +46,8 @@ def ImageRepro_Base():
     """
     SendToDevilsEye()
 
+    local_selectAttackState = IntVar()
+
     SprPriority(value = 100)
     if (Facing == 1 and enemy.Pos.x < Pos.x) or (Facing == -1 and enemy.Pos.x > Pos.x):
         Turn()
@@ -59,8 +61,20 @@ def ImageRepro_Base():
 
     ## select a move to use.
     if RoundState == 2:
-        if ImageRepro_SelectedMove == ImageReproActionType.Idle:
+        ## if we are currently idle, she should dash towards the enemy before making any action
+        if ImageRepro_MotionState == ImageReproActionType.Idle:
             ResetTimeAndSetState(ImageRepro_DashToEnemy)
+            ImageRepro_MotionState.set(ImageReproActionType.DashForward)
+
+        ## if we have just finished dashing, we should go to an attack state;
+        ## attack states will carry her out of range and she will try to dash again on completion.
+        if ImageRepro_MotionState == ImageReproActionType.DashFinished:
+            local_selectAttackState.set(Random)
+            if InRange(local_selectAttackState, 0, 40):
+                ResetTimeAndSetState(ImageRepro_AttackOne)
+            else:
+                ResetTimeAndSetState(ImageRepro_AttackFinal)
+            ImageRepro_MotionState.set(ImageReproActionType.Attacking)
     
     ChangeState(value = SavedState)
 
@@ -185,5 +199,19 @@ def ImageRepro_DashToEnemy_Finished():
     if Anim != 271: ChangeAnim(value = 271)
     if TrackedTime == 0: VelSet(x = 0) ## this is just for safety, really it's covered by ImageRepro_Base already
 
-    if AnimTime == 0 and (ImageRepro_SelectedMove := ImageReproActionType.DashForward): 
+    if AnimTime == 0 and (ImageRepro_MotionState := ImageReproActionType.DashFinished): 
         ResetTimeAndSetState(ImageRepro_Base)
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
+def ImageRepro_AttackOne():
+    """
+    Displays an animation for dash completion before returning to the base state.
+    """
+    SendToDevilsEye()
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
+def ImageRepro_AttackFinal():
+    """
+    Displays an animation for dash completion before returning to the base state.
+    """
+    SendToDevilsEye()

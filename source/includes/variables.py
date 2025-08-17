@@ -37,7 +37,9 @@ ImageRepro_HasRunIntro = BoolVar(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
 Flag indicating whether ImageRepro has gone through its into animation + returned to idle already.
 """
 
-ImageRepro_SelectedMove = VariableExpression(ImageReproActionType, scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
+ImageRepro_MotionState = VariableExpression(ImageReproActionType, scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
 """
 Indicates which phase of move display the ImageRepro helper is in (e.g. dashing, attacking, etc).
+
+Each phase of move display receives one entry in the ImageReproActionType user-defined enum.
 """
