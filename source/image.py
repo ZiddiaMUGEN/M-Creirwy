@@ -2,7 +2,7 @@
 ### This helper provides visuals for the character (while the root does more interesting things).
 from mdk.compiler import statedef, statefunc
 from mdk.types import (
-    SCOPE_HELPER, ConvertibleExpression,
+    SCOPE_HELPER, ConvertibleExpression, VariableExpression, TupleExpression,
     BoolVar, IntVar, FloatVar, ByteVar,
     StateType, MoveType, PhysicsType, PosType, AssertType, SpaceType, TransType
 )
@@ -10,14 +10,14 @@ from mdk.stdlib import (
     SprPriority, Turn, Explod, VelSet, PosSet, ChangeState, AssertSpecial, ChangeAnim, PlaySnd,
     EnvShake, ModifyExplod, BGPalFX, AllPalFX, PlayerPush, StateTypeSet, VelAdd,
     Facing, Pos, Anim, RoundState, AnimTime, Random, NumExplod, AnimElemTime, GameTime, Cond, Vel,
-    FrontEdgeDist, Const, Sin, Cos, StateType as ST,
+    FrontEdgeDist, Const, Sin, Cos, StateType as ST, AnimElemNo, Floor,
     enemy
 )
 
 from .includes.variables import (
     SavedState, 
     TrackedTime, # type: ignore
-    ImageRepro_HasRunIntro, ImageRepro_MotionState 
+    ImageRepro_HasRunIntro, ImageRepro_MotionState, ImageRepro_LastSelection
 )
 from .includes.types import ImageReproActionType
 from .includes.constants import IMAGEREPRO_HELPER_ID, PAUSETIME_MAX
@@ -39,6 +39,29 @@ def ResetTimeAndChangeState(value: ConvertibleExpression):
     if (TrackedTime := 0) or True: # type: ignore
         if (SavedState := value) or True:
             ChangeState(value = SavedState)
+
+@statefunc
+def SpawnEnergyAnim(scale: VariableExpression, pos: TupleExpression, postype: ConvertibleExpression):
+    """
+    Spawns some Explods with anims 30020 and 30021; these are used in several attacks in the same way.
+
+    Pos and PosType are modifiable if needed.
+    """
+    for _ in range(2):
+        scale.set(Random % 360)
+        for idx in range(2):
+            Explod(
+                anim = 30020 + idx,
+                postype = postype,
+                pos = pos,
+                vel = (15 * Cos(scale), 15 * Sin(scale)),
+                scale = (0.35 - 0.1 * idx, 0.35 - 0.1 * idx),
+                ontop = True,
+                ownpal = True,
+                pausemovetime = PAUSETIME_MAX,
+                supermovetime = PAUSETIME_MAX
+            )
+
 
 @statedef(stateno = IMAGEREPRO_HELPER_ID, scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.U)
 def ImageRepro_Base():
@@ -72,14 +95,18 @@ def ImageRepro_Base():
         ## attack states will carry her out of range and she will try to dash again on completion.
         if ImageRepro_MotionState == ImageReproActionType.DashFinished:
             local_selectAttackState.set(Random)
+            ## make sure we always pick a new move
+            if Floor(local_selectAttackState / 120) == ImageRepro_LastSelection:
+                local_selectAttackState.set((local_selectAttackState + 120) % 1000)
+            ImageRepro_LastSelection.set(Floor(local_selectAttackState / 120))
             if InRange(local_selectAttackState, 0, 120):
                 ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
             if InRange(local_selectAttackState, 120, 240):
                 ResetTimeAndSetState(ImageRepro_Attack_JumpSuper)
             if InRange(local_selectAttackState, 240, 360):
-                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+                ResetTimeAndSetState(ImageRepro_Attack_SlamFloor)
             if InRange(local_selectAttackState, 360, 480):
-                ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
+                ResetTimeAndSetState(ImageRepro_Attack_ThrowSpikes)
             if InRange(local_selectAttackState, 480, 600):
                 ResetTimeAndSetState(ImageRepro_Attack_SlashDash)
             if InRange(local_selectAttackState, 600, 720):
@@ -325,20 +352,7 @@ def ImageRepro_Attack_SlashDash():
             )
     
     if InRange(TrackedTime, 34, 38):
-        for _ in range(2):
-            local_velScale.set(Random % 360)
-            for idx in range(2):
-                Explod(
-                    anim = 30020 + idx,
-                    postype = PosType.P2,
-                    pos = (0, -50),
-                    vel = (15 * Cos(local_velScale), 15 * Sin(local_velScale)),
-                    scale = (0.35 - 0.1 * idx, 0.35 - 0.1 * idx),
-                    ontop = True,
-                    ownpal = True,
-                    pausemovetime = PAUSETIME_MAX,
-                    supermovetime = PAUSETIME_MAX
-                )
+        SpawnEnergyAnim(local_velScale, (0, -50), PosType.P2)
 
     if AnimTime == 0:
         ImageRepro_MotionState.set(ImageReproActionType.Idle)
@@ -357,7 +371,7 @@ def ImageRepro_Attack_JumpSuper():
     if Pos.y >= 0: StateTypeSet(statetype = StateType.S)
     if AnimElemTime(3) >= 0: StateTypeSet(statetype = StateType.A)
     if ST == StateType.S: VelSet(x = 0, y = 0)
-    if ST == StateType.A and AnimElemTime(3) == 0: VelAdd(x = 7, y = -12)
+    if ST == StateType.A and AnimElemTime(3) == 0: VelAdd(x = 7, y = -8.5)
     if ST == StateType.A: VelAdd(y = 0.45)
 
     if AnimElemTime(1) == 0:
@@ -428,21 +442,202 @@ def ImageRepro_Attack_JumpSuper():
         )
 
     if InRange(AnimElemTime(3), 1, 5):
-        for _ in range(2):
-            local_velScale.set(Random % 360)
-            for idx in range(2):
-                Explod(
-                    anim = 30020 + idx,
-                    ownpal = True,
-                    ontop = True,
-                    postype = PosType.P2,
-                    pos = (0, -50),
-                    vel = (15 * Cos(local_velScale), 15 * Sin(local_velScale)),
-                    sprpriority = 10000,
-                    scale = (0.35 - 0.1 * idx, 0.35 - 0.1 * idx),
-                    pausemovetime = PAUSETIME_MAX,
-                    supermovetime = PAUSETIME_MAX
-                )
+        SpawnEnergyAnim(local_velScale, (0, -50), PosType.P2)
+
+    ## this is an extra check to make sure we don't fall through floor
+    if (Pos.y + Vel.y) >= 0: 
+        VelSet(x = 0, y = 0)
+        StateTypeSet(statetype = StateType.S)
+
+    if AnimTime == 0:
+        ImageRepro_MotionState.set(ImageReproActionType.Idle)
+        ResetTimeAndSetState(ImageRepro_Base)
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.A, movetype = MoveType.I, physics = PhysicsType.N)
+def ImageRepro_Attack_SlamFloor():
+    """
+    
+    """
+    SendToDevilsEye()
+
+    local_velScale = FloatVar()
+
+    if Anim != 1500: ChangeAnim(value = 1500)
+    if AnimElemTime(4) == 0: VelSet(x = 11.5, y = -18.5)
+
+    if AnimElemNo(0) >= 4 and Pos.y < 0: VelAdd(y = 2)
+
+    if (Pos.y + Vel.y) >= 0: VelSet(x = 0, y = 0)
+
+    if AnimElemTime(4) == 0:
+        for anim in [31064, 30095]:
+            Explod(
+                anim = anim,
+                postype = PosType.P1,
+                pos = (0, 0),
+                facing = 1,
+                sprpriority = 1300,
+                ownpal = True,
+                pausemovetime = PAUSETIME_MAX,
+                supermovetime = PAUSETIME_MAX
+            )
+        EnvShake(time = 10, ampl = 12)
+
+    if AnimElemTime(4) == 3:
+        Explod(
+            anim = 30095,
+            postype = PosType.P1,
+            pos = (0, 0),
+            facing = 1,
+            sprpriority = 1300,
+            ownpal = True,
+            scale = (1.5, 1),
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+
+    if InRange(AnimElemTime(4), 1, 5):
+        SpawnEnergyAnim(local_velScale, pos = (0, 0), postype = PosType.P1)
+
+    if AnimElemTime(4) == 0 or AnimElemTime(4) == 10 or AnimElemTime(4) == 15 or AnimElemTime(4) == 20:
+        Explod(
+            anim = 30101, 
+            postype = PosType.P2,
+            pos = (0, -60),
+            facing = 1,
+            bindtime = 1,
+            scale = (0.5, 0.5),
+            ownpal = True,
+            sprpriority = 10000,
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+        PlaySnd(value = (10, 50))
+        PlaySnd(value = (10, 49))
+        EnvShake(time = 6, ampl = 5)
+
+    if AnimTime == 0:
+        ImageRepro_MotionState.set(ImageReproActionType.Idle)
+        ResetTimeAndSetState(ImageRepro_Base)
+
+@statefunc
+def ImageRepro_Attack_ThrowSpikes_SpikeDisplay(index: int):
+    """
+    Helper function for the ThrowSpikes attack, replacing a group of actual Helpers which we want to eliminate.
+    """
+    basepos_x = 80 + 45 * index ## each explod under the Helper should be offset by this.
+
+    Explod(
+        anim = 2202,
+        pos = (basepos_x, 0),
+        postype = PosType.P1,
+        ownpal = True,
+        sprpriority = 3,
+        scale = (0.3, 0.3),
+        pausemovetime = PAUSETIME_MAX,
+        supermovetime = PAUSETIME_MAX
+    )
+
+    PlaySnd(value = ("S255", 1))
+    Explod(
+        anim = 2205,
+        pos = (basepos_x - 30, 0),
+        postype = PosType.P1,
+        facing = 1,
+        bindtime = 1,
+        removetime = -2,
+        scale = (0.425, 0.8),
+        sprpriority = 5,
+        ownpal = False,
+        removeongethit = False,
+        pausemovetime = PAUSETIME_MAX,
+        supermovetime = PAUSETIME_MAX
+    )
+
+    for facing in [1, -1]:
+        Explod(
+            anim = 12640,
+            pos = (basepos_x + 30, 0),
+            postype = PosType.P1,
+            facing = facing,
+            bindtime = 1,
+            removetime = -2,
+            sprpriority = 3,
+            scale = (0.5, 0.5),
+            ownpal = True,
+            removeongethit = False,
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+
+    Explod(
+        anim = 3005,
+        pos = (basepos_x, 0),
+        postype = PosType.P1,
+        facing = 1,
+        bindtime = 1,
+        removetime = -2,
+        scale = (0.35, 0.35),
+        sprpriority = -3,
+        ontop = False,
+        ownpal = True,
+        pausemovetime = PAUSETIME_MAX,
+        supermovetime = PAUSETIME_MAX
+    )
+
+    Explod(
+        anim = 10042,
+        pos = (basepos_x, 0),
+        postype = PosType.P1,
+        removetime = -2,
+        scale = (0.25, 0.25),
+        sprpriority = 0,
+        ontop = False,
+        ownpal = True,
+        pausemovetime = PAUSETIME_MAX,
+        supermovetime = PAUSETIME_MAX
+    )
+
+    for subidx in range(2):
+        Explod(
+            anim = 30035 + subidx,
+            facing = -1,
+            pos = (10, -80),
+            postype = PosType.P2,
+            vel = (-3, 0),
+            scale = (0.75 + 0.1 * subidx, 0.75 + 0.1 * subidx),
+            ontop = True,
+            ownpal = True,
+            pausemovetime = PAUSETIME_MAX,
+            supermovetime = PAUSETIME_MAX
+        )
+    
+
+@statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
+def ImageRepro_Attack_ThrowSpikes():
+    """
+    
+    """
+    SendToDevilsEye()
+
+    if Anim != 2200: ChangeAnim(value = 2200)
+    if AnimElemTime(6) == 0: VelSet(x = -8.5)
+
+    ## TODO: this spawns 7 Helpers with ID 12200, I need to convert these into Explods if possible.
+    for index in range(7):
+        if AnimElemTime(8) == 3 * index:
+            ImageRepro_Attack_ThrowSpikes_SpikeDisplay(index)
+
+    if AnimElemTime(8) == 0:
+        Explod(
+            anim = 1001,
+            postype = PosType.P1,
+            pos = (0, 0),
+            facing = 1,
+            sprpriority = 1300,
+            scale = (0.3, 0.3),
+            ownpal = True
+        )
 
     if AnimTime == 0:
         ImageRepro_MotionState.set(ImageReproActionType.Idle)

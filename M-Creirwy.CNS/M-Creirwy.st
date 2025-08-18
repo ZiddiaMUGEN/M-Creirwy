@@ -18058,7 +18058,7 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-var(4) = Random
+var(5) = Random
 ignorehitpause = 1
 persistent = 256
 
@@ -18066,7 +18066,24 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 0) && ((var(4)) < 120)
+trigger1 = (var(4)) = (floor(((var(5)) / 120)))
+var(5) = (((var(5)) + 120) % 1000)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+var(4) = (floor(((var(5)) / 120)))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+trigger1 = ((var(5)) >= 0) && ((var(5)) < 120)
 trigger1 = (var(0) := 0) || 1
 var(1) = 1007
 ignorehitpause = 1
@@ -18076,7 +18093,7 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 120) && ((var(4)) < 240)
+trigger1 = ((var(5)) >= 120) && ((var(5)) < 240)
 trigger1 = (var(0) := 0) || 1
 var(1) = 1008
 ignorehitpause = 1
@@ -18086,7 +18103,27 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 240) && ((var(4)) < 360)
+trigger1 = ((var(5)) >= 240) && ((var(5)) < 360)
+trigger1 = (var(0) := 0) || 1
+var(1) = 1009
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+trigger1 = ((var(5)) >= 360) && ((var(5)) < 480)
+trigger1 = (var(0) := 0) || 1
+var(1) = 1010
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = RoundState = 2
+trigger1 = (var(3)) = 2
+trigger1 = ((var(5)) >= 480) && ((var(5)) < 600)
 trigger1 = (var(0) := 0) || 1
 var(1) = 1007
 ignorehitpause = 1
@@ -18096,7 +18133,7 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 360) && ((var(4)) < 480)
+trigger1 = ((var(5)) >= 600) && ((var(5)) < 720)
 trigger1 = (var(0) := 0) || 1
 var(1) = 1007
 ignorehitpause = 1
@@ -18106,7 +18143,7 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 480) && ((var(4)) < 600)
+trigger1 = ((var(5)) >= 720) && ((var(5)) < 840)
 trigger1 = (var(0) := 0) || 1
 var(1) = 1007
 ignorehitpause = 1
@@ -18116,27 +18153,7 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 600) && ((var(4)) < 720)
-trigger1 = (var(0) := 0) || 1
-var(1) = 1007
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(4)) >= 720) && ((var(4)) < 840)
-trigger1 = (var(0) := 0) || 1
-var(1) = 1007
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = (var(4)) >= 840
+trigger1 = (var(5)) >= 840
 trigger1 = (var(0) := 0) || 1
 var(1) = 1007
 ignorehitpause = 1
@@ -18181,14 +18198,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(4) = ((-125) + (Random % ((-25) - (-125))))
+var(5) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(5) = ((-55) + (Random % ((-35) - (-55))))
+var(6) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
@@ -18203,7 +18220,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30020
-pos = (var(4)), (var(5))
+pos = (var(5)), (var(6))
 postype = P1
 space = Stage
 facing = Facing
@@ -18220,7 +18237,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30021
-pos = (var(4)), (var(5))
+pos = (var(5)), (var(6))
 postype = P1
 space = Stage
 facing = Facing
@@ -18236,14 +18253,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(4) = ((-125) + (Random % ((-25) - (-125))))
+var(5) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(5) = ((-55) + (Random % ((-35) - (-55))))
+var(6) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
@@ -18258,7 +18275,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30020
-pos = (var(4)), (var(5))
+pos = (var(5)), (var(6))
 postype = P1
 space = Stage
 facing = Facing
@@ -18275,7 +18292,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30021
-pos = (var(4)), (var(5))
+pos = (var(5)), (var(6))
 postype = P1
 space = Stage
 facing = Facing
@@ -18291,14 +18308,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-var(4) = ((-125) + (Random % ((-25) - (-125))))
+var(5) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-var(5) = ((-65) + (Random % ((-45) - (-65))))
+var(6) = ((-65) + (Random % ((-45) - (-65))))
 ignorehitpause = 1
 persistent = 256
 
@@ -18313,7 +18330,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
 anim = 30022
-pos = (var(4)), (var(5))
+pos = (var(5)), (var(6))
 postype = P1
 space = Stage
 facing = Facing
@@ -18923,7 +18940,7 @@ persistent = 256
 type = VelAdd
 trigger1 = (StateType = A) && ((AnimElemTime(3)) = 0)
 x = 7
-y = -12
+y = -8.5
 ignorehitpause = 1
 persistent = 256
 
@@ -19121,7 +19138,6 @@ vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = 10000
 ontop = 1
 ownpal = 1
 ignorehitpause = 1
@@ -19137,7 +19153,6 @@ vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.24999999999999997, 0.24999999999999997
-sprpriority = 10000
 ontop = 1
 ownpal = 1
 ignorehitpause = 1
@@ -19160,7 +19175,6 @@ vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = 10000
 ontop = 1
 ownpal = 1
 ignorehitpause = 1
@@ -19176,8 +19190,1270 @@ vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.24999999999999997, 0.24999999999999997
-sprpriority = 10000
 ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = AnimTime = 0
+var(3) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = AnimTime = 0
+trigger1 = (var(0) := 0) || 1
+var(1) = 10000
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1009]
+type = A
+movetype = I
+physics = N
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = Anim != 1500
+value = 1500
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VelSet
+trigger1 = (AnimElemTime(4)) = 0
+x = 11.5
+y = -18.5
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VelAdd
+trigger1 = ((AnimElemNo(0)) >= 4) && (Pos Y < 0)
+y = 2
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VelSet
+trigger1 = (Pos Y + Vel Y) >= 0
+x = 0
+y = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(4)) = 0
+anim = 31064
+pos = 0, 0
+postype = P1
+facing = 1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+sprpriority = 1300
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(4)) = 0
+anim = 30095
+pos = 0, 0
+postype = P1
+facing = 1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+sprpriority = 1300
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = EnvShake
+trigger1 = (AnimElemTime(4)) = 0
+time = 10
+ampl = 12
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(4)) = 3
+anim = 30095
+pos = 0, 0
+postype = P1
+facing = 1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 1.5, 1
+sprpriority = 1300
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+fvar(0) = (Random % 360)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+anim = 30020
+pos = 0, 0
+postype = P1
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+anim = 30021
+pos = 0, 0
+postype = P1
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.24999999999999997, 0.24999999999999997
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+fvar(0) = (Random % 360)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+anim = 30020
+pos = 0, 0
+postype = P1
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+anim = 30021
+pos = 0, 0
+postype = P1
+vel = ((cos((fvar(0)))) * 15), ((sin((fvar(0)))) * 15)
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.24999999999999997, 0.24999999999999997
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+anim = 30101
+pos = 0, (-60)
+postype = P2
+facing = 1
+bindtime = 1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 10000
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+value = 10, 50
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+value = 10, 49
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = EnvShake
+trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+time = 6
+ampl = 5
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = AnimTime = 0
+var(3) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = AnimTime = 0
+trigger1 = (var(0) := 0) || 1
+var(1) = 10000
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1010]
+type = S
+movetype = I
+physics = S
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = Anim != 2200
+value = 2200
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VelSet
+trigger1 = (AnimElemTime(6)) = 0
+x = -8.5
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 2202
+pos = 80, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 0
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 2205
+pos = 50, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 12640
+pos = 110, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 12640
+pos = 110, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 3005
+pos = 80, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 10042
+pos = 80, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 2202
+pos = 125, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 3
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 2205
+pos = 95, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 12640
+pos = 155, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 12640
+pos = 155, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 3005
+pos = 125, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 10042
+pos = 125, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 3
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 2202
+pos = 170, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 6
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 2205
+pos = 140, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 12640
+pos = 200, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 12640
+pos = 200, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 3005
+pos = 170, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 10042
+pos = 170, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 6
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 2202
+pos = 215, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 9
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 2205
+pos = 185, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 12640
+pos = 245, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 12640
+pos = 245, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 3005
+pos = 215, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 10042
+pos = 215, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 9
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 2202
+pos = 260, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 12
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 2205
+pos = 230, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 12640
+pos = 290, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 12640
+pos = 290, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 3005
+pos = 260, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 10042
+pos = 260, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 12
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 2202
+pos = 305, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 15
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 2205
+pos = 275, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 12640
+pos = 335, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 12640
+pos = 335, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 3005
+pos = 305, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 10042
+pos = 305, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 15
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 2202
+pos = 350, 0
+postype = P1
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.3, 0.3
+sprpriority = 3
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PlaySnd
+trigger1 = (AnimElemTime(8)) = 18
+value = S255, 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 2205
+pos = 320, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.425, 0.8
+sprpriority = 5
+ownpal = 0
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 12640
+pos = 380, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 12640
+pos = 380, 0
+postype = P1
+facing = -1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.5, 0.5
+sprpriority = 3
+ownpal = 1
+removeongethit = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 3005
+pos = 350, 0
+postype = P1
+facing = 1
+bindtime = 1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.35, 0.35
+sprpriority = -3
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 10042
+pos = 350, 0
+postype = P1
+removetime = -2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.25, 0.25
+sprpriority = 0
+ontop = 0
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 30035
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.75, 0.75
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 18
+anim = 30036
+pos = 10, (-80)
+postype = P2
+facing = -1
+vel = (-3), 0
+supermovetime = 2147483647
+pausemovetime = 2147483647
+scale = 0.85, 0.85
+ontop = 1
+ownpal = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Explod
+trigger1 = (AnimElemTime(8)) = 0
+anim = 1001
+pos = 0, 0
+postype = P1
+facing = 1
+scale = 0.3, 0.3
+sprpriority = 1300
 ownpal = 1
 ignorehitpause = 1
 persistent = 256

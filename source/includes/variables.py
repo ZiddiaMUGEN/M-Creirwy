@@ -1,4 +1,4 @@
-from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, ByteVar
+from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
 from .constants import IMAGEREPRO_HELPER_ID
 from .types import ImageReproActionType
@@ -42,4 +42,10 @@ ImageRepro_MotionState = VariableExpression(ImageReproActionType, scope = SCOPE_
 Indicates which phase of move display the ImageRepro helper is in (e.g. dashing, attacking, etc).
 
 Each phase of move display receives one entry in the ImageReproActionType user-defined enum.
+"""
+
+ImageRepro_LastSelection = VariableExpression(IntType, scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
+"""
+Tracks the last move selected by the ImageRepro helper. If a new move selection matches the most recent move selection,
+ImageRepro will pick a different move.
 """
