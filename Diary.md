@@ -2,6 +2,11 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-19
+
+- work on a couple more super anims, move some code into helper statefuncs for clarity
+- ensure MDK can convert partials into stateno expressions
+
 ### 2025-08-17
 
 - allow arbitrary scope changes out of negative states (this is important for e.g. Helper SelfState out of -2)

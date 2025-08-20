@@ -7,6 +7,9 @@ MC_DEVILS_TARGET_STATE = 2694491
 IMAGEREPRO_HELPER_ID = 10000
 """ID of the ImageRepro helper, declared here to avoid having bare numbers in code."""
 
+MOONJUMP_HELPER_ID = 10001
+"""ID of a Helper used for display during ImageRepro's MoonJump attack."""
+
 CROSSTALK_HELPER_ID = 11000
 """ID of the Crosstalk helpers."""
 

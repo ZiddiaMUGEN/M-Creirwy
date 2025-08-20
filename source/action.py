@@ -8,7 +8,7 @@ from mdk.stdlib import (
 from mdk.types import HelperType, AssertType, HitType, HitAttr, BoolVar, SCOPE_PLAYER
 
 from .includes.constants import (
-    IMAGEREPRO_HELPER_ID, 
+    IMAGEREPRO_HELPER_ID, MOONJUMP_HELPER_ID,
     PAUSETIME_MAX,
     CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_COUNT,
     OCCUPANCY_HELPER_ID,
@@ -18,7 +18,7 @@ from .includes.variables import TrackedTime, SavedState, Root_CrosstalkInitializ
 from .includes.shared import SelfState_TimeIncrease, RootFlagSet
 
 from .brain import TempPlayerState
-from .image import ImageRepro_Base
+from .image import ImageRepro_Base, ImageRepro_MoonJump_MoonHelper
 from .crosstalk import CrossTalk_Base, CrossTalk_Target
 
 @statedef(stateno = -2, scope = SCOPE_PLAYER)
@@ -34,6 +34,7 @@ def Think():
     if IsHelper(IMAGEREPRO_HELPER_ID): Think_ImageRepro()
     if IsHelper(CROSSTALK_HELPER_ID): Think_CrossTalk()
     if IsHelper(CROSSTALK_TARGET_ID): SelfState(value = CrossTalk_Target)
+    if IsHelper(MOONJUMP_HELPER_ID): SelfState(value = ImageRepro_MoonJump_MoonHelper)
 
     ## this is a failsafe.
     ## the only way a helper ever reaches here is if I screw up,
