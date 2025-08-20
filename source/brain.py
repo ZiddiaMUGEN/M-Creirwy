@@ -2,7 +2,7 @@ from mdk.compiler import statedef
 from mdk.stdlib import Null
 from mdk.types import SCOPE_TARGET, SCOPE_PLAYER
 
-from .includes.constants import MC_DEVILS_TARGET_STATE
+from source.includes.constants import MC_DEVILS_TARGET_STATE
 
 @statedef(stateno = MC_DEVILS_TARGET_STATE, scope = SCOPE_TARGET)
 def TargetLandingState():

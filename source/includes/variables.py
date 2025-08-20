@@ -1,7 +1,7 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
-from .constants import IMAGEREPRO_HELPER_ID
-from .types import ImageReproActionType
+from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_ID
+from source.includes.types import ImageReproActionType
 
 ######################################################
 ## Global unscoped - used by root + helpers
@@ -48,4 +48,13 @@ ImageRepro_LastSelection = VariableExpression(IntType, scope = SCOPE_HELPER(IMAG
 """
 Tracks the last move selected by the ImageRepro helper. If a new move selection matches the most recent move selection,
 ImageRepro will pick a different move.
+"""
+
+######################################################
+## Global helper-scoped - used by Crosstalk targets
+######################################################
+
+CrossTalkTarget_TargetObtained = BoolVar(scope = SCOPE_HELPER(CROSSTALK_TARGET_ID))
+"""
+Flag indicating whether the owner of this CT target has successfully obtained its target.
 """

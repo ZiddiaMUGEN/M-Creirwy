@@ -2,6 +2,17 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-20
+
+- pass an ID to each crosstalk helper/target in size.shadowoffset
+- implement crosstalk permanent target + CT target deletion
+- move helper code to a separate folder
+- add skeleton for first/last helpers, marking helper
+- implement hitdefs/reversaldef for marking helper
+- implement display/append clipboard in mdk-python
+- implement automatic print-to-clipboard for statedef, statefunc, template
+- swap to use prints instead of clipboard controllers
+
 ### 2025-08-19
 
 - work on a couple more super anims, move some code into helper statefuncs for clarity

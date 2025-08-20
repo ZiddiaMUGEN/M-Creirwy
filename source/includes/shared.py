@@ -1,10 +1,13 @@
 from mdk.compiler import statefunc, trigger
 from mdk.stdlib import Name, IsHelper, root, ChangeState, SelfState, Random, Cond, Null
-from mdk.types import Expression, IntType, BoolType
+from mdk.types import Expression, ConvertibleExpression, IntType, BoolType
+
+from mdk.stdlib.redirects import RedirectTarget
+from mdk.utils.shared import convert
 
 from source.brain import TargetLandingState
 
-from .variables import TrackedTime # type: ignore
+from source.includes.variables import TrackedTime # type: ignore
 
 @statefunc
 def SendToDevilsEye():
@@ -50,16 +53,29 @@ def RandPick(val1: Expression, val2: Expression) -> Expression:
     return Cond(Random % 2 == 1, val1, val2)
 
 @statefunc
-def RootFlagSet(var_name: Expression, value: Expression):
-    """Use Cond-bug with a Null controller to set a value on the root. 
-    This will not work as expected if executed from a non-Helper context."""
-    if RootFlagSet_Cond(var_name, value):
+def RootVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
+    """
+    Use Cond-bug with a Null controller to set a value on the root. 
+    This will not work as expected if executed from a non-Helper context.
+    """
+    if not isinstance(var_name, Expression): var_name = convert(var_name)
+    if not isinstance(value, Expression): value = convert(value)
+
+    if Expression(f"root,Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
         Null()
 
-@trigger(inputs = [BoolType, BoolType], result = BoolType, library = "States/Creirwy-SharedFunc.inc")
-def RootFlagSet_Cond(var_name: Expression, value: Expression) -> Expression:
-    """Use Cond-bug to set a bool value on the root. This will not work as expected if executed from a non-Helper context."""
-    return Expression(f"root,Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType)
+@statefunc
+def TargetVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression, scope: RedirectTarget):
+    """
+    Use Cond-bug with a Null controller to set a value on a target.
+    You must provide a concrete scope for the target as well.
+    This will not work as expected if the current context has no target.
+    """
+    if not isinstance(var_name, Expression): var_name = convert(var_name)
+    if not isinstance(value, Expression): value = convert(value)
+
+    if Expression(f"rescope(target, {scope.__repr__()}),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+        Null()
 
 @trigger(inputs = [IntType, IntType, IntType], result = BoolType, library = "States/Creirwy-SharedFunc.inc")
 def InRange(test_value: Expression, min: Expression, max: Expression) -> Expression:

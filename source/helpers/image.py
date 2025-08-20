@@ -16,14 +16,14 @@ from mdk.stdlib import (
     enemy
 )
 
-from .includes.variables import (
+from source.includes.variables import (
     SavedState, 
     TrackedTime, # type: ignore
     ImageRepro_HasRunIntro, ImageRepro_MotionState, ImageRepro_LastSelection
 )
-from .includes.types import ImageReproActionType
-from .includes.constants import IMAGEREPRO_HELPER_ID, MOONJUMP_HELPER_ID, PAUSETIME_MAX
-from .includes.shared import SendToDevilsEye, RandRange, RandPick, InRange
+from source.includes.types import ImageReproActionType
+from source.includes.constants import IMAGEREPRO_HELPER_ID, MOONJUMP_HELPER_ID, PAUSETIME_MAX
+from source.includes.shared import SendToDevilsEye, RandRange, RandPick, InRange
 
 @statefunc
 def ResetTimeAndSetState(value: ConvertibleExpression):
@@ -921,6 +921,10 @@ def ImageRepro_MoonHelper_Flames(pos: ConvertibleExpression):
 
 @statedef(stateno = MOONJUMP_HELPER_ID, scope = SCOPE_HELPER(MOONJUMP_HELPER_ID), type = StateType.A, movetype = MoveType.I, physics = PhysicsType.N, sprpriority = PAUSETIME_MAX - 1)
 def ImageRepro_MoonJump_MoonHelper():
+    """
+    Helper used by the MoonJump atatck which creates a (fairly complicated) visual.
+    """
+    SendToDevilsEye()
     if Anim != 3016: ChangeAnim(value = 3016)
     if AnimElemTime(1) == 0:
         VelSet(x = 0, y = 1)

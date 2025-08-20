@@ -16,11 +16,17 @@ CROSSTALK_HELPER_ID = 11000
 CROSSTALK_TARGET_ID = 12000
 """ID of the Crosstalk target helpers (used during CT setup)."""
 
-CROSSTALK_HELPER_COUNT = 27
+CROSSTALK_HELPER_COUNT = 26
 """Total number of crosstalk helpers to spawn. Double this should be equal to 56, less the number of other helpers we use."""
 
-OCCUPANCY_HELPER_ID = 19000
+MARKING_HELPER_ID = 13000
+"""ID of the Marking helper."""
+
+OCCUPANCY_HELPER_ID = 18000
 """ID of the Occupancy helpers (which fill space if CT count leaves an uneven count, or in specific situations)."""
+
+FIRST_HELPER_ID = 19000
+"""ID of the First helper (which always runs its code first)."""
 
 LAST_HELPER_ID = 20000
 """ID of the Last helper (which always runs its code last)."""

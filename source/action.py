@@ -11,15 +11,20 @@ from .includes.constants import (
     IMAGEREPRO_HELPER_ID, MOONJUMP_HELPER_ID,
     PAUSETIME_MAX,
     CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_COUNT,
+    MARKING_HELPER_ID,
     OCCUPANCY_HELPER_ID,
+    FIRST_HELPER_ID,
     LAST_HELPER_ID
 )
-from .includes.variables import TrackedTime, SavedState, Root_CrosstalkInitialized
-from .includes.shared import SelfState_TimeIncrease, RootFlagSet
+from source.includes.variables import TrackedTime, SavedState, Root_CrosstalkInitialized
+from source.includes.shared import SelfState_TimeIncrease, RootVarSet
 
-from .brain import TempPlayerState
-from .image import ImageRepro_Base, ImageRepro_MoonJump_MoonHelper
-from .crosstalk import CrossTalk_Base, CrossTalk_Target
+from source.brain import TempPlayerState
+from source.helpers.image import ImageRepro_Base, ImageRepro_MoonJump_MoonHelper
+from source.helpers.crosstalk import CrossTalk_Base, CrossTalk_Target
+from source.helpers.first import FirstHelper_Actions
+from source.helpers.last import LastHelper_Actions
+from source.helpers.marking import MarkingHelper_Actions
 
 @statedef(stateno = -2, scope = SCOPE_PLAYER)
 def Think():
@@ -35,6 +40,9 @@ def Think():
     if IsHelper(CROSSTALK_HELPER_ID): Think_CrossTalk()
     if IsHelper(CROSSTALK_TARGET_ID): SelfState(value = CrossTalk_Target)
     if IsHelper(MOONJUMP_HELPER_ID): SelfState(value = ImageRepro_MoonJump_MoonHelper)
+    if IsHelper(FIRST_HELPER_ID): SelfState(value = FirstHelper_Actions)
+    if IsHelper(LAST_HELPER_ID): SelfState(value = LastHelper_Actions)
+    if IsHelper(MARKING_HELPER_ID): SelfState(value = MarkingHelper_Actions)
 
     ## this is a failsafe.
     ## the only way a helper ever reaches here is if I screw up,
@@ -64,6 +72,26 @@ def Think_SpawnBaseHelpers():
     """
     Spawns all helpers used by the root (excluding special cases like end-of-round occupancy).
     """
+    if NumHelper(FIRST_HELPER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "First Action Helper",
+            id = FIRST_HELPER_ID,
+            stateno = FirstHelper_Actions,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
+
+    if NumHelper(MARKING_HELPER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "Enemy Marking",
+            id = MARKING_HELPER_ID,
+            stateno = MarkingHelper_Actions,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
+
     if NumHelper(IMAGEREPRO_HELPER_ID) == 0:
         Helper(
             helpertype = HelperType.Player,
@@ -82,18 +110,30 @@ def Think_SpawnBaseHelpers():
                 name = f"Crosstalk Helper {idx + 1}",
                 id = CROSSTALK_HELPER_ID,
                 stateno = CrossTalk_Base,
+                size_shadowoffset = idx,
                 supermovetime = PAUSETIME_MAX,
                 pausemovetime = PAUSETIME_MAX
             )
-        if NumHelper(CROSSTALK_HELPER_ID) < CROSSTALK_HELPER_COUNT and not Root_CrosstalkInitialized:
+        if NumHelper(CROSSTALK_TARGET_ID) < CROSSTALK_HELPER_COUNT and not Root_CrosstalkInitialized:
             Helper(
                 helpertype = HelperType.Player,
                 name = f"Crosstalk Target {idx + 1}",
                 id = CROSSTALK_TARGET_ID,
                 stateno = CrossTalk_Target,
+                size_shadowoffset = idx,
                 supermovetime = PAUSETIME_MAX,
                 pausemovetime = PAUSETIME_MAX
             )
+
+    if NumHelper(LAST_HELPER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "Last Action Helper",
+            id = LAST_HELPER_ID,
+            stateno = LastHelper_Actions,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
 
 @statefunc
 def Think_Root():
@@ -126,6 +166,6 @@ def Think_CrossTalk():
     Responsible for dispatching CT helpers to their main state.
     """
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow) ## display
-    if root.Root_CrosstalkInitialized == False: RootFlagSet(Root_CrosstalkInitialized, True)
+    if root.Root_CrosstalkInitialized == False: RootVarSet(Root_CrosstalkInitialized, True)
 
     SelfState(value = CrossTalk_Base)
