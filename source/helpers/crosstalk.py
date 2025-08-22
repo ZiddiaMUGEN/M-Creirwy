@@ -14,7 +14,9 @@ from mdk.stdlib import (
     playerID, helperID, parent, target, root
 )
 
-from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, PASSIVE_ANIM
+from source.helpers.spy import SpyHelper_Base
+
+from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, PASSIVE_ANIM
 from source.includes.variables import CrossTalkTarget_TargetObtained
 from source.includes.shared import SendToDevilsEye, TargetVarSet
 
@@ -61,6 +63,10 @@ def CrossTalk_Base():
     ## we can use DEK here as a baseline for target stealing.
     if NumTarget() and target.TeamSide != TeamSide and not root.Root_SpyIsSpawned:
         TargetState(value = target.StateNo)
+
+    ## if the target is the Spy helper, always send it to the base state for that helper.
+    if NumTarget() and target.TeamSide != TeamSide and target.IsHelper(SPY_HELPER_ID):
+        TargetState(value = SPY_HELPER_ID)
 
     ## last step in this state: update the target ID local to make sure we identify when
     ## a new target is captured.

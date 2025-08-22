@@ -17957,194 +17957,194 @@ persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (var(3)) != 3
+trigger1 = (var(8)) != 3
 y = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = (var(3)) != 3
+trigger1 = (var(8)) != 3
 y = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = !(var(2) & 1)
+trigger1 = !(var(7) & 1)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1003
+var(2) = 1003
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = !(var(2) & 1)
-var(2) = ((((1) & 1) * 1) + (var(2) & -2))
+trigger1 = !(var(7) & 1)
+var(7) = ((((1) & 1) * 1) + (var(7) & -2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 0
+trigger1 = (var(8)) = 0
 trigger1 = (var(0) := 0) || 1
-var(1) = 1005
+var(2) = 1005
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 0
-var(3) = 1
+trigger1 = (var(8)) = 0
+var(8) = 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-var(5) = Random
+trigger1 = (var(8)) = 2
+var(10) = Random
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = (var(4)) = (floor(((var(5)) / 120)))
-var(5) = (((var(5)) + 120) % 1000)
+trigger1 = (var(8)) = 2
+trigger1 = (var(9)) = (floor(((var(10)) / 120)))
+var(10) = (((var(10)) + 120) % 1000)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-var(4) = (floor(((var(5)) / 120)))
+trigger1 = (var(8)) = 2
+var(9) = (floor(((var(10)) / 120)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 0) && ((var(5)) < 120)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 0) && ((var(10)) < 120)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1007
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 120) && ((var(5)) < 240)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 120) && ((var(10)) < 240)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1008
+var(2) = 1008
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 240) && ((var(5)) < 360)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 240) && ((var(10)) < 360)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1009
+var(2) = 1009
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 360) && ((var(5)) < 480)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 360) && ((var(10)) < 480)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1010
+var(2) = 1010
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 480) && ((var(5)) < 600)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 480) && ((var(10)) < 600)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1011
+var(2) = 1011
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 600) && ((var(5)) < 720)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 600) && ((var(10)) < 720)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1007
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = ((var(5)) >= 720) && ((var(5)) < 840)
+trigger1 = (var(8)) = 2
+trigger1 = ((var(10)) >= 720) && ((var(10)) < 840)
 trigger1 = (var(0) := 0) || 1
-var(1) = 1007
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-trigger1 = (var(5)) >= 840
+trigger1 = (var(8)) = 2
+trigger1 = (var(10)) >= 840
 trigger1 = (var(0) := 0) || 1
-var(1) = 1007
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = RoundState = 2
-trigger1 = (var(3)) = 2
-var(3) = 3
+trigger1 = (var(8)) = 2
+var(8) = 3
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(1)) != 1012) && (NumExplod(13020))
+trigger1 = ((var(2)) != 1012) && (NumExplod(13020))
 id = 13020
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(1)) != 1012) && (NumExplod(13021))
+trigger1 = ((var(2)) != 1012) && (NumExplod(13021))
 id = 13021
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(1)) != 1012) && (NumExplod(13022))
+trigger1 = ((var(2)) != 1012) && (NumExplod(13022))
 id = 13022
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(1)) != 1012) && (NumExplod(13023))
+trigger1 = ((var(2)) != 1012) && (NumExplod(13023))
 id = 13023
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(1)) != 1012) && (NumExplod(13024))
+trigger1 = ((var(2)) != 1012) && (NumExplod(13024))
 id = 13024
 ignorehitpause = 1
 persistent = 256
@@ -18152,7 +18152,7 @@ persistent = 256
 [State ]
 type = ChangeState
 trigger1 = 1
-value = var(1)
+value = var(2)
 ignorehitpause = 1
 persistent = 256
 
@@ -18180,14 +18180,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(5) = ((-125) + (Random % ((-25) - (-125))))
+var(10) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(6) = ((-55) + (Random % ((-35) - (-55))))
+var(11) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
@@ -18202,7 +18202,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30020
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 postype = P1
 space = Stage
 facing = Facing
@@ -18219,7 +18219,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30021
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 postype = P1
 space = Stage
 facing = Facing
@@ -18235,14 +18235,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(5) = ((-125) + (Random % ((-25) - (-125))))
+var(10) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(6) = ((-55) + (Random % ((-35) - (-55))))
+var(11) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
@@ -18257,7 +18257,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30020
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 postype = P1
 space = Stage
 facing = Facing
@@ -18274,7 +18274,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
 anim = 30021
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 postype = P1
 space = Stage
 facing = Facing
@@ -18290,14 +18290,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-var(5) = ((-125) + (Random % ((-25) - (-125))))
+var(10) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-var(6) = ((-65) + (Random % ((-45) - (-65))))
+var(11) = ((-65) + (Random % ((-45) - (-65))))
 ignorehitpause = 1
 persistent = 256
 
@@ -18312,7 +18312,7 @@ persistent = 256
 type = Explod
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
 anim = 30022
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 postype = P1
 space = Stage
 facing = Facing
@@ -18356,8 +18356,8 @@ persistent = 256
 type = ChangeState
 trigger1 = (var(0)) >= 180
 trigger1 = (var(0) := 0) || 1
-trigger1 = (var(1) := 1004) || 1
-value = var(1)
+trigger1 = (var(2) := 1004) || 1
+value = var(2)
 ignorehitpause = 1
 persistent = 256
 
@@ -18427,8 +18427,8 @@ persistent = 256
 type = ChangeState
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-trigger1 = (var(1) := 1002) || 1
-value = var(1)
+trigger1 = (var(2) := 1002) || 1
+value = var(2)
 ignorehitpause = 1
 persistent = 256
 
@@ -18463,8 +18463,8 @@ persistent = 256
 type = ChangeState
 trigger1 = ((abs((Pos X - enemy,Pos X))) <= 60) || (FrontEdgeDist <= 70)
 trigger1 = (var(0) := 0) || 1
-trigger1 = (var(1) := 1006) || 1
-value = var(1)
+trigger1 = (var(2) := 1006) || 1
+value = var(2)
 ignorehitpause = 1
 persistent = 256
 
@@ -18497,9 +18497,9 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (AnimTime = 0) && (var(3) := 2)
+trigger1 = (AnimTime = 0) && (var(8) := 2)
 trigger1 = (var(0) := 0) || 1
-var(1) = 10000
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -18865,7 +18865,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(3) = 0
+var(8) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -18873,7 +18873,7 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(1) = 10000
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -19196,7 +19196,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(3) = 0
+var(8) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -19204,7 +19204,7 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(1) = 10000
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -19417,7 +19417,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(3) = 0
+var(8) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -19425,7 +19425,7 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(1) = 10000
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -20459,7 +20459,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(3) = 0
+var(8) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -20467,7 +20467,7 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(1) = 10000
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -20662,8 +20662,8 @@ persistent = 256
 type = ChangeState
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-trigger1 = (var(1) := 1012) || 1
-value = var(1)
+trigger1 = (var(2) := 1012) || 1
+value = var(2)
 ignorehitpause = 1
 persistent = 256
 
@@ -22262,14 +22262,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(5) = ((-280) + (Random % (40 - (-280))))
+var(10) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(6) = (10 + (Random % (90 - 10)))
+var(11) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
@@ -22284,7 +22284,7 @@ persistent = 256
 type = Explod
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
 anim = 30020
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 vel = 0, (-5)
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22298,7 +22298,7 @@ persistent = 256
 type = Explod
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
 anim = 30021
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 vel = 0, (-5)
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22311,14 +22311,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(5) = ((-280) + (Random % (40 - (-280))))
+var(10) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(6) = (10 + (Random % (90 - 10)))
+var(11) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
@@ -22333,7 +22333,7 @@ persistent = 256
 type = Explod
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
 anim = 30020
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 vel = 0, (-5)
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22347,7 +22347,7 @@ persistent = 256
 type = Explod
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
 anim = 30021
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 vel = 0, (-5)
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22360,14 +22360,14 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(5) = ((-280) + (Random % (40 - (-280))))
+var(10) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(6) = (10 + (Random % (90 - 10)))
+var(11) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
@@ -22382,7 +22382,7 @@ persistent = 256
 type = Explod
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
 anim = 30020
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 vel = 0, (-5)
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22396,7 +22396,7 @@ persistent = 256
 type = Explod
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
 anim = 30021
-pos = (var(5)), (var(6))
+pos = (var(10)), (var(11))
 vel = 0, (-5)
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22409,7 +22409,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(3) = 0
+var(8) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -22417,7 +22417,335 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(1) = 10000
+var(2) = 10000
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 2694492]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, AA, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = DisplayToClipboard
+trigger1 = 1
+text = "Search State = %d Last Anim = %d Last Index = %d"
+params = var(7), (var(4)), var(3)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeState
+trigger1 = ((var(7)) = 0) || ((var(7)) = 1)
+trigger1 = (var(7) := 1) || 1
+value = 1014
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeState
+trigger1 = (var(7)) = 4
+value = 1013
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 2
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+var(5) = (var(4))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 2
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+var(7) = 3
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 2
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
+var(7) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 5
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+var(6) = (var(4))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 5
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+var(7) = 6
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 5
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
+var(7) = 4
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 3
+var(3) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 3
+var(4) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(7)) = 3
+var(7) = 4
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1013]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = (var(3)) + 11100000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
+var(7) = 8
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = 1
+var(4) = Anim
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarAdd
+trigger1 = 1
+var(3) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(3)) > 1000
+var(7) = 8
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = var(4)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = HitBy
+trigger1 = (var(7)) = 4
+value = C, HT
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = (var(7)) = 4
+x = enemy((enemy,Name != "M-Creirwy")),Pos X
+y = enemy((enemy,Name != "M-Creirwy")),Pos Y
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Projectile
+trigger1 = (var(7)) = 4
+trigger1 = (var(7) := 5) || 1
+projid = (var(3)) + 11100000
+projanim = var(5)
+projscale = 0, 0
+projremovetime = 3
+projhits = 1
+projpriority = 99999999
+offset = 0, 0
+postype = P2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+attr = C, HT
+hitflag = HLAFD
+affectteam = F
+sparkno = -1
+guard.sparkno = -1
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1014]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = (var(3)) + 11100000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
+var(7) = 7
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = 1
+var(4) = Anim
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarAdd
+trigger1 = 1
+var(3) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(3)) > 1000
+var(7) = 7
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Projectile
+trigger1 = (var(7)) = 1
+trigger1 = (var(7) := 2) || 1
+projid = (var(3)) + 11100000
+projanim = var(4)
+projscale = 0, 0
+projremovetime = 3
+projhits = 1
+projpriority = 99999999
+offset = 0, 0
+postype = P2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+attr = C, HP
+hitflag = HLAFD
+sparkno = -1
+guard.sparkno = -1
 ignorehitpause = 1
 persistent = 256
 
@@ -22497,21 +22825,28 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = (NumTarget && (target,TeamSide = TeamSide)) && (target,Const(size.shadowoffset) = (Const(size.shadowoffset)))
-trigger1 = target,cond(((var(2) := ((((1) & 1) * 1) + (var(2) & -2))) & 1), 1, 1)
+trigger1 = target,cond(((var(7) := ((((1) & 1) * 1) + (var(7) & -2))) & 1), 1, 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = TargetState
-trigger1 = (NumTarget && (target,TeamSide != TeamSide)) && (!root,floor((var(2) & 256) / 255))
+trigger1 = (NumTarget && (target,TeamSide != TeamSide)) && (!root,floor((var(7) & 256) / 255))
 value = target,StateNo
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = TargetState
+trigger1 = (NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694492)
+value = 2694492
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = NumTarget
-var(2) = target,ID
+var(7) = target,ID
 ignorehitpause = 1
 persistent = 256
 
@@ -22519,7 +22854,7 @@ persistent = 256
 type = DisplayToClipboard
 trigger1 = 1
 text = "Target: %d"
-params = var(2)
+params = var(7)
 ignorehitpause = 1
 persistent = 256
 
@@ -22568,7 +22903,7 @@ persistent = 256
 
 [State ]
 type = DestroySelf
-trigger1 = (IsHelper(12000)) && (var(2) & 1)
+trigger1 = (IsHelper(12000)) && (var(7) & 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -23088,7 +23423,7 @@ persistent = 256
 
 [State ]
 type = TargetState
-trigger1 = NumTarget && (!root,floor((var(2) & 256) / 255))
+trigger1 = NumTarget && (!root,floor((var(7) & 256) / 255))
 value = target,StateNo
 ignorehitpause = 1
 persistent = 256
@@ -23096,7 +23431,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = NumTarget
-var(2) = target,ID
+var(7) = target,ID
 ignorehitpause = 1
 persistent = 256
 
@@ -23104,13 +23439,13 @@ persistent = 256
 type = DisplayToClipboard
 trigger1 = 1
 text = "Target: %d"
-params = var(2)
+params = var(7)
 ignorehitpause = 1
 persistent = 256
 
 
 [Statedef 15000]
-movetype = I
+movetype = H
 
 [State ]
 type = ChangeState
@@ -23123,6 +23458,21 @@ persistent = 256
 type = ChangeAnim
 trigger1 = 1
 value = 2694500
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = 1
+x = root,Pos X
+y = root,Pos Y
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = HitBy
+trigger1 = 1
+value = C, HP
 ignorehitpause = 1
 persistent = 256
 
@@ -23154,7 +23504,7 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = ((NumHelper(14000)) = 0) && (root,var(2) & 1)
+trigger1 = ((NumHelper(14000)) = 0) && (root,var(7) & 1)
 helpertype = Player
 name = "Infiltration Helper"
 id = 14000
@@ -23172,6 +23522,21 @@ movetype = I
 type = ChangeState
 trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
 value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = 1
+x = root,Pos X
+y = root,Pos Y
 ignorehitpause = 1
 persistent = 256
 
@@ -23246,7 +23611,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 1"
 id = 11000
@@ -23260,7 +23625,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 1"
 id = 12000
@@ -23274,7 +23639,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 2"
 id = 11000
@@ -23288,7 +23653,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 2"
 id = 12000
@@ -23302,7 +23667,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 3"
 id = 11000
@@ -23316,7 +23681,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 3"
 id = 12000
@@ -23330,7 +23695,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 4"
 id = 11000
@@ -23344,7 +23709,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 4"
 id = 12000
@@ -23358,7 +23723,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 5"
 id = 11000
@@ -23372,7 +23737,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 5"
 id = 12000
@@ -23386,7 +23751,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 6"
 id = 11000
@@ -23400,7 +23765,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 6"
 id = 12000
@@ -23414,7 +23779,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 7"
 id = 11000
@@ -23428,7 +23793,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 7"
 id = 12000
@@ -23442,7 +23807,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 8"
 id = 11000
@@ -23456,7 +23821,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 8"
 id = 12000
@@ -23470,7 +23835,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 9"
 id = 11000
@@ -23484,7 +23849,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 9"
 id = 12000
@@ -23498,7 +23863,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 10"
 id = 11000
@@ -23512,7 +23877,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 10"
 id = 12000
@@ -23526,7 +23891,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 11"
 id = 11000
@@ -23540,7 +23905,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 11"
 id = 12000
@@ -23554,7 +23919,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 12"
 id = 11000
@@ -23568,7 +23933,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 12"
 id = 12000
@@ -23582,7 +23947,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 13"
 id = 11000
@@ -23596,7 +23961,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 13"
 id = 12000
@@ -23610,7 +23975,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 14"
 id = 11000
@@ -23624,7 +23989,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 14"
 id = 12000
@@ -23638,7 +24003,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 15"
 id = 11000
@@ -23652,7 +24017,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 15"
 id = 12000
@@ -23666,7 +24031,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 16"
 id = 11000
@@ -23680,7 +24045,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 16"
 id = 12000
@@ -23694,7 +24059,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 17"
 id = 11000
@@ -23708,7 +24073,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 17"
 id = 12000
@@ -23722,7 +24087,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 18"
 id = 11000
@@ -23736,7 +24101,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 18"
 id = 12000
@@ -23750,7 +24115,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 19"
 id = 11000
@@ -23764,7 +24129,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 19"
 id = 12000
@@ -23778,7 +24143,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 20"
 id = 11000
@@ -23792,7 +24157,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 20"
 id = 12000
@@ -23806,7 +24171,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 21"
 id = 11000
@@ -23820,7 +24185,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 21"
 id = 12000
@@ -23834,7 +24199,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 22"
 id = 11000
@@ -23848,7 +24213,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 22"
 id = 12000
@@ -23862,7 +24227,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 23"
 id = 11000
@@ -23876,7 +24241,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 23"
 id = 12000
@@ -23890,7 +24255,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 24"
 id = 11000
@@ -23904,7 +24269,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 24"
 id = 12000
@@ -23918,7 +24283,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Helper 25"
 id = 11000
@@ -23932,7 +24297,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(7) & 1))
 helpertype = Player
 name = "Crosstalk Target 25"
 id = 12000
@@ -23959,8 +24324,8 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = !IsHelper
-trigger1 = (var(1)) = 0
-var(1) = 1001
+trigger1 = (var(2)) = 0
+var(2) = 1001
 ignorehitpause = 1
 persistent = 256
 
@@ -24006,7 +24371,7 @@ persistent = 256
 type = SelfState
 trigger1 = !IsHelper
 trigger1 = (var(0) := ((var(0)) + 1)) || 1
-value = var(1)
+value = var(2)
 ignorehitpause = 1
 persistent = 256
 
@@ -24054,8 +24419,8 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = IsHelper(11000)
-trigger1 = (root,var(2) & 1) = 0
-trigger1 = root,cond(((var(2) := ((((1) & 1) * 1) + (var(2) & -2))) & 1), 1, 1)
+trigger1 = (root,var(7) & 1) = 0
+trigger1 = root,cond(((var(7) := ((((1) & 1) * 1) + (var(7) & -2))) & 1), 1, 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24116,6 +24481,14 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = SelfState
+trigger1 = IsHelper(14000)
+trigger1 = (var(1)) = GameTime
+value = 14000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = DestroySelf
 trigger1 = IsHelper && (!(IsHelper(14000)))
 ignorehitpause = 1
@@ -24125,8 +24498,9 @@ persistent = 256
 [Statedef -3]
 
 [State ]
-type = Null
+type = VarSet
 trigger1 = 1
+var(1) = GameTime
 ignorehitpause = 1
 persistent = 256
 
@@ -24159,7 +24533,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = (NumHelper(2694492)) = 0
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((var(2) := ((((1) & 1) * 256) + (var(2) & -257))) & 256), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((var(7) := ((((1) & 1) * 256) + (var(7) & -257))) & 256), 1, 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24172,37 +24546,6 @@ id = 2694492
 stateno = 2694492
 supermovetime = 2147483647
 pausemovetime = 2147483647
-ignorehitpause = 1
-persistent = 256
-
-
-[Statedef 2694492]
-
-[State ]
-type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(1)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(1)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = NotHitBy
-trigger1 = 1
-value = SCA, AA, AT, AP
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim2
-trigger1 = 1
-value = 10002
 ignorehitpause = 1
 persistent = 256
 

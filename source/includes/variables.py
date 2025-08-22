@@ -1,7 +1,7 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
-from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, INFILTRATION_HELPER_ID
-from source.includes.types import ImageReproActionType
+from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID
+from source.includes.types import ImageReproActionType, AnimationSearchStateType
 
 ######################################################
 ## Global unscoped - used by root + helpers
@@ -68,4 +68,32 @@ ImageRepro will pick a different move.
 CrossTalkTarget_TargetObtained = BoolVar(scope = SCOPE_HELPER(CROSSTALK_TARGET_ID))
 """
 Flag indicating whether the owner of this CT target has successfully obtained its target.
+"""
+
+######################################################
+## Global helper-scoped - used by the Spy helper
+######################################################
+Spy_AnimationSearchState = VariableExpression(AnimationSearchStateType, scope = SCOPE_HELPER(SPY_HELPER_ID))
+"""
+Indicates the progress the Spy helper has made towards finding Clsn1/2 animations.
+"""
+
+Spy_AnimTestNumber = IntVar()
+"""
+Tracks the last animation index which the Spy helper has tested.
+"""
+
+Spy_LastAnimChecked = IntVar()
+"""
+Tracks the last animation ID which the Spy helper has tested.
+"""
+
+Spy_SavedClsn1 = IntVar()
+"""
+Saves the animation number of a Clsn1-containing animation for the enemy.
+"""
+
+Spy_SavedClsn2 = IntVar()
+"""
+Saves the animation number of a Clsn2-containing animation for the enemy.
 """
