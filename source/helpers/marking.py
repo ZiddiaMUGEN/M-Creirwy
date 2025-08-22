@@ -4,20 +4,19 @@
 from mdk.compiler import statedef
 from mdk.types import (
     SCOPE_HELPER, 
-    MoveType, HitType, HitAttr, TeamType, HitFlagType,
+    MoveType, HitType, HitAttr, TeamType, HitFlagType, StateType,
     IntVar
 )
 from mdk.stdlib import (
-    ChangeAnim, ReversalDef, HitDef, PosSet, TargetDrop, DisplayToClipboard,
-    NumTarget, GameTime,
-    enemy, parent, target
+    ChangeAnim, ReversalDef, HitDef, PosSet, TargetDrop, TargetState, StateTypeSet,
+    NumTarget, GameTime, RoundState,
+    enemy, parent, target, root
 )
 
-from source.includes.constants import MARKING_HELPER_ID
+from source.includes.constants import MARKING_HELPER_ID, PASSIVE_ANIM
 from source.includes.shared import SendToDevilsEye, InRange
 
 MARKING_ATTACK_ANIM = 2694501
-MARKING_PASSIVE_ANIM = 10002
 
 @statedef(stateno = MARKING_HELPER_ID, movetype = MoveType.A, scope = SCOPE_HELPER(MARKING_HELPER_ID))
 def MarkingHelper_Actions():
@@ -27,7 +26,7 @@ def MarkingHelper_Actions():
 
     ## retain the target once it's been obtained
     if NumTarget():
-        ChangeAnim(value = MARKING_PASSIVE_ANIM)
+        ChangeAnim(value = PASSIVE_ANIM)
         ReversalDef(reversal_attr = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))
         PosSet(x = parent.Pos.x, y = parent.Pos.y)
 
@@ -41,6 +40,12 @@ def MarkingHelper_Actions():
         ## (this is because certain characters use HitOverride and can only be marked
         ## in specific ways)
         ## each HitDef gets 2 frames, and ReversalDef is interleaved on alternate 2 frames.
+        index = 0
+        for statetype in [StateType.S, StateType.C, StateType.A]:
+            if InRange(GameTime % 108, index, index + 37):
+                StateTypeSet(statetype = statetype, movetype = MoveType.A)
+            index += 36
+
         index = 0
         for hittype in [HitType.S, HitType.C, HitType.A]:
             for hitattr in [
@@ -76,6 +81,11 @@ def MarkingHelper_Actions():
         TargetDrop(keepone = True)
     if NumTarget() == 1 and target.IsHelper():
         TargetDrop()
+
+    ## if we have a target, and no spy has been spawned, try to steal the target
+    ## we can use DEK here as a baseline for target stealing.
+    if NumTarget() and not root.Root_SpyIsSpawned:
+        TargetState(value = target.StateNo)
         
     ## last step in this state: update the target ID local to make sure we identify when
     ## a new target is captured.

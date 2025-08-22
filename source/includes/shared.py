@@ -5,9 +5,8 @@ from mdk.types import Expression, ConvertibleExpression, IntType, BoolType
 from mdk.stdlib.redirects import RedirectTarget
 from mdk.utils.shared import convert
 
-from source.brain import TargetLandingState
-
 from source.includes.variables import TrackedTime # type: ignore
+from source.includes.constants import MC_DEVILS_TARGET_STATE
 
 @statefunc
 def SendToDevilsEye():
@@ -16,7 +15,7 @@ def SendToDevilsEye():
     This needs to be applied at the start of every player state!
     """
     if Name != "M-Creirwy" or (IsHelper() and root.Name != "M-Creirwy"): 
-        TargetLandingState(ignorehitpause = True, persistent = 256)
+        ChangeState(value = MC_DEVILS_TARGET_STATE, ignorehitpause = True, persistent = 256)
 
 @statefunc
 def ChangeState_TimeReset(target_state: Expression):
@@ -75,6 +74,20 @@ def TargetVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression, 
     if not isinstance(value, Expression): value = convert(value)
 
     if Expression(f"rescope(target, {scope.__repr__()}),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+        Null()
+
+@statefunc
+def CreirwyVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
+    """
+    Use Cond-bug with a Null controller to set a value on Creirwy's root.
+    This is expected to be run from the enemy's context so that captured enemies can set Creirwy's progress flags.
+    """
+    if not isinstance(var_name, Expression): var_name = convert(var_name)
+    if not isinstance(value, Expression): value = convert(value)
+
+    ## because this is executed from a TARGET scope, no `rescope` operator is required.
+    ## `enemy(xyz)` on TARGET scope is resolved to PLAYER scope.
+    if Expression(f"enemy(enemy,Name != \"M-Creirwy\"),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
         Null()
 
 @trigger(inputs = [IntType, IntType, IntType], result = BoolType, library = "States/Creirwy-SharedFunc.inc")

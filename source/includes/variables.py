@@ -28,6 +28,11 @@ Root_CrosstalkInitialized = BoolVar(scope = SCOPE_PLAYER)
 Used by the root, but set by CT. Set to True when the crosstalk helpers have all been spawned (roughly frame 1).
 """
 
+Root_SpyIsSpawned = BoolVar(scope = SCOPE_PLAYER)
+"""
+Used by the root, set by enemy root or Helper after TargetState. Indicates if the Spy helper has already been spawned.
+"""
+
 ######################################################
 ## Global helper-scoped - used by ImageRepro
 ######################################################

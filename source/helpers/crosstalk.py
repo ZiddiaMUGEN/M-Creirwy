@@ -9,11 +9,12 @@ from mdk.types import (
 )
 from mdk.stdlib import (
     DestroySelf, ChangeAnim, PosSet, HitDef, ReversalDef, ScreenBound, PlayerPush, DisplayToClipboard,
+    TargetState,
     IsHelper, Const, ID, NumTarget, TeamSide,
-    playerID, helperID, parent, target
+    playerID, helperID, parent, target, root
 )
 
-from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID
+from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, PASSIVE_ANIM
 from source.includes.variables import CrossTalkTarget_TargetObtained
 from source.includes.shared import SendToDevilsEye, TargetVarSet
 
@@ -21,7 +22,6 @@ CT_GROUP_INDEX = Const("size.shadowoffset")
 
 CT_GETHIT_ANIM = 10000
 CT_ATTACK_ANIM = 10001
-CT_PASSIVE_ANIM = 10002
 
 @statedef(stateno = CROSSTALK_HELPER_ID, scope = SCOPE_HELPER(CROSSTALK_HELPER_ID), type = StateType.S, movetype = MoveType.A, physics = PhysicsType.U)
 def CrossTalk_Base():
@@ -39,7 +39,7 @@ def CrossTalk_Base():
 
     ## retain the target once it's been obtained
     if NumTarget():
-        ChangeAnim(value = CT_PASSIVE_ANIM)
+        ChangeAnim(value = PASSIVE_ANIM)
         ReversalDef(reversal_attr = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))
         PosSet(x = parent.Pos.x, y = parent.Pos.y)
 
@@ -56,6 +56,11 @@ def CrossTalk_Base():
     if NumTarget() and target.TeamSide == TeamSide and target.Const("size.shadowoffset") == CT_GROUP_INDEX:
         ## we want to rescope `target` to `helper(CROSSTALK_TARGET_ID)` to get access to the `CrossTalkTarget_TargetObtained` variable.
         TargetVarSet(CrossTalkTarget_TargetObtained, True, helperID(CROSSTALK_TARGET_ID))
+
+    ## if we have a target, and no spy has been spawned, try to steal the target
+    ## we can use DEK here as a baseline for target stealing.
+    if NumTarget() and target.TeamSide != TeamSide and not root.Root_SpyIsSpawned:
+        TargetState(value = target.StateNo)
 
     ## last step in this state: update the target ID local to make sure we identify when
     ## a new target is captured.

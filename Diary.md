@@ -2,6 +2,10 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-22
+
+- implement basic TargetState on crosstalk+marking to spawn spy helper
+
 ### 2025-08-20
 
 - pass an ID to each crosstalk helper/target in size.shadowoffset

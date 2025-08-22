@@ -17938,20 +17938,12 @@ value = 2694491
 ignorehitpause = 1
 
 
-[Statedef 2694491]
-
-[State ]
-type = Null
-trigger1 = 1
-ignorehitpause = 1
-persistent = 256
-
-
 [Statedef 1001]
 
 [State ]
-type = Null
-trigger1 = 1
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
 ignorehitpause = 1
 persistent = 256
 
@@ -22528,6 +22520,13 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = TargetState
+trigger1 = (NumTarget && (target,TeamSide != TeamSide)) && (!root,floor((var(2) & 256) / 255))
+value = target,StateNo
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = VarSet
 trigger1 = NumTarget
 var(2) = target,ID
@@ -22658,6 +22657,33 @@ type = PosSet
 trigger1 = !NumTarget
 x = enemy,Pos X
 y = enemy,Pos Y
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = !NumTarget
+trigger1 = ((GameTime % 108) >= 0) && ((GameTime % 108) < 37)
+statetype = S
+movetype = A
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = !NumTarget
+trigger1 = ((GameTime % 108) >= 36) && ((GameTime % 108) < 73)
+statetype = C
+movetype = A
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = !NumTarget
+trigger1 = ((GameTime % 108) >= 72) && ((GameTime % 108) < 109)
+statetype = A
+movetype = A
 ignorehitpause = 1
 persistent = 256
 
@@ -23061,6 +23087,13 @@ persistent = 256
 [State ]
 type = TargetDrop
 trigger1 = (NumTarget = 1) && target,IsHelper
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = TargetState
+trigger1 = NumTarget && (!root,floor((var(2) & 256) / 255))
+value = target,StateNo
 ignorehitpause = 1
 persistent = 256
 
@@ -24028,6 +24061,59 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = 1
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 2694491]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Null
+trigger1 = (NumHelper(2694492)) = 0
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((var(2) := ((((1) & 1) * 256) + (var(2) & -257))) & 256), 1, 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = (NumHelper(2694492)) = 0
+helpertype = Normal
+name = "Creirwy's Spy Helper"
+id = 2694492
+stateno = 2694492
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 2694492]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(1)
 ignorehitpause = 1
 persistent = 256
 

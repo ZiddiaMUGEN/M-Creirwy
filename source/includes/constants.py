@@ -1,9 +1,15 @@
 MC_DEVILS_TARGET_STATE = 2694491
 """Target state for Devil's Eye Killer. Should be the state number used for `TargetLandingState`."""
 
+PASSIVE_ANIM = 10002
+"""ID of an animation with no Clsn1/Clsn2; used by various Helpers when they don't need to be doing anything."""
+
 ######################################################
 ## Helper IDs for quick reference
 ######################################################
+SPY_HELPER_ID = MC_DEVILS_TARGET_STATE + 1
+"""ID of the Spy helper, which is a normal-type Helper spawned in the enemy context."""
+
 IMAGEREPRO_HELPER_ID = 10000
 """ID of the ImageRepro helper, declared here to avoid having bare numbers in code."""
 
