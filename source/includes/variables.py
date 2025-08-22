@@ -88,12 +88,12 @@ Spy_LastAnimChecked = IntVar()
 Tracks the last animation ID which the Spy helper has tested.
 """
 
-Spy_SavedClsn1 = IntVar()
+Spy_SavedClsn1 = IntVar(system = True)
 """
 Saves the animation number of a Clsn1-containing animation for the enemy.
 """
 
-Spy_SavedClsn2 = IntVar()
+Spy_SavedClsn2 = IntVar(system = True)
 """
 Saves the animation number of a Clsn2-containing animation for the enemy.
 """
