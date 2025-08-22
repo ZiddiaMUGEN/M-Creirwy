@@ -9082,24 +9082,6 @@ value = 2694491
 ignorehitpause = 1
 
 
-[Statedef 14000]
-
-[State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
-ignorehitpause = 1
-
-
-[Statedef 15000]
-
-[State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
-ignorehitpause = 1
-
-
 [Statedef 16000]
 
 [State ]
@@ -22601,6 +22583,13 @@ value = 2694491
 ignorehitpause = 1
 persistent = 256
 
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
 
 [Statedef 20000]
 movetype = H
@@ -22609,6 +22598,13 @@ movetype = H
 type = ChangeState
 trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
 value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 10002
 ignorehitpause = 1
 persistent = 256
 
@@ -23113,6 +23109,73 @@ ignorehitpause = 1
 persistent = 256
 
 
+[Statedef 15000]
+movetype = I
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 2694500
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 14001]
+movetype = A
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = 1
+x = root,Pos X
+y = root,Pos Y
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = ((NumHelper(14000)) = 0) && (root,var(2) & 1)
+helpertype = Player
+name = "Infiltration Helper"
+id = 14000
+stateno = 14000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 14000]
+movetype = I
+
+[State ]
+type = ChangeState
+trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+
 [Statedef -2]
 
 [State ]
@@ -23157,7 +23220,33 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = (NumHelper(15000)) = 0
+helpertype = Player
+name = "Callback Receiver"
+id = 15000
+stateno = 15000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = (NumHelper(14001)) = 0
+helpertype = Player
+name = "Infiltration Controller"
+id = 14001
+stateno = 14001
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = !IsHelper
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 1"
 id = 11000
@@ -23171,7 +23260,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 1"
 id = 12000
@@ -23185,7 +23274,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 2"
 id = 11000
@@ -23199,7 +23288,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 2"
 id = 12000
@@ -23213,7 +23302,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 3"
 id = 11000
@@ -23227,7 +23316,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 3"
 id = 12000
@@ -23241,7 +23330,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 4"
 id = 11000
@@ -23255,7 +23344,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 4"
 id = 12000
@@ -23269,7 +23358,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 5"
 id = 11000
@@ -23283,7 +23372,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 5"
 id = 12000
@@ -23297,7 +23386,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 6"
 id = 11000
@@ -23311,7 +23400,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 6"
 id = 12000
@@ -23325,7 +23414,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 7"
 id = 11000
@@ -23339,7 +23428,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 7"
 id = 12000
@@ -23353,7 +23442,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 8"
 id = 11000
@@ -23367,7 +23456,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 8"
 id = 12000
@@ -23381,7 +23470,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 9"
 id = 11000
@@ -23395,7 +23484,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 9"
 id = 12000
@@ -23409,7 +23498,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 10"
 id = 11000
@@ -23423,7 +23512,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 10"
 id = 12000
@@ -23437,7 +23526,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 11"
 id = 11000
@@ -23451,7 +23540,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 11"
 id = 12000
@@ -23465,7 +23554,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 12"
 id = 11000
@@ -23479,7 +23568,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 12"
 id = 12000
@@ -23493,7 +23582,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 13"
 id = 11000
@@ -23507,7 +23596,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 13"
 id = 12000
@@ -23521,7 +23610,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 14"
 id = 11000
@@ -23535,7 +23624,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 14"
 id = 12000
@@ -23549,7 +23638,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 15"
 id = 11000
@@ -23563,7 +23652,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 15"
 id = 12000
@@ -23577,7 +23666,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 16"
 id = 11000
@@ -23591,7 +23680,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 16"
 id = 12000
@@ -23605,7 +23694,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 17"
 id = 11000
@@ -23619,7 +23708,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 17"
 id = 12000
@@ -23633,7 +23722,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 18"
 id = 11000
@@ -23647,7 +23736,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 18"
 id = 12000
@@ -23661,7 +23750,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 19"
 id = 11000
@@ -23675,7 +23764,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 19"
 id = 12000
@@ -23689,7 +23778,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 20"
 id = 11000
@@ -23703,7 +23792,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 20"
 id = 12000
@@ -23717,7 +23806,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 21"
 id = 11000
@@ -23731,7 +23820,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 21"
 id = 12000
@@ -23745,7 +23834,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 22"
 id = 11000
@@ -23759,7 +23848,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 22"
 id = 12000
@@ -23773,7 +23862,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 23"
 id = 11000
@@ -23787,7 +23876,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 23"
 id = 12000
@@ -23801,7 +23890,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 24"
 id = 11000
@@ -23815,7 +23904,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 24"
 id = 12000
@@ -23829,7 +23918,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(11000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Helper 25"
 id = 11000
@@ -23843,7 +23932,7 @@ persistent = 256
 [State ]
 type = Helper
 trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
+trigger1 = ((NumHelper(12000)) < 25) && (!(var(2) & 1))
 helpertype = Player
 name = "Crosstalk Target 25"
 id = 12000
@@ -23851,34 +23940,6 @@ stateno = 12000
 supermovetime = 2147483647
 pausemovetime = 2147483647
 size.shadowoffset = 24
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 26) && (!(var(2) & 1))
-helpertype = Player
-name = "Crosstalk Helper 26"
-id = 11000
-stateno = 11000
-supermovetime = 2147483647
-pausemovetime = 2147483647
-size.shadowoffset = 25
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 26) && (!(var(2) & 1))
-helpertype = Player
-name = "Crosstalk Target 26"
-id = 12000
-stateno = 12000
-supermovetime = 2147483647
-pausemovetime = 2147483647
-size.shadowoffset = 25
 ignorehitpause = 1
 persistent = 256
 
@@ -24041,8 +24102,22 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = SelfState
+trigger1 = IsHelper(15000)
+value = 15000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper(14001)
+value = 14001
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = DestroySelf
-trigger1 = IsHelper
+trigger1 = IsHelper && (!(IsHelper(14000)))
 ignorehitpause = 1
 persistent = 256
 
@@ -24114,6 +24189,20 @@ persistent = 256
 type = SelfState
 trigger1 = IsHelper && (root,Name = "M-Creirwy")
 value = var(1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, AA, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
 ignorehitpause = 1
 persistent = 256
 

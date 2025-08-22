@@ -22,11 +22,23 @@ CROSSTALK_HELPER_ID = 11000
 CROSSTALK_TARGET_ID = 12000
 """ID of the Crosstalk target helpers (used during CT setup)."""
 
-CROSSTALK_HELPER_COUNT = 26
+CROSSTALK_HELPER_COUNT = 25
 """Total number of crosstalk helpers to spawn. Double this should be equal to 56, less the number of other helpers we use."""
 
 MARKING_HELPER_ID = 13000
 """ID of the Marking helper."""
+
+INFILTRATION_HELPER_ID = 14000
+"""ID of the Infiltration helper."""
+
+INFILTRATION_CONTROLLER_ID = 14001
+"""
+ID of the Infiltration Controller helper. This helper doesn't need to do anything, it exists to prevent
+the Infiltration helper from doing ParentVarSet while it explores the enemy's states.
+"""
+
+RECEIVER_HELPER_ID = 15000
+"""ID of the Callback Receiver helper."""
 
 OCCUPANCY_HELPER_ID = 18000
 """ID of the Occupancy helpers (which fill space if CT count leaves an uneven count, or in specific situations)."""

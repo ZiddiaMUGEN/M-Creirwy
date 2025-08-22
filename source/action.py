@@ -12,6 +12,8 @@ from .includes.constants import (
     PAUSETIME_MAX,
     CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_COUNT,
     MARKING_HELPER_ID,
+    INFILTRATION_HELPER_ID, INFILTRATION_CONTROLLER_ID,
+    RECEIVER_HELPER_ID,
     OCCUPANCY_HELPER_ID,
     FIRST_HELPER_ID,
     LAST_HELPER_ID
@@ -25,6 +27,8 @@ from source.helpers.crosstalk import CrossTalk_Base, CrossTalk_Target
 from source.helpers.first import FirstHelper_Actions
 from source.helpers.last import LastHelper_Actions
 from source.helpers.marking import MarkingHelper_Actions
+from source.helpers.callback_receiver import CallbackReceiver_Actions
+from source.helpers.infiltrator import InfiltrationController_Actions
 
 @statedef(stateno = -2, scope = SCOPE_PLAYER)
 def Think():
@@ -43,11 +47,19 @@ def Think():
     if IsHelper(FIRST_HELPER_ID): SelfState(value = FirstHelper_Actions)
     if IsHelper(LAST_HELPER_ID): SelfState(value = LastHelper_Actions)
     if IsHelper(MARKING_HELPER_ID): SelfState(value = MarkingHelper_Actions)
+    if IsHelper(RECEIVER_HELPER_ID): SelfState(value = CallbackReceiver_Actions)
+    if IsHelper(INFILTRATION_CONTROLLER_ID): SelfState(value = InfiltrationController_Actions)
+
+    ## infiltration needs to do all of its work inside -2,
+    ## because if it is working properly it will get reversed and
+    ## sent to p2's states.
+    #if IsHelper(INFILTRATION_HELPER_ID):
+    #    pass
 
     ## this is a failsafe.
     ## the only way a helper ever reaches here is if I screw up,
     ## or if infiltration spawns a helper.
-    if IsHelper(): DestroySelf()
+    if IsHelper() and not IsHelper(INFILTRATION_HELPER_ID): DestroySelf()
 
 @statedef(stateno = -3)
 def PreThink():
@@ -98,6 +110,26 @@ def Think_SpawnBaseHelpers():
             name = "Image Reproduction",
             id = IMAGEREPRO_HELPER_ID,
             stateno = ImageRepro_Base,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
+
+    if NumHelper(RECEIVER_HELPER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "Callback Receiver",
+            id = RECEIVER_HELPER_ID,
+            stateno = CallbackReceiver_Actions,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
+
+    if NumHelper(INFILTRATION_CONTROLLER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "Infiltration Controller",
+            id = INFILTRATION_CONTROLLER_ID,
+            stateno = InfiltrationController_Actions,
             supermovetime = PAUSETIME_MAX,
             pausemovetime = PAUSETIME_MAX
         )
