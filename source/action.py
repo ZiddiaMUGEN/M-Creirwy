@@ -2,7 +2,7 @@ from mdk.compiler import statedef, statefunc
 from mdk.stdlib import (
     Null, Helper, NumHelper, IsHelper, PlayerPush, ScreenBound, RoundState, 
     AfterImage, SelfState, VarSet, AssertSpecial, TargetDrop, NotHitBy,
-    DestroySelf,
+    DestroySelf, GameTime,
     root
 )
 from mdk.types import HelperType, AssertType, HitType, HitAttr, BoolVar, SCOPE_PLAYER
@@ -18,7 +18,7 @@ from .includes.constants import (
     FIRST_HELPER_ID,
     LAST_HELPER_ID
 )
-from source.includes.variables import TrackedTime, SavedState, Root_CrosstalkInitialized
+from source.includes.variables import TrackedTime, TrackedGameTime, SavedState, Root_CrosstalkInitialized
 from source.includes.shared import SelfState_TimeIncrease, RootVarSet
 
 from source.brain import TempPlayerState
@@ -28,7 +28,7 @@ from source.helpers.first import FirstHelper_Actions
 from source.helpers.last import LastHelper_Actions
 from source.helpers.marking import MarkingHelper_Actions
 from source.helpers.callback_receiver import CallbackReceiver_Actions
-from source.helpers.infiltrator import InfiltrationController_Actions
+from source.helpers.infiltrator import InfiltrationController_Actions, InfiltrationHelper_LocalActions
 
 @statedef(stateno = -2, scope = SCOPE_PLAYER)
 def Think():
@@ -53,8 +53,9 @@ def Think():
     ## infiltration needs to do all of its work inside -2,
     ## because if it is working properly it will get reversed and
     ## sent to p2's states.
-    #if IsHelper(INFILTRATION_HELPER_ID):
-    #    pass
+    if IsHelper(INFILTRATION_HELPER_ID):
+        # if not in a custom state yet, just selfstate out
+        if TrackedGameTime == GameTime: SelfState(value = InfiltrationHelper_LocalActions)
 
     ## this is a failsafe.
     ## the only way a helper ever reaches here is if I screw up,
@@ -66,7 +67,7 @@ def PreThink():
     """
     -3 is not executed during custom stating, so this is only important for custom state detection.
     """
-    Null()
+    TrackedGameTime.set(GameTime)
 
 @statedef(stateno = -1)
 def Act():

@@ -1,6 +1,6 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
-from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, CROSSTALK_HELPER_ID
+from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, INFILTRATION_HELPER_ID
 from source.includes.types import ImageReproActionType
 
 ######################################################
@@ -12,6 +12,12 @@ TrackedTime = IntVar()
 Tracks the amount of time which has been spent in the current state.
 
 This is used over the `Time` trigger due to the amount of `SelfState` usage in the character.
+"""
+
+TrackedGameTime = IntVar()
+"""
+Tracks the value of GameTime. This gets set in -3 (which is not executed during custom states). Therefore it can be used to detect when
+an actor enters a custom state.
 """
 
 SavedState = VariableExpression(StateNoType)

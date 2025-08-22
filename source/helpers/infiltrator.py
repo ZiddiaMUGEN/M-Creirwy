@@ -22,15 +22,17 @@ def InfiltrationController_Actions():
             helpertype = HelperType.Player,
             name = "Infiltration Helper",
             id = INFILTRATION_HELPER_ID,
-            stateno = InfiltrationHelper_NoOp,
+            stateno = InfiltrationHelper_LocalActions,
             supermovetime = PAUSETIME_MAX,
             pausemovetime = PAUSETIME_MAX
         )
 
 @statedef(stateno = INFILTRATION_HELPER_ID, movetype = MoveType.I, scope = SCOPE_HELPER(INFILTRATION_HELPER_ID))
-def InfiltrationHelper_NoOp():
-    """This state does nothing, it's a placeholder for Infiltration to be spawned into.
-    It should spend very little time here."""
+def InfiltrationHelper_LocalActions():
+    """
+    Infiltration helper comes here if it is not custom stated yet.
+    Therefore it needs to set itself up to become custom stated.
+    """
     SendToDevilsEye()
 
     ChangeAnim(value = PASSIVE_ANIM)
