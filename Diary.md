@@ -6,10 +6,18 @@ This is a log of any work I do on the character so I remember what I worked on.
 
 - work on enum/flag typing in mdk
 - fix typecheck issues in source files
+- convert ImageReproActionType and AnimationSearchStateType to Enum-backed types
+
+### 2025-08-25
+
+- finish implementing Structure types in MTL
 
 ### 2025-08-22
 
 - implement basic TargetState on crosstalk+marking to spawn spy helper
+- add skeletons for Callback Receiver and Infiltration
+- implement fast clsn1/clsn2 search in Spy helper
+- add support for sysvar usage to mdk/MTL
 
 ### 2025-08-20
 

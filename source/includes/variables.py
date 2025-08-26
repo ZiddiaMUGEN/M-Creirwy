@@ -1,7 +1,7 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
 from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID
-from source.includes.types import ImageReproActionType, AnimationSearchStateType
+from source.includes.types import ImageReproActionTypeT, AnimationSearchStateTypeT
 
 ######################################################
 ## Global unscoped - used by root + helpers
@@ -48,7 +48,7 @@ ImageRepro_HasRunIntro = BoolVar(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
 Flag indicating whether ImageRepro has gone through its into animation + returned to idle already.
 """
 
-ImageRepro_MotionState = VariableExpression(ImageReproActionType, scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
+ImageRepro_MotionState = VariableExpression(ImageReproActionTypeT, scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID))
 """
 Indicates which phase of move display the ImageRepro helper is in (e.g. dashing, attacking, etc).
 
@@ -73,7 +73,7 @@ Flag indicating whether the owner of this CT target has successfully obtained it
 ######################################################
 ## Global helper-scoped - used by the Spy helper
 ######################################################
-Spy_AnimationSearchState = VariableExpression(AnimationSearchStateType, scope = SCOPE_HELPER(SPY_HELPER_ID))
+Spy_AnimationSearchState = VariableExpression(AnimationSearchStateTypeT, scope = SCOPE_HELPER(SPY_HELPER_ID))
 """
 Indicates the progress the Spy helper has made towards finding Clsn1/2 animations.
 """
