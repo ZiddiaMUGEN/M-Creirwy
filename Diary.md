@@ -2,6 +2,11 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-26
+
+- work on enum/flag typing in mdk
+- fix typecheck issues in source files
+
 ### 2025-08-22
 
 - implement basic TargetState on crosstalk+marking to spawn spy helper

@@ -3,7 +3,7 @@
 from mdk.compiler import statedef, statefunc
 from mdk.types import (
     SCOPE_HELPER, ConvertibleExpression, VariableExpression, TupleExpression,
-    BoolVar, IntVar, FloatVar, ByteVar,
+    IntVar, FloatVar,
     StateType, MoveType, PhysicsType, PosType, AssertType, SpaceType, TransType,
     HelperType
 )
@@ -246,7 +246,7 @@ def ImageRepro_DashToEnemy_Finished():
     if Anim != 271: ChangeAnim(value = 271)
     if TrackedTime == 0: VelSet(x = 0) ## this is just for safety, really it's covered by ImageRepro_Base already
 
-    if AnimTime == 0 and (ImageRepro_MotionState := ImageReproActionType.DashFinished): 
+    if AnimTime == 0 and (ImageRepro_MotionState := ImageReproActionType.DashFinished):
         ResetTimeAndSetState(ImageRepro_Base)
 
 @statedef(scope = SCOPE_HELPER(IMAGEREPRO_HELPER_ID), type = StateType.S, movetype = MoveType.I, physics = PhysicsType.S)
@@ -279,7 +279,7 @@ def ImageRepro_Attack_SlashDash():
         ModifyExplod(
             id = EXPLOSION_FX_ID,
             scale = (scale, scale),
-            trans = TransType.addalpha,
+            trans = TransType.AddAlpha,
             alpha = (255 - 16 * (TrackedTime - 15), 255)
         )
 
@@ -666,7 +666,7 @@ def ImageRepro_Attack_MoonJump():
             ontop = True,
             postype = PosType.Back,
             scale = (2, 2),
-            trans = TransType.add,
+            trans = TransType.Add,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
         )
@@ -676,7 +676,7 @@ def ImageRepro_Attack_MoonJump():
             ontop = True,
             postype = PosType.Left,
             scale = (0.5, 0.5),
-            trans = TransType.add,
+            trans = TransType.Add,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
         )
@@ -819,7 +819,7 @@ def ImageRepro_MoonJump_DashFrames(id: int, postype: ConvertibleExpression, base
         postype = PosType.P2,
         pos = (10, -80 + (60 if id == 13003 else 0)),
         scale = (1.125, 1.125),
-        trans = TransType.sub,
+        trans = TransType.Sub,
         ontop = True,
         pausemovetime = PAUSETIME_MAX,
         supermovetime = PAUSETIME_MAX
@@ -832,6 +832,8 @@ def ImageRepro_MoonJump_Trails(id: int, postype: ConvertibleExpression, basepos:
     anim = 3002
     if (id % 2) == 0: anim = 3111
 
+    scale = (1, 1)
+    angle = 0
     if id == 13051:
         scale = (0.75, 0.75)
         angle = -105
@@ -866,13 +868,17 @@ def ImageRepro_MoonJump_Trails(id: int, postype: ConvertibleExpression, basepos:
         facing = -1 if id in [13055, 13056, 13057, 13058] else 1,
         scale = scale,
         angle = angle,
-        trans = TransType.add,
+        trans = TransType.Add,
         pausemovetime = PAUSETIME_MAX,
         supermovetime = PAUSETIME_MAX
     )
 
 @statefunc
 def ImageRepro_MoonJump_BackgroundAnim(id: int, basepos: tuple[int, int]):
+    anim = 0
+    scale = (1, 1)
+    angle = 0
+
     if id == 13020: 
         anim = 3018
         angle = 180
@@ -901,18 +907,18 @@ def ImageRepro_MoonJump_BackgroundAnim(id: int, basepos: tuple[int, int]):
         postype = PosType.P1,
         angle = angle,
         scale = scale,
-        trans = TransType.add
+        trans = TransType.Add
     )
 
 @statefunc
-def ImageRepro_MoonHelper_Flames(pos: ConvertibleExpression):
+def ImageRepro_MoonHelper_Flames(pos: TupleExpression):
     Explod(
         anim = 30054,
         ownpal = True,
         postype = PosType.P1,
         pos = pos,
         scale = (1.2, 1.2),
-        trans = TransType.add,
+        trans = TransType.Add,
         vel = (0, -1),
         sprpriority = 5,
         pausemovetime = PAUSETIME_MAX,
@@ -965,7 +971,7 @@ def ImageRepro_MoonJump_MoonHelper():
         prio = (PAUSETIME_MAX - 3) + Cond(AnimElemTime(5) <= 50, 3, 0)
         ModifyExplod(
             id = 30057,
-            trans = TransType.addalpha,
+            trans = TransType.AddAlpha,
             alpha = (255, alpha),
             sprpriority = prio
         )
@@ -1017,7 +1023,7 @@ def ImageRepro_MoonJump_MoonHelper():
             facing = -1,
             scale = (0, 1.3),
             bindtime = -1,
-            trans = TransType.add,
+            trans = TransType.Add,
             ownpal = True,
             sprpriority = PAUSETIME_MAX - 2,
             pausemovetime = PAUSETIME_MAX,
@@ -1031,7 +1037,7 @@ def ImageRepro_MoonJump_MoonHelper():
             facing = 1,
             scale = (0, 1.3),
             bindtime = -1,
-            trans = TransType.add,
+            trans = TransType.Add,
             ownpal = True,
             sprpriority = PAUSETIME_MAX - 2,
             pausemovetime = PAUSETIME_MAX,
@@ -1044,7 +1050,7 @@ def ImageRepro_MoonJump_MoonHelper():
             postype = PosType.Right,
             facing = 1,
             bindtime = -1,
-            trans = TransType.add,
+            trans = TransType.Add,
             ownpal = True,
             ontop = True,
             scale = (0.5, 0.5),
@@ -1059,7 +1065,7 @@ def ImageRepro_MoonJump_MoonHelper():
             postype = PosType.Left,
             facing = -1,
             bindtime = -1,
-            trans = TransType.add,
+            trans = TransType.Add,
             ownpal = True,
             scale = (0.5, 0.5),
             sprpriority = PAUSETIME_MAX,
@@ -1072,7 +1078,7 @@ def ImageRepro_MoonJump_MoonHelper():
             anim = 30051,
             postype = PosType.P1,
             scale = (1, 1),
-            trans = TransType.add,
+            trans = TransType.Add,
             ownpal = True,
             sprpriority = PAUSETIME_MAX - 2,
             pausemovetime = PAUSETIME_MAX,
@@ -1085,10 +1091,10 @@ def ImageRepro_MoonJump_MoonHelper():
     
     if InRange(AnimElemTime(6), 0, 11):
         color = 255 - 25 * AnimElemTime(6)
-        AllPalFX(time = 1, value = (color, color, color))
+        AllPalFX(time = 1, add = (color, color, color))
 
     if AnimElemTime(6) > 70:
-        EnvColor(time = 1, color = (255, 255, 255))
+        EnvColor(time = 1, value = (255, 255, 255))
 
     if AnimTime == 0:
         RemoveExplod(id = 30058)
@@ -1118,7 +1124,7 @@ def ImageRepro_MoonJump_CrossMoon():
             postype = PosType.P1,
             pos = (100, -100),
             scale = (2, 2),
-            trans = TransType.add,
+            trans = TransType.Add,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
         )
@@ -1131,7 +1137,7 @@ def ImageRepro_MoonJump_CrossMoon():
             pos = (85, -95),
             random = (20, 20),
             scale = (1.2, 1.2),
-            trans = TransType.add,
+            trans = TransType.Add,
             vel = (0, -1),
             sprpriority = -5,
             pausemovetime = PAUSETIME_MAX,
@@ -1149,7 +1155,7 @@ def ImageRepro_MoonJump_CrossMoon():
                 pos = pos,
                 random = (20, 20),
                 scale = scale,
-                trans = TransType.add,
+                trans = TransType.Add,
                 vel = (0, -1),
                 sprpriority = -5,
                 pausemovetime = PAUSETIME_MAX,
@@ -1163,7 +1169,7 @@ def ImageRepro_MoonJump_CrossMoon():
                 pos = pos,
                 random = (8, 8),
                 scale = (0.5, 0.5),
-                trans = TransType.add,
+                trans = TransType.Add,
                 vel = (0, -1),
                 sprpriority = -4,
                 pausemovetime = PAUSETIME_MAX,
@@ -1203,7 +1209,7 @@ def ImageRepro_MoonJump_CrossMoon():
 
     if AnimElemTime(44) == 0: VelSet(x = 30, y = -25)
 
-    if InRange(AnimElemTime(44), 0, 7): Trans(trans = TransType.addalpha, alpha = (255 - 40 * AnimElemTime(44), 255))
+    if InRange(AnimElemTime(44), 0, 7): Trans(trans = TransType.AddAlpha, alpha = (255 - 40 * AnimElemTime(44), 255))
     if AnimElemTime(46) >= 0 and AnimElemTime(47) < 0: PosSet(x = 0, y = 0)
 
     ## 13x Helper
@@ -1269,7 +1275,7 @@ def ImageRepro_MoonJump_CrossMoon():
             postype = PosType.P1,
             pos = (40, 0),
             scale = (1.3, 1),
-            trans = TransType.sub,
+            trans = TransType.Sub,
             removetime = 210,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
@@ -1283,7 +1289,7 @@ def ImageRepro_MoonJump_CrossMoon():
             postype = PosType.P1,
             pos = (40, 0),
             scale = (1.3, 1),
-            trans = TransType.addalpha,
+            trans = TransType.AddAlpha,
             alpha = (-128, 255),
             removetime = 210,
             pausemovetime = PAUSETIME_MAX,
@@ -1298,7 +1304,7 @@ def ImageRepro_MoonJump_CrossMoon():
             ownpal = True,
             bindtime = -1,
             postype = PosType.Right,
-            trans = TransType.sub,
+            trans = TransType.Sub,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
         )
@@ -1311,7 +1317,7 @@ def ImageRepro_MoonJump_CrossMoon():
             ownpal = True,
             bindtime = -1,
             postype = PosType.Left,
-            trans = TransType.sub,
+            trans = TransType.Sub,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
         )
@@ -1325,7 +1331,7 @@ def ImageRepro_MoonJump_CrossMoon():
             scale = (0.5, 0.5),
             bindtime = -1,
             postype = PosType.Left,
-            trans = TransType.add,
+            trans = TransType.Add,
             pausemovetime = PAUSETIME_MAX,
             supermovetime = PAUSETIME_MAX
         )

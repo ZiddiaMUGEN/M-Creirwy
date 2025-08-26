@@ -22,6 +22,8 @@ def SpyHelper_Base():
     """
     Entry point for the Spy helper.
     """
+    global Spy_AnimationSearchState
+
     if Name == "M-Creirwy":
         SelfState(value = SavedState)
     if IsHelper() and root.Name == "M-Creirwy":
@@ -75,7 +77,7 @@ def SpyHelper_Base():
     ## this is because fast anim search 'only' checks 1k animations.
 
 @statefunc
-def Spy_GetNextAnim(fail_state: Expression):
+def Spy_GetNextAnim(fail_state: Expression) -> None:
     ## ChangeAnim2 to one of Creirwy's pre-prepared animations
     ChangeAnim2(value = Spy_AnimTestNumber + 11100000)
     ## then ChangeAnim to a (hopefully) invalid animation
@@ -101,6 +103,8 @@ def SpyHelper_Clsn2Search():
     """
     Use fast animation search to look for an animation with a hitbox.
     """
+    global Spy_AnimationSearchState
+
     if Name == "M-Creirwy":
         SelfState(value = SavedState)
     if IsHelper() and root.Name == "M-Creirwy":
@@ -143,6 +147,8 @@ def SpyHelper_Clsn1Search():
     """
     Use fast animation search to look for an animation with a hurtbox.
     """
+    global Spy_AnimationSearchState
+
     if Name == "M-Creirwy":
         SelfState(value = SavedState)
     if IsHelper() and root.Name == "M-Creirwy":

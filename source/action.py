@@ -1,11 +1,11 @@
 from mdk.compiler import statedef, statefunc
 from mdk.stdlib import (
     Null, Helper, NumHelper, IsHelper, PlayerPush, ScreenBound, RoundState, 
-    AfterImage, SelfState, VarSet, AssertSpecial, TargetDrop, NotHitBy,
+    AfterImage, SelfState, AssertSpecial, TargetDrop, NotHitBy,
     DestroySelf, GameTime,
     root
 )
-from mdk.types import HelperType, AssertType, HitType, HitAttr, BoolVar, SCOPE_PLAYER
+from mdk.types import HelperType, AssertType, HitType, HitAttr, SCOPE_PLAYER
 
 from .includes.constants import (
     IMAGEREPRO_HELPER_ID, MOONJUMP_HELPER_ID,
@@ -14,11 +14,10 @@ from .includes.constants import (
     MARKING_HELPER_ID,
     INFILTRATION_HELPER_ID, INFILTRATION_CONTROLLER_ID,
     RECEIVER_HELPER_ID,
-    OCCUPANCY_HELPER_ID,
     FIRST_HELPER_ID,
     LAST_HELPER_ID
 )
-from source.includes.variables import TrackedTime, TrackedGameTime, SavedState, Root_CrosstalkInitialized
+from source.includes.variables import TrackedGameTime, SavedState, Root_CrosstalkInitialized
 from source.includes.shared import SelfState_TimeIncrease, RootVarSet
 
 from source.brain import TempPlayerState
@@ -179,6 +178,7 @@ def Think_Root():
     PlayerPush(value = False) ## uninteractable
     ScreenBound(value = False, movecamera = (False, False)) ## uninteractable
     NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AP, HitAttr.AT)) ## uninteractable
+    HitType.SC
 
     SelfState_TimeIncrease(SavedState) ## goto the saved state, and increase TrackedTime by 1 as well.
 

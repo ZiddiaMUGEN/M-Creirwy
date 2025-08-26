@@ -8,13 +8,11 @@ from mdk.types import (
     IntVar
 )
 from mdk.stdlib import (
-    DestroySelf, ChangeAnim, PosSet, HitDef, ReversalDef, ScreenBound, PlayerPush, DisplayToClipboard,
+    DestroySelf, ChangeAnim, PosSet, HitDef, ReversalDef, ScreenBound, PlayerPush,
     TargetState,
-    IsHelper, Const, ID, NumTarget, TeamSide,
-    playerID, helperID, parent, target, root
+    IsHelper, Const, NumTarget, TeamSide,
+    helperID, parent, target, root
 )
-
-from source.helpers.spy import SpyHelper_Base
 
 from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, PASSIVE_ANIM
 from source.includes.variables import CrossTalkTarget_TargetObtained

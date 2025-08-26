@@ -17973,14 +17973,12 @@ persistent = 256
 type = VarSet
 trigger1 = !(var(5) & 1)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1003
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = !(var(5) & 1)
-var(5) = ((((1) & 1) * 1) + (var(5) & -2))
 ignorehitpause = 1
 persistent = 256
 
@@ -17989,7 +17987,6 @@ type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(6)) = 0
 trigger1 = (var(0) := 0) || 1
-var(2) = 1005
 ignorehitpause = 1
 persistent = 256
 
@@ -17997,7 +17994,6 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(6)) = 0
-var(6) = 1
 ignorehitpause = 1
 persistent = 256
 
@@ -18005,7 +18001,6 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
-var(8) = Random
 ignorehitpause = 1
 persistent = 256
 
@@ -18014,7 +18009,6 @@ type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = (var(7)) = (floor(((var(8)) / 120)))
-var(8) = (((var(8)) + 120) % 1000)
 ignorehitpause = 1
 persistent = 256
 
@@ -18022,7 +18016,6 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
-var(7) = (floor(((var(8)) / 120)))
 ignorehitpause = 1
 persistent = 256
 
@@ -18032,7 +18025,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 0) && ((var(8)) < 120)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
@@ -18042,7 +18034,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 120) && ((var(8)) < 240)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1008
 ignorehitpause = 1
 persistent = 256
 
@@ -18052,7 +18043,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 240) && ((var(8)) < 360)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1009
 ignorehitpause = 1
 persistent = 256
 
@@ -18062,7 +18052,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 360) && ((var(8)) < 480)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1010
 ignorehitpause = 1
 persistent = 256
 
@@ -18072,7 +18061,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 480) && ((var(8)) < 600)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1011
 ignorehitpause = 1
 persistent = 256
 
@@ -18082,7 +18070,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 600) && ((var(8)) < 720)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
@@ -18092,7 +18079,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = ((var(8)) >= 720) && ((var(8)) < 840)
 trigger1 = (var(0) := 0) || 1
-var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
@@ -18102,7 +18088,6 @@ trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
 trigger1 = (var(8)) >= 840
 trigger1 = (var(0) := 0) || 1
-var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
@@ -18110,7 +18095,6 @@ persistent = 256
 type = VarSet
 trigger1 = RoundState = 2
 trigger1 = (var(6)) = 2
-var(6) = 3
 ignorehitpause = 1
 persistent = 256
 
@@ -18180,21 +18164,18 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(8) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(9) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
@@ -18235,21 +18216,18 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(8) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-var(9) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
-fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
@@ -18290,21 +18268,18 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-var(8) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-var(9) = ((-65) + (Random % ((-45) - (-65))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
-fvar(0) = (((Random % 5) * 0.01) + 0.05)
 ignorehitpause = 1
 persistent = 256
 
@@ -18499,7 +18474,6 @@ persistent = 256
 type = VarSet
 trigger1 = (AnimTime = 0) && (var(6) := 2)
 trigger1 = (var(0) := 0) || 1
-var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -18571,7 +18545,7 @@ type = ModifyExplod
 trigger1 = (NumExplod(32072)) && ((var(0)) <= 15)
 id = 32072
 scale = (((var(0)) * 0.12) + 0.5), (((var(0)) * 0.12) + 0.5)
-trans = addalpha
+trans = AddAlpha
 alpha = ((((var(0)) - 15) * 16) - 255), 255
 ignorehitpause = 1
 persistent = 256
@@ -18791,7 +18765,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
-fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
@@ -18828,7 +18801,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
-fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
@@ -18865,7 +18837,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(6) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -18873,7 +18844,6 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -19107,7 +19077,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
-fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
@@ -19144,7 +19113,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
-fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
@@ -19196,7 +19164,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(6) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -19204,7 +19171,6 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -19305,7 +19271,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
-fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
@@ -19342,7 +19307,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
-fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
@@ -19417,7 +19381,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(6) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -19425,7 +19388,6 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -20459,7 +20421,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(6) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -20467,7 +20428,6 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -20515,7 +20475,7 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 2, 2
 ontop = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20528,7 +20488,7 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
 ontop = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20742,7 +20702,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = 5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20758,7 +20718,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = 5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20774,7 +20734,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = 5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20790,7 +20750,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = 5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20806,7 +20766,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = 5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20829,7 +20789,7 @@ type = ModifyExplod
 trigger1 = ((AnimElemTime(5)) >= 5) && (NumExplod(30057))
 id = 30057
 sprpriority = cond(((AnimElemTime(5)) <= 50), 3, 0) + 2147483644
-trans = addalpha
+trans = AddAlpha
 alpha = 255, cond(((AnimElemTime(5)) <= 15), ((((AnimElemTime(5)) - 5) * 25) - 255), 0)
 ignorehitpause = 1
 persistent = 256
@@ -20942,7 +20902,7 @@ pausemovetime = 2147483647
 scale = 0, 1.3
 sprpriority = 2147483645
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20958,7 +20918,7 @@ pausemovetime = 2147483647
 scale = 0, 1.3
 sprpriority = 2147483645
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20975,7 +20935,7 @@ scale = 0.5, 0.5
 sprpriority = 2147483647
 ontop = 1
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -20991,7 +20951,7 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = 2147483647
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21005,7 +20965,7 @@ pausemovetime = 2147483647
 scale = 1, 1
 sprpriority = 2147483645
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21021,12 +20981,14 @@ persistent = 256
 type = AllPalFX
 trigger1 = ((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 11)
 time = 1
+add = (((AnimElemTime(6)) * 25) - 255), (((AnimElemTime(6)) * 25) - 255), (((AnimElemTime(6)) * 25) - 255)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvColor
 trigger1 = (AnimElemTime(6)) > 70
+value = 255, 255, 255
 time = 1
 ignorehitpause = 1
 persistent = 256
@@ -21097,7 +21059,7 @@ pausemovetime = 2147483647
 scale = 2, 2
 ontop = 1
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21114,7 +21076,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = -5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21131,7 +21093,7 @@ pausemovetime = 2147483647
 scale = 0.6, 0.6
 sprpriority = -5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21148,7 +21110,7 @@ pausemovetime = 2147483647
 scale = 1.2, 1.2
 sprpriority = -5
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21165,7 +21127,7 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = -4
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21182,7 +21144,7 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = -4
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21199,7 +21161,7 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = -4
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -21316,7 +21278,7 @@ pausemovetime = 2147483647
 scale = 1.125, 1.125
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -21339,7 +21301,7 @@ pausemovetime = 2147483647
 scale = 0.75, 0.75
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = -105
 ignorehitpause = 1
 persistent = 256
@@ -21356,7 +21318,7 @@ pausemovetime = 2147483647
 scale = 0.3, 2
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = -112
 ignorehitpause = 1
 persistent = 256
@@ -21404,7 +21366,7 @@ persistent = 256
 [State ]
 type = Trans
 trigger1 = ((AnimElemTime(44)) >= 0) && ((AnimElemTime(44)) < 7)
-trans = addalpha
+trans = AddAlpha
 alpha = (((AnimElemTime(44)) * 40) - 255), 255
 ignorehitpause = 1
 persistent = 256
@@ -21514,7 +21476,7 @@ pausemovetime = 2147483647
 scale = 1.125, 1.125
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -21537,7 +21499,7 @@ pausemovetime = 2147483647
 scale = 0.75, 0.75
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = 20
 ignorehitpause = 1
 persistent = 256
@@ -21554,7 +21516,7 @@ pausemovetime = 2147483647
 scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = -15
 ignorehitpause = 1
 persistent = 256
@@ -21656,7 +21618,7 @@ pausemovetime = 2147483647
 scale = 1.125, 1.125
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -21679,7 +21641,7 @@ pausemovetime = 2147483647
 scale = 0.75, 0.75
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = 20
 ignorehitpause = 1
 persistent = 256
@@ -21696,7 +21658,7 @@ pausemovetime = 2147483647
 scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = -70
 ignorehitpause = 1
 persistent = 256
@@ -21798,7 +21760,7 @@ pausemovetime = 2147483647
 scale = 1.125, 1.125
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -21821,7 +21783,7 @@ pausemovetime = 2147483647
 scale = 0.75, 0.75
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = 20
 ignorehitpause = 1
 persistent = 256
@@ -21838,7 +21800,7 @@ pausemovetime = 2147483647
 scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = -15
 ignorehitpause = 1
 persistent = 256
@@ -21940,7 +21902,7 @@ pausemovetime = 2147483647
 scale = 1.125, 1.125
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -21963,7 +21925,7 @@ pausemovetime = 2147483647
 scale = 0.75, 0.75
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = 40
 ignorehitpause = 1
 persistent = 256
@@ -21980,7 +21942,7 @@ pausemovetime = 2147483647
 scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
-trans = add
+trans = Add
 angle = -50
 ignorehitpause = 1
 persistent = 256
@@ -22024,7 +21986,7 @@ pos = (-20), (-60)
 postype = P1
 scale = 0.25, 0.25
 ownpal = 1
-trans = add
+trans = Add
 angle = 180
 ignorehitpause = 1
 persistent = 256
@@ -22038,7 +22000,7 @@ pos = (-10), (-70)
 postype = P1
 scale = 0.25, 0.25
 ownpal = 1
-trans = add
+trans = Add
 angle = 82
 ignorehitpause = 1
 persistent = 256
@@ -22052,7 +22014,7 @@ pos = (-30), (-90)
 postype = P1
 scale = 0.325, 0.325
 ownpal = 1
-trans = add
+trans = Add
 angle = 126
 ignorehitpause = 1
 persistent = 256
@@ -22066,7 +22028,7 @@ pos = (-150), (-30)
 postype = P1
 scale = 0.25, 0.25
 ownpal = 1
-trans = add
+trans = Add
 angle = -75
 ignorehitpause = 1
 persistent = 256
@@ -22080,7 +22042,7 @@ pos = (-150), (-30)
 postype = P1
 scale = 0.325, 0.325
 ownpal = 1
-trans = add
+trans = Add
 angle = -70
 ignorehitpause = 1
 persistent = 256
@@ -22099,7 +22061,7 @@ pausemovetime = 2147483647
 scale = 1.3, 1
 sprpriority = -10000
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -22117,7 +22079,7 @@ pausemovetime = 2147483647
 scale = 1.3, 1
 sprpriority = 10000
 ownpal = 1
-trans = addalpha
+trans = AddAlpha
 alpha = (-128), 255
 ignorehitpause = 1
 persistent = 256
@@ -22133,7 +22095,7 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -22148,7 +22110,7 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 ontop = 1
 ownpal = 1
-trans = sub
+trans = Sub
 ignorehitpause = 1
 persistent = 256
 
@@ -22164,7 +22126,7 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 ontop = 1
 ownpal = 1
-trans = add
+trans = Add
 ignorehitpause = 1
 persistent = 256
 
@@ -22262,21 +22224,18 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(8) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(9) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
@@ -22311,21 +22270,18 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(8) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(9) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
@@ -22360,21 +22316,18 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(8) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-var(9) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
-fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
@@ -22409,7 +22362,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = AnimTime = 0
-var(6) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -22417,335 +22369,6 @@ persistent = 256
 type = VarSet
 trigger1 = AnimTime = 0
 trigger1 = (var(0) := 0) || 1
-var(2) = 10000
-ignorehitpause = 1
-persistent = 256
-
-
-[Statedef 2694492]
-
-[State ]
-type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(2)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(2)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = NotHitBy
-trigger1 = 1
-value = SCA, AA, AT, AP
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = AssertSpecial
-trigger1 = 1
-flag = Invisible
-flag2 = NoShadow
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim2
-trigger1 = 1
-value = 10002
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = DisplayToClipboard
-trigger1 = 1
-text = "Search State = %d Last Anim = %d Last Index = %d"
-params = var(5)), (var(4)), (var(3)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeState
-trigger1 = ((var(5)) = 0) || ((var(5)) = 1)
-trigger1 = (var(5) := 1) || 1
-value = 1014
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeState
-trigger1 = (var(5)) = 4
-value = 1013
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 2
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
-sysvar(0) = (var(4))
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 2
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
-var(5) = 3
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 2
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
-var(5) = 1
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 5
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
-sysvar(1) = (var(4))
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 5
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
-var(5) = 6
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 5
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
-var(5) = 4
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 3
-var(3) = 0
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 3
-var(4) = 0
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(5)) = 3
-var(5) = 4
-ignorehitpause = 1
-persistent = 256
-
-
-[Statedef 1013]
-
-[State ]
-type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(2)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(2)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim2
-trigger1 = 1
-value = (var(3)) + 11100000
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim
-trigger1 = 1
-value = 2694491
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
-var(5) = 8
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = 1
-var(4) = Anim
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarAdd
-trigger1 = 1
-var(3) = 1
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(3)) > 1000
-var(5) = 8
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim2
-trigger1 = 1
-value = 10002
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim
-trigger1 = 1
-value = var(4)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = HitBy
-trigger1 = (var(5)) = 4
-value = C, HT
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = PosSet
-trigger1 = (var(5)) = 4
-x = enemy((enemy,Name != "M-Creirwy")),Pos X
-y = enemy((enemy,Name != "M-Creirwy")),Pos Y
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = Projectile
-trigger1 = (var(5)) = 4
-trigger1 = (var(5) := 5) || 1
-projid = (var(3)) + 11100000
-projanim = sysvar(0)
-projscale = 0, 0
-projremovetime = 3
-projhits = 1
-projpriority = 99999999
-offset = 0, 0
-postype = P2
-supermovetime = 2147483647
-pausemovetime = 2147483647
-attr = C, HT
-hitflag = HLAFD
-affectteam = F
-sparkno = -1
-guard.sparkno = -1
-ignorehitpause = 1
-persistent = 256
-
-
-[Statedef 1014]
-
-[State ]
-type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(2)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(2)
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim2
-trigger1 = 1
-value = (var(3)) + 11100000
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim
-trigger1 = 1
-value = 2694491
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
-var(5) = 7
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = 1
-var(4) = Anim
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarAdd
-trigger1 = 1
-var(3) = 1
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = VarSet
-trigger1 = (var(3)) > 1000
-var(5) = 7
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = ChangeAnim2
-trigger1 = 1
-value = 10002
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = Projectile
-trigger1 = (var(5)) = 1
-trigger1 = (var(5) := 2) || 1
-projid = (var(3)) + 11100000
-projanim = var(4)
-projscale = 0, 0
-projremovetime = 3
-projhits = 1
-projpriority = 99999999
-offset = 0, 0
-postype = P2
-supermovetime = 2147483647
-pausemovetime = 2147483647
-attr = C, HP
-hitflag = HLAFD
-sparkno = -1
-guard.sparkno = -1
 ignorehitpause = 1
 persistent = 256
 
@@ -22787,7 +22410,7 @@ persistent = 256
 [State ]
 type = ReversalDef
 trigger1 = NumTarget
-reversal.attr = SCA, AA, AT, AP
+reversal.attr = SCA, A, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -22817,7 +22440,7 @@ persistent = 256
 [State ]
 type = HitDef
 trigger1 = !NumTarget
-attr = SCA, AA, AT, AP
+attr = SCA, A, AT, AP
 affectteam = F
 ignorehitpause = 1
 persistent = 256
@@ -22846,7 +22469,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = NumTarget
-var(5) = target,ID
 ignorehitpause = 1
 persistent = 256
 
@@ -22964,7 +22586,7 @@ persistent = 256
 [State ]
 type = ReversalDef
 trigger1 = NumTarget
-reversal.attr = SCA, AA, AT, AP
+reversal.attr = SCA, A, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -23400,7 +23022,8 @@ persistent = 256
 type = ReversalDef
 trigger1 = !NumTarget
 trigger1 = ((GameTime % 4) = 2) || ((GameTime % 4) = 3)
-reversal.attr = SCA, AA, AT, AP
+reversal.attr = SCA, A, AT, AP
+hitflag = HLAFD
 sparkno = -1
 guard.sparkno = (-1)
 hitsound = (-1), 0
@@ -23431,7 +23054,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = NumTarget
-var(5) = target,ID
 ignorehitpause = 1
 persistent = 256
 
@@ -24325,7 +23947,6 @@ persistent = 256
 type = VarSet
 trigger1 = !IsHelper
 trigger1 = (var(2)) = 0
-var(2) = 1001
 ignorehitpause = 1
 persistent = 256
 
@@ -24363,7 +23984,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = !IsHelper
-value = SCA, AA, AP, AT
+value = SCA, A, AP, AT
 ignorehitpause = 1
 persistent = 256
 
@@ -24500,7 +24121,6 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = 1
-var(1) = GameTime
 ignorehitpause = 1
 persistent = 256
 
@@ -24546,6 +24166,319 @@ id = 2694492
 stateno = 2694492
 supermovetime = 2147483647
 pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 2694492]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, A, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = DisplayToClipboard
+trigger1 = 1
+text = "Search State = %d Last Anim = %d Last Index = %d"
+params = var(5)), (var(4)), (var(3)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeState
+trigger1 = ((var(5)) = 0) || ((var(5)) = 1)
+trigger1 = (var(5) := 1) || 1
+value = 1014
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeState
+trigger1 = (var(5)) = 4
+value = 1013
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 2
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 2
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 2
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 5
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 5
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 5
+trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 3
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 3
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(5)) = 3
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1013]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = (var(3)) + 11100000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarAdd
+trigger1 = 1
+var(3) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(3)) > 1000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = var(4)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = HitBy
+trigger1 = (var(5)) = 4
+value = C, HT
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = (var(5)) = 4
+x = enemy((enemy,Name != "M-Creirwy")),Pos X
+y = enemy((enemy,Name != "M-Creirwy")),Pos Y
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Projectile
+trigger1 = (var(5)) = 4
+trigger1 = (var(5) := 5) || 1
+projid = (var(3)) + 11100000
+projanim = sysvar(0)
+projscale = 0, 0
+projremovetime = 3
+projhits = 1
+projpriority = 99999999
+offset = 0, 0
+postype = P2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+attr = C, HT
+hitflag = HLAFD
+affectteam = F
+sparkno = -1
+guard.sparkno = -1
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 1014]
+
+[State ]
+type = SelfState
+trigger1 = Name = "M-Creirwy"
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = IsHelper && (root,Name = "M-Creirwy")
+value = var(2)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = (var(3)) + 11100000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarAdd
+trigger1 = 1
+var(3) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (var(3)) > 1000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Projectile
+trigger1 = (var(5)) = 1
+trigger1 = (var(5) := 2) || 1
+projid = (var(3)) + 11100000
+projanim = var(4)
+projscale = 0, 0
+projremovetime = 3
+projhits = 1
+projpriority = 99999999
+offset = 0, 0
+postype = P2
+supermovetime = 2147483647
+pausemovetime = 2147483647
+attr = C, HP
+hitflag = HLAFD
+sparkno = -1
+guard.sparkno = -1
 ignorehitpause = 1
 persistent = 256
 
