@@ -76,7 +76,7 @@ def SpyHelper_Base():
     ## if we've reached a NotFound state, we need to attempt slow anim search.
     ## this is because fast anim search 'only' checks 1k animations.
 
-@statefunc
+@statefunc()
 def Spy_GetNextAnim(fail_state: Expression) -> None:
     ## ChangeAnim2 to one of Creirwy's pre-prepared animations
     ChangeAnim2(value = Spy_AnimTestNumber + 11100000)

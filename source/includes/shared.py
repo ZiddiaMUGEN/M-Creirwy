@@ -8,7 +8,7 @@ from mdk.utils.shared import convert
 from source.includes.variables import TrackedTime # type: ignore
 from source.includes.constants import MC_DEVILS_TARGET_STATE
 
-@statefunc
+@statefunc()
 def SendToDevilsEye():
     """
     Checks if an enemy landed in this state, and redirects to TargetLandingState.
@@ -17,7 +17,7 @@ def SendToDevilsEye():
     if Name != "M-Creirwy" or (IsHelper() and root.Name != "M-Creirwy"): 
         ChangeState(value = MC_DEVILS_TARGET_STATE, ignorehitpause = True, persistent = 256)
 
-@statefunc
+@statefunc()
 def ChangeState_TimeReset(target_state: Expression):
     """
     Performs a ChangeState, while also resetting the value of TrackedTime to 0.
@@ -25,7 +25,7 @@ def ChangeState_TimeReset(target_state: Expression):
     if (TrackedTime := 0) or True: # type: ignore
         ChangeState(value = target_state, ignorehitpause = True, persistent = 256)
 
-@statefunc
+@statefunc()
 def SelfState_TimeReset(target_state: Expression):
     """
     Performs a SelfState, while also resetting the value of TrackedTime to 0.
@@ -33,7 +33,7 @@ def SelfState_TimeReset(target_state: Expression):
     if (TrackedTime := 0) or True: # type: ignore
         SelfState(value = target_state, ignorehitpause = True, persistent = 256)
 
-@statefunc
+@statefunc()
 def SelfState_TimeIncrease(target_state: Expression):
     """
     Performs a SelfState, while also increasing the value of TrackedTime by 1.
@@ -51,7 +51,7 @@ def RandPick(val1: Expression, val2: Expression) -> Expression:
     """Use the Random trigger to select a random value from the two provided values."""
     return Cond(Random % 2 == 1, val1, val2)
 
-@statefunc
+@statefunc()
 def RootVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
     """
     Use Cond-bug with a Null controller to set a value on the root. 
@@ -63,7 +63,7 @@ def RootVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
     if Expression(f"root,Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
         Null()
 
-@statefunc
+@statefunc()
 def TargetVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression, scope: RedirectTarget):
     """
     Use Cond-bug with a Null controller to set a value on a target.
@@ -76,7 +76,7 @@ def TargetVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression, 
     if Expression(f"rescope(target, {scope.__repr__()}),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
         Null()
 
-@statefunc
+@statefunc()
 def CreirwyVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
     """
     Use Cond-bug with a Null controller to set a value on Creirwy's root.

@@ -7,6 +7,7 @@ This is a log of any work I do on the character so I remember what I worked on.
 - work on enum/flag typing in mdk
 - fix typecheck issues in source files
 - convert ImageReproActionType and AnimationSearchStateType to Enum-backed types
+- work on an alternate compilation method (for mutating variables inside blocks)
 
 ### 2025-08-25
 

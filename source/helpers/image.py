@@ -25,7 +25,7 @@ from source.includes.types import ImageReproActionType
 from source.includes.constants import IMAGEREPRO_HELPER_ID, MOONJUMP_HELPER_ID, PAUSETIME_MAX
 from source.includes.shared import SendToDevilsEye, RandRange, RandPick, InRange
 
-@statefunc
+@statefunc()
 def ResetTimeAndSetState(value: ConvertibleExpression):
     """
     Resets the value of TrackedTime to 0 and updates SavedState, but does not trigger a state change.
@@ -33,7 +33,7 @@ def ResetTimeAndSetState(value: ConvertibleExpression):
     if (TrackedTime := 0) or True: # type: ignore
         SavedState.set(value)
 
-@statefunc
+@statefunc()
 def ResetTimeAndChangeState(value: ConvertibleExpression):
     """
     Resets the value of TrackedTime to 0 and updates SavedState, then performs a state change.
@@ -42,7 +42,7 @@ def ResetTimeAndChangeState(value: ConvertibleExpression):
         if (SavedState := value) or True:
             ChangeState(value = SavedState)
 
-@statefunc
+@statefunc()
 def SpawnEnergyAnim(scale: VariableExpression, pos: TupleExpression, postype: ConvertibleExpression):
     """
     Spawns some Explods with anims 30020 and 30021; these are used in several attacks in the same way.
@@ -526,7 +526,7 @@ def ImageRepro_Attack_SlamFloor():
         ImageRepro_MotionState.set(ImageReproActionType.Idle)
         ResetTimeAndSetState(ImageRepro_Base)
 
-@statefunc
+@statefunc()
 def ImageRepro_Attack_ThrowSpikes_SpikeDisplay(index: int):
     """
     Helper function for the ThrowSpikes attack, replacing a group of actual Helpers which we want to eliminate.
@@ -746,7 +746,7 @@ def ImageRepro_Attack_MoonJump():
         #ImageRepro_MotionState.set(ImageReproActionType.Idle)
         ResetTimeAndChangeState(ImageRepro_MoonJump_CrossMoon)
 
-@statefunc
+@statefunc()
 def ImageRepro_MoonJump_DashFrames(id: int, postype: ConvertibleExpression, basepos: tuple[int, int]):
     angle = -45
     vel = (32, 8)
@@ -827,7 +827,7 @@ def ImageRepro_MoonJump_DashFrames(id: int, postype: ConvertibleExpression, base
 
     PlaySnd(value = (10, 30))
 
-@statefunc
+@statefunc()
 def ImageRepro_MoonJump_Trails(id: int, postype: ConvertibleExpression, basepos: tuple[int, int]):
     anim = 3002
     if (id % 2) == 0: anim = 3111
@@ -873,7 +873,7 @@ def ImageRepro_MoonJump_Trails(id: int, postype: ConvertibleExpression, basepos:
         supermovetime = PAUSETIME_MAX
     )
 
-@statefunc
+@statefunc()
 def ImageRepro_MoonJump_BackgroundAnim(id: int, basepos: tuple[int, int]):
     anim = 0
     scale = (1, 1)
@@ -910,7 +910,7 @@ def ImageRepro_MoonJump_BackgroundAnim(id: int, basepos: tuple[int, int]):
         trans = TransType.Add
     )
 
-@statefunc
+@statefunc()
 def ImageRepro_MoonHelper_Flames(pos: TupleExpression):
     Explod(
         anim = 30054,

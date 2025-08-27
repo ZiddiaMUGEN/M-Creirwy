@@ -79,7 +79,7 @@ def Act():
 # just separating out some steps to make the code more readable.
 # these need to use the @statefunc decorator to make sure triggers are translated.
 ##########################################################################################
-@statefunc
+@statefunc()
 def Think_SpawnBaseHelpers():
     """
     Spawns all helpers used by the root (excluding special cases like end-of-round occupancy).
@@ -167,7 +167,7 @@ def Think_SpawnBaseHelpers():
             pausemovetime = PAUSETIME_MAX
         )
 
-@statefunc
+@statefunc()
 def Think_Root():
     """
     Functions for the root which need to run on every frame.
@@ -182,7 +182,7 @@ def Think_Root():
 
     SelfState_TimeIncrease(SavedState) ## goto the saved state, and increase TrackedTime by 1 as well.
 
-@statefunc
+@statefunc()
 def Think_ImageRepro():
     """
     Responsible for spawning the ImageRepro helper and applying its assert/screenbound properties.
@@ -193,7 +193,7 @@ def Think_ImageRepro():
 
     SelfState_TimeIncrease(ImageRepro_Base)
 
-@statefunc
+@statefunc()
 def Think_CrossTalk():
     """
     Responsible for dispatching CT helpers to their main state.
