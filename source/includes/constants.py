@@ -10,6 +10,12 @@ PASSIVE_ANIM = 10002
 SPY_HELPER_ID = MC_DEVILS_TARGET_STATE + 1
 """ID of the Spy helper, which is a normal-type Helper spawned in the enemy context."""
 
+EXPLORER_BUFFER_ID = MC_DEVILS_TARGET_STATE + 2
+"""ID of the Exploration buffer, which is spawned by the Spy helper to create Explorers (and buffer any parent variable tampering)."""
+
+EXPLORER_HELPER_ID = MC_DEVILS_TARGET_STATE + 3
+"""ID of the Exploration helper, which is spawned by the buffer helper to handle state exploration."""
+
 IMAGEREPRO_HELPER_ID = 10000
 """ID of the ImageRepro helper, declared here to avoid having bare numbers in code."""
 
@@ -22,7 +28,7 @@ CROSSTALK_HELPER_ID = 11000
 CROSSTALK_TARGET_ID = 12000
 """ID of the Crosstalk target helpers (used during CT setup)."""
 
-CROSSTALK_HELPER_COUNT = 25
+CROSSTALK_HELPER_COUNT = 24
 """Total number of crosstalk helpers to spawn. Double this should be equal to 56, less the number of other helpers we use."""
 
 MARKING_HELPER_ID = 13000
@@ -39,6 +45,9 @@ the Infiltration helper from doing ParentVarSet while it explores the enemy's st
 
 RECEIVER_HELPER_ID = 15000
 """ID of the Callback Receiver helper."""
+
+STORAGE_HELPER_ID = 16000
+"""ID of the Storage helper."""
 
 OCCUPANCY_HELPER_ID = 18000
 """ID of the Occupancy helpers (which fill space if CT count leaves an uneven count, or in specific situations)."""

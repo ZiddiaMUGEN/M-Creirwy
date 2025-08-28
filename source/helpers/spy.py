@@ -1,13 +1,14 @@
 from mdk.compiler import statedef, statefunc
-from mdk.types import SCOPE_HELPER, HitType, HitAttr, AssertType, HitFlagType, PosType, TeamType, Expression
+from mdk.types import SCOPE_HELPER, HitType, HitAttr, AssertType, HitFlagType, PosType, TeamType, Expression, HelperType
 from mdk.stdlib.redirects import RedirectTarget
 from mdk.stdlib import (
-    SelfState, ChangeAnim2, ChangeAnim, NotHitBy, HitBy, AssertSpecial, Projectile, PosSet,
-    Name, IsHelper, Anim,
+    SelfState, ChangeAnim2, ChangeAnim, NotHitBy, HitBy, AssertSpecial, Projectile, PosSet, Helper,
+    Name, IsHelper, Anim, NumHelper,
     root
 )
 
-from source.includes.constants import SPY_HELPER_ID, PASSIVE_ANIM, PAUSETIME_MAX
+from source.includes.shared import SendToSafeStates
+from source.includes.constants import SPY_HELPER_ID, EXPLORER_BUFFER_ID, PASSIVE_ANIM, PAUSETIME_MAX
 from source.includes.variables import (
     SavedState, 
     Spy_AnimTestNumber, Spy_AnimationSearchState, Spy_SavedClsn1, Spy_SavedClsn2, Spy_LastAnimChecked
@@ -23,20 +24,29 @@ def SpyHelper_Base():
     Entry point for the Spy helper.
     """
     global Spy_AnimationSearchState
+    SendToSafeStates()
 
-    if Name == "M-Creirwy":
-        SelfState(value = SavedState)
-    if IsHelper() and root.Name == "M-Creirwy":
-        SelfState(value = SavedState)
+    ## for debugging.
+    print(f"State = {Spy_AnimationSearchState} CLSN1 = {Spy_SavedClsn1} CLSN2 = {Spy_SavedClsn2}")
 
     ## spy should be untouchable/invisible.
     NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow)
     ChangeAnim2(value = PASSIVE_ANIM)
 
-    print(f"Search State = {Spy_AnimationSearchState} Last Anim = {Spy_LastAnimChecked} Last Index = {Spy_AnimTestNumber}")
+    ## spawn another Helper to run state exploration.
+    ## this goes into a separate Helper as we don't want the Spy's variables to get interfered with.
+    if NumHelper(EXPLORER_BUFFER_ID) == 0:
+        Helper(
+            id = EXPLORER_BUFFER_ID,
+            name = "Exploration Buffer",
+            stateno = EXPLORER_BUFFER_ID,
+            helpertype = HelperType.Normal,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
 
-    ## the first step for investigation will always be animation search.
+    ## the first step for animation investigation will always be animation search.
     ## we can't achieve much until we have at least a Clsn1 anim (and ideally a Clsn2 anim).
     if Spy_AnimationSearchState == AnimationSearchStateType.NotStarted or Spy_AnimationSearchState == AnimationSearchStateType.ReadyClsn1:
         ## start performing animation search
@@ -75,6 +85,7 @@ def SpyHelper_Base():
 
     ## if we've reached a NotFound state, we need to attempt slow anim search.
     ## this is because fast anim search 'only' checks 1k animations.
+    ### TODO: implement slow animation search
 
 @statefunc()
 def Spy_GetNextAnim(fail_state: Expression) -> None:
@@ -104,11 +115,7 @@ def SpyHelper_Clsn2Search():
     Use fast animation search to look for an animation with a hitbox.
     """
     global Spy_AnimationSearchState
-
-    if Name == "M-Creirwy":
-        SelfState(value = SavedState)
-    if IsHelper() and root.Name == "M-Creirwy":
-        SelfState(value = SavedState)
+    SendToSafeStates()
 
     ## run animation search
     Spy_GetNextAnim(AnimationSearchStateType.NotFoundClsn2)
@@ -148,11 +155,7 @@ def SpyHelper_Clsn1Search():
     Use fast animation search to look for an animation with a hurtbox.
     """
     global Spy_AnimationSearchState
-
-    if Name == "M-Creirwy":
-        SelfState(value = SavedState)
-    if IsHelper() and root.Name == "M-Creirwy":
-        SelfState(value = SavedState)
+    SendToSafeStates()
 
     ## run animation search
     Spy_GetNextAnim(AnimationSearchStateType.NotFoundClsn1)

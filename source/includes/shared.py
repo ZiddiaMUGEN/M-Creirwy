@@ -1,12 +1,12 @@
 from mdk.compiler import statefunc, trigger
 from mdk.stdlib import Name, IsHelper, root, ChangeState, SelfState, Random, Cond, Null
-from mdk.types import Expression, ConvertibleExpression, IntType, BoolType
+from mdk.types import Expression, ConvertibleExpression, VariableExpression, TypeSpecifier, IntType, BoolType
 
 from mdk.stdlib.redirects import RedirectTarget
 from mdk.utils.shared import convert
 
-from source.includes.variables import TrackedTime # type: ignore
-from source.includes.constants import MC_DEVILS_TARGET_STATE
+from source.includes.variables import TrackedTime, SavedState # type: ignore
+from source.includes.constants import MC_DEVILS_TARGET_STATE, STORAGE_HELPER_ID
 
 @statefunc()
 def SendToDevilsEye():
@@ -98,3 +98,47 @@ def InRange(test_value: Expression, min: Expression, max: Expression) -> Express
     The range is tested inclusive on the lower end and exclusive on the upper end.
     """
     return test_value >= min and test_value < max
+
+@statefunc()
+def SendToSafeStates():
+    """
+    Execute this from states where we send enemies.
+
+    If the executor belongs to Creirwy's team, selfstate back to their original state.
+    """
+    if Name == "M-Creirwy":
+        SelfState(value = SavedState)
+    if IsHelper() and root.Name == "M-Creirwy":
+        SelfState(value = SavedState)
+
+def ReadStorageVar_Enemy(var_name: VariableExpression, type: TypeSpecifier = IntType) -> Expression:
+    """
+    Use this as a Trigger. Returns a Condbug statement to read the value of a variable in the Storage helper.
+    """
+    return Expression(f"enemy(enemy,Name != \"M-Creirwy\"),Cond(NumHelper({STORAGE_HELPER_ID}), Helper({STORAGE_HELPER_ID}),{var_name.exprn}, 0)", type)
+
+@statefunc()
+def SetStorageVar_Enemy(var_name: ConvertibleExpression, value: ConvertibleExpression):
+    """
+    Use Cond-bug with a Null controller to set a value on Creirwy's Storage helper.
+    This is expected to be run from the enemy's context so that captured enemies can set Creirwy's progress flags.
+    """
+    if not isinstance(var_name, Expression): var_name = convert(var_name)
+    if not isinstance(value, Expression): value = convert(value)
+
+    ## because this is executed from a TARGET scope, no `rescope` operator is required.
+    ## `enemy(xyz)` on TARGET scope is resolved to PLAYER scope.
+    if Expression(f"enemy(enemy,Name != \"M-Creirwy\"),Cond(Helper({STORAGE_HELPER_ID}),Cond({var_name.exprn} := {value.exprn}, true, true)), true, true)", BoolType):
+        Null()
+
+@statefunc()
+def SetStorageVar_Self(var_name: ConvertibleExpression, value: ConvertibleExpression):
+    """
+    Use Cond-bug with a Null controller to set a value on Creirwy's Storage helper.
+    This is expected to be run from Creirwy's team's context so that helpers can set progress flags.
+    """
+    if not isinstance(var_name, Expression): var_name = convert(var_name)
+    if not isinstance(value, Expression): value = convert(value)
+
+    if Expression(f"Helper({STORAGE_HELPER_ID}),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+        Null()

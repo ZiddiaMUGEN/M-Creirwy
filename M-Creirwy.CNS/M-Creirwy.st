@@ -5,7 +5,7 @@
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14,7 +14,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -23,7 +23,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -32,7 +32,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -41,7 +41,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -50,7 +50,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -59,7 +59,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -68,7 +68,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -77,7 +77,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -86,7 +86,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -95,7 +95,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -104,7 +104,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -113,7 +113,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -122,7 +122,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -131,7 +131,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -140,7 +140,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -149,7 +149,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -158,7 +158,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -167,7 +167,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -176,7 +176,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -185,7 +185,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -194,7 +194,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -203,7 +203,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -212,7 +212,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -221,7 +221,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -230,7 +230,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -239,7 +239,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -248,7 +248,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -257,7 +257,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -266,7 +266,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -275,7 +275,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -284,7 +284,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -293,7 +293,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -302,7 +302,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -311,7 +311,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -320,7 +320,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -329,7 +329,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -338,7 +338,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -347,7 +347,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -356,7 +356,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -365,7 +365,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -374,7 +374,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -383,7 +383,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -392,7 +392,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -401,7 +401,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -410,7 +410,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -419,7 +419,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -428,7 +428,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -437,7 +437,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -446,7 +446,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -455,7 +455,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -464,7 +464,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -473,7 +473,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -482,7 +482,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -491,7 +491,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -500,7 +500,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -509,7 +509,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -518,7 +518,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -527,7 +527,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -536,7 +536,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -545,7 +545,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -554,7 +554,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -563,7 +563,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -572,7 +572,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -581,7 +581,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -590,7 +590,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -599,7 +599,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -608,7 +608,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -617,7 +617,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -626,7 +626,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -635,7 +635,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -644,7 +644,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -653,7 +653,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -662,7 +662,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -671,7 +671,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -680,7 +680,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -689,7 +689,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -698,7 +698,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -707,7 +707,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -716,7 +716,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -725,7 +725,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -734,7 +734,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -743,7 +743,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -752,7 +752,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -761,7 +761,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -770,7 +770,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -779,7 +779,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -788,7 +788,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -797,7 +797,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -806,7 +806,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -815,7 +815,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -824,7 +824,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -833,7 +833,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -842,7 +842,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -851,7 +851,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -860,7 +860,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -869,7 +869,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -878,7 +878,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -887,7 +887,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -896,7 +896,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -905,7 +905,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -914,7 +914,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -923,7 +923,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -932,7 +932,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -941,7 +941,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -950,7 +950,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -959,7 +959,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -968,7 +968,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -977,7 +977,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -986,7 +986,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -995,7 +995,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1004,7 +1004,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1013,7 +1013,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1022,7 +1022,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1031,7 +1031,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1040,7 +1040,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1049,7 +1049,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1058,7 +1058,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1067,7 +1067,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1076,7 +1076,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1085,7 +1085,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1094,7 +1094,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1103,7 +1103,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1112,7 +1112,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1121,7 +1121,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1130,7 +1130,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1139,7 +1139,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1148,7 +1148,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1157,7 +1157,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1166,7 +1166,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1175,7 +1175,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1184,7 +1184,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1193,7 +1193,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1202,7 +1202,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1211,7 +1211,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1220,7 +1220,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1229,7 +1229,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1238,7 +1238,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1247,7 +1247,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1256,7 +1256,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1265,7 +1265,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1274,7 +1274,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1283,7 +1283,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1292,7 +1292,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1301,7 +1301,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1310,7 +1310,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1319,7 +1319,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1328,7 +1328,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1337,7 +1337,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1346,7 +1346,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1355,7 +1355,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1364,7 +1364,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1373,7 +1373,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1382,7 +1382,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1391,7 +1391,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1400,7 +1400,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1409,7 +1409,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1418,7 +1418,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1427,7 +1427,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1436,7 +1436,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1445,7 +1445,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1454,7 +1454,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1463,7 +1463,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1472,7 +1472,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1481,7 +1481,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1490,7 +1490,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1499,7 +1499,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1508,7 +1508,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1517,7 +1517,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1526,7 +1526,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1535,7 +1535,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1544,7 +1544,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1553,7 +1553,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1562,7 +1562,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1571,7 +1571,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1580,7 +1580,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1589,7 +1589,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1598,7 +1598,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1607,7 +1607,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1616,7 +1616,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1625,7 +1625,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1634,7 +1634,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1643,7 +1643,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1652,7 +1652,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1661,7 +1661,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1670,7 +1670,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1679,7 +1679,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1688,7 +1688,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1697,7 +1697,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1706,7 +1706,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1715,7 +1715,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1724,7 +1724,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1733,7 +1733,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1742,7 +1742,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1751,7 +1751,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1760,7 +1760,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1769,7 +1769,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1778,7 +1778,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1787,7 +1787,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1796,7 +1796,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1805,7 +1805,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1814,7 +1814,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1823,7 +1823,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1832,7 +1832,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1841,7 +1841,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1850,7 +1850,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1859,7 +1859,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1868,7 +1868,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1877,7 +1877,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1886,7 +1886,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1895,7 +1895,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1904,7 +1904,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1913,7 +1913,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1922,7 +1922,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1931,7 +1931,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1940,7 +1940,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1949,7 +1949,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1958,7 +1958,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1967,7 +1967,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1976,7 +1976,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1985,7 +1985,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -1994,7 +1994,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2003,7 +2003,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2012,7 +2012,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2021,7 +2021,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2030,7 +2030,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2039,7 +2039,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2048,7 +2048,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2057,7 +2057,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2066,7 +2066,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2075,7 +2075,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2084,7 +2084,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2093,7 +2093,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2102,7 +2102,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2111,7 +2111,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2120,7 +2120,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2129,7 +2129,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2138,7 +2138,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2147,7 +2147,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2156,7 +2156,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2165,7 +2165,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2174,7 +2174,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2183,7 +2183,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2192,7 +2192,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2201,7 +2201,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2210,7 +2210,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2219,7 +2219,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2228,7 +2228,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2237,7 +2237,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2246,7 +2246,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2255,7 +2255,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2264,7 +2264,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2273,7 +2273,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2282,7 +2282,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2291,7 +2291,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2300,7 +2300,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2309,7 +2309,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2318,7 +2318,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2327,7 +2327,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2336,7 +2336,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2345,7 +2345,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2354,7 +2354,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2363,7 +2363,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2372,7 +2372,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2381,7 +2381,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2390,7 +2390,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2399,7 +2399,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2408,7 +2408,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2417,7 +2417,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2426,7 +2426,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2435,7 +2435,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2444,7 +2444,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2453,7 +2453,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2462,7 +2462,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2471,7 +2471,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2480,7 +2480,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2489,7 +2489,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2498,7 +2498,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2507,7 +2507,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2516,7 +2516,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2525,7 +2525,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2534,7 +2534,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2543,7 +2543,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2552,7 +2552,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2561,7 +2561,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2570,7 +2570,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2579,7 +2579,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2588,7 +2588,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2597,7 +2597,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2606,7 +2606,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2615,7 +2615,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2624,7 +2624,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2633,7 +2633,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2642,7 +2642,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2651,7 +2651,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2660,7 +2660,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2669,7 +2669,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2678,7 +2678,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2687,7 +2687,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2696,7 +2696,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2705,7 +2705,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2714,7 +2714,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2723,7 +2723,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2732,7 +2732,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2741,7 +2741,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2750,7 +2750,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2759,7 +2759,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2768,7 +2768,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2777,7 +2777,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2786,7 +2786,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2795,7 +2795,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2804,7 +2804,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2813,7 +2813,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2822,7 +2822,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2831,7 +2831,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2840,7 +2840,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2849,7 +2849,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2858,7 +2858,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2867,7 +2867,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2876,7 +2876,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2885,7 +2885,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2894,7 +2894,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2903,7 +2903,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2912,7 +2912,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2921,7 +2921,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2930,7 +2930,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2939,7 +2939,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2948,7 +2948,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2957,7 +2957,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2966,7 +2966,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2975,7 +2975,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2984,7 +2984,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -2993,7 +2993,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3002,7 +3002,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3011,7 +3011,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3020,7 +3020,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3029,7 +3029,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3038,7 +3038,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3047,7 +3047,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3056,7 +3056,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3065,7 +3065,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3074,7 +3074,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3083,7 +3083,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3092,7 +3092,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3101,7 +3101,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3110,7 +3110,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3119,7 +3119,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3128,7 +3128,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3137,7 +3137,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3146,7 +3146,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3155,7 +3155,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3164,7 +3164,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3173,7 +3173,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3182,7 +3182,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3191,7 +3191,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3200,7 +3200,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3209,7 +3209,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3218,7 +3218,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3227,7 +3227,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3236,7 +3236,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3245,7 +3245,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3254,7 +3254,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3263,7 +3263,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3272,7 +3272,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3281,7 +3281,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3290,7 +3290,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3299,7 +3299,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3308,7 +3308,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3317,7 +3317,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3326,7 +3326,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3335,7 +3335,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3344,7 +3344,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3353,7 +3353,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3362,7 +3362,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3371,7 +3371,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3380,7 +3380,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3389,7 +3389,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3398,7 +3398,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3407,7 +3407,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3416,7 +3416,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3425,7 +3425,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3434,7 +3434,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3443,7 +3443,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3452,7 +3452,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3461,7 +3461,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3470,7 +3470,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3479,7 +3479,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3488,7 +3488,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3497,7 +3497,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3506,7 +3506,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3515,7 +3515,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3524,7 +3524,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3533,7 +3533,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3542,7 +3542,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3551,7 +3551,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3560,7 +3560,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3569,7 +3569,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3578,7 +3578,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3587,7 +3587,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3596,7 +3596,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3605,7 +3605,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3614,7 +3614,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3623,7 +3623,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3632,7 +3632,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3641,7 +3641,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3650,7 +3650,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3659,7 +3659,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3668,7 +3668,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3677,7 +3677,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3686,7 +3686,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3695,7 +3695,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3704,7 +3704,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3713,7 +3713,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3722,7 +3722,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3731,7 +3731,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3740,7 +3740,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3749,7 +3749,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3758,7 +3758,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3767,7 +3767,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3776,7 +3776,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3785,7 +3785,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3794,7 +3794,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3803,7 +3803,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3812,7 +3812,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3821,7 +3821,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3830,7 +3830,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3839,7 +3839,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3848,7 +3848,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3857,7 +3857,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3866,7 +3866,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3875,7 +3875,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3884,7 +3884,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3893,7 +3893,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3902,7 +3902,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3911,7 +3911,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3920,7 +3920,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3929,7 +3929,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3938,7 +3938,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3947,7 +3947,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3956,7 +3956,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3965,7 +3965,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3974,7 +3974,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3983,7 +3983,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -3992,7 +3992,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4001,7 +4001,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4010,7 +4010,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4019,7 +4019,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4028,7 +4028,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4037,7 +4037,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4046,7 +4046,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4055,7 +4055,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4064,7 +4064,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4073,7 +4073,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4082,7 +4082,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4091,7 +4091,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4100,7 +4100,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4109,7 +4109,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4118,7 +4118,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4127,7 +4127,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4136,7 +4136,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4145,7 +4145,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4154,7 +4154,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4163,7 +4163,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4172,7 +4172,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4181,7 +4181,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4190,7 +4190,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4199,7 +4199,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4208,7 +4208,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4217,7 +4217,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4226,7 +4226,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4235,7 +4235,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4244,7 +4244,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4253,7 +4253,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4262,7 +4262,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4271,7 +4271,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4280,7 +4280,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4289,7 +4289,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4298,7 +4298,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4307,7 +4307,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4316,7 +4316,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4325,7 +4325,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4334,7 +4334,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4343,7 +4343,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4352,7 +4352,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4361,7 +4361,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4370,7 +4370,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4379,7 +4379,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4388,7 +4388,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4397,7 +4397,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4406,7 +4406,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4415,7 +4415,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4424,7 +4424,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4433,7 +4433,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4442,7 +4442,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4451,7 +4451,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4460,7 +4460,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4469,7 +4469,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4478,7 +4478,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4487,7 +4487,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4496,7 +4496,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4505,7 +4505,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4514,7 +4514,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4523,7 +4523,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4532,7 +4532,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4541,7 +4541,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4550,7 +4550,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4559,7 +4559,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4568,7 +4568,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4577,7 +4577,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4586,7 +4586,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4595,7 +4595,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4604,7 +4604,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4613,7 +4613,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4622,7 +4622,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4631,7 +4631,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4640,7 +4640,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4649,7 +4649,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4658,7 +4658,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4667,7 +4667,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4676,7 +4676,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4685,7 +4685,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4694,7 +4694,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4703,7 +4703,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4712,7 +4712,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4721,7 +4721,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4730,7 +4730,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4739,7 +4739,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4748,7 +4748,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4757,7 +4757,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4766,7 +4766,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4775,7 +4775,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4784,7 +4784,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4793,7 +4793,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4802,7 +4802,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4811,7 +4811,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4820,7 +4820,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4829,7 +4829,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4838,7 +4838,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4847,7 +4847,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4856,7 +4856,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4865,7 +4865,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4874,7 +4874,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4883,7 +4883,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4892,7 +4892,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4901,7 +4901,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4910,7 +4910,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4919,7 +4919,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4928,7 +4928,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4937,7 +4937,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4946,7 +4946,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4955,7 +4955,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4964,7 +4964,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4973,7 +4973,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4982,7 +4982,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -4991,7 +4991,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5000,7 +5000,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5009,7 +5009,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5018,7 +5018,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5027,7 +5027,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5036,7 +5036,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5045,7 +5045,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5054,7 +5054,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5063,7 +5063,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5072,7 +5072,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5081,7 +5081,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5090,7 +5090,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5099,7 +5099,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5108,7 +5108,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5117,7 +5117,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5126,7 +5126,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5135,7 +5135,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5144,7 +5144,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5153,7 +5153,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5162,7 +5162,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5171,7 +5171,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5180,7 +5180,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5189,7 +5189,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5198,7 +5198,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5207,7 +5207,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5216,7 +5216,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5225,7 +5225,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5234,7 +5234,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5243,7 +5243,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5252,7 +5252,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5261,7 +5261,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5270,7 +5270,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5279,7 +5279,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5288,7 +5288,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5297,7 +5297,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5306,7 +5306,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5315,7 +5315,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5324,7 +5324,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5333,7 +5333,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5342,7 +5342,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5351,7 +5351,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5360,7 +5360,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5369,7 +5369,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5378,7 +5378,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5387,7 +5387,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5396,7 +5396,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5405,7 +5405,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5414,7 +5414,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5423,7 +5423,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5432,7 +5432,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5441,7 +5441,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5450,7 +5450,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5459,7 +5459,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5468,7 +5468,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5477,7 +5477,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5486,7 +5486,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5495,7 +5495,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5504,7 +5504,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5513,7 +5513,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5522,7 +5522,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5531,7 +5531,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5540,7 +5540,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5549,7 +5549,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5558,7 +5558,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5567,7 +5567,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5576,7 +5576,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5585,7 +5585,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5594,7 +5594,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5603,7 +5603,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5612,7 +5612,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5621,7 +5621,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5630,7 +5630,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5639,7 +5639,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5648,7 +5648,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5657,7 +5657,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5666,7 +5666,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5675,7 +5675,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5684,7 +5684,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5693,7 +5693,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5702,7 +5702,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5711,7 +5711,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5720,7 +5720,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5729,7 +5729,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5738,7 +5738,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5747,7 +5747,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5756,7 +5756,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5765,7 +5765,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5774,7 +5774,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5783,7 +5783,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5792,7 +5792,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5801,7 +5801,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5810,7 +5810,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5819,7 +5819,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5828,7 +5828,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5837,7 +5837,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5846,7 +5846,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5855,7 +5855,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5864,7 +5864,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5873,7 +5873,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5882,7 +5882,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5891,7 +5891,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5900,7 +5900,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5909,7 +5909,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5918,7 +5918,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5927,7 +5927,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5936,7 +5936,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5945,7 +5945,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5954,7 +5954,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5963,7 +5963,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5972,7 +5972,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5981,7 +5981,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5990,7 +5990,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -5999,7 +5999,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6008,7 +6008,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6017,7 +6017,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6026,7 +6026,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6035,7 +6035,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6044,7 +6044,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6053,7 +6053,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6062,7 +6062,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6071,7 +6071,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6080,7 +6080,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6089,7 +6089,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6098,7 +6098,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6107,7 +6107,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6116,7 +6116,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6125,7 +6125,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6134,7 +6134,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6143,7 +6143,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6152,7 +6152,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6161,7 +6161,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6170,7 +6170,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6179,7 +6179,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6188,7 +6188,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6197,7 +6197,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6206,7 +6206,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6215,7 +6215,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6224,7 +6224,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6233,7 +6233,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6242,7 +6242,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6251,7 +6251,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6260,7 +6260,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6269,7 +6269,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6278,7 +6278,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6287,7 +6287,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6296,7 +6296,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6305,7 +6305,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6314,7 +6314,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6323,7 +6323,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6332,7 +6332,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6341,7 +6341,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6350,7 +6350,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6359,7 +6359,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6368,7 +6368,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6377,7 +6377,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6386,7 +6386,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6395,7 +6395,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6404,7 +6404,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6413,7 +6413,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6422,7 +6422,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6431,7 +6431,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6440,7 +6440,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6449,7 +6449,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6458,7 +6458,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6467,7 +6467,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6476,7 +6476,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6485,7 +6485,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6494,7 +6494,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6503,7 +6503,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6512,7 +6512,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6521,7 +6521,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6530,7 +6530,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6539,7 +6539,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6548,7 +6548,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6557,7 +6557,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6566,7 +6566,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6575,7 +6575,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6584,7 +6584,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6593,7 +6593,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6602,7 +6602,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6611,7 +6611,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6620,7 +6620,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6629,7 +6629,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6638,7 +6638,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6647,7 +6647,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6656,7 +6656,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6665,7 +6665,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6674,7 +6674,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6683,7 +6683,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6692,7 +6692,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6701,7 +6701,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6710,7 +6710,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6719,7 +6719,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6728,7 +6728,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6737,7 +6737,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6746,7 +6746,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6755,7 +6755,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6764,7 +6764,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6773,7 +6773,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6782,7 +6782,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6791,7 +6791,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6800,7 +6800,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6809,7 +6809,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6818,7 +6818,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6827,7 +6827,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6836,7 +6836,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6845,7 +6845,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6854,7 +6854,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6863,7 +6863,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6872,7 +6872,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6881,7 +6881,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6890,7 +6890,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6899,7 +6899,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6908,7 +6908,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6917,7 +6917,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6926,7 +6926,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6935,7 +6935,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6944,7 +6944,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6953,7 +6953,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6962,7 +6962,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6971,7 +6971,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6980,7 +6980,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6989,7 +6989,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -6998,7 +6998,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7007,7 +7007,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7016,7 +7016,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7025,7 +7025,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7034,7 +7034,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7043,7 +7043,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7052,7 +7052,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7061,7 +7061,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7070,7 +7070,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7079,7 +7079,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7088,7 +7088,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7097,7 +7097,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7106,7 +7106,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7115,7 +7115,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7124,7 +7124,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7133,7 +7133,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7142,7 +7142,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7151,7 +7151,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7160,7 +7160,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7169,7 +7169,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7178,7 +7178,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7187,7 +7187,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7196,7 +7196,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7205,7 +7205,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7214,7 +7214,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7223,7 +7223,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7232,7 +7232,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7241,7 +7241,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7250,7 +7250,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7259,7 +7259,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7268,7 +7268,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7277,7 +7277,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7286,7 +7286,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7295,7 +7295,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7304,7 +7304,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7313,7 +7313,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7322,7 +7322,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7331,7 +7331,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7340,7 +7340,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7349,7 +7349,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7358,7 +7358,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7367,7 +7367,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7376,7 +7376,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7385,7 +7385,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7394,7 +7394,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7403,7 +7403,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7412,7 +7412,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7421,7 +7421,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7430,7 +7430,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7439,7 +7439,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7448,7 +7448,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7457,7 +7457,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7466,7 +7466,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7475,7 +7475,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7484,7 +7484,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7493,7 +7493,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7502,7 +7502,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7511,7 +7511,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7520,7 +7520,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7529,7 +7529,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7538,7 +7538,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7547,7 +7547,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7556,7 +7556,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7565,7 +7565,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7574,7 +7574,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7583,7 +7583,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7592,7 +7592,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7601,7 +7601,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7610,7 +7610,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7619,7 +7619,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7628,7 +7628,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7637,7 +7637,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7646,7 +7646,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7655,7 +7655,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7664,7 +7664,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7673,7 +7673,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7682,7 +7682,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7691,7 +7691,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7700,7 +7700,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7709,7 +7709,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7718,7 +7718,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7727,7 +7727,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7736,7 +7736,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7745,7 +7745,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7754,7 +7754,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7763,7 +7763,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7772,7 +7772,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7781,7 +7781,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7790,7 +7790,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7799,7 +7799,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7808,7 +7808,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7817,7 +7817,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7826,7 +7826,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7835,7 +7835,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7844,7 +7844,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7853,7 +7853,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7862,7 +7862,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7871,7 +7871,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7880,7 +7880,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7889,7 +7889,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7898,7 +7898,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7907,7 +7907,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7916,7 +7916,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7925,7 +7925,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7934,7 +7934,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7943,7 +7943,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7952,7 +7952,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7961,7 +7961,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7970,7 +7970,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7979,7 +7979,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7988,7 +7988,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -7997,7 +7997,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8006,7 +8006,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8015,7 +8015,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8024,7 +8024,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8033,7 +8033,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8042,7 +8042,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8051,7 +8051,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8060,7 +8060,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8069,7 +8069,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8078,7 +8078,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8087,7 +8087,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8096,7 +8096,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8105,7 +8105,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8114,7 +8114,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8123,7 +8123,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8132,7 +8132,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8141,7 +8141,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8150,7 +8150,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8159,7 +8159,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8168,7 +8168,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8177,7 +8177,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8186,7 +8186,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8195,7 +8195,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8204,7 +8204,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8213,7 +8213,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8222,7 +8222,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8231,7 +8231,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8240,7 +8240,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8249,7 +8249,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8258,7 +8258,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8267,7 +8267,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8276,7 +8276,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8285,7 +8285,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8294,7 +8294,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8303,7 +8303,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8312,7 +8312,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8321,7 +8321,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8330,7 +8330,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8339,7 +8339,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8348,7 +8348,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8357,7 +8357,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8366,7 +8366,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8375,7 +8375,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8384,7 +8384,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8393,7 +8393,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8402,7 +8402,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8411,7 +8411,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8420,7 +8420,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8429,7 +8429,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8438,7 +8438,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8447,7 +8447,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8456,7 +8456,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8465,7 +8465,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8474,7 +8474,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8483,7 +8483,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8492,7 +8492,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8501,7 +8501,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8510,7 +8510,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8519,7 +8519,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8528,7 +8528,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8537,7 +8537,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8546,7 +8546,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8555,7 +8555,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8564,7 +8564,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8573,7 +8573,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8582,7 +8582,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8591,7 +8591,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8600,7 +8600,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8609,7 +8609,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8618,7 +8618,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8627,7 +8627,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8636,7 +8636,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8645,7 +8645,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8654,7 +8654,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8663,7 +8663,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8672,7 +8672,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8681,7 +8681,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8690,7 +8690,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8699,7 +8699,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8708,7 +8708,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8717,7 +8717,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8726,7 +8726,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8735,7 +8735,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8744,7 +8744,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8753,7 +8753,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8762,7 +8762,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8771,7 +8771,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8780,7 +8780,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8789,7 +8789,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8798,7 +8798,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8807,7 +8807,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8816,7 +8816,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8825,7 +8825,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8834,7 +8834,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8843,7 +8843,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8852,7 +8852,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8861,7 +8861,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8870,7 +8870,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8879,7 +8879,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8888,7 +8888,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8897,7 +8897,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8906,7 +8906,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8915,7 +8915,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8924,7 +8924,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8933,7 +8933,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8942,7 +8942,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8951,7 +8951,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8960,7 +8960,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8969,7 +8969,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8978,7 +8978,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8987,7 +8987,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -8996,7 +8996,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9005,7 +9005,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9014,7 +9014,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9023,7 +9023,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9032,7 +9032,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9041,7 +9041,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9050,7 +9050,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9059,7 +9059,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9068,7 +9068,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9077,16 +9077,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
-ignorehitpause = 1
-
-
-[Statedef 16000]
-
-[State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9095,16 +9086,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
-value = 2694491
-ignorehitpause = 1
-
-
-[Statedef 18000]
-
-[State ]
-type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9113,7 +9095,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9122,7 +9104,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9131,7 +9113,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9140,7 +9122,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9149,7 +9131,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9158,7 +9140,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9167,7 +9149,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9176,7 +9158,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9185,7 +9167,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9194,7 +9176,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9203,7 +9185,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9212,7 +9194,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9221,7 +9203,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9230,7 +9212,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9239,7 +9221,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9248,7 +9230,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9257,7 +9239,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9266,7 +9248,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9275,7 +9257,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9284,7 +9266,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9293,7 +9275,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9302,7 +9284,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9311,7 +9293,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9320,7 +9302,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9329,7 +9311,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9338,7 +9320,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9347,7 +9329,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9356,7 +9338,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9365,7 +9347,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9374,7 +9356,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9383,7 +9365,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9392,7 +9374,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9401,7 +9383,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9410,7 +9392,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9419,7 +9401,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9428,7 +9410,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9437,7 +9419,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9446,7 +9428,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9455,7 +9437,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9464,7 +9446,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9473,7 +9455,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9482,7 +9464,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9491,7 +9473,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9500,7 +9482,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9509,7 +9491,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9518,7 +9500,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9527,7 +9509,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9536,7 +9518,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9545,7 +9527,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9554,7 +9536,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9563,7 +9545,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9572,7 +9554,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9581,7 +9563,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9590,7 +9572,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9599,7 +9581,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9608,7 +9590,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9617,7 +9599,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9626,7 +9608,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9635,7 +9617,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9644,7 +9626,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9653,7 +9635,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9662,7 +9644,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9671,7 +9653,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9680,7 +9662,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9689,7 +9671,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9698,7 +9680,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9707,7 +9689,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9716,7 +9698,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9725,7 +9707,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9734,7 +9716,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9743,7 +9725,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9752,7 +9734,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9761,7 +9743,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9770,7 +9752,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9779,7 +9761,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9788,7 +9770,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9797,7 +9779,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9806,7 +9788,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9815,7 +9797,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9824,7 +9806,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9833,7 +9815,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9842,7 +9824,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9851,7 +9833,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9860,7 +9842,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9869,7 +9851,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9878,7 +9860,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9887,7 +9869,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9896,7 +9878,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9905,7 +9887,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9914,7 +9896,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9923,7 +9905,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9932,7 +9914,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9941,7 +9923,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9950,7 +9932,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9959,7 +9941,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9968,7 +9950,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9977,7 +9959,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9986,7 +9968,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -9995,7 +9977,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10004,7 +9986,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10013,7 +9995,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10022,7 +10004,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10031,7 +10013,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10040,7 +10022,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10049,7 +10031,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10058,7 +10040,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10067,7 +10049,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10076,7 +10058,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10085,7 +10067,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10094,7 +10076,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10103,7 +10085,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10112,7 +10094,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10121,7 +10103,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10130,7 +10112,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10139,7 +10121,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10148,7 +10130,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10157,7 +10139,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10166,7 +10148,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10175,7 +10157,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10184,7 +10166,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10193,7 +10175,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10202,7 +10184,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10211,7 +10193,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10220,7 +10202,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10229,7 +10211,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10238,7 +10220,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10247,7 +10229,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10256,7 +10238,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10265,7 +10247,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10274,7 +10256,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10283,7 +10265,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10292,7 +10274,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10301,7 +10283,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10310,7 +10292,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10319,7 +10301,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10328,7 +10310,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10337,7 +10319,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10346,7 +10328,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10355,7 +10337,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10364,7 +10346,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10373,7 +10355,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10382,7 +10364,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10391,7 +10373,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10400,7 +10382,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10409,7 +10391,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10418,7 +10400,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10427,7 +10409,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10436,7 +10418,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10445,7 +10427,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10454,7 +10436,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10463,7 +10445,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10472,7 +10454,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10481,7 +10463,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10490,7 +10472,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10499,7 +10481,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10508,7 +10490,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10517,7 +10499,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10526,7 +10508,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10535,7 +10517,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10544,7 +10526,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10553,7 +10535,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10562,7 +10544,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10571,7 +10553,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10580,7 +10562,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10589,7 +10571,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10598,7 +10580,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10607,7 +10589,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10616,7 +10598,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10625,7 +10607,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10634,7 +10616,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10643,7 +10625,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10652,7 +10634,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10661,7 +10643,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10670,7 +10652,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10679,7 +10661,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10688,7 +10670,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10697,7 +10679,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10706,7 +10688,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10715,7 +10697,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10724,7 +10706,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10733,7 +10715,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10742,7 +10724,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10751,7 +10733,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10760,7 +10742,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10769,7 +10751,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10778,7 +10760,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10787,7 +10769,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10796,7 +10778,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10805,7 +10787,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10814,7 +10796,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10823,7 +10805,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10832,7 +10814,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10841,7 +10823,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10850,7 +10832,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10859,7 +10841,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10868,7 +10850,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10877,7 +10859,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10886,7 +10868,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10895,7 +10877,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10904,7 +10886,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10913,7 +10895,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10922,7 +10904,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10931,7 +10913,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10940,7 +10922,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10949,7 +10931,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10958,7 +10940,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10967,7 +10949,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10976,7 +10958,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10985,7 +10967,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -10994,7 +10976,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11003,7 +10985,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11012,7 +10994,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11021,7 +11003,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11030,7 +11012,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11039,7 +11021,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11048,7 +11030,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11057,7 +11039,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11066,7 +11048,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11075,7 +11057,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11084,7 +11066,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11093,7 +11075,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11102,7 +11084,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11111,7 +11093,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11120,7 +11102,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11129,7 +11111,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11138,7 +11120,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11147,7 +11129,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11156,7 +11138,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11165,7 +11147,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11174,7 +11156,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11183,7 +11165,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11192,7 +11174,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11201,7 +11183,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11210,7 +11192,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11219,7 +11201,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11228,7 +11210,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11237,7 +11219,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11246,7 +11228,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11255,7 +11237,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11264,7 +11246,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11273,7 +11255,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11282,7 +11264,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11291,7 +11273,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11300,7 +11282,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11309,7 +11291,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11318,7 +11300,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11327,7 +11309,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11336,7 +11318,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11345,7 +11327,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11354,7 +11336,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11363,7 +11345,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11372,7 +11354,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11381,7 +11363,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11390,7 +11372,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11399,7 +11381,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11408,7 +11390,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11417,7 +11399,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11426,7 +11408,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11435,7 +11417,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11444,7 +11426,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11453,7 +11435,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11462,7 +11444,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11471,7 +11453,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11480,7 +11462,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11489,7 +11471,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11498,7 +11480,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11507,7 +11489,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11516,7 +11498,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11525,7 +11507,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11534,7 +11516,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11543,7 +11525,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11552,7 +11534,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11561,7 +11543,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11570,7 +11552,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11579,7 +11561,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11588,7 +11570,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11597,7 +11579,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11606,7 +11588,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11615,7 +11597,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11624,7 +11606,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11633,7 +11615,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11642,7 +11624,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11651,7 +11633,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11660,7 +11642,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11669,7 +11651,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11678,7 +11660,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11687,7 +11669,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11696,7 +11678,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11705,7 +11687,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11714,7 +11696,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11723,7 +11705,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11732,7 +11714,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11741,7 +11723,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11750,7 +11732,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11759,7 +11741,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11768,7 +11750,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11777,7 +11759,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11786,7 +11768,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11795,7 +11777,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11804,7 +11786,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11813,7 +11795,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11822,7 +11804,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11831,7 +11813,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11840,7 +11822,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11849,7 +11831,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11858,7 +11840,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11867,7 +11849,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11876,7 +11858,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11885,7 +11867,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11894,7 +11876,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11903,7 +11885,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11912,7 +11894,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11921,7 +11903,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11930,7 +11912,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11939,7 +11921,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11948,7 +11930,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11957,7 +11939,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11966,7 +11948,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11975,7 +11957,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11984,7 +11966,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -11993,7 +11975,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12002,7 +11984,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12011,7 +11993,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12020,7 +12002,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12029,7 +12011,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12038,7 +12020,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12047,7 +12029,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12056,7 +12038,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12065,7 +12047,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12074,7 +12056,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12083,7 +12065,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12092,7 +12074,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12101,7 +12083,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12110,7 +12092,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12119,7 +12101,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12128,7 +12110,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12137,7 +12119,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12146,7 +12128,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12155,7 +12137,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12164,7 +12146,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12173,7 +12155,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12182,7 +12164,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12191,7 +12173,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12200,7 +12182,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12209,7 +12191,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12218,7 +12200,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12227,7 +12209,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12236,7 +12218,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12245,7 +12227,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12254,7 +12236,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12263,7 +12245,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12272,7 +12254,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12281,7 +12263,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12290,7 +12272,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12299,7 +12281,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12308,7 +12290,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12317,7 +12299,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12326,7 +12308,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12335,7 +12317,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12344,7 +12326,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12353,7 +12335,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12362,7 +12344,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12371,7 +12353,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12380,7 +12362,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12389,7 +12371,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12398,7 +12380,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12407,7 +12389,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12416,7 +12398,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12425,7 +12407,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12434,7 +12416,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12443,7 +12425,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12452,7 +12434,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12461,7 +12443,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12470,7 +12452,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12479,7 +12461,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12488,7 +12470,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12497,7 +12479,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12506,7 +12488,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12515,7 +12497,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12524,7 +12506,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12533,7 +12515,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12542,7 +12524,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12551,7 +12533,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12560,7 +12542,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12569,7 +12551,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12578,7 +12560,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12587,7 +12569,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12596,7 +12578,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12605,7 +12587,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12614,7 +12596,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12623,7 +12605,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12632,7 +12614,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12641,7 +12623,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12650,7 +12632,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12659,7 +12641,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12668,7 +12650,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12677,7 +12659,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12686,7 +12668,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12695,7 +12677,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12704,7 +12686,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12713,7 +12695,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12722,7 +12704,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12731,7 +12713,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12740,7 +12722,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12749,7 +12731,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12758,7 +12740,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12767,7 +12749,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12776,7 +12758,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12785,7 +12767,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12794,7 +12776,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12803,7 +12785,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12812,7 +12794,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12821,7 +12803,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12830,7 +12812,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12839,7 +12821,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12848,7 +12830,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12857,7 +12839,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12866,7 +12848,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12875,7 +12857,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12884,7 +12866,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12893,7 +12875,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12902,7 +12884,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12911,7 +12893,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12920,7 +12902,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12929,7 +12911,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12938,7 +12920,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12947,7 +12929,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12956,7 +12938,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12965,7 +12947,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12974,7 +12956,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12983,7 +12965,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -12992,7 +12974,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13001,7 +12983,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13010,7 +12992,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13019,7 +13001,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13028,7 +13010,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13037,7 +13019,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13046,7 +13028,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13055,7 +13037,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13064,7 +13046,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13073,7 +13055,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13082,7 +13064,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13091,7 +13073,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13100,7 +13082,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13109,7 +13091,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13118,7 +13100,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13127,7 +13109,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13136,7 +13118,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13145,7 +13127,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13154,7 +13136,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13163,7 +13145,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13172,7 +13154,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13181,7 +13163,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13190,7 +13172,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13199,7 +13181,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13208,7 +13190,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13217,7 +13199,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13226,7 +13208,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13235,7 +13217,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13244,7 +13226,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13253,7 +13235,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13262,7 +13244,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13271,7 +13253,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13280,7 +13262,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13289,7 +13271,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13298,7 +13280,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13307,7 +13289,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13316,7 +13298,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13325,7 +13307,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13334,7 +13316,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13343,7 +13325,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13352,7 +13334,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13361,7 +13343,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13370,7 +13352,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13379,7 +13361,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13388,7 +13370,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13397,7 +13379,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13406,7 +13388,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13415,7 +13397,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13424,7 +13406,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13433,7 +13415,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13442,7 +13424,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13451,7 +13433,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13460,7 +13442,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13469,7 +13451,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13478,7 +13460,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13487,7 +13469,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13496,7 +13478,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13505,7 +13487,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13514,7 +13496,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13523,7 +13505,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13532,7 +13514,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13541,7 +13523,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13550,7 +13532,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13559,7 +13541,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13568,7 +13550,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13577,7 +13559,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13586,7 +13568,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13595,7 +13577,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13604,7 +13586,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13613,7 +13595,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13622,7 +13604,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13631,7 +13613,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13640,7 +13622,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13649,7 +13631,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13658,7 +13640,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13667,7 +13649,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13676,7 +13658,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13685,7 +13667,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13694,7 +13676,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13703,7 +13685,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13712,7 +13694,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13721,7 +13703,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13730,7 +13712,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13739,7 +13721,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13748,7 +13730,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13757,7 +13739,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13766,7 +13748,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13775,7 +13757,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13784,7 +13766,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13793,7 +13775,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13802,7 +13784,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13811,7 +13793,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13820,7 +13802,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13829,7 +13811,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13838,7 +13820,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13847,7 +13829,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13856,7 +13838,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13865,7 +13847,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13874,7 +13856,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13883,7 +13865,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13892,7 +13874,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13901,7 +13883,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13910,7 +13892,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13919,7 +13901,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13928,7 +13910,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13937,7 +13919,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13946,7 +13928,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13955,7 +13937,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13964,7 +13946,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13973,7 +13955,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13982,7 +13964,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -13991,7 +13973,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14000,7 +13982,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14009,7 +13991,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14018,7 +14000,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14027,7 +14009,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14036,7 +14018,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14045,7 +14027,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14054,7 +14036,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14063,7 +14045,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14072,7 +14054,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14081,7 +14063,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14090,7 +14072,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14099,7 +14081,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14108,7 +14090,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14117,7 +14099,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14126,7 +14108,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14135,7 +14117,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14144,7 +14126,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14153,7 +14135,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14162,7 +14144,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14171,7 +14153,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14180,7 +14162,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14189,7 +14171,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14198,7 +14180,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14207,7 +14189,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14216,7 +14198,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14225,7 +14207,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14234,7 +14216,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14243,7 +14225,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14252,7 +14234,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14261,7 +14243,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14270,7 +14252,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14279,7 +14261,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14288,7 +14270,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14297,7 +14279,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14306,7 +14288,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14315,7 +14297,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14324,7 +14306,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14333,7 +14315,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14342,7 +14324,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14351,7 +14333,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14360,7 +14342,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14369,7 +14351,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14378,7 +14360,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14387,7 +14369,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14396,7 +14378,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14405,7 +14387,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14414,7 +14396,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14423,7 +14405,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14432,7 +14414,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14441,7 +14423,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14450,7 +14432,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14459,7 +14441,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14468,7 +14450,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14477,7 +14459,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14486,7 +14468,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14495,7 +14477,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14504,7 +14486,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14513,7 +14495,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14522,7 +14504,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14531,7 +14513,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14540,7 +14522,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14549,7 +14531,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14558,7 +14540,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14567,7 +14549,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14576,7 +14558,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14585,7 +14567,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14594,7 +14576,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14603,7 +14585,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14612,7 +14594,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14621,7 +14603,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14630,7 +14612,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14639,7 +14621,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14648,7 +14630,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14657,7 +14639,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14666,7 +14648,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14675,7 +14657,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14684,7 +14666,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14693,7 +14675,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14702,7 +14684,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14711,7 +14693,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14720,7 +14702,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14729,7 +14711,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14738,7 +14720,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14747,7 +14729,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14756,7 +14738,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14765,7 +14747,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14774,7 +14756,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14783,7 +14765,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14792,7 +14774,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14801,7 +14783,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14810,7 +14792,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14819,7 +14801,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14828,7 +14810,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14837,7 +14819,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14846,7 +14828,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14855,7 +14837,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14864,7 +14846,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14873,7 +14855,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14882,7 +14864,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14891,7 +14873,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14900,7 +14882,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14909,7 +14891,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14918,7 +14900,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14927,7 +14909,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14936,7 +14918,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14945,7 +14927,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14954,7 +14936,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14963,7 +14945,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14972,7 +14954,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14981,7 +14963,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14990,7 +14972,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -14999,7 +14981,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15008,7 +14990,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15017,7 +14999,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15026,7 +15008,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15035,7 +15017,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15044,7 +15026,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15053,7 +15035,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15062,7 +15044,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15071,7 +15053,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15080,7 +15062,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15089,7 +15071,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15098,7 +15080,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15107,7 +15089,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15116,7 +15098,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15125,7 +15107,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15134,7 +15116,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15143,7 +15125,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15152,7 +15134,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15161,7 +15143,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15170,7 +15152,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15179,7 +15161,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15188,7 +15170,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15197,7 +15179,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15206,7 +15188,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15215,7 +15197,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15224,7 +15206,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15233,7 +15215,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15242,7 +15224,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15251,7 +15233,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15260,7 +15242,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15269,7 +15251,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15278,7 +15260,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15287,7 +15269,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15296,7 +15278,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15305,7 +15287,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15314,7 +15296,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15323,7 +15305,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15332,7 +15314,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15341,7 +15323,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15350,7 +15332,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15359,7 +15341,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15368,7 +15350,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15377,7 +15359,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15386,7 +15368,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15395,7 +15377,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15404,7 +15386,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15413,7 +15395,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15422,7 +15404,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15431,7 +15413,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15440,7 +15422,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15449,7 +15431,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15458,7 +15440,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15467,7 +15449,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15476,7 +15458,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15485,7 +15467,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15494,7 +15476,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15503,7 +15485,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15512,7 +15494,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15521,7 +15503,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15530,7 +15512,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15539,7 +15521,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15548,7 +15530,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15557,7 +15539,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15566,7 +15548,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15575,7 +15557,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15584,7 +15566,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15593,7 +15575,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15602,7 +15584,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15611,7 +15593,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15620,7 +15602,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15629,7 +15611,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15638,7 +15620,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15647,7 +15629,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15656,7 +15638,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15665,7 +15647,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15674,7 +15656,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15683,7 +15665,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15692,7 +15674,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15701,7 +15683,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15710,7 +15692,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15719,7 +15701,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15728,7 +15710,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15737,7 +15719,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15746,7 +15728,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15755,7 +15737,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15764,7 +15746,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15773,7 +15755,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15782,7 +15764,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15791,7 +15773,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15800,7 +15782,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15809,7 +15791,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15818,7 +15800,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15827,7 +15809,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15836,7 +15818,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15845,7 +15827,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15854,7 +15836,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15863,7 +15845,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15872,7 +15854,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15881,7 +15863,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15890,7 +15872,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15899,7 +15881,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15908,7 +15890,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15917,7 +15899,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15926,7 +15908,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15935,7 +15917,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15944,7 +15926,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15953,7 +15935,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15962,7 +15944,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15971,7 +15953,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15980,7 +15962,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15989,7 +15971,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -15998,7 +15980,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16007,7 +15989,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16016,7 +15998,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16025,7 +16007,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16034,7 +16016,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16043,7 +16025,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16052,7 +16034,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16061,7 +16043,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16070,7 +16052,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16079,7 +16061,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16088,7 +16070,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16097,7 +16079,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16106,7 +16088,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16115,7 +16097,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16124,7 +16106,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16133,7 +16115,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16142,7 +16124,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16151,7 +16133,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16160,7 +16142,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16169,7 +16151,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16178,7 +16160,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16187,7 +16169,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16196,7 +16178,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16205,7 +16187,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16214,7 +16196,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16223,7 +16205,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16232,7 +16214,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16241,7 +16223,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16250,7 +16232,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16259,7 +16241,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16268,7 +16250,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16277,7 +16259,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16286,7 +16268,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16295,7 +16277,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16304,7 +16286,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16313,7 +16295,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16322,7 +16304,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16331,7 +16313,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16340,7 +16322,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16349,7 +16331,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16358,7 +16340,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16367,7 +16349,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16376,7 +16358,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16385,7 +16367,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16394,7 +16376,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16403,7 +16385,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16412,7 +16394,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16421,7 +16403,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16430,7 +16412,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16439,7 +16421,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16448,7 +16430,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16457,7 +16439,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16466,7 +16448,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16475,7 +16457,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16484,7 +16466,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16493,7 +16475,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16502,7 +16484,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16511,7 +16493,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16520,7 +16502,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16529,7 +16511,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16538,7 +16520,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16547,7 +16529,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16556,7 +16538,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16565,7 +16547,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16574,7 +16556,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16583,7 +16565,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16592,7 +16574,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16601,7 +16583,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16610,7 +16592,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16619,7 +16601,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16628,7 +16610,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16637,7 +16619,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16646,7 +16628,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16655,7 +16637,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16664,7 +16646,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16673,7 +16655,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16682,7 +16664,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16691,7 +16673,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16700,7 +16682,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16709,7 +16691,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16718,7 +16700,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16727,7 +16709,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16736,7 +16718,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16745,7 +16727,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16754,7 +16736,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16763,7 +16745,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16772,7 +16754,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16781,7 +16763,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16790,7 +16772,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16799,7 +16781,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16808,7 +16790,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16817,7 +16799,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16826,7 +16808,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16835,7 +16817,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16844,7 +16826,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16853,7 +16835,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16862,7 +16844,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16871,7 +16853,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16880,7 +16862,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16889,7 +16871,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16898,7 +16880,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16907,7 +16889,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16916,7 +16898,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16925,7 +16907,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16934,7 +16916,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16943,7 +16925,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16952,7 +16934,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16961,7 +16943,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16970,7 +16952,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16979,7 +16961,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16988,7 +16970,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -16997,7 +16979,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17006,7 +16988,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17015,7 +16997,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17024,7 +17006,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17033,7 +17015,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17042,7 +17024,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17051,7 +17033,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17060,7 +17042,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17069,7 +17051,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17078,7 +17060,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17087,7 +17069,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17096,7 +17078,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17105,7 +17087,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17114,7 +17096,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17123,7 +17105,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17132,7 +17114,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17141,7 +17123,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17150,7 +17132,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17159,7 +17141,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17168,7 +17150,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17177,7 +17159,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17186,7 +17168,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17195,7 +17177,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17204,7 +17186,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17213,7 +17195,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17222,7 +17204,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17231,7 +17213,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17240,7 +17222,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17249,7 +17231,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17258,7 +17240,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17267,7 +17249,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17276,7 +17258,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17285,7 +17267,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17294,7 +17276,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17303,7 +17285,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17312,7 +17294,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17321,7 +17303,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17330,7 +17312,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17339,7 +17321,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17348,7 +17330,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17357,7 +17339,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17366,7 +17348,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17375,7 +17357,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17384,7 +17366,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17393,7 +17375,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17402,7 +17384,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17411,7 +17393,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17420,7 +17402,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17429,7 +17411,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17438,7 +17420,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17447,7 +17429,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17456,7 +17438,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17465,7 +17447,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17474,7 +17456,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17483,7 +17465,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17492,7 +17474,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17501,7 +17483,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17510,7 +17492,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17519,7 +17501,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17528,7 +17510,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17537,7 +17519,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17546,7 +17528,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17555,7 +17537,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17564,7 +17546,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17573,7 +17555,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17582,7 +17564,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17591,7 +17573,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17600,7 +17582,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17609,7 +17591,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17618,7 +17600,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17627,7 +17609,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17636,7 +17618,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17645,7 +17627,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17654,7 +17636,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17663,7 +17645,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17672,7 +17654,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17681,7 +17663,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17690,7 +17672,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17699,7 +17681,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17708,7 +17690,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17717,7 +17699,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17726,7 +17708,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17735,7 +17717,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17744,7 +17726,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17753,7 +17735,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17762,7 +17744,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17771,7 +17753,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17780,7 +17762,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17789,7 +17771,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17798,7 +17780,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17807,7 +17789,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17816,7 +17798,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17825,7 +17807,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17834,7 +17816,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17843,7 +17825,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17852,7 +17834,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17861,7 +17843,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17870,7 +17852,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17879,7 +17861,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17888,7 +17870,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17897,7 +17879,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17906,7 +17888,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17915,7 +17897,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 
@@ -17924,7 +17906,7 @@ ignorehitpause = 1
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -17937,7 +17919,7 @@ physics = U
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -17951,184 +17933,200 @@ persistent = 256
 
 [State ]
 type = Turn
-trigger1 = ((Facing = 1) && (enemy,Pos X < Pos X)) || ((Facing = (-1)) && (enemy,Pos X > Pos X))
+trigger1 = (((Facing = 1) && (enemy,Pos X < Pos X)) || ((Facing = (-1)) && (enemy,Pos X > Pos X)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (var(7)) != 3
+trigger1 = ((var(7)) != 3)
 y = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = (var(7)) != 3
+trigger1 = ((var(7)) != 3)
 y = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = !(var(6) & 1)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (!(var(6) & 1))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1003
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = !(var(6) & 1)
+trigger1 = (!(var(6) & 1))
+var(6) = ((((1) & 1) * 1) + (var(6) & -2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 0
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 0)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1005
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 0
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 0)
+var(7) = 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+var(9) = Random
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = (var(8)) = (floor(((var(9)) / 120)))
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = ((var(8)) = (floor(((var(9)) / 120))))
+var(9) = (((var(9)) + 120) % 1000)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+var(8) = (floor(((var(9)) / 120)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 0) && ((var(9)) < 120)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 0) && ((var(9)) < 120))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 120) && ((var(9)) < 240)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 120) && ((var(9)) < 240))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1008
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 240) && ((var(9)) < 360)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 240) && ((var(9)) < 360))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1009
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 360) && ((var(9)) < 480)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 360) && ((var(9)) < 480))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1010
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 480) && ((var(9)) < 600)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 480) && ((var(9)) < 600))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1011
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 600) && ((var(9)) < 720)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 600) && ((var(9)) < 720))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = ((var(9)) >= 720) && ((var(9)) < 840)
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = (((var(9)) >= 720) && ((var(9)) < 840))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
-trigger1 = (var(9)) >= 840
-trigger1 = (var(0) := 0) || 1
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+trigger1 = ((var(9)) >= 840)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 1007
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = RoundState = 2
-trigger1 = (var(7)) = 2
+trigger1 = (RoundState = 2)
+trigger1 = ((var(7)) = 2)
+var(7) = 3
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(2)) != 1012) && (NumExplod(13020))
+trigger1 = (((var(2)) != 1012) && (NumExplod(13020)))
 id = 13020
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(2)) != 1012) && (NumExplod(13021))
+trigger1 = (((var(2)) != 1012) && (NumExplod(13021)))
 id = 13021
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(2)) != 1012) && (NumExplod(13022))
+trigger1 = (((var(2)) != 1012) && (NumExplod(13022)))
 id = 13022
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(2)) != 1012) && (NumExplod(13023))
+trigger1 = (((var(2)) != 1012) && (NumExplod(13023)))
 id = 13023
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = ((var(2)) != 1012) && (NumExplod(13024))
+trigger1 = (((var(2)) != 1012) && (NumExplod(13024)))
 id = 13024
 ignorehitpause = 1
 persistent = 256
@@ -18136,7 +18134,7 @@ persistent = 256
 [State ]
 type = ChangeState
 trigger1 = 1
-value = var(2)
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
@@ -18149,39 +18147,42 @@ sprpriority = 3
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 0
+trigger1 = (Anim != 0)
 value = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
+var(9) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
+var(10) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
 anim = 30020
 pos = (var(9)), (var(10))
 postype = P1
@@ -18198,7 +18199,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
 anim = 30021
 pos = (var(9)), (var(10))
 postype = P1
@@ -18215,25 +18216,28 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
+var(9) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
+var(10) = ((-55) + (Random % ((-35) - (-55))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
 anim = 30020
 pos = (var(9)), (var(10))
 postype = P1
@@ -18250,7 +18254,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 6) && ((GameTime % 3) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 3) = 0))
 anim = 30021
 pos = (var(9)), (var(10))
 postype = P1
@@ -18267,25 +18271,28 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 6) = 0))
+var(9) = ((-125) + (Random % ((-25) - (-125))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 6) = 0))
+var(10) = ((-65) + (Random % ((-45) - (-65))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 6) = 0))
+fvar(0) = (((Random % 5) * 0.01) + 0.05)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 6) && ((GameTime % 6) = 0)
+trigger1 = (((var(0)) >= 6) && ((GameTime % 6) = 0))
 anim = 30022
 pos = (var(9)), (var(10))
 postype = P1
@@ -18308,7 +18315,7 @@ physics = U
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -18322,17 +18329,17 @@ persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 190
+trigger1 = (Anim != 190)
 value = 190
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = (var(0)) >= 180
-trigger1 = (var(0) := 0) || 1
-trigger1 = (var(2) := 1004) || 1
-value = var(2)
+trigger1 = ((var(0)) >= 180)
+trigger1 = ((var(0) := 0) || 1)
+trigger1 = ((var(2) := 1004) || 1)
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
@@ -18344,7 +18351,7 @@ physics = U
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -18358,21 +18365,21 @@ persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = (RoundState = 1) && (Anim != 193)
+trigger1 = ((RoundState = 1) && (Anim != 193))
 value = 193
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (RoundState = 1) && ((var(0)) = 0)
+trigger1 = ((RoundState = 1) && ((var(0)) = 0))
 value = 180, (Random % 3)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((NumExplod(191)) = 0) && ((AnimElemTime(4)) = 0)) && (Anim = 193)
+trigger1 = ((((NumExplod(191)) = 0) && ((AnimElemTime(4)) = 0)) && (Anim = 193))
 anim = 191
 id = 191
 pos = 0, 0
@@ -18386,7 +18393,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((NumExplod(192)) = 0) && ((AnimElemTime(4)) = 0)) && (Anim = 193)
+trigger1 = ((((NumExplod(192)) = 0) && ((AnimElemTime(4)) = 0)) && (Anim = 193))
 anim = 192
 id = 192
 pos = 0, 0
@@ -18400,10 +18407,10 @@ persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
-trigger1 = (var(2) := 1002) || 1
-value = var(2)
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+trigger1 = ((var(2) := 1002) || 1)
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
@@ -18415,31 +18422,31 @@ physics = N
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 270
+trigger1 = (Anim != 270)
 value = 270
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = ((var(0)) = 0) || (Vel X = 0)
+trigger1 = (((var(0)) = 0) || (Vel X = 0))
 x = 6.8
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = ((abs((Pos X - enemy,Pos X))) <= 60) || (FrontEdgeDist <= 70)
-trigger1 = (var(0) := 0) || 1
-trigger1 = (var(2) := 1006) || 1
-value = var(2)
+trigger1 = (((abs((Pos X - enemy,Pos X))) <= 60) || (FrontEdgeDist <= 70))
+trigger1 = ((var(0) := 0) || 1)
+trigger1 = ((var(2) := 1006) || 1)
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
@@ -18451,29 +18458,30 @@ physics = S
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 271
+trigger1 = (Anim != 271)
 value = 271
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (var(0)) = 0
+trigger1 = ((var(0)) = 0)
 x = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (AnimTime = 0) && (var(7) := 2)
-trigger1 = (var(0) := 0) || 1
+trigger1 = ((AnimTime = 0) && (var(7) := 2))
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -18485,7 +18493,7 @@ physics = S
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -18499,14 +18507,14 @@ persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 3500
+trigger1 = (Anim != 3500)
 value = 3500
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 0
+trigger1 = ((var(0)) = 0)
 value = 10, 32
 freqmul = 1
 ignorehitpause = 1
@@ -18514,7 +18522,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 0
+trigger1 = ((var(0)) = 0)
 value = 2300, 0
 freqmul = 1
 ignorehitpause = 1
@@ -18522,7 +18530,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (var(0)) = 0
+trigger1 = ((var(0)) = 0)
 time = 20
 ampl = 10
 ignorehitpause = 1
@@ -18530,7 +18538,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 0
+trigger1 = ((var(0)) = 0)
 anim = 32072
 id = 32072
 removetime = 15
@@ -18542,7 +18550,7 @@ persistent = 256
 
 [State ]
 type = ModifyExplod
-trigger1 = (NumExplod(32072)) && ((var(0)) <= 15)
+trigger1 = ((NumExplod(32072)) && ((var(0)) <= 15))
 id = 32072
 scale = (((var(0)) * 0.12) + 0.5), (((var(0)) * 0.12) + 0.5)
 trans = AddAlpha
@@ -18560,7 +18568,7 @@ persistent = 256
 
 [State ]
 type = AllPalFX
-trigger1 = ((var(0)) >= 30) && ((var(0)) < 33)
+trigger1 = (((var(0)) >= 30) && ((var(0)) < 33))
 time = 2
 add = ((((var(0)) - 30) * 25) - 255), ((((var(0)) - 30) * 25) - 255), ((((var(0)) - 30) * 25) - 255)
 ignorehitpause = 1
@@ -18568,7 +18576,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (var(0)) = 30
+trigger1 = ((var(0)) = 30)
 time = 30
 freq = 120
 ampl = 20
@@ -18577,21 +18585,21 @@ persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = ((var(0)) >= 0) && ((var(0)) < 31)
+trigger1 = (((var(0)) >= 0) && ((var(0)) < 31))
 x = 3
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(7)) = 0
+trigger1 = ((AnimElemTime(7)) = 0)
 anim = 3004
 id = 3004
 pos = 0, 0
 postype = P2
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 scale = 400, 400
 sprpriority = 4
 ontop = 1
@@ -18602,14 +18610,14 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(7)) = 0
+trigger1 = ((AnimElemTime(7)) = 0)
 anim = 3006
 id = 3006
 pos = 0, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 scale = (Const(size.xscale)), (Const(size.xscale))
 sprpriority = 4
 ontop = 0
@@ -18620,14 +18628,14 @@ persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (var(0)) = 32
+trigger1 = ((var(0)) = 32)
 x = 14
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 32
+trigger1 = ((var(0)) = 32)
 value = 10, 27
 freqmul = 0.8
 ignorehitpause = 1
@@ -18635,7 +18643,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 32
+trigger1 = ((var(0)) = 32)
 value = 10, 30
 freqmul = 0.8
 ignorehitpause = 1
@@ -18643,7 +18651,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 32
+trigger1 = ((var(0)) = 32)
 value = 10, 37
 freqmul = 0.8
 ignorehitpause = 1
@@ -18651,7 +18659,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 32
+trigger1 = ((var(0)) = 32)
 value = 10, 49
 freqmul = 0.8
 ignorehitpause = 1
@@ -18659,13 +18667,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 32
-trigger1 = Facing = 1
+trigger1 = ((var(0)) = 32)
+trigger1 = (Facing = 1)
 anim = 31061
 pos = 0, 0
 postype = Right
 facing = 1
-bindtime = -1
+bindtime = (-1)
 sprpriority = 99
 ownpal = 1
 ignorehitpause = 1
@@ -18673,13 +18681,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 32
-trigger1 = Facing = (-1)
+trigger1 = ((var(0)) = 32)
+trigger1 = (Facing = (-1))
 anim = 31061
 pos = 0, 0
 postype = Left
-facing = -1
-bindtime = -1
+facing = (-1)
+bindtime = (-1)
 sprpriority = 99
 ownpal = 1
 ignorehitpause = 1
@@ -18687,14 +18695,14 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (var(0)) = 33
+trigger1 = ((var(0)) = 33)
 value = 10, 26
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 34
+trigger1 = ((var(0)) = 34)
 anim = 30026
 pos = 0, (-60)
 postype = P2
@@ -18708,7 +18716,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 34
+trigger1 = ((var(0)) = 34)
 anim = 30090
 pos = 0, (-60)
 postype = P2
@@ -18722,11 +18730,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 34
+trigger1 = ((var(0)) = 34)
 anim = 30065
 pos = 0, (-60)
 postype = P2
-facing = -1
+facing = (-1)
 scale = 0.6, 0.6
 sprpriority = 99
 ontop = 1
@@ -18736,11 +18744,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 34
+trigger1 = ((var(0)) = 34)
 anim = 30040
 pos = 0, (-10)
 postype = P2
-facing = -1
+facing = (-1)
 scale = 1.3, 0.7
 sprpriority = 99
 ontop = 1
@@ -18750,7 +18758,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (var(0)) = 34
+trigger1 = ((var(0)) = 34)
 anim = 30040
 pos = 0, (-10)
 postype = P2
@@ -18764,13 +18772,14 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
+fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
 anim = 30020
 pos = 0, (-50)
 postype = P2
@@ -18785,7 +18794,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
 anim = 30021
 pos = 0, (-50)
 postype = P2
@@ -18800,13 +18809,14 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
+fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
 anim = 30020
 pos = 0, (-50)
 postype = P2
@@ -18821,7 +18831,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((var(0)) >= 34) && ((var(0)) < 38)
+trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
 anim = 30021
 pos = 0, (-50)
 postype = P2
@@ -18836,14 +18846,16 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
+var(7) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -18855,35 +18867,35 @@ physics = N
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 1200
+trigger1 = (Anim != 1200)
 value = 1200
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = StateTypeSet
-trigger1 = Pos Y >= 0
+trigger1 = (Pos Y >= 0)
 statetype = S
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = StateTypeSet
-trigger1 = (AnimElemTime(3)) >= 0
+trigger1 = ((AnimElemTime(3)) >= 0)
 statetype = A
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = StateType = S
+trigger1 = (StateType = S)
 x = 0
 y = 0
 ignorehitpause = 1
@@ -18891,22 +18903,22 @@ persistent = 256
 
 [State ]
 type = VelAdd
-trigger1 = (StateType = A) && ((AnimElemTime(3)) = 0)
+trigger1 = ((StateType = A) && ((AnimElemTime(3)) = 0))
 x = 7
-y = -8.5
+y = (-8.5)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelAdd
-trigger1 = StateType = A
+trigger1 = (StateType = A)
 y = 0.45
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(1)) = 0
+trigger1 = ((AnimElemTime(1)) = 0)
 anim = 30065
 pos = (-75), (-30)
 postype = P1
@@ -18919,46 +18931,46 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(1)) = 0
+trigger1 = ((AnimElemTime(1)) = 0)
 value = 901, 10
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 value = 10, 29
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 value = 10, 12
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 value = 10, 30
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 value = 10, 27
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 anim = 30040
 pos = 0, 0
 postype = P1
-vfacing = -1
+vfacing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1, 1
@@ -18969,11 +18981,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 anim = 30040
 pos = 0, 0
 postype = P1
-vfacing = -1
+vfacing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.8, 0.4
@@ -18984,7 +18996,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 anim = 30026
 pos = 0, (-60)
 postype = P2
@@ -18998,7 +19010,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 anim = 30025
 pos = 0, (-60)
 postype = P2
@@ -19012,7 +19024,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 anim = 30024
 pos = 0, (-60)
 postype = P2
@@ -19026,7 +19038,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 anim = 31064
 pos = 0, (-60)
 postype = P2
@@ -19040,7 +19052,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (AnimElemTime(3)) = 0
+trigger1 = ((AnimElemTime(3)) = 0)
 time = 15
 ampl = 12
 ignorehitpause = 1
@@ -19048,7 +19060,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(3)) < 0) && ((GameTime % 2) = 0)
+trigger1 = (((AnimElemTime(3)) < 0) && ((GameTime % 2) = 0))
 anim = 30054
 pos = (-75), (-30)
 postype = P1
@@ -19062,11 +19074,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(6)) = 0
+trigger1 = ((AnimElemTime(6)) = 0)
 anim = 30038
 pos = 0, (-60)
 postype = P1
-vfacing = -1
+vfacing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 sprpriority = 100
@@ -19076,13 +19088,14 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
+trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
+fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
+trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
 anim = 30020
 pos = 0, (-50)
 postype = P2
@@ -19097,7 +19110,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
+trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
 anim = 30021
 pos = 0, (-50)
 postype = P2
@@ -19112,13 +19125,14 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
+trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
+fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
+trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
 anim = 30020
 pos = 0, (-50)
 postype = P2
@@ -19133,7 +19147,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5)
+trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
 anim = 30021
 pos = 0, (-50)
 postype = P2
@@ -19148,7 +19162,7 @@ persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (Pos Y + Vel Y) >= 0
+trigger1 = ((Pos Y + Vel Y) >= 0)
 x = 0
 y = 0
 ignorehitpause = 1
@@ -19156,21 +19170,23 @@ persistent = 256
 
 [State ]
 type = StateTypeSet
-trigger1 = (Pos Y + Vel Y) >= 0
+trigger1 = ((Pos Y + Vel Y) >= 0)
 statetype = S
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
+var(7) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -19182,36 +19198,36 @@ physics = N
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 1500
+trigger1 = (Anim != 1500)
 value = 1500
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 x = 11.5
-y = -18.5
+y = (-18.5)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelAdd
-trigger1 = ((AnimElemNo(0)) >= 4) && (Pos Y < 0)
+trigger1 = (((AnimElemNo(0)) >= 4) && (Pos Y < 0))
 y = 2
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (Pos Y + Vel Y) >= 0
+trigger1 = ((Pos Y + Vel Y) >= 0)
 x = 0
 y = 0
 ignorehitpause = 1
@@ -19219,7 +19235,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 anim = 31064
 pos = 0, 0
 postype = P1
@@ -19233,7 +19249,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 anim = 30095
 pos = 0, 0
 postype = P1
@@ -19247,7 +19263,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 time = 10
 ampl = 12
 ignorehitpause = 1
@@ -19255,7 +19271,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(4)) = 3
+trigger1 = ((AnimElemTime(4)) = 3)
 anim = 30095
 pos = 0, 0
 postype = P1
@@ -19270,13 +19286,14 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+trigger1 = (((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5))
+fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+trigger1 = (((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5))
 anim = 30020
 pos = 0, 0
 postype = P1
@@ -19291,7 +19308,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+trigger1 = (((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5))
 anim = 30021
 pos = 0, 0
 postype = P1
@@ -19306,13 +19323,14 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+trigger1 = (((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5))
+fvar(0) = (Random % 360)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+trigger1 = (((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5))
 anim = 30020
 pos = 0, 0
 postype = P1
@@ -19327,7 +19345,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5)
+trigger1 = (((AnimElemTime(4)) >= 1) && ((AnimElemTime(4)) < 5))
 anim = 30021
 pos = 0, 0
 postype = P1
@@ -19342,7 +19360,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+trigger1 = ((((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20))
 anim = 30101
 pos = 0, (-60)
 postype = P2
@@ -19358,21 +19376,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+trigger1 = ((((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20))
 value = 10, 50
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+trigger1 = ((((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20))
 value = 10, 49
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20)
+trigger1 = ((((AnimElemTime(4)) = 0) || (((AnimElemTime(4)) = 10) || ((AnimElemTime(4)) = 15))) || ((AnimElemTime(4)) = 20))
 time = 6
 ampl = 5
 ignorehitpause = 1
@@ -19380,14 +19398,16 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
+var(7) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -19399,28 +19419,28 @@ physics = S
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 2200
+trigger1 = (Anim != 2200)
 value = 2200
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (AnimElemTime(6)) = 0
-x = -8.5
+trigger1 = ((AnimElemTime(6)) = 0)
+x = (-8.5)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 2202
 pos = 80, 0
 postype = P1
@@ -19434,20 +19454,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 2205
 pos = 50, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -19459,13 +19479,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 12640
 pos = 110, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19477,13 +19497,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 12640
 pos = 110, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19495,17 +19515,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 3005
 pos = 80, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -19513,11 +19533,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 10042
 pos = 80, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -19529,11 +19549,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19545,11 +19565,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19561,7 +19581,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 2202
 pos = 125, 0
 postype = P1
@@ -19575,20 +19595,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 2205
 pos = 95, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -19600,13 +19620,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 12640
 pos = 155, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19618,13 +19638,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 12640
 pos = 155, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19636,17 +19656,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 3005
 pos = 125, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -19654,11 +19674,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 10042
 pos = 125, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -19670,11 +19690,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19686,11 +19706,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 3
+trigger1 = ((AnimElemTime(8)) = 3)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19702,7 +19722,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 2202
 pos = 170, 0
 postype = P1
@@ -19716,20 +19736,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 2205
 pos = 140, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -19741,13 +19761,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 12640
 pos = 200, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19759,13 +19779,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 12640
 pos = 200, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19777,17 +19797,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 3005
 pos = 170, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -19795,11 +19815,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 10042
 pos = 170, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -19811,11 +19831,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19827,11 +19847,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 6
+trigger1 = ((AnimElemTime(8)) = 6)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19843,7 +19863,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 2202
 pos = 215, 0
 postype = P1
@@ -19857,20 +19877,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 2205
 pos = 185, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -19882,13 +19902,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 12640
 pos = 245, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19900,13 +19920,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 12640
 pos = 245, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -19918,17 +19938,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 3005
 pos = 215, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -19936,11 +19956,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 10042
 pos = 215, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -19952,11 +19972,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19968,11 +19988,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 9
+trigger1 = ((AnimElemTime(8)) = 9)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -19984,7 +20004,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 2202
 pos = 260, 0
 postype = P1
@@ -19998,20 +20018,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 2205
 pos = 230, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -20023,13 +20043,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 12640
 pos = 290, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20041,13 +20061,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 12640
 pos = 290, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20059,17 +20079,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 3005
 pos = 260, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -20077,11 +20097,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 10042
 pos = 260, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -20093,11 +20113,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20109,11 +20129,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 12
+trigger1 = ((AnimElemTime(8)) = 12)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20125,7 +20145,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 2202
 pos = 305, 0
 postype = P1
@@ -20139,20 +20159,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 2205
 pos = 275, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -20164,13 +20184,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 12640
 pos = 335, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20182,13 +20202,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 12640
 pos = 335, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20200,17 +20220,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 3005
 pos = 305, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -20218,11 +20238,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 10042
 pos = 305, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -20234,11 +20254,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20250,11 +20270,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 15
+trigger1 = ((AnimElemTime(8)) = 15)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20266,7 +20286,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 2202
 pos = 350, 0
 postype = P1
@@ -20280,20 +20300,20 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 value = S255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 2205
 pos = 320, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.425, 0.8
@@ -20305,13 +20325,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 12640
 pos = 380, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20323,13 +20343,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 12640
 pos = 380, 0
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20341,17 +20361,17 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 3005
 pos = 350, 0
 postype = P1
 facing = 1
 bindtime = 1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.35, 0.35
-sprpriority = -3
+sprpriority = (-3)
 ontop = 0
 ownpal = 1
 ignorehitpause = 1
@@ -20359,11 +20379,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 10042
 pos = 350, 0
 postype = P1
-removetime = -2
+removetime = (-2)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.25, 0.25
@@ -20375,11 +20395,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20391,11 +20411,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 18
+trigger1 = ((AnimElemTime(8)) = 18)
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 vel = (-3), 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20407,7 +20427,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(8)) = 0
+trigger1 = ((AnimElemTime(8)) = 0)
 anim = 1001
 pos = 0, 0
 postype = P1
@@ -20420,14 +20440,16 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
+var(7) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -20439,21 +20461,21 @@ physics = S
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 3000
+trigger1 = (Anim != 3000)
 value = 3000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = Anim = 3000
+trigger1 = (Anim = 3000)
 x = 0
 y = 0
 ignorehitpause = 1
@@ -20461,14 +20483,14 @@ persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = ((AnimElemTime(1)) >= 0) && ((AnimElemTime(1)) < 11)
-x = (-(BackEdgeBodyDist - 120)) / 2.5
+trigger1 = (((AnimElemTime(1)) >= 0) && ((AnimElemTime(1)) < 11))
+x = ((-(BackEdgeBodyDist - 120)) / 2.5)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 anim = 30051
 postype = Back
 supermovetime = 2147483647
@@ -20481,7 +20503,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 anim = 30048
 postype = Left
 supermovetime = 2147483647
@@ -20494,21 +20516,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 value = 10, 32
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(4)) = 0
+trigger1 = ((AnimElemTime(4)) = 0)
 value = 2400, 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = BGPalFX
-trigger1 = (AnimElemTime(4)) > 0
+trigger1 = ((AnimElemTime(4)) > 0)
 time = 1
 add = (-128), (-128), (-128)
 ignorehitpause = 1
@@ -20516,14 +20538,14 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(14)) = 0
+trigger1 = ((AnimElemTime(14)) = 0)
 value = 255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (AnimElemTime(15)) = 0
+trigger1 = ((AnimElemTime(15)) = 0)
 time = 20
 ampl = 15
 ignorehitpause = 1
@@ -20531,10 +20553,10 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(15)) = 0
+trigger1 = ((AnimElemTime(15)) = 0)
 anim = 30040
 postype = P1
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 3, 3
@@ -20544,7 +20566,7 @@ persistent = 256
 
 [State ]
 type = EnvColor
-trigger1 = (AnimElemTime(17)) = 0
+trigger1 = ((AnimElemTime(17)) = 0)
 value = 0, 0, 255
 time = 4
 ignorehitpause = 1
@@ -20552,11 +20574,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(17)) = 0
+trigger1 = ((AnimElemTime(17)) = 0)
 anim = 30032
 pos = 0, (-60)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.8, 0.8
@@ -20567,11 +20589,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(17)) = 0
+trigger1 = ((AnimElemTime(17)) = 0)
 anim = 30045
 pos = 0, (-70)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.2, 1.2
@@ -20582,11 +20604,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(17)) = 0
+trigger1 = ((AnimElemTime(17)) = 0)
 anim = 30047
 pos = 0, (-70)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.3, 1.3
@@ -20597,7 +20619,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(17)) = 0
+trigger1 = ((AnimElemTime(17)) = 0)
 value = 10, 30
 freqmul = 1.2
 ignorehitpause = 1
@@ -20605,7 +20627,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(17)) = 0
+trigger1 = ((AnimElemTime(17)) = 0)
 anim = 3010
 pos = 70, 50
 postype = P1
@@ -20620,10 +20642,10 @@ persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
-trigger1 = (var(2) := 1012) || 1
-value = var(2)
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+trigger1 = ((var(2) := 1012) || 1)
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
@@ -20636,21 +20658,21 @@ sprpriority = 2147483646
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 3016
+trigger1 = (Anim != 3016)
 value = 3016
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (AnimElemTime(1)) = 0
+trigger1 = ((AnimElemTime(1)) = 0)
 x = 0
 y = 1
 ignorehitpause = 1
@@ -20658,22 +20680,22 @@ persistent = 256
 
 [State ]
 type = VelAdd
-trigger1 = (((AnimElemTime(1)) = 0) >= 0) && (((AnimElemTime(1)) = 0) < 13)
+trigger1 = ((((AnimElemTime(1)) = 0) >= 0) && (((AnimElemTime(1)) = 0) < 13))
 y = 0.08
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelAdd
-trigger1 = (AnimElemTime(5)) = 0
+trigger1 = ((AnimElemTime(5)) = 0)
 x = 7
-y = -23
+y = (-23)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(5)) = 0
+trigger1 = ((AnimElemTime(5)) = 0)
 anim = 1551
 postype = P1
 supermovetime = 2147483647
@@ -20685,14 +20707,14 @@ persistent = 256
 
 [State ]
 type = AngleDraw
-trigger1 = ((AnimElemTime(5)) >= 0) && ((AnimElemTime(5)) < 21)
+trigger1 = (((AnimElemTime(5)) >= 0) && ((AnimElemTime(5)) < 21))
 value = 35
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(1)) = 0
+trigger1 = ((AnimElemTime(1)) = 0)
 anim = 30054
 pos = 20, (-105)
 postype = P1
@@ -20708,7 +20730,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(1)) = 2
+trigger1 = ((AnimElemTime(1)) = 2)
 anim = 30054
 pos = 0, (-125)
 postype = P1
@@ -20724,7 +20746,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(1)) = 4
+trigger1 = ((AnimElemTime(1)) = 4)
 anim = 30054
 pos = 20, (-105)
 postype = P1
@@ -20740,7 +20762,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(1)) = 6
+trigger1 = ((AnimElemTime(1)) = 6)
 anim = 30054
 pos = (-20), (-85)
 postype = P1
@@ -20756,7 +20778,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(1)) = 8
+trigger1 = ((AnimElemTime(1)) = 8)
 anim = 30054
 pos = (-20), (-55)
 postype = P1
@@ -20772,11 +20794,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(5)) = 5
+trigger1 = ((AnimElemTime(5)) = 5)
 anim = 30057
 id = 30057
 postype = Left
-bindtime = -1
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 sprpriority = 2147483645
@@ -20786,9 +20808,9 @@ persistent = 256
 
 [State ]
 type = ModifyExplod
-trigger1 = ((AnimElemTime(5)) >= 5) && (NumExplod(30057))
+trigger1 = (((AnimElemTime(5)) >= 5) && (NumExplod(30057)))
 id = 30057
-sprpriority = cond(((AnimElemTime(5)) <= 50), 3, 0) + 2147483644
+sprpriority = (cond(((AnimElemTime(5)) <= 50), 3, 0) + 2147483644)
 trans = AddAlpha
 alpha = 255, cond(((AnimElemTime(5)) <= 15), ((((AnimElemTime(5)) - 5) * 25) - 255), 0)
 ignorehitpause = 1
@@ -20796,14 +20818,14 @@ persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
 id = 30057
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(5)) = 0
+trigger1 = ((AnimElemTime(5)) = 0)
 value = 41, 10
 freqmul = 0.5
 ignorehitpause = 1
@@ -20811,28 +20833,28 @@ persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = (AnimElemTime(6)) = 0
-x = (-Facing) * 120
-y = -20
+trigger1 = ((AnimElemTime(6)) = 0)
+x = ((-Facing) * 120)
+y = (-20)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (AnimElemTime(6)) = 0
+trigger1 = ((AnimElemTime(6)) = 0)
 x = 1
-y = -0.5
+y = (-0.5)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(6)) = 0
+trigger1 = ((AnimElemTime(6)) = 0)
 anim = 30059
 id = 30059
 pos = 120, 100
 postype = Back
-bindtime = -1
+bindtime = (-1)
 vel = 0.5, 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20844,12 +20866,12 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(6)) = 0
+trigger1 = ((AnimElemTime(6)) = 0)
 anim = 30058
 id = 30058
 pos = 120, 100
 postype = Back
-bindtime = -1
+bindtime = (-1)
 vel = 0.5, 0
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -20861,7 +20883,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(6)) = 0
+trigger1 = ((AnimElemTime(6)) = 0)
 value = 2100, 0
 abspan = 0
 ignorehitpause = 1
@@ -20869,14 +20891,14 @@ persistent = 256
 
 [State ]
 type = VelAdd
-trigger1 = ((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 121)
+trigger1 = (((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 121))
 y = 0.005
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PalFX
-trigger1 = ((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 121)
+trigger1 = (((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 121))
 time = 1
 add = (-255), (-255), (-255)
 ignorehitpause = 1
@@ -20884,7 +20906,7 @@ persistent = 256
 
 [State ]
 type = AngleDraw
-trigger1 = ((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 121)
+trigger1 = (((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 121))
 value = 130
 scale = 0.65, 0.65
 ignorehitpause = 1
@@ -20892,11 +20914,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(6)) = 0) && (Facing = 1)
+trigger1 = (((AnimElemTime(6)) = 0) && (Facing = 1))
 anim = 30060
 postype = Right
-facing = -1
-bindtime = -1
+facing = (-1)
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0, 1.3
@@ -20908,11 +20930,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(6)) = 0) && (Facing = (-1))
+trigger1 = (((AnimElemTime(6)) = 0) && (Facing = (-1)))
 anim = 30060
 postype = Left
 facing = 1
-bindtime = -1
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0, 1.3
@@ -20924,11 +20946,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(6)) = 30) && (Facing = 1)
+trigger1 = (((AnimElemTime(6)) = 30) && (Facing = 1))
 anim = 30061
 postype = Right
 facing = 1
-bindtime = -1
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20941,11 +20963,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(6)) = 30) && (Facing = (-1))
+trigger1 = (((AnimElemTime(6)) = 30) && (Facing = (-1)))
 anim = 30061
 postype = Left
-facing = -1
-bindtime = -1
+facing = (-1)
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -20957,7 +20979,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(6)) = 40
+trigger1 = ((AnimElemTime(6)) = 40)
 anim = 30051
 postype = P1
 supermovetime = 2147483647
@@ -20971,7 +20993,7 @@ persistent = 256
 
 [State ]
 type = EnvColor
-trigger1 = ((AnimElemTime(6)) >= 60) && ((AnimElemTime(6)) < 71)
+trigger1 = (((AnimElemTime(6)) >= 60) && ((AnimElemTime(6)) < 71))
 value = (((AnimElemTime(6)) - 40) * 25), (((AnimElemTime(6)) - 40) * 25), (((AnimElemTime(6)) - 40) * 25)
 time = 1
 ignorehitpause = 1
@@ -20979,7 +21001,7 @@ persistent = 256
 
 [State ]
 type = AllPalFX
-trigger1 = ((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 11)
+trigger1 = (((AnimElemTime(6)) >= 0) && ((AnimElemTime(6)) < 11))
 time = 1
 add = (((AnimElemTime(6)) * 25) - 255), (((AnimElemTime(6)) * 25) - 255), (((AnimElemTime(6)) * 25) - 255)
 ignorehitpause = 1
@@ -20987,7 +21009,7 @@ persistent = 256
 
 [State ]
 type = EnvColor
-trigger1 = (AnimElemTime(6)) > 70
+trigger1 = ((AnimElemTime(6)) > 70)
 value = 255, 255, 255
 time = 1
 ignorehitpause = 1
@@ -20995,21 +21017,21 @@ persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
 id = 30058
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
 id = 30059
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = DestroySelf
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
 ignorehitpause = 1
 persistent = 256
 
@@ -21021,21 +21043,21 @@ physics = S
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = Anim != 3001
+trigger1 = (Anim != 3001)
 value = 3001
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = BGPalFX
-trigger1 = (AnimElemTime(47)) < 208
+trigger1 = ((AnimElemTime(47)) < 208)
 time = 1
 add = (-128), (-128), (-128)
 ignorehitpause = 1
@@ -21043,14 +21065,14 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(13)) = 0
+trigger1 = ((AnimElemTime(13)) = 0)
 value = 3100, 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(13)) = 0
+trigger1 = ((AnimElemTime(13)) = 0)
 anim = 30051
 pos = 100, (-100)
 postype = P1
@@ -21065,7 +21087,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 10) = 0)
+trigger1 = ((((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 10) = 0))
 anim = 30054
 pos = 85, (-95)
 postype = P1
@@ -21074,7 +21096,7 @@ random = 20, 20
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.2, 1.2
-sprpriority = -5
+sprpriority = (-5)
 ownpal = 1
 trans = Add
 ignorehitpause = 1
@@ -21082,7 +21104,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0)
+trigger1 = ((((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0))
 anim = 30054
 pos = 75, (-75)
 postype = P1
@@ -21091,7 +21113,7 @@ random = 20, 20
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.6, 0.6
-sprpriority = -5
+sprpriority = (-5)
 ownpal = 1
 trans = Add
 ignorehitpause = 1
@@ -21099,7 +21121,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0)
+trigger1 = ((((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0))
 anim = 30054
 pos = 115, (-125)
 postype = P1
@@ -21108,7 +21130,7 @@ random = 20, 20
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.2, 1.2
-sprpriority = -5
+sprpriority = (-5)
 ownpal = 1
 trans = Add
 ignorehitpause = 1
@@ -21116,7 +21138,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0)
+trigger1 = ((((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0))
 anim = 30055
 pos = 110, (-120)
 postype = P1
@@ -21125,7 +21147,7 @@ random = 8, 8
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
-sprpriority = -4
+sprpriority = (-4)
 ownpal = 1
 trans = Add
 ignorehitpause = 1
@@ -21133,7 +21155,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0)
+trigger1 = ((((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0))
 anim = 30055
 pos = 90, (-95)
 postype = P1
@@ -21142,7 +21164,7 @@ random = 8, 8
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
-sprpriority = -4
+sprpriority = (-4)
 ownpal = 1
 trans = Add
 ignorehitpause = 1
@@ -21150,7 +21172,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0)
+trigger1 = ((((AnimElemTime(13)) >= 0) && ((AnimElemTime(13)) < 91)) && ((GameTime % 5) = 0))
 anim = 30055
 pos = 80, (-80)
 postype = P1
@@ -21159,7 +21181,7 @@ random = 8, 8
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
-sprpriority = -4
+sprpriority = (-4)
 ownpal = 1
 trans = Add
 ignorehitpause = 1
@@ -21167,7 +21189,7 @@ persistent = 256
 
 [State ]
 type = PalFX
-trigger1 = ((AnimElemTime(38)) >= 0) && ((AnimElemTime(38)) < 19)
+trigger1 = (((AnimElemTime(38)) >= 0) && ((AnimElemTime(38)) < 19))
 time = 1
 add = ((AnimElemTime(38)) * 14), ((AnimElemTime(38)) * 14), ((AnimElemTime(38)) * 14)
 ignorehitpause = 1
@@ -21175,7 +21197,7 @@ persistent = 256
 
 [State ]
 type = PalFX
-trigger1 = ((AnimElemTime(38)) > 18) && ((AnimElemTime(46)) < 0)
+trigger1 = (((AnimElemTime(38)) > 18) && ((AnimElemTime(46)) < 0))
 time = 1
 add = 255, 255, 255
 ignorehitpause = 1
@@ -21183,7 +21205,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 3014
 pos = 20, (-60)
 postype = Back
@@ -21194,13 +21216,13 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = 300000
 ownpal = 1
-angle = -45
+angle = (-45)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 time = 15
 ampl = 10
 ignorehitpause = 1
@@ -21208,7 +21230,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 30056
 pos = 20, (-60)
 postype = Back
@@ -21224,21 +21246,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 value = 3100, 4
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 value = 255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 30032
 pos = 10, (-80)
 postype = P2
@@ -21253,11 +21275,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.5, 1.5
@@ -21268,11 +21290,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.125, 1.125
@@ -21284,14 +21306,14 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 value = 10, 30
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 1) || ((AnimElemTime(46)) = 61)
+trigger1 = (((AnimElemTime(44)) = 1) || ((AnimElemTime(46)) = 61))
 anim = 3002
 pos = 10, (-120)
 postype = Back
@@ -21302,13 +21324,13 @@ scale = 0.75, 0.75
 sprpriority = 300000
 ownpal = 1
 trans = Add
-angle = -105
+angle = (-105)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64)
+trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 3111
 pos = 90, (-90)
 postype = Back
@@ -21319,13 +21341,13 @@ scale = 0.3, 2
 sprpriority = 300000
 ownpal = 1
 trans = Add
-angle = -112
+angle = (-112)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ScreenBound
-trigger1 = (AnimElemTime(44)) >= 0
+trigger1 = ((AnimElemTime(44)) >= 0)
 value = 0
 movecamera = 0, 0
 ignorehitpause = 1
@@ -21333,13 +21355,13 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(13)) = 0
+trigger1 = ((AnimElemTime(13)) = 0)
 anim = 30049
 id = 30049
 pos = 40, 0
 postype = P1
-bindtime = -1
-removetime = -1
+bindtime = (-1)
+removetime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.5, 0.5
@@ -21350,22 +21372,22 @@ persistent = 256
 
 [State ]
 type = RemoveExplod
-trigger1 = (NumExplod(30049)) && ((AnimElemTime(44)) = 0)
+trigger1 = ((NumExplod(30049)) && ((AnimElemTime(44)) = 0))
 id = 30049
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (AnimElemTime(44)) = 0
+trigger1 = ((AnimElemTime(44)) = 0)
 x = 30
-y = -25
+y = (-25)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Trans
-trigger1 = ((AnimElemTime(44)) >= 0) && ((AnimElemTime(44)) < 7)
+trigger1 = (((AnimElemTime(44)) >= 0) && ((AnimElemTime(44)) < 7))
 trans = AddAlpha
 alpha = (((AnimElemTime(44)) * 40) - 255), 255
 ignorehitpause = 1
@@ -21373,7 +21395,7 @@ persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = ((AnimElemTime(46)) >= 0) && ((AnimElemTime(47)) < 0)
+trigger1 = (((AnimElemTime(46)) >= 0) && ((AnimElemTime(47)) < 0))
 x = 0
 y = 0
 ignorehitpause = 1
@@ -21381,7 +21403,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 3015
 pos = ((cond(((AnimElemTime(46)) = 38), 50, 0) + 30) + cond(((AnimElemTime(46)) = 54), (-110), 0)), (-240)
 postype = P1
@@ -21392,13 +21414,13 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = 300000
 ownpal = 1
-angle = -170
+angle = (-170)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 time = 15
 ampl = 10
 ignorehitpause = 1
@@ -21406,7 +21428,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 30056
 pos = ((cond(((AnimElemTime(46)) = 38), 50, 0) + 30) + cond(((AnimElemTime(46)) = 54), (-110), 0)), (-240)
 postype = P1
@@ -21422,21 +21444,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 value = 3100, 4
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 value = 255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 30032
 pos = 10, (-80)
 postype = P2
@@ -21451,11 +21473,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.5, 1.5
@@ -21466,11 +21488,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.125, 1.125
@@ -21482,14 +21504,14 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 value = 10, 30
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 2) || ((AnimElemTime(46)) = 35)) || ((AnimElemTime(46)) = 51)
+trigger1 = ((((AnimElemTime(46)) = 2) || ((AnimElemTime(46)) = 35)) || ((AnimElemTime(46)) = 51))
 anim = 3002
 pos = ((cond(((AnimElemTime(46)) = 35), 50, 0) + 30) + cond(((AnimElemTime(46)) = 51), (-110), 0)), (-180)
 postype = P1
@@ -21506,7 +21528,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54)
+trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 3111
 pos = ((cond(((AnimElemTime(46)) = 38), 50, 0) + 50) + cond(((AnimElemTime(46)) = 54), (-110), 0)), (-240)
 postype = P1
@@ -21517,13 +21539,13 @@ scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
 trans = Add
-angle = -15
+angle = (-15)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 3011
 pos = 120, (cond(((AnimElemTime(46)) = 72), 50, 0) - 30)
 postype = P1
@@ -21534,13 +21556,13 @@ pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = 300000
 ownpal = 1
-angle = -30
+angle = (-30)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 time = 15
 ampl = 10
 ignorehitpause = 1
@@ -21548,7 +21570,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 30056
 pos = 120, (cond(((AnimElemTime(46)) = 72), 50, 0) - 30)
 postype = P1
@@ -21564,21 +21586,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 value = 3100, 4
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 value = 255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 30032
 pos = 10, (-20)
 postype = P2
@@ -21593,11 +21615,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 30035
 pos = 10, (-20)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.5, 1.5
@@ -21608,11 +21630,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 30036
 pos = 10, (-20)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.125, 1.125
@@ -21624,18 +21646,18 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 value = 10, 30
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 9) || (((AnimElemTime(46)) = 43) || ((AnimElemTime(46)) = 69))) || ((AnimElemTime(46)) = 93)
+trigger1 = ((((AnimElemTime(46)) = 9) || (((AnimElemTime(46)) = 43) || ((AnimElemTime(46)) = 69))) || ((AnimElemTime(46)) = 93))
 anim = 3002
 pos = 120, (cond(((AnimElemTime(46)) = 69), 50, 0) - 30)
 postype = P1
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.75, 0.75
@@ -21648,41 +21670,41 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96)
+trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 3111
 pos = 120, (cond(((AnimElemTime(46)) = 72), 50, 0) - 30)
 postype = P1
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
 trans = Add
-angle = -70
+angle = (-70)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 3015
 pos = (cond(((AnimElemTime(46)) = 88), 120, 0) + (-60)), (-240)
 postype = P1
-facing = -1
+facing = (-1)
 vel = (-6), 24
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
 sprpriority = 300000
 ownpal = 1
-angle = -170
+angle = (-170)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 time = 15
 ampl = 10
 ignorehitpause = 1
@@ -21690,11 +21712,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 30056
 pos = (cond(((AnimElemTime(46)) = 88), 120, 0) + (-60)), (-240)
 postype = P1
-facing = -1
+facing = (-1)
 bindtime = 1
 random = 50, 50
 supermovetime = 2147483647
@@ -21706,21 +21728,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 value = 3100, 4
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 value = 255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 30032
 pos = 10, (-80)
 postype = P2
@@ -21735,11 +21757,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.5, 1.5
@@ -21750,11 +21772,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.125, 1.125
@@ -21766,18 +21788,18 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 value = 10, 30
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 20) || ((AnimElemTime(46)) = 85)
+trigger1 = (((AnimElemTime(46)) = 20) || ((AnimElemTime(46)) = 85))
 anim = 3002
 pos = (cond(((AnimElemTime(46)) = 85), 120, 0) + (-60)), (-180)
 postype = P1
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.75, 0.75
@@ -21790,24 +21812,24 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88)
+trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 3111
 pos = (cond(((AnimElemTime(46)) = 88), 120, 0) + (-80)), (-240)
 postype = P1
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
 trans = Add
-angle = -15
+angle = (-15)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 anim = 3012
 pos = (-100), 25
 postype = P1
@@ -21824,7 +21846,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 time = 15
 ampl = 10
 ignorehitpause = 1
@@ -21832,7 +21854,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 anim = 30056
 pos = (-100), 25
 postype = P1
@@ -21848,21 +21870,21 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 value = 3100, 4
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 value = 255, 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 anim = 30032
 pos = 10, (-80)
 postype = P2
@@ -21877,11 +21899,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 anim = 30035
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.5, 1.5
@@ -21892,11 +21914,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 anim = 30036
 pos = 10, (-80)
 postype = P2
-facing = -1
+facing = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.125, 1.125
@@ -21908,14 +21930,14 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 value = 10, 30
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 25) || ((AnimElemTime(46)) = 77)
+trigger1 = (((AnimElemTime(46)) = 25) || ((AnimElemTime(46)) = 77))
 anim = 3002
 pos = (-110), 15
 postype = P1
@@ -21932,7 +21954,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80)
+trigger1 = (((AnimElemTime(46)) = 28) || ((AnimElemTime(46)) = 80))
 anim = 3111
 pos = (-110), 15
 postype = P1
@@ -21943,13 +21965,13 @@ scale = 0.3, 4
 sprpriority = 300000
 ownpal = 1
 trans = Add
-angle = -50
+angle = (-50)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Helper
-trigger1 = (AnimElemTime(46)) = 110
+trigger1 = ((AnimElemTime(46)) = 110)
 helpertype = Player
 id = 10001
 pos = 0, (-10)
@@ -21963,15 +21985,15 @@ persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = (AnimElemTime(47)) >= 0
-x = Facing * 120
+trigger1 = ((AnimElemTime(47)) >= 0)
+x = (Facing * 120)
 y = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VelSet
-trigger1 = (AnimElemTime(46)) >= 0
+trigger1 = ((AnimElemTime(46)) >= 0)
 x = 0
 y = 0
 ignorehitpause = 1
@@ -21979,7 +22001,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3018
 id = 13020
 pos = (-20), (-60)
@@ -21993,7 +22015,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3020
 id = 13021
 pos = (-10), (-70)
@@ -22007,7 +22029,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3020
 id = 13022
 pos = (-30), (-90)
@@ -22021,7 +22043,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3021
 id = 13023
 pos = (-150), (-30)
@@ -22029,13 +22051,13 @@ postype = P1
 scale = 0.25, 0.25
 ownpal = 1
 trans = Add
-angle = -75
+angle = (-75)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3017
 id = 13024
 pos = (-150), (-30)
@@ -22043,23 +22065,23 @@ postype = P1
 scale = 0.325, 0.325
 ownpal = 1
 trans = Add
-angle = -70
+angle = (-70)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 30062
 pos = 40, 0
 postype = P1
-facing = -1
-bindtime = -1
+facing = (-1)
+bindtime = (-1)
 removetime = 210
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 1.3, 1
-sprpriority = -10000
+sprpriority = (-10000)
 ownpal = 1
 trans = Sub
 ignorehitpause = 1
@@ -22067,12 +22089,12 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 anim = 30062
 pos = 40, 0
 postype = P1
-facing = -1
-bindtime = -1
+facing = (-1)
+bindtime = (-1)
 removetime = 210
 supermovetime = 2147483647
 pausemovetime = 2147483647
@@ -22086,11 +22108,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) = 180) && (Facing = 1)
+trigger1 = (((AnimElemTime(47)) = 180) && (Facing = 1))
 anim = 30063
 postype = Right
-facing = -1
-bindtime = -1
+facing = (-1)
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 ontop = 1
@@ -22101,11 +22123,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) = 180) && (Facing = (-1))
+trigger1 = (((AnimElemTime(47)) = 180) && (Facing = (-1)))
 anim = 30063
 postype = Left
 facing = 1
-bindtime = -1
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 ontop = 1
@@ -22116,11 +22138,11 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = (AnimElemTime(47)) = 208
+trigger1 = ((AnimElemTime(47)) = 208)
 anim = 30064
 postype = Left
 facing = 1
-bindtime = -1
+bindtime = (-1)
 supermovetime = 2147483647
 pausemovetime = 2147483647
 scale = 0.5, 0.5
@@ -22132,7 +22154,7 @@ persistent = 256
 
 [State ]
 type = AllPalFX
-trigger1 = ((AnimElemTime(47)) >= 35) && ((AnimElemTime(47)) < 46)
+trigger1 = (((AnimElemTime(47)) >= 35) && ((AnimElemTime(47)) < 46))
 time = 1
 add = ((((AnimElemTime(47)) - 35) * 25) - 255), ((((AnimElemTime(47)) - 35) * 25) - 255), ((((AnimElemTime(47)) - 35) * 25) - 255)
 ignorehitpause = 1
@@ -22140,7 +22162,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (AnimElemTime(47)) = 0
+trigger1 = ((AnimElemTime(47)) = 0)
 time = 240
 freq = 150
 ampl = 4
@@ -22149,7 +22171,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (AnimElemTime(47)) = 208
+trigger1 = ((AnimElemTime(47)) = 208)
 time = 60
 freq = 130
 ampl = 45
@@ -22158,7 +22180,7 @@ persistent = 256
 
 [State ]
 type = EnvShake
-trigger1 = (AnimElemTime(47)) = 253
+trigger1 = ((AnimElemTime(47)) = 253)
 time = 30
 freq = 130
 ampl = 20
@@ -22167,7 +22189,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(47)) = 30
+trigger1 = ((AnimElemTime(47)) = 30)
 value = 10, 33
 freqmul = 0.5
 ignorehitpause = 1
@@ -22175,7 +22197,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(47)) = 30
+trigger1 = ((AnimElemTime(47)) = 30)
 value = 990, 0
 freqmul = 0.5
 ignorehitpause = 1
@@ -22183,7 +22205,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(47)) = 30
+trigger1 = ((AnimElemTime(47)) = 30)
 value = 10, 36
 freqmul = 0.5
 ignorehitpause = 1
@@ -22191,7 +22213,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(47)) = 208
+trigger1 = ((AnimElemTime(47)) = 208)
 value = 10, 34
 freqmul = 0.9
 ignorehitpause = 1
@@ -22199,7 +22221,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(47)) = 208
+trigger1 = ((AnimElemTime(47)) = 208)
 value = 10, 34
 freqmul = 0.9
 ignorehitpause = 1
@@ -22207,7 +22229,7 @@ persistent = 256
 
 [State ]
 type = PlaySnd
-trigger1 = (AnimElemTime(47)) = 208
+trigger1 = ((AnimElemTime(47)) = 208)
 value = 10, 37
 freqmul = 0.9
 ignorehitpause = 1
@@ -22215,7 +22237,7 @@ persistent = 256
 
 [State ]
 type = AllPalFX
-trigger1 = ((AnimElemTime(47)) >= 208) && ((AnimElemTime(47)) < 218)
+trigger1 = (((AnimElemTime(47)) >= 208) && ((AnimElemTime(47)) < 218))
 time = 1
 add = ((((AnimElemTime(47)) - 208) * 25) - 255), ((((AnimElemTime(47)) - 208) * 25) - 255), ((((AnimElemTime(47)) - 208) * 25) - 255)
 ignorehitpause = 1
@@ -22223,25 +22245,28 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+var(9) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+var(10) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
 anim = 30020
 pos = (var(9)), (var(10))
 vel = 0, (-5)
@@ -22255,7 +22280,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
 anim = 30021
 pos = (var(9)), (var(10))
 vel = 0, (-5)
@@ -22269,25 +22294,28 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+var(9) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+var(10) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
 anim = 30020
 pos = (var(9)), (var(10))
 vel = 0, (-5)
@@ -22301,7 +22329,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
 anim = 30021
 pos = (var(9)), (var(10))
 vel = 0, (-5)
@@ -22315,25 +22343,28 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+var(9) = ((-280) + (Random % (40 - (-280))))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+var(10) = (10 + (Random % (90 - 10)))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
+fvar(0) = (cond(((Random % 2) = 1), 1, (-1)) * (((Random % 5) * 0.01) + 0.25))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
 anim = 30020
 pos = (var(9)), (var(10))
 vel = 0, (-5)
@@ -22347,7 +22378,7 @@ persistent = 256
 
 [State ]
 type = Explod
-trigger1 = ((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209)
+trigger1 = (((AnimElemTime(47)) >= 0) && ((AnimElemTime(47)) < 209))
 anim = 30021
 pos = (var(9)), (var(10))
 vel = 0, (-5)
@@ -22361,14 +22392,16 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
+trigger1 = (AnimTime = 0)
+var(7) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = AnimTime = 0
-trigger1 = (var(0) := 0) || 1
+trigger1 = (AnimTime = 0)
+trigger1 = ((var(0) := 0) || 1)
+var(2) = 10000
 ignorehitpause = 1
 persistent = 256
 
@@ -22380,7 +22413,7 @@ physics = U
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -22424,22 +22457,22 @@ persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = !NumTarget
+trigger1 = (!NumTarget)
 value = 10001
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = !NumTarget
-x = -500
-y = (Const(size.shadowoffset)) * (-15)
+trigger1 = (!NumTarget)
+x = (-500)
+y = ((Const(size.shadowoffset)) * (-15))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
+trigger1 = (!NumTarget)
 attr = SCA, A, AT, AP
 affectteam = F
 ignorehitpause = 1
@@ -22447,28 +22480,43 @@ persistent = 256
 
 [State ]
 type = Null
-trigger1 = (NumTarget && (target,TeamSide = TeamSide)) && (target,Const(size.shadowoffset) = (Const(size.shadowoffset)))
+trigger1 = ((NumTarget && (target,TeamSide = TeamSide)) && (target,Const(size.shadowoffset) = (Const(size.shadowoffset))))
 trigger1 = target,cond(((var(6) := ((((1) & 1) * 1) + (var(6) & -2))) & 1), 1, 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = TargetState
-trigger1 = (NumTarget && (target,TeamSide != TeamSide)) && (!root,floor((var(6) & 256) / 255))
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && (!root,floor((var(6) & 256) / 255)))
 value = target,StateNo
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = TargetState
-trigger1 = (NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694492)
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694492))
 value = 2694492
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = TargetState
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694493))
+value = 2694493
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = TargetState
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
+value = 2694494
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = NumTarget
+var(6) = target,ID
 ignorehitpause = 1
 persistent = 256
 
@@ -22476,7 +22524,7 @@ persistent = 256
 type = DisplayToClipboard
 trigger1 = 1
 text = "Target: %d"
-params = var(6)
+params = (var(6))
 ignorehitpause = 1
 persistent = 256
 
@@ -22488,7 +22536,7 @@ physics = U
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -22518,14 +22566,14 @@ persistent = 256
 [State ]
 type = PosSet
 trigger1 = 1
-x = -500
-y = (Const(size.shadowoffset)) * (-15)
+x = (-500)
+y = ((Const(size.shadowoffset)) * (-15))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = DestroySelf
-trigger1 = (IsHelper(12000)) && (var(6) & 1)
+trigger1 = ((IsHelper(12000)) && (var(6) & 1))
 ignorehitpause = 1
 persistent = 256
 
@@ -22535,7 +22583,7 @@ movetype = A
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -22553,7 +22601,7 @@ movetype = H
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -22571,7 +22619,7 @@ movetype = A
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -22600,14 +22648,14 @@ persistent = 256
 
 [State ]
 type = ChangeAnim
-trigger1 = !NumTarget
+trigger1 = (!NumTarget)
 value = 2694501
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = !NumTarget
+trigger1 = (!NumTarget)
 x = enemy,Pos X
 y = enemy,Pos Y
 ignorehitpause = 1
@@ -22615,8 +22663,8 @@ persistent = 256
 
 [State ]
 type = StateTypeSet
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) >= 0) && ((GameTime % 108) < 37)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) >= 0) && ((GameTime % 108) < 37))
 statetype = S
 movetype = A
 ignorehitpause = 1
@@ -22624,8 +22672,8 @@ persistent = 256
 
 [State ]
 type = StateTypeSet
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) >= 36) && ((GameTime % 108) < 73)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) >= 36) && ((GameTime % 108) < 73))
 statetype = C
 movetype = A
 ignorehitpause = 1
@@ -22633,8 +22681,8 @@ persistent = 256
 
 [State ]
 type = StateTypeSet
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) >= 72) && ((GameTime % 108) < 109)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) >= 72) && ((GameTime % 108) < 109))
 statetype = A
 movetype = A
 ignorehitpause = 1
@@ -22642,13 +22690,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 0) || ((GameTime % 108) = 1)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 0) || ((GameTime % 108) = 1))
 attr = S, NA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22656,13 +22704,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 4) || ((GameTime % 108) = 5)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 4) || ((GameTime % 108) = 5))
 attr = S, SA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22670,13 +22718,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 8) || ((GameTime % 108) = 9)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 8) || ((GameTime % 108) = 9))
 attr = S, HA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22684,13 +22732,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 12) || ((GameTime % 108) = 13)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 12) || ((GameTime % 108) = 13))
 attr = S, NT
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22698,13 +22746,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 16) || ((GameTime % 108) = 17)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 16) || ((GameTime % 108) = 17))
 attr = S, ST
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22712,13 +22760,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 20) || ((GameTime % 108) = 21)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 20) || ((GameTime % 108) = 21))
 attr = S, HT
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22726,13 +22774,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 24) || ((GameTime % 108) = 25)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 24) || ((GameTime % 108) = 25))
 attr = S, NP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22740,13 +22788,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 28) || ((GameTime % 108) = 29)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 28) || ((GameTime % 108) = 29))
 attr = S, SP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22754,13 +22802,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 32) || ((GameTime % 108) = 33)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 32) || ((GameTime % 108) = 33))
 attr = S, HP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22768,13 +22816,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 36) || ((GameTime % 108) = 37)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 36) || ((GameTime % 108) = 37))
 attr = C, NA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22782,13 +22830,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 40) || ((GameTime % 108) = 41)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 40) || ((GameTime % 108) = 41))
 attr = C, SA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22796,13 +22844,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 44) || ((GameTime % 108) = 45)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 44) || ((GameTime % 108) = 45))
 attr = C, HA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22810,13 +22858,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 48) || ((GameTime % 108) = 49)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 48) || ((GameTime % 108) = 49))
 attr = C, NT
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22824,13 +22872,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 52) || ((GameTime % 108) = 53)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 52) || ((GameTime % 108) = 53))
 attr = C, ST
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22838,13 +22886,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 56) || ((GameTime % 108) = 57)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 56) || ((GameTime % 108) = 57))
 attr = C, HT
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22852,13 +22900,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 60) || ((GameTime % 108) = 61)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 60) || ((GameTime % 108) = 61))
 attr = C, NP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22866,13 +22914,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 64) || ((GameTime % 108) = 65)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 64) || ((GameTime % 108) = 65))
 attr = C, SP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22880,13 +22928,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 68) || ((GameTime % 108) = 69)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 68) || ((GameTime % 108) = 69))
 attr = C, HP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22894,13 +22942,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 72) || ((GameTime % 108) = 73)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 72) || ((GameTime % 108) = 73))
 attr = A, NA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22908,13 +22956,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 76) || ((GameTime % 108) = 77)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 76) || ((GameTime % 108) = 77))
 attr = A, SA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22922,13 +22970,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 80) || ((GameTime % 108) = 81)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 80) || ((GameTime % 108) = 81))
 attr = A, HA
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22936,13 +22984,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 84) || ((GameTime % 108) = 85)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 84) || ((GameTime % 108) = 85))
 attr = A, NT
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22950,13 +22998,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 88) || ((GameTime % 108) = 89)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 88) || ((GameTime % 108) = 89))
 attr = A, ST
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22964,13 +23012,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 92) || ((GameTime % 108) = 93)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 92) || ((GameTime % 108) = 93))
 attr = A, HT
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22978,13 +23026,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 96) || ((GameTime % 108) = 97)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 96) || ((GameTime % 108) = 97))
 attr = A, NP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -22992,13 +23040,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 100) || ((GameTime % 108) = 101)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 100) || ((GameTime % 108) = 101))
 attr = A, SP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -23006,13 +23054,13 @@ persistent = 256
 
 [State ]
 type = HitDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 108) = 104) || ((GameTime % 108) = 105)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 108) = 104) || ((GameTime % 108) = 105))
 attr = A, HP
 hitflag = HLAFD
 affectteam = e
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
 ignorehitpause = 1
@@ -23020,11 +23068,11 @@ persistent = 256
 
 [State ]
 type = ReversalDef
-trigger1 = !NumTarget
-trigger1 = ((GameTime % 4) = 2) || ((GameTime % 4) = 3)
+trigger1 = (!NumTarget)
+trigger1 = (((GameTime % 4) = 2) || ((GameTime % 4) = 3))
 reversal.attr = SCA, A, AT, AP
 hitflag = HLAFD
-sparkno = -1
+sparkno = (-1)
 guard.sparkno = (-1)
 hitsound = (-1), 0
 guardsound = (-1), 0
@@ -23033,20 +23081,20 @@ persistent = 256
 
 [State ]
 type = TargetDrop
-trigger1 = NumTarget > 1
+trigger1 = (NumTarget > 1)
 keepone = 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = TargetDrop
-trigger1 = (NumTarget = 1) && target,IsHelper
+trigger1 = ((NumTarget = 1) && target,IsHelper)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = TargetState
-trigger1 = NumTarget && (!root,floor((var(6) & 256) / 255))
+trigger1 = (NumTarget && (!root,floor((var(6) & 256) / 255)))
 value = target,StateNo
 ignorehitpause = 1
 persistent = 256
@@ -23054,6 +23102,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = NumTarget
+var(6) = target,ID
 ignorehitpause = 1
 persistent = 256
 
@@ -23061,7 +23110,7 @@ persistent = 256
 type = DisplayToClipboard
 trigger1 = 1
 text = "Target: %d"
-params = var(6)
+params = (var(6))
 ignorehitpause = 1
 persistent = 256
 
@@ -23071,7 +23120,7 @@ movetype = H
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -23104,7 +23153,7 @@ movetype = A
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -23126,7 +23175,7 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = ((NumHelper(14000)) = 0) && (root,var(6) & 1)
+trigger1 = (((NumHelper(14000)) = 0) && (root,var(6) & 1))
 helpertype = Player
 name = "Infiltration Helper"
 id = 14000
@@ -23142,7 +23191,7 @@ movetype = I
 
 [State ]
 type = ChangeState
-trigger1 = (Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy"))
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
 ignorehitpause = 1
 persistent = 256
@@ -23163,12 +23212,76 @@ ignorehitpause = 1
 persistent = 256
 
 
+[Statedef 16000]
+
+[State ]
+type = ChangeState
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, A, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 18000]
+
+[State ]
+type = ChangeState
+trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
+value = 2694491
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, A, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+
 [Statedef -2]
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = (NumHelper(19000)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(19000)) = 0)
 helpertype = Player
 name = "First Action Helper"
 id = 19000
@@ -23180,8 +23293,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = (NumHelper(13000)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(13000)) = 0)
 helpertype = Player
 name = "Enemy Marking"
 id = 13000
@@ -23193,8 +23306,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = (NumHelper(10000)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(10000)) = 0)
 helpertype = Player
 name = "Image Reproduction"
 id = 10000
@@ -23206,8 +23319,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = (NumHelper(15000)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(15000)) = 0)
 helpertype = Player
 name = "Callback Receiver"
 id = 15000
@@ -23219,8 +23332,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = (NumHelper(14001)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(14001)) = 0)
 helpertype = Player
 name = "Infiltration Controller"
 id = 14001
@@ -23232,8 +23345,34 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(16000)) = 0)
+helpertype = Player
+name = "Learning Storage"
+id = 16000
+stateno = 16000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(18000)) = 0)
+helpertype = Player
+name = "OCCUPANCY TO BE REMOVED"
+id = 18000
+stateno = 18000
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 1"
 id = 11000
@@ -23246,8 +23385,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 1"
 id = 12000
@@ -23260,8 +23399,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 2"
 id = 11000
@@ -23274,8 +23413,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 2"
 id = 12000
@@ -23288,8 +23427,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 3"
 id = 11000
@@ -23302,8 +23441,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 3"
 id = 12000
@@ -23316,8 +23455,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 4"
 id = 11000
@@ -23330,8 +23469,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 4"
 id = 12000
@@ -23344,8 +23483,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 5"
 id = 11000
@@ -23358,8 +23497,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 5"
 id = 12000
@@ -23372,8 +23511,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 6"
 id = 11000
@@ -23386,8 +23525,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 6"
 id = 12000
@@ -23400,8 +23539,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 7"
 id = 11000
@@ -23414,8 +23553,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 7"
 id = 12000
@@ -23428,8 +23567,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 8"
 id = 11000
@@ -23442,8 +23581,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 8"
 id = 12000
@@ -23456,8 +23595,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 9"
 id = 11000
@@ -23470,8 +23609,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 9"
 id = 12000
@@ -23484,8 +23623,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 10"
 id = 11000
@@ -23498,8 +23637,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 10"
 id = 12000
@@ -23512,8 +23651,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 11"
 id = 11000
@@ -23526,8 +23665,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 11"
 id = 12000
@@ -23540,8 +23679,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 12"
 id = 11000
@@ -23554,8 +23693,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 12"
 id = 12000
@@ -23568,8 +23707,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 13"
 id = 11000
@@ -23582,8 +23721,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 13"
 id = 12000
@@ -23596,8 +23735,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 14"
 id = 11000
@@ -23610,8 +23749,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 14"
 id = 12000
@@ -23624,8 +23763,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 15"
 id = 11000
@@ -23638,8 +23777,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 15"
 id = 12000
@@ -23652,8 +23791,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 16"
 id = 11000
@@ -23666,8 +23805,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 16"
 id = 12000
@@ -23680,8 +23819,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 17"
 id = 11000
@@ -23694,8 +23833,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 17"
 id = 12000
@@ -23708,8 +23847,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 18"
 id = 11000
@@ -23722,8 +23861,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 18"
 id = 12000
@@ -23736,8 +23875,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 19"
 id = 11000
@@ -23750,8 +23889,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 19"
 id = 12000
@@ -23764,8 +23903,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 20"
 id = 11000
@@ -23778,8 +23917,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 20"
 id = 12000
@@ -23792,8 +23931,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 21"
 id = 11000
@@ -23806,8 +23945,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 21"
 id = 12000
@@ -23820,8 +23959,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 22"
 id = 11000
@@ -23834,8 +23973,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 22"
 id = 12000
@@ -23848,8 +23987,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 23"
 id = 11000
@@ -23862,8 +24001,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 23"
 id = 12000
@@ -23876,8 +24015,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(11000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Helper 24"
 id = 11000
@@ -23890,8 +24029,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
+trigger1 = (!IsHelper)
+trigger1 = (((NumHelper(12000)) < 24) && (!(var(6) & 1)))
 helpertype = Player
 name = "Crosstalk Target 24"
 id = 12000
@@ -23904,36 +24043,8 @@ persistent = 256
 
 [State ]
 type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(11000)) < 25) && (!(var(6) & 1))
-helpertype = Player
-name = "Crosstalk Helper 25"
-id = 11000
-stateno = 11000
-supermovetime = 2147483647
-pausemovetime = 2147483647
-size.shadowoffset = 24
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = Helper
-trigger1 = !IsHelper
-trigger1 = ((NumHelper(12000)) < 25) && (!(var(6) & 1))
-helpertype = Player
-name = "Crosstalk Target 25"
-id = 12000
-stateno = 12000
-supermovetime = 2147483647
-pausemovetime = 2147483647
-size.shadowoffset = 24
-ignorehitpause = 1
-persistent = 256
-
-[State ]
-type = Helper
-trigger1 = !IsHelper
-trigger1 = (NumHelper(20000)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((NumHelper(20000)) = 0)
 helpertype = Player
 name = "Last Action Helper"
 id = 20000
@@ -23945,21 +24056,22 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = !IsHelper
-trigger1 = (var(2)) = 0
+trigger1 = (!IsHelper)
+trigger1 = ((var(2)) = 0)
+var(2) = 1001
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = TargetDrop
-trigger1 = !IsHelper
+trigger1 = (!IsHelper)
 keepone = 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = AssertSpecial
-trigger1 = !IsHelper
+trigger1 = (!IsHelper)
 flag = Invisible
 flag2 = NoShadow
 flag3 = TimerFreeze
@@ -23968,14 +24080,14 @@ persistent = 256
 
 [State ]
 type = PlayerPush
-trigger1 = !IsHelper
+trigger1 = (!IsHelper)
 value = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ScreenBound
-trigger1 = !IsHelper
+trigger1 = (!IsHelper)
 value = 0
 movecamera = 0, 0
 ignorehitpause = 1
@@ -23983,29 +24095,29 @@ persistent = 256
 
 [State ]
 type = NotHitBy
-trigger1 = !IsHelper
+trigger1 = (!IsHelper)
 value = SCA, A, AP, AT
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = !IsHelper
-trigger1 = (var(0) := ((var(0)) + 1)) || 1
-value = var(2)
+trigger1 = (!IsHelper)
+trigger1 = ((var(0) := ((var(0)) + 1)) || 1)
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PlayerPush
-trigger1 = IsHelper(10000)
+trigger1 = (IsHelper(10000))
 value = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ScreenBound
-trigger1 = IsHelper(10000)
+trigger1 = (IsHelper(10000))
 value = 1
 movecamera = 1, 1
 ignorehitpause = 1
@@ -24013,9 +24125,9 @@ persistent = 256
 
 [State ]
 type = AfterImage
-trigger1 = IsHelper(10000)
-trigger1 = RoundState < 2
-time = -1
+trigger1 = (IsHelper(10000))
+trigger1 = (RoundState < 2)
+time = (-1)
 length = 8
 framegap = 2
 ignorehitpause = 1
@@ -24023,15 +24135,15 @@ persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(10000)
-trigger1 = (var(0) := ((var(0)) + 1)) || 1
+trigger1 = (IsHelper(10000))
+trigger1 = ((var(0) := ((var(0)) + 1)) || 1)
 value = 10000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = AssertSpecial
-trigger1 = IsHelper(11000)
+trigger1 = (IsHelper(11000))
 flag = Invisible
 flag2 = NoShadow
 ignorehitpause = 1
@@ -24039,79 +24151,93 @@ persistent = 256
 
 [State ]
 type = Null
-trigger1 = IsHelper(11000)
-trigger1 = (root,var(6) & 1) = 0
+trigger1 = (IsHelper(11000))
+trigger1 = ((root,var(6) & 1) = 0)
 trigger1 = root,cond(((var(6) := ((((1) & 1) * 1) + (var(6) & -2))) & 1), 1, 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(11000)
+trigger1 = (IsHelper(11000))
 value = 11000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(12000)
+trigger1 = (IsHelper(12000))
 value = 12000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(10001)
+trigger1 = (IsHelper(10001))
 value = 10001
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(19000)
+trigger1 = (IsHelper(19000))
 value = 19000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(20000)
+trigger1 = (IsHelper(20000))
 value = 20000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(13000)
+trigger1 = (IsHelper(13000))
 value = 13000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(15000)
+trigger1 = (IsHelper(15000))
 value = 15000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(14001)
+trigger1 = (IsHelper(14001))
 value = 14001
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper(14000)
-trigger1 = (var(1)) = GameTime
+trigger1 = (IsHelper(16000))
+value = 16000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = (IsHelper(18000))
+value = 18000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = (IsHelper(14000))
+trigger1 = ((var(1)) = GameTime)
 value = 14000
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = DestroySelf
-trigger1 = IsHelper && (!(IsHelper(14000)))
+trigger1 = (IsHelper && (!(IsHelper(14000))))
 ignorehitpause = 1
 persistent = 256
 
@@ -24121,6 +24247,7 @@ persistent = 256
 [State ]
 type = VarSet
 trigger1 = 1
+var(1) = GameTime
 ignorehitpause = 1
 persistent = 256
 
@@ -24138,28 +24265,28 @@ persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = Name = "M-Creirwy"
+trigger1 = (Name = "M-Creirwy")
 value = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
+trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
 value = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (NumHelper(2694492)) = 0
+trigger1 = ((NumHelper(2694492)) = 0)
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((var(6) := ((((1) & 1) * 256) + (var(6) & -257))) & 256), 1, 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Helper
-trigger1 = (NumHelper(2694492)) = 0
+trigger1 = ((NumHelper(2694492)) = 0)
 helpertype = Normal
 name = "Creirwy's Spy Helper"
 id = 2694492
@@ -24174,15 +24301,23 @@ persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(2)
+trigger1 = (Name = "M-Creirwy")
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(2)
+trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
+value = (var(2))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = DisplayToClipboard
+trigger1 = 1
+text = "State = %d CLSN1 = %d CLSN2 = %d"
+params = (var(6)), (sysvar(0)), (sysvar(1))
 ignorehitpause = 1
 persistent = 256
 
@@ -24209,85 +24344,98 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = DisplayToClipboard
-trigger1 = 1
-text = "Search State = %d Last Anim = %d Last Index = %d"
-params = var(6)), (var(4)), (var(3)
+type = Helper
+trigger1 = ((NumHelper(2694493)) = 0)
+helpertype = Normal
+name = "Exploration Buffer"
+id = 2694493
+stateno = 2694493
+supermovetime = 2147483647
+pausemovetime = 2147483647
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = ((var(6)) = 0) || ((var(6)) = 1)
-trigger1 = (var(6) := 1) || 1
+trigger1 = (((var(6)) = 0) || ((var(6)) = 1))
+trigger1 = ((var(6) := 1) || 1)
 value = 1014
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = (var(6)) = 4
+trigger1 = ((var(6)) = 4)
 value = 1013
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 2
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+trigger1 = ((var(6)) = 2)
+trigger1 = (((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0))
+sysvar(0) = (var(4))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 2
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+trigger1 = ((var(6)) = 2)
+trigger1 = (((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0))
+var(6) = 3
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 2
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
+trigger1 = ((var(6)) = 2)
+trigger1 = (((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0))
+var(6) = 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 5
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+trigger1 = ((var(6)) = 5)
+trigger1 = (((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0))
+sysvar(1) = (var(4))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 5
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0)
+trigger1 = ((var(6)) = 5)
+trigger1 = (((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) = 0))
+var(6) = 6
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 5
-trigger1 = ((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0)
+trigger1 = ((var(6)) = 5)
+trigger1 = (((var(3)) > 0) && (root,NumProjID(((var(3)) + 11100000)) != 0))
+var(6) = 4
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 3
+trigger1 = ((var(6)) = 3)
+var(3) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 3
+trigger1 = ((var(6)) = 3)
+var(4) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(6)) = 3
+trigger1 = ((var(6)) = 3)
+var(6) = 4
 ignorehitpause = 1
 persistent = 256
 
@@ -24296,22 +24444,22 @@ persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(2)
+trigger1 = (Name = "M-Creirwy")
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(2)
+trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim2
 trigger1 = 1
-value = (var(3)) + 11100000
+value = ((var(3)) + 11100000)
 ignorehitpause = 1
 persistent = 256
 
@@ -24324,13 +24472,15 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
+trigger1 = (((var(4)) = Anim) && ((var(3)) > 0))
+var(6) = 8
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = 1
+var(4) = Anim
 ignorehitpause = 1
 persistent = 256
 
@@ -24343,7 +24493,8 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(3)) > 1000
+trigger1 = ((var(3)) > 1000)
+var(6) = 8
 ignorehitpause = 1
 persistent = 256
 
@@ -24357,20 +24508,20 @@ persistent = 256
 [State ]
 type = ChangeAnim
 trigger1 = 1
-value = var(4)
+value = (var(4))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = HitBy
-trigger1 = (var(6)) = 4
+trigger1 = ((var(6)) = 4)
 value = C, HT
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = (var(6)) = 4
+trigger1 = ((var(6)) = 4)
 x = enemy((enemy,Name != "M-Creirwy")),Pos X
 y = enemy((enemy,Name != "M-Creirwy")),Pos Y
 ignorehitpause = 1
@@ -24378,10 +24529,10 @@ persistent = 256
 
 [State ]
 type = Projectile
-trigger1 = (var(6)) = 4
-trigger1 = (var(6) := 5) || 1
-projid = (var(3)) + 11100000
-projanim = sysvar(0)
+trigger1 = ((var(6)) = 4)
+trigger1 = ((var(6) := 5) || 1)
+projid = ((var(3)) + 11100000)
+projanim = (sysvar(0))
 projscale = 0, 0
 projremovetime = 3
 projhits = 1
@@ -24393,8 +24544,8 @@ pausemovetime = 2147483647
 attr = C, HT
 hitflag = HLAFD
 affectteam = F
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24403,22 +24554,22 @@ persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = Name = "M-Creirwy"
-value = var(2)
+trigger1 = (Name = "M-Creirwy")
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = IsHelper && (root,Name = "M-Creirwy")
-value = var(2)
+trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
+value = (var(2))
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeAnim2
 trigger1 = 1
-value = (var(3)) + 11100000
+value = ((var(3)) + 11100000)
 ignorehitpause = 1
 persistent = 256
 
@@ -24431,13 +24582,15 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((var(4)) = Anim) && ((var(3)) > 0)
+trigger1 = (((var(4)) = Anim) && ((var(3)) > 0))
+var(6) = 7
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
 trigger1 = 1
+var(4) = Anim
 ignorehitpause = 1
 persistent = 256
 
@@ -24450,7 +24603,8 @@ persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (var(3)) > 1000
+trigger1 = ((var(3)) > 1000)
+var(6) = 7
 ignorehitpause = 1
 persistent = 256
 
@@ -24463,10 +24617,10 @@ persistent = 256
 
 [State ]
 type = Projectile
-trigger1 = (var(6)) = 1
-trigger1 = (var(6) := 2) || 1
-projid = (var(3)) + 11100000
-projanim = var(4)
+trigger1 = ((var(6)) = 1)
+trigger1 = ((var(6) := 2) || 1)
+projid = ((var(3)) + 11100000)
+projanim = (var(4))
 projscale = 0, 0
 projremovetime = 3
 projhits = 1
@@ -24477,8 +24631,99 @@ supermovetime = 2147483647
 pausemovetime = 2147483647
 attr = C, HP
 hitflag = HLAFD
-sparkno = -1
-guard.sparkno = -1
+sparkno = (-1)
+guard.sparkno = (-1)
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 2694493]
+movetype = A
+
+[State ]
+type = SelfState
+trigger1 = (Name = "M-Creirwy")
+value = (var(2))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
+value = (var(2))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, A, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Helper
+trigger1 = ((NumHelper(2694494)) = 0)
+helpertype = Normal
+name = "Creirwy's Exploration Helper"
+id = 2694494
+stateno = 2694494
+supermovetime = 2147483647
+pausemovetime = 2147483647
+ignorehitpause = 1
+persistent = 256
+
+
+[Statedef 2694494]
+
+[State ]
+type = SelfState
+trigger1 = (Name = "M-Creirwy")
+value = (var(2))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
+value = (var(2))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = 1
+value = SCA, A, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = AssertSpecial
+trigger1 = 1
+flag = Invisible
+flag2 = NoShadow
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = 1
+value = 10002
 ignorehitpause = 1
 persistent = 256
 

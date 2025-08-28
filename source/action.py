@@ -14,6 +14,8 @@ from .includes.constants import (
     MARKING_HELPER_ID,
     INFILTRATION_HELPER_ID, INFILTRATION_CONTROLLER_ID,
     RECEIVER_HELPER_ID,
+    STORAGE_HELPER_ID,
+    OCCUPANCY_HELPER_ID,
     FIRST_HELPER_ID,
     LAST_HELPER_ID
 )
@@ -28,6 +30,8 @@ from source.helpers.last import LastHelper_Actions
 from source.helpers.marking import MarkingHelper_Actions
 from source.helpers.callback_receiver import CallbackReceiver_Actions
 from source.helpers.infiltrator import InfiltrationController_Actions, InfiltrationHelper_LocalActions
+from source.helpers.storage import StorageHelper_Actions
+from source.helpers.occupancy import OccupancyHelper_Actions
 
 @statedef(stateno = -2, scope = SCOPE_PLAYER)
 def Think():
@@ -48,6 +52,8 @@ def Think():
     if IsHelper(MARKING_HELPER_ID): SelfState(value = MarkingHelper_Actions)
     if IsHelper(RECEIVER_HELPER_ID): SelfState(value = CallbackReceiver_Actions)
     if IsHelper(INFILTRATION_CONTROLLER_ID): SelfState(value = InfiltrationController_Actions)
+    if IsHelper(STORAGE_HELPER_ID): SelfState(value = StorageHelper_Actions)
+    if IsHelper(OCCUPANCY_HELPER_ID): SelfState(value = OccupancyHelper_Actions) ## TODO: does Occupancy need a real state?
 
     ## infiltration needs to do all of its work inside -2,
     ## because if it is working properly it will get reversed and
@@ -130,6 +136,26 @@ def Think_SpawnBaseHelpers():
             name = "Infiltration Controller",
             id = INFILTRATION_CONTROLLER_ID,
             stateno = InfiltrationController_Actions,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
+
+    if NumHelper(STORAGE_HELPER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "Learning Storage",
+            id = STORAGE_HELPER_ID,
+            stateno = StorageHelper_Actions,
+            supermovetime = PAUSETIME_MAX,
+            pausemovetime = PAUSETIME_MAX
+        )
+
+    if NumHelper(OCCUPANCY_HELPER_ID) == 0:
+        Helper(
+            helpertype = HelperType.Player,
+            name = "OCCUPANCY TO BE REMOVED",
+            id = OCCUPANCY_HELPER_ID,
+            stateno = OccupancyHelper_Actions,
             supermovetime = PAUSETIME_MAX,
             pausemovetime = PAUSETIME_MAX
         )

@@ -2,6 +2,14 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-28
+
+- fix a couple mtl bracketing issues
+- fix a bug in variable compilation method for else blocks
+- introduce exploration/explorer buffer helpers
+- add a storage helper to store exploration results
+- add skeleton for occupancy helpers
+
 ### 2025-08-26
 
 - work on enum/flag typing in mdk

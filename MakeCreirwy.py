@@ -7,7 +7,7 @@ CompilerContext.instance().default_state = (convert(True), convert(256))
 
 ## we only need to import these as `action` already imports all the Helper states individually.
 from source import brain, action, target # type: ignore
-from source.helpers import spy # type: ignore
+from source.helpers import spy, exploration # type: ignore
 
 if __name__ == "__main__":
     build("M-Creirwy.def", "States/Creirwy-States.mtl", preserve_ir = True, target_folder = "M-Creirwy.CNS")
