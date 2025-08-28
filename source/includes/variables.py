@@ -1,6 +1,6 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
-from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID
+from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, STORAGE_HELPER_ID
 from source.includes.types import ImageReproActionTypeT, AnimationSearchStateTypeT
 
 ######################################################
@@ -73,27 +73,30 @@ Flag indicating whether the owner of this CT target has successfully obtained it
 ######################################################
 ## Global helper-scoped - used by the Spy helper
 ######################################################
-Spy_AnimationSearchState = VariableExpression(AnimationSearchStateTypeT, scope = SCOPE_HELPER(SPY_HELPER_ID))
-"""
-Indicates the progress the Spy helper has made towards finding Clsn1/2 animations.
-"""
-
-Spy_AnimTestNumber = IntVar()
+Spy_AnimTestNumber = IntVar(scope = SCOPE_HELPER(SPY_HELPER_ID))
 """
 Tracks the last animation index which the Spy helper has tested.
 """
 
-Spy_LastAnimChecked = IntVar()
+Spy_LastAnimChecked = IntVar(scope = SCOPE_HELPER(SPY_HELPER_ID))
 """
 Tracks the last animation ID which the Spy helper has tested.
 """
 
-Spy_SavedClsn1 = IntVar(system = True)
+############################################################################################
+## Global helper-scoped - used by various characters, but stored in the Storage helper
+############################################################################################
+SpyStorage_AnimationSearchState = VariableExpression(AnimationSearchStateTypeT, scope = SCOPE_HELPER(STORAGE_HELPER_ID))
+"""
+Indicates the progress the Spy helper has made towards finding Clsn1/2 animations.
+"""
+
+SpyStorage_SavedClsn1 = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
 """
 Saves the animation number of a Clsn1-containing animation for the enemy.
 """
 
-Spy_SavedClsn2 = IntVar(system = True)
+SpyStorage_SavedClsn2 = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
 """
 Saves the animation number of a Clsn2-containing animation for the enemy.
 """

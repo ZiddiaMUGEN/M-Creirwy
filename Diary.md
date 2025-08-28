@@ -9,6 +9,8 @@ This is a log of any work I do on the character so I remember what I worked on.
 - introduce exploration/explorer buffer helpers
 - add a storage helper to store exploration results
 - add skeleton for occupancy helpers
+- move Spy critical vars into Storage helper (CLSN1/CLSN2/AnimationSearchState)
+    - this also required a bunch of helper functions for reading/writing storage helper variables.
 
 ### 2025-08-26
 

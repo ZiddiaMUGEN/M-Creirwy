@@ -115,7 +115,7 @@ def ReadStorageVar_Enemy(var_name: VariableExpression, type: TypeSpecifier = Int
     """
     Use this as a Trigger. Returns a Condbug statement to read the value of a variable in the Storage helper.
     """
-    return Expression(f"enemy(enemy,Name != \"M-Creirwy\"),Cond(NumHelper({STORAGE_HELPER_ID}), Helper({STORAGE_HELPER_ID}),{var_name.exprn}, 0)", type)
+    return Expression(f"rescope(enemy(enemy,Name != \"M-Creirwy\"), root),Cond(NumHelper({STORAGE_HELPER_ID}), Helper({STORAGE_HELPER_ID}),{var_name.exprn}, -1)", type)
 
 @statefunc()
 def SetStorageVar_Enemy(var_name: ConvertibleExpression, value: ConvertibleExpression):
@@ -128,7 +128,7 @@ def SetStorageVar_Enemy(var_name: ConvertibleExpression, value: ConvertibleExpre
 
     ## because this is executed from a TARGET scope, no `rescope` operator is required.
     ## `enemy(xyz)` on TARGET scope is resolved to PLAYER scope.
-    if Expression(f"enemy(enemy,Name != \"M-Creirwy\"),Cond(Helper({STORAGE_HELPER_ID}),Cond({var_name.exprn} := {value.exprn}, true, true)), true, true)", BoolType):
+    if Expression(f"rescope(enemy(enemy,Name != \"M-Creirwy\"), root),Cond(Helper({STORAGE_HELPER_ID}),Cond({var_name.exprn} := {value.exprn}, true, true), true, true)", BoolType):
         Null()
 
 @statefunc()
