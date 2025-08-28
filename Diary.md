@@ -11,6 +11,10 @@ This is a log of any work I do on the character so I remember what I worked on.
 - add skeleton for occupancy helpers
 - move Spy critical vars into Storage helper (CLSN1/CLSN2/AnimationSearchState)
     - this also required a bunch of helper functions for reading/writing storage helper variables.
+- implement MTL rescope into mdk-python
+- update most or all manually-built `Expression("...")` in Creirwy code to use Python expressions
+    - there are a few holdouts for variable assignment in `shared.py`, mostly just because Condbug is terrible to work with. normal characters would not need to deal with this.
+- skeleton for Explorer state changes
 
 ### 2025-08-26
 

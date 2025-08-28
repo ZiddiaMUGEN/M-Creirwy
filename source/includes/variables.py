@@ -1,6 +1,6 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
-from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, STORAGE_HELPER_ID
+from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, STORAGE_HELPER_ID, EXPLORER_BUFFER_ID
 from source.includes.types import ImageReproActionTypeT, AnimationSearchStateTypeT
 
 ######################################################
@@ -81,6 +81,15 @@ Tracks the last animation index which the Spy helper has tested.
 Spy_LastAnimChecked = IntVar(scope = SCOPE_HELPER(SPY_HELPER_ID))
 """
 Tracks the last animation ID which the Spy helper has tested.
+"""
+
+############################################################################################
+## Global helper-scoped - used by the Exploration controller.
+## these MUST be sysvars, as Exploration controller can be hit by ParentVarSet.
+############################################################################################
+Exploration_CurrentState = IntVar(scope = SCOPE_HELPER(EXPLORER_BUFFER_ID), system = True)
+"""
+Tracks the last state which was entered and tested by the Exploration helper.
 """
 
 ############################################################################################

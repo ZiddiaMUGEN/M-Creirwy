@@ -24317,7 +24317,7 @@ persistent = 256
 type = DisplayToClipboard
 trigger1 = 1
 text = "State = %d CLSN1 = %d CLSN2 = %d Last = %d Test = %d"
-params = enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)), enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(5)), (-1)), enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(6)), (-1)), (var(5)), (var(4))
+params = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1), enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(5)), 1), enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(6)), 1), (var(5)), (var(4))
 ignorehitpause = 1
 persistent = 256
 
@@ -24357,84 +24357,84 @@ persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = ((enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 0) || (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 1))
+trigger1 = ((enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 0) || (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 1))
 value = 1014
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = ChangeState
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 4)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 4)
 value = 1013
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 2)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 2)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) = 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(5) := enemy,cond((NumHelper(2694492)), (helper(2694492),var(5)), (-1))), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(5) := enemy,cond(((NumHelper(2694492)) != 0), (helper(2694492),var(5)), (-1))), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 2)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 2)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) = 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 3), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 3), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 2)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 2)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) != 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 1), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 1), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 5)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 5)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) = 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(6) := enemy,cond((NumHelper(2694492)), (helper(2694492),var(5)), (-1))), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(6) := enemy,cond(((NumHelper(2694492)) != 0), (helper(2694492),var(5)), (-1))), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 5)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 5)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) = 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 6), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 6), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 5)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 5)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) != 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 4), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 4), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 3)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 3)
 var(4) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 3)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 3)
 var(5) = 0
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 3)
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 4), 1, 1), 1, 1)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 3)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 4), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24457,7 +24457,7 @@ persistent = 256
 
 [State ]
 type = Null
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 4), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 4), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24478,7 +24478,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = (((var(5)) = Anim) && ((var(4)) > 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 8), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 8), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24499,7 +24499,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = ((var(4)) > 1000)
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 8), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 8), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24519,14 +24519,14 @@ persistent = 256
 
 [State ]
 type = HitBy
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 4)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 4)
 value = C, HT
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = PosSet
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 4)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 4)
 x = enemy((enemy,Name != "M-Creirwy")),Pos X
 y = enemy((enemy,Name != "M-Creirwy")),Pos Y
 ignorehitpause = 1
@@ -24534,9 +24534,9 @@ persistent = 256
 
 [State ]
 type = Projectile
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 4)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 4)
 projid = ((var(4)) + 11100000)
-projanim = enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(5)), (-1))
+projanim = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(5)), 1)
 projscale = 0, 0
 projremovetime = 3
 projhits = 1
@@ -24555,8 +24555,8 @@ persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 4)
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 5), 1, 1), 1, 1)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 4)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 5), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24579,7 +24579,7 @@ persistent = 256
 
 [State ]
 type = Null
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 1), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 1), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24600,7 +24600,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = (((var(5)) = Anim) && ((var(4)) > 0))
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 7), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 7), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24621,7 +24621,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = ((var(4)) > 1000)
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 7), 1, 1), 1, 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 7), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24634,7 +24634,7 @@ persistent = 256
 
 [State ]
 type = Projectile
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 1)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 1)
 projid = ((var(4)) + 11100000)
 projanim = (var(5))
 projscale = 0, 0
@@ -24654,8 +24654,8 @@ persistent = 256
 
 [State ]
 type = Null
-trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond((NumHelper(16000)), (helper(16000),var(4)), (-1)) = 1)
-trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(helper(16000),cond((var(4) := 2), 1, 1), 1, 1)
+trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 1)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 2), 1), 1)
 ignorehitpause = 1
 persistent = 256
 
@@ -24696,6 +24696,21 @@ persistent = 256
 type = ChangeAnim2
 trigger1 = 1
 value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarAdd
+trigger1 = ((NumHelper(2694494)) != 0)
+sysvar(0) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((NumHelper(2694494)) != 0)
+trigger1 = (((sysvar(0)) >= 120) && ((sysvar(0)) < 160))
+sysvar(0) = 161
 ignorehitpause = 1
 persistent = 256
 
@@ -24747,6 +24762,14 @@ persistent = 256
 type = ChangeAnim2
 trigger1 = 1
 value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = 1
+value = helper(2694493),sysvar(0)
+ctrl = 1
 ignorehitpause = 1
 persistent = 256
 

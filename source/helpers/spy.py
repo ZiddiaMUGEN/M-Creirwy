@@ -1,9 +1,10 @@
 from mdk.compiler import statedef, statefunc
-from mdk.types import SCOPE_HELPER, HitType, HitAttr, AssertType, HitFlagType, PosType, TeamType, Expression, HelperType, VariableExpression, IntType
+from mdk.types import SCOPE_HELPER, SCOPE_PLAYER, HitType, HitAttr, AssertType, HitFlagType, PosType, TeamType, Expression, HelperType, VariableExpression, IntType
 from mdk.stdlib.redirects import RedirectTarget
 from mdk.stdlib import (
     ChangeAnim2, ChangeAnim, NotHitBy, HitBy, AssertSpecial, Projectile, PosSet, Helper,
-    Anim, NumHelper
+    Anim, NumHelper,
+    enemy, enemyID, root, helperID, rescope
 )
 
 from source.includes.shared import SendToSafeStates, ReadStorageVar_Enemy, SetStorageVar_Enemy
@@ -13,20 +14,20 @@ from source.includes.variables import (
 )
 from source.includes.types import AnimationSearchStateType, AnimationSearchStateTypeT
 
-creirwy = RedirectTarget("enemy(enemy,Name != \"M-Creirwy\")")
+creirwy = enemyID(enemy.Name != "M-Creirwy")
 """A custom redirect to the correct enemy index for Creirwy."""
 
 def RootNumProjID(exprn: Expression) -> Expression:
-    """A helper to get NumProjID while retaining access to Spy's variables."""
-    return RedirectTarget(f"rescope(root, helper({SPY_HELPER_ID}))").NumProjID(exprn)
+    """A helper to get NumProjID (which only works on the root) while retaining access to Spy's variables."""
+    return rescope(root, SCOPE_HELPER(SPY_HELPER_ID)).NumProjID(exprn)
 
 def ReadAnimationSearchState(): 
     """Helper function to read the value of AnimationSearchState, which is stored in Variable Storage."""
-    return ReadStorageVar_Enemy(SpyStorage_AnimationSearchState, AnimationSearchStateTypeT)
+    return ReadStorageVar_Enemy(SpyStorage_AnimationSearchState)
 
-def ReadSpyHelperVar(var_name: VariableExpression):
+def ReadSpyHelperVar(variable: VariableExpression):
     """Helper function to provide access to Spy helper's internal variables to Conds inside Variable Storage."""
-    return Expression(f"rescope(enemy, root),Cond(NumHelper({SPY_HELPER_ID}), Helper({SPY_HELPER_ID}),{var_name.exprn}, -1)", IntType)
+    return rescope(enemy, SCOPE_PLAYER).Cond(NumHelper(SPY_HELPER_ID) != 0, getattr(helperID(SPY_HELPER_ID), variable.exprn), -1)
 
 @statedef(stateno = SPY_HELPER_ID, scope = SCOPE_HELPER(SPY_HELPER_ID))
 def SpyHelper_Base():

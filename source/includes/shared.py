@@ -1,8 +1,7 @@
 from mdk.compiler import statefunc, trigger
-from mdk.stdlib import Name, IsHelper, root, ChangeState, SelfState, Random, Cond, Null
-from mdk.types import Expression, ConvertibleExpression, VariableExpression, TypeSpecifier, IntType, BoolType
+from mdk.stdlib import Name, IsHelper, root, ChangeState, SelfState, Random, Cond, Null, rescope, target, enemy, enemyID, helperID, NumHelper
+from mdk.types import Expression, ConvertibleExpression, VariableExpression, IntType, BoolType, StateScope, SCOPE_PLAYER, TypeSpecifier
 
-from mdk.stdlib.redirects import RedirectTarget
 from mdk.utils.shared import convert
 
 from source.includes.variables import TrackedTime, SavedState # type: ignore
@@ -52,42 +51,42 @@ def RandPick(val1: Expression, val2: Expression) -> Expression:
     return Cond(Random % 2 == 1, val1, val2)
 
 @statefunc()
-def RootVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
+def RootVarSet(variable: VariableExpression, value: ConvertibleExpression):
     """
     Use Cond-bug with a Null controller to set a value on the root. 
     This will not work as expected if executed from a non-Helper context.
     """
-    if not isinstance(var_name, Expression): var_name = convert(var_name)
     if not isinstance(value, Expression): value = convert(value)
 
-    if Expression(f"root,Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+    _assign = Expression(f"{variable.exprn} := {value.exprn}", variable.type)
+    if root.Cond(_assign, True, True): # type: ignore
         Null()
 
 @statefunc()
-def TargetVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression, scope: RedirectTarget):
+def TargetVarSet(variable: VariableExpression, value: ConvertibleExpression, scope: StateScope):
     """
     Use Cond-bug with a Null controller to set a value on a target.
     You must provide a concrete scope for the target as well.
     This will not work as expected if the current context has no target.
     """
-    if not isinstance(var_name, Expression): var_name = convert(var_name)
     if not isinstance(value, Expression): value = convert(value)
 
-    if Expression(f"rescope(target, {scope.__repr__()}),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+    _assign = Expression(f"{variable.exprn} := {value.exprn}", variable.type)
+    if rescope(target, scope).Cond(_assign, True, True): # type: ignore
         Null()
 
 @statefunc()
-def CreirwyVarSet(var_name: ConvertibleExpression, value: ConvertibleExpression):
+def CreirwyVarSet(variable: VariableExpression, value: ConvertibleExpression):
     """
     Use Cond-bug with a Null controller to set a value on Creirwy's root.
     This is expected to be run from the enemy's context so that captured enemies can set Creirwy's progress flags.
     """
-    if not isinstance(var_name, Expression): var_name = convert(var_name)
     if not isinstance(value, Expression): value = convert(value)
 
     ## because this is executed from a TARGET scope, no `rescope` operator is required.
     ## `enemy(xyz)` on TARGET scope is resolved to PLAYER scope.
-    if Expression(f"enemy(enemy,Name != \"M-Creirwy\"),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+    _assign = Expression(f"{variable.exprn} := {value.exprn}", variable.type)
+    if enemyID(enemy.Name != "M-Creirwy").Cond(_assign, True, True): # type: ignore
         Null()
 
 @trigger(inputs = [IntType, IntType, IntType], result = BoolType, library = "States/Creirwy-SharedFunc.inc")
@@ -111,34 +110,37 @@ def SendToSafeStates():
     if IsHelper() and root.Name == "M-Creirwy":
         SelfState(value = SavedState)
 
-def ReadStorageVar_Enemy(var_name: VariableExpression, type: TypeSpecifier = IntType) -> Expression:
+def ReadStorageVar_Enemy(variable: VariableExpression) -> Expression:
     """
     Use this as a Trigger. Returns a Condbug statement to read the value of a variable in the Storage helper.
     """
-    return Expression(f"rescope(enemy(enemy,Name != \"M-Creirwy\"), root),Cond(NumHelper({STORAGE_HELPER_ID}), Helper({STORAGE_HELPER_ID}),{var_name.exprn}, -1)", type)
+    _e = Expression("1", variable.type)
+    return rescope(enemyID(enemy.Name != "M-Creirwy"), SCOPE_PLAYER).Cond(NumHelper(STORAGE_HELPER_ID) != 0, getattr(helperID(STORAGE_HELPER_ID), variable.exprn), _e)
 
 @statefunc()
-def SetStorageVar_Enemy(var_name: ConvertibleExpression, value: ConvertibleExpression):
+def SetStorageVar_Enemy(variable: VariableExpression, value: ConvertibleExpression):
     """
     Use Cond-bug with a Null controller to set a value on Creirwy's Storage helper.
     This is expected to be run from the enemy's context so that captured enemies can set Creirwy's progress flags.
     """
-    if not isinstance(var_name, Expression): var_name = convert(var_name)
     if not isinstance(value, Expression): value = convert(value)
 
     ## because this is executed from a TARGET scope, no `rescope` operator is required.
     ## `enemy(xyz)` on TARGET scope is resolved to PLAYER scope.
-    if Expression(f"rescope(enemy(enemy,Name != \"M-Creirwy\"), root),Cond(Helper({STORAGE_HELPER_ID}),Cond({var_name.exprn} := {value.exprn}, true, true), true, true)", BoolType):
+    _e = Expression("1", value.type)
+    _assign = Expression(f"{variable.exprn} := {value.exprn}", variable.type)
+    if rescope(enemyID(enemy.Name != "M-Creirwy"), SCOPE_PLAYER).Cond(NumHelper(STORAGE_HELPER_ID) != 0, helperID(STORAGE_HELPER_ID).Cond(True, _assign, _e), _e): # type: ignore
         Null()
 
 @statefunc()
-def SetStorageVar_Self(var_name: ConvertibleExpression, value: ConvertibleExpression):
+def SetStorageVar_Self(variable: VariableExpression, value: ConvertibleExpression):
     """
     Use Cond-bug with a Null controller to set a value on Creirwy's Storage helper.
     This is expected to be run from Creirwy's team's context so that helpers can set progress flags.
     """
-    if not isinstance(var_name, Expression): var_name = convert(var_name)
     if not isinstance(value, Expression): value = convert(value)
 
-    if Expression(f"Helper({STORAGE_HELPER_ID}),Cond({var_name.exprn} := {value.exprn}, true, true)", BoolType):
+    _e = Expression("1", value.type)
+    _assign = Expression(f"{variable.exprn} := {value.exprn}", variable.type)
+    if helperID(STORAGE_HELPER_ID).Cond(True, _assign, _e): # type: ignore
         Null()

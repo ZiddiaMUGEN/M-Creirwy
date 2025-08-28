@@ -1,16 +1,16 @@
 from mdk.compiler import statedef
 from mdk.types import SCOPE_HELPER, HitType, HitAttr, HelperType, AssertType, MoveType
-from mdk.stdlib.redirects import RedirectTarget
 from mdk.stdlib import (
     SelfState, NotHitBy, AssertSpecial, ChangeAnim2, Helper,
     NumHelper,
-    helperID
+    helperID, enemy, enemyID
 )
 
+from source.includes.variables import Exploration_CurrentState
 from source.includes.shared import SendToSafeStates
 from source.includes.constants import SPY_HELPER_ID, EXPLORER_HELPER_ID, EXPLORER_BUFFER_ID, PAUSETIME_MAX, PASSIVE_ANIM
 
-creirwy = RedirectTarget("enemy(enemy,Name != \"M-Creirwy\")")
+creirwy = enemyID(enemy.Name != "M-Creirwy")
 """A custom redirect to the correct enemy index for Creirwy."""
 spy = helperID(SPY_HELPER_ID)
 """Redirect targeting the Spy helper."""
@@ -33,6 +33,13 @@ def ExplorationBuffer_Base():
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow)
     ChangeAnim2(value = PASSIVE_ANIM)
 
+    if NumHelper(EXPLORER_HELPER_ID) != 0:
+        ## increment the target state for exploration.
+        Exploration_CurrentState.add(1)
+        ## we must skip over all guard states.
+        if Exploration_CurrentState >= 120 and Exploration_CurrentState < 160:
+            Exploration_CurrentState.set(161)
+
     if NumHelper(EXPLORER_HELPER_ID) == 0:
         Helper(
             id = EXPLORER_HELPER_ID,
@@ -54,3 +61,6 @@ def ExplorationHelper_Base():
     NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow)
     ChangeAnim2(value = PASSIVE_ANIM)
+
+    ## enter the next state for exploration.
+    SelfState(value = helperID(EXPLORER_BUFFER_ID).Exploration_CurrentState, ctrl = True)
