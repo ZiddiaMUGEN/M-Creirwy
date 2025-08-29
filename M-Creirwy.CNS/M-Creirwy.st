@@ -22527,6 +22527,24 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
+trigger1 = (target,StateNo != 2694494)
+trigger1 = ((target,MoveType = A) && ((helper(16000),var(9)) = 0))
+trigger1 = helper(16000),cond(1, (var(9) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Null
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
+trigger1 = (target,StateNo != 2694494)
+trigger1 = ((target,HitDefAttr = SCA, A, AT, AP) && ((helper(16000),var(10)) = 0))
+trigger1 = helper(16000),cond(1, (var(10) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = TargetState
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
 value = 2694494

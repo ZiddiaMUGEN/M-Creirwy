@@ -121,3 +121,13 @@ ExplorerStorage_SavedMoveTypeH_High = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER
 """
 Saves the state number of a state where the Explorer had MoveType = H.
 """
+
+ExplorerStorage_SavedAttackState = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
+"""
+Saves the state number of a state where the Explorer had MoveType = A.
+"""
+
+ExplorerStorage_SavedHitDefState = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
+"""
+Saves the state number of a state where the Explorer had a HitDef active.
+"""

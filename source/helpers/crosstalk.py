@@ -4,7 +4,7 @@
 from mdk.compiler import statedef
 from mdk.types import (
     SCOPE_HELPER,
-    StateType, MoveType, PhysicsType, HitAttr, HitType, TeamType,
+    StateType, MoveType, PhysicsType, HitAttr, HitType, TeamType, HitAttrF,
     IntVar
 )
 from mdk.stdlib import (
@@ -15,7 +15,11 @@ from mdk.stdlib import (
 )
 
 from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, EXPLORER_BUFFER_ID, EXPLORER_HELPER_ID, STORAGE_HELPER_ID, PASSIVE_ANIM
-from source.includes.variables import CrossTalkTarget_TargetObtained, ExplorerStorage_SavedMoveTypeH_Low, ExplorerStorage_SavedMoveTypeH_High
+from source.includes.variables import (
+    CrossTalkTarget_TargetObtained, 
+    ExplorerStorage_SavedMoveTypeH_Low, ExplorerStorage_SavedMoveTypeH_High, ## ayuayu
+    ExplorerStorage_SavedAttackState, ExplorerStorage_SavedHitDefState, ## OTHK
+)
 from source.includes.shared import SendToDevilsEye, TargetVarSet, SetStorageVar_Self
 
 CT_GROUP_INDEX = Const("size.shadowoffset")
@@ -79,6 +83,11 @@ def CrossTalk_Base():
                     SetStorageVar_Self(ExplorerStorage_SavedMoveTypeH_Low, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
                 if target.StateNo >= 200 and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedMoveTypeH_High == 0:
                     SetStorageVar_Self(ExplorerStorage_SavedMoveTypeH_High, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
+            ## detect candidate Attack states: Explorer's movetype is A
+            if target.MoveType == MoveType.A and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedAttackState == 0:
+                SetStorageVar_Self(ExplorerStorage_SavedAttackState, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
+            if target.HitDefAttr == (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP) and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedHitDefState == 0:
+                SetStorageVar_Self(ExplorerStorage_SavedHitDefState, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
 
         TargetState(value = EXPLORER_HELPER_ID)
 

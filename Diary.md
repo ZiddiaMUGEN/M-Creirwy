@@ -8,6 +8,8 @@ This is a log of any work I do on the character so I remember what I worked on.
 - add a step in Explorer helper to search for viable Ayu-Ayu (MoveType=H) state
 - put Explorer state discovery variables into Var Storage
 - implement both low and high Ayuayu discovery
+- implement HitDefAttr trigger in MTL and mdk-python (special case as it returns a tuple)
+- implement skeleton for MoveType=A discovery, HitDef discovery (OTHK)
 
 ### 2025-08-28
 
