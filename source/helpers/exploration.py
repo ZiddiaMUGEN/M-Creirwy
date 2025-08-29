@@ -1,7 +1,7 @@
 from mdk.compiler import statedef
 from mdk.types import SCOPE_HELPER, HitType, HitAttr, HelperType, AssertType, MoveType
 from mdk.stdlib import (
-    SelfState, NotHitBy, AssertSpecial, ChangeAnim2, Helper,
+    SelfState, NotHitBy, AssertSpecial, ChangeAnim2, Helper, StateTypeSet,
     NumHelper,
     helperID, enemy, enemyID
 )
@@ -15,16 +15,14 @@ creirwy = enemyID(enemy.Name != "M-Creirwy")
 spy = helperID(SPY_HELPER_ID)
 """Redirect targeting the Spy helper."""
 
-@statedef(stateno = EXPLORER_BUFFER_ID, movetype = MoveType.A, scope = SCOPE_HELPER(EXPLORER_BUFFER_ID))
+@statedef(stateno = EXPLORER_BUFFER_ID, movetype = MoveType.I, scope = SCOPE_HELPER(EXPLORER_BUFFER_ID))
 def ExplorationBuffer_Base():
     """
     Entry point for the Exploration buffer.
 
-    This is only responsible for spawning additional Exploration helpers and inspecting the state of the helper.
+    This is only responsible for spawning additional Exploration helpers and tracking the next state to enter.
 
     This is done here instead of in Spy because exploration target states can invoke ParentVarSet and corrupt the parent's variables, this buffer helper keeps the Spy's variables reliable.
-
-    Buffer has MoveType.A to ensure it moves before the explorer.
     """
     SendToSafeStates()
 
@@ -50,7 +48,7 @@ def ExplorationBuffer_Base():
             pausemovetime = PAUSETIME_MAX
         )
 
-@statedef(stateno = EXPLORER_HELPER_ID, scope = SCOPE_HELPER(EXPLORER_HELPER_ID))
+@statedef(stateno = EXPLORER_HELPER_ID, movetype = MoveType.U, scope = SCOPE_HELPER(EXPLORER_HELPER_ID))
 def ExplorationHelper_Base():
     """
     Entry point for the Exploration helper.
@@ -61,6 +59,9 @@ def ExplorationHelper_Base():
     NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow)
     ChangeAnim2(value = PASSIVE_ANIM)
+
+    ## set MoveType=H for Ayuayu detection
+    StateTypeSet(movetype = MoveType.H)
 
     ## enter the next state for exploration.
     SelfState(value = helperID(EXPLORER_BUFFER_ID).Exploration_CurrentState, ctrl = True)

@@ -109,3 +109,15 @@ SpyStorage_SavedClsn2 = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
 """
 Saves the animation number of a Clsn2-containing animation for the enemy.
 """
+
+ExplorerStorage_SavedMoveTypeH_Low = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
+"""
+Saves the state number of a state where the Explorer had MoveType = H.
+
+This is specifically used for low-numbered states below 200 (as certain characters can be targeted more easily this way).
+"""
+
+ExplorerStorage_SavedMoveTypeH_High = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
+"""
+Saves the state number of a state where the Explorer had MoveType = H.
+"""

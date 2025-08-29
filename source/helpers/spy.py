@@ -37,7 +37,7 @@ def SpyHelper_Base():
     SendToSafeStates()
 
     ## for debugging.
-    print(f"State = {ReadAnimationSearchState()} CLSN1 = {ReadStorageVar_Enemy(SpyStorage_SavedClsn1)} CLSN2 = {ReadStorageVar_Enemy(SpyStorage_SavedClsn2)} Last = {Spy_LastAnimChecked} Test = {Spy_AnimTestNumber}")
+    #print(f"State = {ReadAnimationSearchState()} CLSN1 = {ReadStorageVar_Enemy(SpyStorage_SavedClsn1)} CLSN2 = {ReadStorageVar_Enemy(SpyStorage_SavedClsn2)} Last = {Spy_LastAnimChecked} Test = {Spy_AnimTestNumber}")
 
     ## spy should be untouchable/invisible.
     NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))

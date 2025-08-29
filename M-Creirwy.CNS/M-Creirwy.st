@@ -22507,6 +22507,26 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
+trigger1 = (target,StateNo != 2694494)
+trigger1 = (target,MoveType = H)
+trigger1 = ((target,StateNo < 200) && ((helper(16000),var(7)) = 0))
+trigger1 = helper(16000),cond(1, (var(7) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = Null
+trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
+trigger1 = (target,StateNo != 2694494)
+trigger1 = (target,MoveType = H)
+trigger1 = ((target,StateNo >= 200) && ((helper(16000),var(8)) = 0))
+trigger1 = helper(16000),cond(1, (var(8) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = TargetState
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
 value = 2694494
@@ -23240,6 +23260,14 @@ persistent = 256
 type = ChangeAnim
 trigger1 = 1
 value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = DisplayToClipboard
+trigger1 = 1
+text = "CLSN1 = %d CLSN2 = %d Low AyuAyu = %d High AyuAyu = %d"
+params = (var(5)), (var(6)), (var(7)), (var(8))
 ignorehitpause = 1
 persistent = 256
 
@@ -24314,14 +24342,6 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = DisplayToClipboard
-trigger1 = 1
-text = "State = %d CLSN1 = %d CLSN2 = %d Last = %d Test = %d"
-params = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1), enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(5)), 1), enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(6)), 1), (var(5)), (var(4))
-ignorehitpause = 1
-persistent = 256
-
-[State ]
 type = NotHitBy
 trigger1 = 1
 value = SCA, A, AT, AP
@@ -24661,7 +24681,7 @@ persistent = 256
 
 
 [Statedef 2694493]
-movetype = A
+movetype = I
 
 [State ]
 type = SelfState
@@ -24728,6 +24748,7 @@ persistent = 256
 
 
 [Statedef 2694494]
+movetype = U
 
 [State ]
 type = SelfState
@@ -24762,6 +24783,13 @@ persistent = 256
 type = ChangeAnim2
 trigger1 = 1
 value = 10002
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = 1
+movetype = H
 ignorehitpause = 1
 persistent = 256
 

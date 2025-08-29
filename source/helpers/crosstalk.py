@@ -10,13 +10,13 @@ from mdk.types import (
 from mdk.stdlib import (
     DestroySelf, ChangeAnim, PosSet, HitDef, ReversalDef, ScreenBound, PlayerPush,
     TargetState,
-    IsHelper, Const, NumTarget, TeamSide,
-    helperID, parent, target, root
+    IsHelper, Const, NumTarget, TeamSide, NumHelper,
+    helperID, parent, target, root, enemy
 )
 
-from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, EXPLORER_BUFFER_ID, EXPLORER_HELPER_ID, PASSIVE_ANIM
-from source.includes.variables import CrossTalkTarget_TargetObtained
-from source.includes.shared import SendToDevilsEye, TargetVarSet
+from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, EXPLORER_BUFFER_ID, EXPLORER_HELPER_ID, STORAGE_HELPER_ID, PASSIVE_ANIM
+from source.includes.variables import CrossTalkTarget_TargetObtained, ExplorerStorage_SavedMoveTypeH_Low, ExplorerStorage_SavedMoveTypeH_High
+from source.includes.shared import SendToDevilsEye, TargetVarSet, SetStorageVar_Self
 
 CT_GROUP_INDEX = Const("size.shadowoffset")
 
@@ -62,12 +62,24 @@ def CrossTalk_Base():
     if NumTarget() and target.TeamSide != TeamSide and not root.Root_SpyIsSpawned:
         TargetState(value = target.StateNo)
 
-    ## if the target is the Spy helper or the Explorer helper, always send it to the base state for that helper.
+    ## if the target is the Spy helper or the Explorer buffer, always send it to the base state for that helper.
     if NumTarget() and target.TeamSide != TeamSide and target.IsHelper(SPY_HELPER_ID):
         TargetState(value = SPY_HELPER_ID)
     if NumTarget() and target.TeamSide != TeamSide and target.IsHelper(EXPLORER_BUFFER_ID):
         TargetState(value = EXPLORER_BUFFER_ID)
+
+    ## if the target is the Explorer helper, we want to detect any states found by exploration before running TargetState
+    ## this is done here instead of inside Explorer or buffer as the CT targeting Explorer is always guaranteed to move before it.
     if NumTarget() and target.TeamSide != TeamSide and target.IsHelper(EXPLORER_HELPER_ID):
+        ## for state inspection, only check if the target is not in the explorer base state (i.e. our state file)
+        if target.StateNo != EXPLORER_HELPER_ID:
+            ## detect Ayuayu: if the Explorer's movetype is H, then the current state is a candidate for Ayuayu
+            if target.MoveType == MoveType.H:
+                if target.StateNo < 200 and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedMoveTypeH_Low == 0:
+                    SetStorageVar_Self(ExplorerStorage_SavedMoveTypeH_Low, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
+                if target.StateNo >= 200 and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedMoveTypeH_High == 0:
+                    SetStorageVar_Self(ExplorerStorage_SavedMoveTypeH_High, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
+
         TargetState(value = EXPLORER_HELPER_ID)
 
     ## last step in this state: update the target ID local to make sure we identify when

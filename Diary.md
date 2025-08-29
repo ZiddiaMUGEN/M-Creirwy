@@ -2,6 +2,13 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-29
+
+- implement MoveType trigger into mtl
+- add a step in Explorer helper to search for viable Ayu-Ayu (MoveType=H) state
+- put Explorer state discovery variables into Var Storage
+- implement both low and high Ayuayu discovery
+
 ### 2025-08-28
 
 - fix a couple mtl bracketing issues

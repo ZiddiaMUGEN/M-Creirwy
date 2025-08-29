@@ -53,7 +53,7 @@ def Think():
     if IsHelper(RECEIVER_HELPER_ID): SelfState(value = CallbackReceiver_Actions)
     if IsHelper(INFILTRATION_CONTROLLER_ID): SelfState(value = InfiltrationController_Actions)
     if IsHelper(STORAGE_HELPER_ID): SelfState(value = StorageHelper_Actions)
-    if IsHelper(OCCUPANCY_HELPER_ID): SelfState(value = OccupancyHelper_Actions) ## TODO: does Occupancy need a real state?
+    if IsHelper(OCCUPANCY_HELPER_ID): SelfState(value = OccupancyHelper_Actions)
 
     ## infiltration needs to do all of its work inside -2,
     ## because if it is working properly it will get reversed and
