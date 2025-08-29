@@ -22443,7 +22443,7 @@ persistent = 256
 [State ]
 type = ReversalDef
 trigger1 = NumTarget
-reversal.attr = SCA, A, AT, AP
+reversal.attr = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -22473,7 +22473,7 @@ persistent = 256
 [State ]
 type = HitDef
 trigger1 = (!NumTarget)
-attr = SCA, A, AT, AP
+attr = SCA, AA, AT, AP
 affectteam = F
 ignorehitpause = 1
 persistent = 256
@@ -22539,7 +22539,7 @@ persistent = 256
 type = Null
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
 trigger1 = (target,StateNo != 2694494)
-trigger1 = ((target,HitDefAttr = SCA, A, AT, AP) && ((helper(16000),var(10)) = 0))
+trigger1 = ((target,HitDefAttr = SCA, AA, AT, AP) && ((helper(16000),var(10)) = 0))
 trigger1 = helper(16000),cond(1, (var(10) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
 ignorehitpause = 1
 persistent = 256
@@ -22672,7 +22672,7 @@ persistent = 256
 [State ]
 type = ReversalDef
 trigger1 = NumTarget
-reversal.attr = SCA, A, AT, AP
+reversal.attr = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -23108,7 +23108,7 @@ persistent = 256
 type = ReversalDef
 trigger1 = (!NumTarget)
 trigger1 = (((GameTime % 4) = 2) || ((GameTime % 4) = 3))
-reversal.attr = SCA, A, AT, AP
+reversal.attr = SCA, AA, AT, AP
 hitflag = HLAFD
 sparkno = (-1)
 guard.sparkno = (-1)
@@ -23262,7 +23262,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = 1
-value = SCA, A, AT, AP
+value = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -23289,6 +23289,14 @@ params = (var(5)), (var(6)), (var(7)), (var(8))
 ignorehitpause = 1
 persistent = 256
 
+[State ]
+type = AppendToClipboard
+trigger1 = 1
+text = " Attack = %d HitDef = %d"
+params = (var(9)), (var(10))
+ignorehitpause = 1
+persistent = 256
+
 
 [Statedef 18000]
 
@@ -23302,7 +23310,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = 1
-value = SCA, A, AT, AP
+value = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -24142,7 +24150,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = (!IsHelper)
-value = SCA, A, AP, AT
+value = SCA, AA, AP, AT
 ignorehitpause = 1
 persistent = 256
 
@@ -24362,7 +24370,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = 1
-value = SCA, A, AT, AP
+value = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -24718,7 +24726,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = 1
-value = SCA, A, AT, AP
+value = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 
@@ -24785,7 +24793,7 @@ persistent = 256
 [State ]
 type = NotHitBy
 trigger1 = 1
-value = SCA, A, AT, AP
+value = SCA, AA, AT, AP
 ignorehitpause = 1
 persistent = 256
 

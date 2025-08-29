@@ -9,7 +9,9 @@ from mdk.stdlib import NotHitBy, AssertSpecial, ChangeAnim
 from source.includes.constants import STORAGE_HELPER_ID, PASSIVE_ANIM
 from source.includes.shared import SendToDevilsEye
 from source.includes.variables import (
-    SpyStorage_SavedClsn1, SpyStorage_SavedClsn2, ExplorerStorage_SavedMoveTypeH_Low, ExplorerStorage_SavedMoveTypeH_High
+    SpyStorage_SavedClsn1, SpyStorage_SavedClsn2, 
+    ExplorerStorage_SavedMoveTypeH_Low, ExplorerStorage_SavedMoveTypeH_High,
+    ExplorerStorage_SavedAttackState, ExplorerStorage_SavedHitDefState
 )
 
 @statedef(stateno = STORAGE_HELPER_ID, scope = SCOPE_HELPER(STORAGE_HELPER_ID))
@@ -20,4 +22,5 @@ def StorageHelper_Actions():
     AssertSpecial(flag = AssertType.Invisible, flag2 = AssertType.NoShadow)
     ChangeAnim(value = PASSIVE_ANIM)
 
-    print(f"CLSN1 = {SpyStorage_SavedClsn1} CLSN2 = {SpyStorage_SavedClsn2} Low AyuAyu = {ExplorerStorage_SavedMoveTypeH_Low} High AyuAyu = {ExplorerStorage_SavedMoveTypeH_High}")
+    print(f"CLSN1 = {SpyStorage_SavedClsn1} CLSN2 = {SpyStorage_SavedClsn2} Low AyuAyu = {ExplorerStorage_SavedMoveTypeH_Low} High AyuAyu = {ExplorerStorage_SavedMoveTypeH_High} ")
+    print(f"Attack = {ExplorerStorage_SavedAttackState} HitDef = {ExplorerStorage_SavedHitDefState}", append=True)
