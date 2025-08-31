@@ -1,7 +1,7 @@
 from mdk.types import IntVar, StateNoType, VariableExpression, BoolVar, SCOPE_PLAYER, SCOPE_HELPER, IntType
 
 from source.includes.constants import IMAGEREPRO_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, STORAGE_HELPER_ID, EXPLORER_BUFFER_ID
-from source.includes.types import ImageReproActionTypeT, AnimationSearchStateTypeT
+from source.includes.types import ImageReproActionTypeT, AnimationSearchStateTypeT, ExplorerActionTypeT
 
 ######################################################
 ## Global unscoped - used by root + helpers
@@ -92,6 +92,11 @@ Exploration_CurrentState = IntVar(scope = SCOPE_HELPER(EXPLORER_BUFFER_ID), syst
 Tracks the last state which was entered and tested by the Exploration helper.
 """
 
+Exploration_ActionType = VariableExpression(ExplorerActionTypeT, scope = SCOPE_HELPER(EXPLORER_BUFFER_ID), system = True)
+"""
+Tracks the current action type for exploration.
+"""
+
 ############################################################################################
 ## Global helper-scoped - used by various characters, but stored in the Storage helper
 ############################################################################################
@@ -130,4 +135,9 @@ Saves the state number of a state where the Explorer had MoveType = A.
 ExplorerStorage_SavedHitDefState = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
 """
 Saves the state number of a state where the Explorer had a HitDef active.
+"""
+
+ExplorerStorage_SavedHitByState = IntVar(scope = SCOPE_HELPER(STORAGE_HELPER_ID))
+"""
+Saves the state number of a state where the Explorer had its HitBy overwritten (Pandora Killer state).
 """

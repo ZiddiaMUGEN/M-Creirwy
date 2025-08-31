@@ -22509,7 +22509,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
-trigger1 = (target,StateNo != 2694494)
+trigger1 = (target,StateNo = enemy,cond(((NumHelper(2694493)) != 0), helper(2694493),sysvar(0), (-1)))
 trigger1 = (target,MoveType = H)
 trigger1 = ((target,StateNo < 200) && ((helper(16000),var(7)) = 0))
 trigger1 = helper(16000),cond(1, (var(7) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
@@ -22519,7 +22519,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
-trigger1 = (target,StateNo != 2694494)
+trigger1 = (target,StateNo = enemy,cond(((NumHelper(2694493)) != 0), helper(2694493),sysvar(0), (-1)))
 trigger1 = (target,MoveType = H)
 trigger1 = ((target,StateNo >= 200) && ((helper(16000),var(8)) = 0))
 trigger1 = helper(16000),cond(1, (var(8) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
@@ -22529,7 +22529,7 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
-trigger1 = (target,StateNo != 2694494)
+trigger1 = (target,StateNo = enemy,cond(((NumHelper(2694493)) != 0), helper(2694493),sysvar(0), (-1)))
 trigger1 = ((target,MoveType = A) && ((helper(16000),var(9)) = 0))
 trigger1 = helper(16000),cond(1, (var(9) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
 ignorehitpause = 1
@@ -23284,7 +23284,7 @@ persistent = 256
 [State ]
 type = DisplayToClipboard
 trigger1 = 1
-text = "CLSN1 = %d CLSN2 = %d Low AyuAyu = %d High AyuAyu = %d"
+text = "CLSN1 = %d CLSN2 = %d Low AyuAyu = %d High AyuAyu = %d "
 params = (var(5)), (var(6)), (var(7)), (var(8))
 ignorehitpause = 1
 persistent = 256
@@ -23292,8 +23292,8 @@ persistent = 256
 [State ]
 type = AppendToClipboard
 trigger1 = 1
-text = " Attack = %d HitDef = %d"
-params = (var(9)), (var(10))
+text = "Attack = %d HitDef = %d HitBy = %d"
+params = (var(9)), (var(10)), (var(11))
 ignorehitpause = 1
 persistent = 256
 
@@ -24724,9 +24724,24 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = VarSet
+trigger1 = (((enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(7)), 1) != 0) && (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(8)), 1) != 0)) || ((sysvar(0)) > 999))
+var(4) = ((((1) & 1) * 1) + (var(4) & -2))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = NotHitBy
 trigger1 = 1
 value = SCA, AA, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = PosSet
+trigger1 = 1
+x = enemy((enemy,Name != "M-Creirwy")),Pos X
+y = enemy((enemy,Name != "M-Creirwy")),Pos Y
 ignorehitpause = 1
 persistent = 256
 
@@ -24746,17 +24761,102 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = ((sysvar(1)) = 3)
+trigger1 = (helper(2694494),GetHitVar(fall.envshake.ampl) = 2694493)
+trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(11) := enemy,cond(((NumHelper(2694493)) != 0), helper(2694493),sysvar(0), (-1))), 1), 1)
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((sysvar(1)) = 3)
+sysvar(1) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = (((sysvar(1)) = 2) && (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(11)), 1) = 0))
+statetype = S
+movetype = A
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = (((sysvar(1)) = 2) && (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(11)), 1) = 0))
+value = 10001
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = HitDef
+trigger1 = (((sysvar(1)) = 2) && (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(11)), 1) = 0))
+attr = SCA, AA, AT, AP
+hitflag = HLAFD
+affectteam = F
+sparkno = (-1)
+guard.sparkno = (-1)
+fall.envshake.ampl = 2694493
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (((sysvar(1)) = 2) && (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(11)), 1) = 0))
+sysvar(1) = 3
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((sysvar(1)) = 2)
+sysvar(1) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((((NumHelper(2694494)) != 0) && (helper(2694494),HitPauseTime = 0)) && ((sysvar(1)) = 0))
+trigger1 = (var(4) & 1)
+sysvar(1) = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((((NumHelper(2694494)) != 0) && (helper(2694494),HitPauseTime > 0)) && ((sysvar(1)) = 1))
+sysvar(1) = 0
+ignorehitpause = 1
+persistent = 256
+
+[State ]
 type = VarAdd
-trigger1 = ((NumHelper(2694494)) != 0)
+trigger1 = (((NumHelper(2694494)) != 0) && ((sysvar(1)) = 0))
 sysvar(0) = 1
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = VarSet
-trigger1 = ((NumHelper(2694494)) != 0)
+trigger1 = (((NumHelper(2694494)) != 0) && ((sysvar(1)) = 0))
 trigger1 = (((sysvar(0)) >= 120) && ((sysvar(0)) < 160))
 sysvar(0) = 161
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = (((NumHelper(2694494)) != 0) && ((sysvar(1)) = 0))
+sysvar(1) = 2
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = VarSet
+trigger1 = ((NumHelper(2694494)) = 0)
+sysvar(1) = 0
 ignorehitpause = 1
 persistent = 256
 
@@ -24772,9 +24872,18 @@ pausemovetime = 2147483647
 ignorehitpause = 1
 persistent = 256
 
+[State ]
+type = DisplayToClipboard
+trigger1 = 1
+text = "Using frozen exploration? %d"
+params = (var(4) & 1)
+ignorehitpause = 1
+persistent = 256
+
 
 [Statedef 2694494]
 movetype = U
+hitdefpersist = 1
 
 [State ]
 type = SelfState
@@ -24791,9 +24900,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = NotHitBy
+type = PosSet
 trigger1 = 1
-value = SCA, AA, AT, AP
+x = enemy((enemy,Name != "M-Creirwy")),Pos X
+y = enemy((enemy,Name != "M-Creirwy")),Pos Y
 ignorehitpause = 1
 persistent = 256
 
@@ -24813,17 +24923,98 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
-type = StateTypeSet
+type = ChangeAnim2
+trigger1 = (helper(2694493),sysvar(1) = 3)
+value = 10000
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = (helper(2694493),sysvar(1) = 3)
+value = SCA, AA, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = SelfState
+trigger1 = (helper(2694493),sysvar(1) = 3)
+value = helper(2694493),sysvar(0)
+ctrl = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = NotHitBy
+trigger1 = (helper(2694493),sysvar(1) != 3)
+value = SCA, AA, AT, AP
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = DisplayToClipboard
 trigger1 = 1
+text = "Pausetime = %d, State = %d, Hitvar= %f"
+params = HitPauseTime, helper(2694493),sysvar(1), (GetHitVar(fall.envshake.ampl))
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = (helper(2694493),sysvar(1) = 2)
+trigger1 = (HitPauseTime != 0)
+statetype = S
+movetype = A
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = HitDef
+trigger1 = (helper(2694493),sysvar(1) = 2)
+trigger1 = (HitPauseTime != 0)
+attr = 
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = (helper(2694493),sysvar(1) = 2)
+trigger1 = (HitPauseTime = 0)
 movetype = H
 ignorehitpause = 1
 persistent = 256
 
 [State ]
 type = SelfState
-trigger1 = 1
+trigger1 = (helper(2694493),sysvar(1) = 2)
 value = helper(2694493),sysvar(0)
 ctrl = 1
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = ChangeAnim2
+trigger1 = (helper(2694493),sysvar(1) = 1)
+value = 10001
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = StateTypeSet
+trigger1 = (helper(2694493),sysvar(1) = 1)
+statetype = C
+movetype = A
+ignorehitpause = 1
+persistent = 256
+
+[State ]
+type = HitDef
+trigger1 = (helper(2694493),sysvar(1) = 1)
+attr = C, HP
+hitflag = HLAFD
+pausetime = 2147483647, 0
+sparkno = (-1)
+guard.sparkno = (-1)
 ignorehitpause = 1
 persistent = 256
 

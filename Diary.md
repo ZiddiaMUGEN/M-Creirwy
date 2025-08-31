@@ -2,6 +2,15 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2025-08-31
+
+- fix a bug in MDK where pausetime/guard.pausetime on HitDef were not Tuples
+- add a new (enum) datatype and variable for controlling status of Explorer state transitions/checks
+- add some supporting code for detecting HitBy/Pandora states, and add transitions to the Explorer action type to support
+- ensure HitDef detection still works during Frozen search
+- set up Pandora state detection correctly
+- TODO: consider moving Explorer detections out of CT and into LAST helper.
+
 ### 2025-08-29
 
 - implement MoveType trigger into mtl

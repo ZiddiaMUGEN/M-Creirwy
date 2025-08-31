@@ -41,3 +41,14 @@ class AnimationSearchStateType(Enum):
     NotFoundClsn2 = 8
 
 AnimationSearchStateTypeT = EnumType("AnimationSearchStateType", AnimationSearchStateType, library = "States/Creirwy-Types.inc")
+
+class ExplorerActionType(Enum):
+    """
+    Used to track the current progress of state exploration.
+    """
+    Ready = 0
+    WaitForHitPause = 1
+    EnterState = 2
+    CheckHitBy = 3
+
+ExplorerActionTypeT = EnumType("ExplorerActionType", ExplorerActionType, library = "States/Creirwy-Types.inc")

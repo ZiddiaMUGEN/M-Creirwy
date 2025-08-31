@@ -3,15 +3,15 @@
 ### (for example, variable tampering and state callback).
 from mdk.compiler import statedef
 from mdk.types import (
-    SCOPE_HELPER,
-    StateType, MoveType, PhysicsType, HitAttr, HitType, TeamType, HitAttrF,
+    SCOPE_HELPER, SCOPE_PLAYER,
+    StateType, MoveType, PhysicsType, HitAttr, HitType, TeamType, Expression,
     IntVar
 )
 from mdk.stdlib import (
     DestroySelf, ChangeAnim, PosSet, HitDef, ReversalDef, ScreenBound, PlayerPush,
     TargetState,
     IsHelper, Const, NumTarget, TeamSide, NumHelper,
-    helperID, parent, target, root, enemy
+    helperID, parent, target, root, enemy, rescope
 )
 
 from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, EXPLORER_BUFFER_ID, EXPLORER_HELPER_ID, STORAGE_HELPER_ID, PASSIVE_ANIM
@@ -21,11 +21,18 @@ from source.includes.variables import (
     ExplorerStorage_SavedAttackState, ExplorerStorage_SavedHitDefState, ## OTHK
 )
 from source.includes.shared import SendToDevilsEye, TargetVarSet, SetStorageVar_Self
+#from source.includes.types import ExplorerActionTypeT, ExplorerActionType
 
 CT_GROUP_INDEX = Const("size.shadowoffset")
 
 CT_GETHIT_ANIM = 10000
 CT_ATTACK_ANIM = 10001
+
+def GetExplorationStateNo() -> Expression:
+    """
+    Use this as a Trigger. Returns a Condbug statement to retrieve the value of the Explorer's target state.
+    """
+    return rescope(enemy, SCOPE_PLAYER).Cond(NumHelper(EXPLORER_BUFFER_ID) != 0, helperID(EXPLORER_BUFFER_ID).Exploration_CurrentState, -1)
 
 @statedef(stateno = CROSSTALK_HELPER_ID, scope = SCOPE_HELPER(CROSSTALK_HELPER_ID), type = StateType.S, movetype = MoveType.A, physics = PhysicsType.U)
 def CrossTalk_Base():
@@ -76,7 +83,7 @@ def CrossTalk_Base():
     ## this is done here instead of inside Explorer or buffer as the CT targeting Explorer is always guaranteed to move before it.
     if NumTarget() and target.TeamSide != TeamSide and target.IsHelper(EXPLORER_HELPER_ID):
         ## for state inspection, only check if the target is not in the explorer base state (i.e. our state file)
-        if target.StateNo != EXPLORER_HELPER_ID:
+        if target.StateNo == GetExplorationStateNo():
             ## detect Ayuayu: if the Explorer's movetype is H, then the current state is a candidate for Ayuayu
             if target.MoveType == MoveType.H:
                 if target.StateNo < 200 and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedMoveTypeH_Low == 0:
@@ -86,6 +93,8 @@ def CrossTalk_Base():
             ## detect candidate Attack states: Explorer's movetype is A
             if target.MoveType == MoveType.A and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedAttackState == 0:
                 SetStorageVar_Self(ExplorerStorage_SavedAttackState, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
+        ## this doesn't detect properly in the above conditional (maybe it is moving out of the target state for some reason...?)
+        if target.StateNo != EXPLORER_HELPER_ID:
             if target.HitDefAttr == (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP) and helperID(STORAGE_HELPER_ID).ExplorerStorage_SavedHitDefState == 0:
                 SetStorageVar_Self(ExplorerStorage_SavedHitDefState, enemy.Cond(NumHelper(EXPLORER_HELPER_ID) != 0, helperID(EXPLORER_HELPER_ID).StateNo, -1))
 
