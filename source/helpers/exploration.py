@@ -3,7 +3,8 @@ from mdk.types import SCOPE_HELPER, HitType, HitAttr, HelperType, AssertType, Mo
 from mdk.stdlib import (
     SelfState, NotHitBy, AssertSpecial, ChangeAnim2, Helper, StateTypeSet, PosSet, HitDef,
     NumHelper, HitPauseTime, GetHitVar,
-    helperID, enemy, enemyID, rescope
+    helperID, enemy, enemyID, rescope,
+    EmptyTuple
 )
 
 from source.includes.types import ExplorerActionType
@@ -137,7 +138,7 @@ def ExplorationHelper_Base():
         ## during Frozen search, we need to retain MoveType=A and remove our own HitDefAttr.
         if HitPauseTime != 0:
             StateTypeSet(statetype = StateType.S, movetype = MoveType.A)
-            HitDef(attr = (Expression("", AnyType), ))
+            HitDef(attr = EmptyTuple)
 
         ## set MoveType=H for Ayuayu detection
         if HitPauseTime == 0:
