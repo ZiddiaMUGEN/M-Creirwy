@@ -5,7 +5,7 @@ cmd = M-Creirwy.commands
 cns = M-Creirwy.constants
 sprite = Creirwy.sff
 sound = Creirwy.snd
-anim = Creirwy.air
+anim = Creirwy-States.mtl.air
 
 [Info]
 name = "M-Creirwy"

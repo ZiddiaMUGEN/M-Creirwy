@@ -10,4 +10,4 @@ from source import brain, action, target # type: ignore
 from source.helpers import spy, exploration # type: ignore
 
 if __name__ == "__main__":
-    build("M-Creirwy.def", "States/Creirwy-States.mtl", preserve_ir = True, target_folder = "M-Creirwy.CNS")
+    build("M-Creirwy.def", "States/Creirwy-States.mtl", preserve_ir = True, target_folder = "M-Creirwy.CNS", debug_build = True)

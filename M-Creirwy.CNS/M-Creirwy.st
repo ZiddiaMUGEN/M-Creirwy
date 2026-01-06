@@ -17905,6 +17905,14 @@ ignorehitpause = 1
 [Statedef 1001]
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -17916,6 +17924,14 @@ persistent = 256
 type = S
 movetype = I
 physics = U
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -17952,6 +17968,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (!(var(4) & 1))
 trigger1 = ((var(0) := 0) || 1)
@@ -17965,6 +17985,10 @@ trigger1 = (!(var(4) & 1))
 var(4) = ((((1) & 1) * 1) + (var(4) & -2))
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = VarSet
@@ -18009,6 +18033,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (RoundState = 2)
 trigger1 = ((var(5)) = 2)
@@ -18017,6 +18045,10 @@ trigger1 = ((var(0) := 0) || 1)
 var(2) = 1007
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = VarSet
@@ -18029,6 +18061,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (RoundState = 2)
 trigger1 = ((var(5)) = 2)
@@ -18037,6 +18073,10 @@ trigger1 = ((var(0) := 0) || 1)
 var(2) = 1009
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = VarSet
@@ -18049,6 +18089,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (RoundState = 2)
 trigger1 = ((var(5)) = 2)
@@ -18057,6 +18101,10 @@ trigger1 = ((var(0) := 0) || 1)
 var(2) = 1011
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = VarSet
@@ -18069,6 +18117,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (RoundState = 2)
 trigger1 = ((var(5)) = 2)
@@ -18077,6 +18129,10 @@ trigger1 = ((var(0) := 0) || 1)
 var(2) = 1007
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = VarSet
@@ -18144,6 +18200,14 @@ type = S
 movetype = I
 physics = U
 sprpriority = 3
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -18314,6 +18378,14 @@ movetype = I
 physics = U
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -18335,6 +18407,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((var(0)) >= 180)
 trigger1 = ((var(0) := 0) || 1)
@@ -18348,6 +18424,14 @@ persistent = 256
 type = S
 movetype = I
 physics = U
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -18406,6 +18490,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -18419,6 +18507,14 @@ persistent = 256
 type = S
 movetype = I
 physics = N
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -18442,6 +18538,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = (((abs((Pos X - enemy,Pos X))) <= 60) || (FrontEdgeDist <= 70))
 trigger1 = ((var(0) := 0) || 1)
@@ -18455,6 +18555,14 @@ persistent = 256
 type = S
 movetype = I
 physics = S
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -18478,6 +18586,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = ((AnimTime = 0) && (var(5) := 2))
 trigger1 = ((var(0) := 0) || 1)
@@ -18490,6 +18602,14 @@ persistent = 256
 type = S
 movetype = I
 physics = S
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -18771,6 +18891,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (((var(0)) >= 34) && ((var(0)) < 38))
 fvar(0) = (Random % 360)
@@ -18852,6 +18976,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -18864,6 +18992,14 @@ persistent = 256
 type = U
 movetype = I
 physics = N
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -19087,6 +19223,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (((AnimElemTime(3)) >= 1) && ((AnimElemTime(3)) < 5))
 fvar(0) = (Random % 360)
@@ -19183,6 +19323,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -19195,6 +19339,14 @@ persistent = 256
 type = A
 movetype = I
 physics = N
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -19283,6 +19435,10 @@ sprpriority = 1300
 ownpal = 1
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = VarSet
@@ -19404,6 +19560,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -19416,6 +19576,14 @@ persistent = 256
 type = S
 movetype = I
 physics = S
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -19437,6 +19605,10 @@ trigger1 = ((AnimElemTime(6)) = 0)
 x = (-8.5)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -19580,6 +19752,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(8)) = 3)
 anim = 2202
@@ -19719,6 +19895,10 @@ ontop = 1
 ownpal = 1
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -19862,6 +20042,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(8)) = 9)
 anim = 2202
@@ -20001,6 +20185,10 @@ ontop = 1
 ownpal = 1
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -20144,6 +20332,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(8)) = 15)
 anim = 2202
@@ -20283,6 +20475,10 @@ ontop = 1
 ownpal = 1
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -20446,6 +20642,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -20458,6 +20658,14 @@ persistent = 256
 type = S
 movetype = I
 physics = S
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -20641,6 +20849,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -20655,6 +20867,14 @@ type = A
 movetype = I
 physics = N
 sprpriority = 2147483646
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -20713,6 +20933,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(1)) = 0)
 anim = 30054
@@ -20727,6 +20951,10 @@ ownpal = 1
 trans = Add
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -20745,6 +20973,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(1)) = 4)
 anim = 30054
@@ -20761,6 +20993,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(1)) = 6)
 anim = 30054
@@ -20775,6 +21011,10 @@ ownpal = 1
 trans = Add
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -21042,6 +21282,14 @@ movetype = I
 physics = S
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -21204,6 +21452,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = (((AnimElemTime(44)) = 4) || ((AnimElemTime(46)) = 64))
 anim = 3014
@@ -21312,6 +21564,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = (((AnimElemTime(44)) = 1) || ((AnimElemTime(46)) = 61))
 anim = 3002
@@ -21327,6 +21583,10 @@ trans = Add
 angle = (-105)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -21400,6 +21660,10 @@ x = 0
 y = 0
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -21510,6 +21774,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((((AnimElemTime(46)) = 2) || ((AnimElemTime(46)) = 35)) || ((AnimElemTime(46)) = 51))
 anim = 3002
@@ -21527,6 +21795,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((((AnimElemTime(46)) = 5) || ((AnimElemTime(46)) = 38)) || ((AnimElemTime(46)) = 54))
 anim = 3111
@@ -21542,6 +21814,10 @@ trans = Add
 angle = (-15)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -21652,6 +21928,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((((AnimElemTime(46)) = 9) || (((AnimElemTime(46)) = 43) || ((AnimElemTime(46)) = 69))) || ((AnimElemTime(46)) = 93))
 anim = 3002
@@ -21669,6 +21949,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((((AnimElemTime(46)) = 12) || (((AnimElemTime(46)) = 46) || ((AnimElemTime(46)) = 72))) || ((AnimElemTime(46)) = 96))
 anim = 3111
@@ -21684,6 +21968,10 @@ trans = Add
 angle = (-70)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -21794,6 +22082,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = (((AnimElemTime(46)) = 20) || ((AnimElemTime(46)) = 85))
 anim = 3002
@@ -21811,6 +22103,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = (((AnimElemTime(46)) = 23) || ((AnimElemTime(46)) = 88))
 anim = 3111
@@ -21826,6 +22122,10 @@ trans = Add
 angle = (-15)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -21936,6 +22236,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = (((AnimElemTime(46)) = 25) || ((AnimElemTime(46)) = 77))
 anim = 3002
@@ -21951,6 +22255,10 @@ trans = Add
 angle = 40
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -22000,6 +22308,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3018
@@ -22012,6 +22324,10 @@ trans = Add
 angle = 180
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -22028,6 +22344,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3020
@@ -22042,6 +22362,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = Explod
 trigger1 = ((AnimElemTime(47)) = 0)
 anim = 3021
@@ -22054,6 +22378,10 @@ trans = Add
 angle = (-75)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Explod
@@ -22398,6 +22726,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (AnimTime = 0)
 trigger1 = ((var(0) := 0) || 1)
@@ -22410,6 +22742,14 @@ persistent = 256
 type = S
 movetype = A
 physics = U
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -22480,6 +22820,10 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = ((NumTarget && (target,TeamSide = TeamSide)) && (target,Const(size.shadowoffset) = (Const(size.shadowoffset))))
 trigger1 = target,cond(((var(4) := ((((1) & 1) * 1) + (var(4) & -2))) & 1), 1, 1)
 ignorehitpause = 1
@@ -22508,6 +22852,10 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
 trigger1 = (target,StateNo = enemy,cond(((NumHelper(2694493)) != 0), helper(2694493),sysvar(0), (-1)))
 trigger1 = (target,MoveType = H)
@@ -22515,6 +22863,10 @@ trigger1 = ((target,StateNo < 200) && ((helper(16000),var(7)) = 0))
 trigger1 = helper(16000),cond(1, (var(7) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -22528,12 +22880,20 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = ((NumTarget && (target,TeamSide != TeamSide)) && target,IsHelper(2694494))
 trigger1 = (target,StateNo = enemy,cond(((NumHelper(2694493)) != 0), helper(2694493),sysvar(0), (-1)))
 trigger1 = ((target,MoveType = A) && ((helper(16000),var(9)) = 0))
 trigger1 = helper(16000),cond(1, (var(9) := enemy,cond(((NumHelper(2694494)) != 0), helper(2694494),StateNo, (-1))), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -22571,6 +22931,14 @@ persistent = 256
 type = S
 movetype = H
 physics = U
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -22620,6 +22988,14 @@ persistent = 256
 movetype = A
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -22638,6 +23014,14 @@ persistent = 256
 movetype = H
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -22654,6 +23038,14 @@ persistent = 256
 
 [Statedef 13000]
 movetype = A
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -23157,6 +23549,14 @@ persistent = 256
 movetype = H
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -23188,6 +23588,14 @@ persistent = 256
 
 [Statedef 14001]
 movetype = A
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -23228,6 +23636,14 @@ persistent = 256
 movetype = I
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -23251,6 +23667,14 @@ persistent = 256
 
 
 [Statedef 16000]
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeState
@@ -23301,6 +23725,14 @@ persistent = 256
 [Statedef 18000]
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = ChangeState
 trigger1 = ((Name != "M-Creirwy") || (IsHelper && (root,Name != "M-Creirwy")))
 value = 2694491
@@ -23331,6 +23763,14 @@ persistent = 256
 
 
 [Statedef -2]
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Helper
@@ -24109,6 +24549,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = (!IsHelper)
 trigger1 = ((var(2)) = 0)
@@ -24155,12 +24599,20 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = SelfState
 trigger1 = (!IsHelper)
 trigger1 = ((var(0) := ((var(0)) + 1)) || 1)
 value = (var(2))
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = PlayerPush
@@ -24188,6 +24640,10 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = SelfState
 trigger1 = (IsHelper(10000))
 trigger1 = ((var(0) := ((var(0)) + 1)) || 1)
@@ -24196,12 +24652,20 @@ ignorehitpause = 1
 persistent = 256
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = AssertSpecial
 trigger1 = (IsHelper(11000))
 flag = Invisible
 flag2 = NoShadow
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24299,6 +24763,10 @@ persistent = 256
 [Statedef -3]
 
 [State ]
+type = Null
+trigger1 = 1
+
+[State ]
 type = VarSet
 trigger1 = 1
 var(1) = GameTime
@@ -24311,11 +24779,19 @@ persistent = 256
 [State ]
 type = Null
 trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 ignorehitpause = 1
 persistent = 256
 
 
 [Statedef 2694491]
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = SelfState
@@ -24330,6 +24806,10 @@ trigger1 = (IsHelper && (root,Name = "M-Creirwy"))
 value = 0
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24350,8 +24830,24 @@ pausemovetime = 2147483647
 ignorehitpause = 1
 persistent = 256
 
+[State ]
+type = DisplayToClipboard
+trigger1 = 1
+text = "Spies = %d, CreirwyVar = %d"
+params = (NumHelper(2694492)), enemy,floor((var(4) & 256) / 255)
+ignorehitpause = 1
+persistent = 256
+
 
 [Statedef 2694492]
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = SelfState
@@ -24417,11 +24913,19 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 2)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) = 0))
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(5) := enemy,cond(((NumHelper(2694492)) != 0), (helper(2694492),var(5)), (-1))), 1), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24433,11 +24937,19 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 2)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) != 0))
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 1), 1), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24449,11 +24961,19 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 5)
 trigger1 = (((var(4)) > 0) && (root,NumProjID(((var(4)) + 11100000)) = 0))
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 6), 1), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24479,6 +24999,10 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 3)
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 4), 1), 1)
 ignorehitpause = 1
@@ -24486,6 +25010,14 @@ persistent = 256
 
 
 [Statedef 1013]
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = SelfState
@@ -24503,9 +25035,17 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 4), 1), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeAnim2
@@ -24520,6 +25060,10 @@ trigger1 = 1
 value = 2694491
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24541,6 +25085,10 @@ trigger1 = 1
 var(4) = 1
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24601,6 +25149,10 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 4)
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 5), 1), 1)
 ignorehitpause = 1
@@ -24608,6 +25160,14 @@ persistent = 256
 
 
 [Statedef 1014]
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = SelfState
@@ -24625,9 +25185,17 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 1), 1), 1)
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = ChangeAnim2
@@ -24642,6 +25210,10 @@ trigger1 = 1
 value = 2694491
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24663,6 +25235,10 @@ trigger1 = 1
 var(4) = 1
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24700,6 +25276,10 @@ persistent = 256
 
 [State ]
 type = Null
+trigger1 = 1
+
+[State ]
+type = Null
 trigger1 = (enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), (helper(16000),var(4)), 1) = 1)
 trigger1 = enemy((enemy,Name != "M-Creirwy")),cond(((NumHelper(16000)) != 0), helper(16000),cond(1, (var(4) := 2), 1), 1)
 ignorehitpause = 1
@@ -24708,6 +25288,14 @@ persistent = 256
 
 [Statedef 2694493]
 movetype = I
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = SelfState
@@ -24759,6 +25347,10 @@ trigger1 = 1
 value = 10002
 ignorehitpause = 1
 persistent = 256
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = Null
@@ -24884,6 +25476,14 @@ persistent = 256
 [Statedef 2694494]
 movetype = U
 hitdefpersist = 1
+
+[State ]
+type = Null
+trigger1 = 1
+
+[State ]
+type = Null
+trigger1 = 1
 
 [State ]
 type = SelfState

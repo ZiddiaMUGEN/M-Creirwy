@@ -1,0 +1,26 @@
+name: Build Character via MDK
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-character:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          cache: 'pip'
+      - run: python -m pip install -r requirements.txt
+      - run: mkdir -p M-Creirwy.CNS
+      - run: mkdir -p States
+      - run: python MakeDevils.py
+      - run: python MakeCreirwy.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mdk-intermediate
+          path: States/*.mtl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: m-creirwy
+          path: M-Creirwy.CNS/**/*
