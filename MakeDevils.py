@@ -1,6 +1,6 @@
 import copy
 
-from mdk.compiler import create_statedef, build
+from mdk.compiler import statedef, build
 from mdk.stdlib import Name, IsHelper, root, ChangeState
 from mdk.types import SCOPE_TARGET
 
@@ -14,12 +14,12 @@ if __name__ == "__main__":
     for idx in range(1000):
         next_state = copy.deepcopy(_devils)
         next_state.__name__ = f"DevilsEye{idx}"
-        create_statedef(next_state, stateno = idx, scope = SCOPE_TARGET)
+        statedef(stateno = idx, scope = SCOPE_TARGET)(next_state)
 
     ## states from 1k to 1m, every 1k
     for idx in range(1000, 1000000, 1000):
         next_state = copy.deepcopy(_devils)
         next_state.__name__ = f"DevilsEye{idx}"
-        create_statedef(next_state, stateno = idx, scope = SCOPE_TARGET)
+        statedef(stateno = idx, scope = SCOPE_TARGET)(next_state)
 
     build("M-Creirwy.def", "States/Creirwy-Devil.mtl", run_mtl=False, locations=False, compress=True, preserve_ir=True)
