@@ -24830,14 +24830,6 @@ pausemovetime = 2147483647
 ignorehitpause = 1
 persistent = 256
 
-[State ]
-type = DisplayToClipboard
-trigger1 = 1
-text = "Spies = %d, CreirwyVar = %d"
-params = (NumHelper(2694492)), enemy,floor((var(4) & 256) / 255)
-ignorehitpause = 1
-persistent = 256
-
 
 [Statedef 2694492]
 

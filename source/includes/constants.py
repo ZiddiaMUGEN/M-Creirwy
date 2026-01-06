@@ -60,3 +60,4 @@ LAST_HELPER_ID = 20000
 
 ## some constants to make code more readable.
 PAUSETIME_MAX = (2 ** 31) - 1
+ANIMSEARCH_BASE = 11100000

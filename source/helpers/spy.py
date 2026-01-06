@@ -8,7 +8,7 @@ from mdk.stdlib import (
 )
 
 from source.includes.shared import SendToSafeStates, ReadStorageVar_Enemy, SetStorageVar_Enemy
-from source.includes.constants import SPY_HELPER_ID, EXPLORER_BUFFER_ID, PASSIVE_ANIM, PAUSETIME_MAX
+from source.includes.constants import SPY_HELPER_ID, EXPLORER_BUFFER_ID, PASSIVE_ANIM, PAUSETIME_MAX, ANIMSEARCH_BASE
 from source.includes.variables import (
     Spy_AnimTestNumber, SpyStorage_AnimationSearchState, SpyStorage_SavedClsn1, SpyStorage_SavedClsn2, Spy_LastAnimChecked
 )
@@ -69,21 +69,21 @@ def SpyHelper_Base():
     if ReadAnimationSearchState() == AnimationSearchStateType.TestClsn1:
         ## check if projectile made contact
         ## if it did, store the animation into SavedClsn1 and progress to Clsn2 search.
-        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + 11100000) == 0:
+        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + ANIMSEARCH_BASE) == 0:
             SetStorageVar_Enemy(SpyStorage_SavedClsn1, ReadSpyHelperVar(Spy_LastAnimChecked))
             SetStorageVar_Enemy(SpyStorage_AnimationSearchState, AnimationSearchStateType.FinishedClsn1)
         ## if it did not, go back to ReadyClsn1 status for the next animation to test.
-        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + 11100000) != 0:
+        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + ANIMSEARCH_BASE) != 0:
             SetStorageVar_Enemy(SpyStorage_AnimationSearchState, AnimationSearchStateType.ReadyClsn1)
 
     if ReadAnimationSearchState() == AnimationSearchStateType.TestClsn2:
         ## check if projectile made contact
         ## if it did, store the animation into SavedClsn2 and complete the search.
-        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + 11100000) == 0:
+        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + ANIMSEARCH_BASE) == 0:
             SetStorageVar_Enemy(SpyStorage_SavedClsn2, ReadSpyHelperVar(Spy_LastAnimChecked))
             SetStorageVar_Enemy(SpyStorage_AnimationSearchState, AnimationSearchStateType.Finished)
         ## if it did not, go back to ReadyClsn2 status for the next animation to test.
-        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + 11100000) != 0:
+        if Spy_AnimTestNumber > 0 and RootNumProjID(Spy_AnimTestNumber + ANIMSEARCH_BASE) != 0:
             SetStorageVar_Enemy(SpyStorage_AnimationSearchState, AnimationSearchStateType.ReadyClsn2)
 
     ## if we just finished Clsn1 search, reset variables before moving to Clsn2 search
@@ -99,7 +99,7 @@ def SpyHelper_Base():
 @statefunc()
 def Spy_GetNextAnim(fail_state: Expression) -> None:
     ## ChangeAnim2 to one of Creirwy's pre-prepared animations
-    ChangeAnim2(value = Spy_AnimTestNumber + 11100000)
+    ChangeAnim2(value = Spy_AnimTestNumber + ANIMSEARCH_BASE)
     ## then ChangeAnim to a (hopefully) invalid animation
     ChangeAnim(value = 2694491)
     ## check if this is the same as the last animation we tested
@@ -140,7 +140,7 @@ def SpyHelper_Clsn2Search():
         HitBy(value = (HitType.C, HitAttr.HT))
         PosSet(x = creirwy.Pos.x, y = creirwy.Pos.y)
         Projectile(
-            projid = Spy_AnimTestNumber + 11100000,
+            projid = Spy_AnimTestNumber + ANIMSEARCH_BASE,
             hitflag = HitFlagType.HLAFD,
             attr = (HitType.C, HitAttr.HT),
             affectteam = TeamType.F,
@@ -173,7 +173,7 @@ def SpyHelper_Clsn1Search():
     ## fire a Projectile.
     if ReadAnimationSearchState() == AnimationSearchStateType.ReadyClsn1:
         Projectile(
-            projid = Spy_AnimTestNumber + 11100000,
+            projid = Spy_AnimTestNumber + ANIMSEARCH_BASE,
             hitflag = HitFlagType.HLAFD,
             attr = (HitType.C, HitAttr.HP),
             sparkno = -1,

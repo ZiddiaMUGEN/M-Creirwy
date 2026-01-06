@@ -5,6 +5,8 @@ from mdk.utils.shared import convert
 ## apply ignorehitpause/persistent by default to all states.
 CompilerContext.instance().default_state = (convert(True), convert(256))
 
+## source.anims MUST be the first import as we need animsearch at the top of the generated AIR.
+from source import anims
 ## we only need to import these as `action` already imports all the Helper states individually.
 from source import brain, action, target # type: ignore
 from source.helpers import spy, exploration # type: ignore
