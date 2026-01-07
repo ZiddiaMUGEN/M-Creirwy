@@ -15,17 +15,14 @@ from source.includes.variables import (
     ExplorerStorage_SavedHitDefState
 )
 from source.includes.shared import SendToSafeStates, ReadStorageVar_Enemy, SetStorageVar_Enemy
-from source.includes.constants import SPY_HELPER_ID, EXPLORER_HELPER_ID, EXPLORER_BUFFER_ID, PAUSETIME_MAX, PASSIVE_ANIM
+from source.includes.constants import SPY_HELPER_ID, EXPLORER_HELPER_ID, EXPLORER_BUFFER_ID, PAUSETIME_MAX
+
+from source.anims import PASSIVE_ANIM, SMALL_ATTACK_ANIM, SMALL_GETHIT_ANIM
 
 creirwy = enemyID(enemy.Name != "M-Creirwy")
 """A custom redirect to the correct enemy index for Creirwy."""
 spy = helperID(SPY_HELPER_ID)
 """Redirect targeting the Spy helper."""
-
-ATTACK_ANIM = 10001
-"""Used by the Exploration helper when it needs to gain HitPauseTime."""
-GETHIT_ANIM = 10000
-"""Used by the Exploration helper when it needs to check for HitBy overrides."""
 
 HITBY_DETECTION = EXPLORER_BUFFER_ID
 """Used during HitBy detection; if the Explorer has a fall amplitude of this value in its HitVar, then a hit made contact."""
@@ -67,7 +64,7 @@ def ExplorationBuffer_Base():
     if Exploration_ActionType == ExplorerActionType.EnterState and ReadStorageVar_Enemy(ExplorerStorage_SavedHitByState) == 0:
         ## the Buffer helper will attempt to attack the Exploration helper to see if HitBy has been applied.
         StateTypeSet(statetype = StateType.S, movetype = MoveType.A)
-        ChangeAnim2(value = ATTACK_ANIM)
+        ChangeAnim2(value = SMALL_ATTACK_ANIM)
         HitDef(attr = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP), hitflag = HitFlagType.HLAFD, sparkno = -1, guard_sparkno = -1, fall_envshake_ampl = HITBY_DETECTION, affectteam = TeamType.F)
         Exploration_ActionType.set(ExplorerActionType.CheckHitBy)
 
@@ -124,7 +121,7 @@ def ExplorationHelper_Base():
 
     ## if the current action type is CheckHitBy we cannot overwrite the HitBy status and we need to take a hittable anim.
     if helperID(EXPLORER_BUFFER_ID).Exploration_ActionType == ExplorerActionType.CheckHitBy:
-        ChangeAnim2(value = GETHIT_ANIM)
+        ChangeAnim2(value = SMALL_GETHIT_ANIM)
         NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP))
         SelfState(value = helperID(EXPLORER_BUFFER_ID).Exploration_CurrentState, ctrl = True)
     ## otherwise this Helper needs to always be unhittable.
@@ -151,6 +148,6 @@ def ExplorationHelper_Base():
     ## (this implies 2 Ayuayu states have been detected already).
     if helperID(EXPLORER_BUFFER_ID).Exploration_ActionType == ExplorerActionType.WaitForHitPause:
         ## hit the Callback Receiver helper.
-        ChangeAnim2(value = ATTACK_ANIM)
+        ChangeAnim2(value = SMALL_ATTACK_ANIM)
         StateTypeSet(statetype = StateType.C, movetype = MoveType.A)
         HitDef(attr = (HitType.C, HitAttr.HP), hitflag = HitFlagType.HLAFD, sparkno = -1, guard_sparkno = -1, pausetime = (PAUSETIME_MAX, 0))

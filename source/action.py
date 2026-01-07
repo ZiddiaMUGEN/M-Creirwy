@@ -204,7 +204,6 @@ def Think_Root():
     PlayerPush(value = False) ## uninteractable
     ScreenBound(value = False, movecamera = (False, False)) ## uninteractable
     NotHitBy(value = (HitType.SCA, HitAttr.AA, HitAttr.AP, HitAttr.AT)) ## uninteractable
-    HitType.SC
 
     SelfState_TimeIncrease(SavedState) ## goto the saved state, and increase TrackedTime by 1 as well.
 

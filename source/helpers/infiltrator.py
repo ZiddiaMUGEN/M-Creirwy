@@ -6,8 +6,10 @@ from mdk.compiler import statedef
 from mdk.types import SCOPE_HELPER, MoveType, HelperType
 from mdk.stdlib import ChangeAnim, PosSet, Helper, NumHelper, root
 
-from source.includes.constants import INFILTRATION_HELPER_ID, INFILTRATION_CONTROLLER_ID, PASSIVE_ANIM, PAUSETIME_MAX
+from source.includes.constants import INFILTRATION_HELPER_ID, INFILTRATION_CONTROLLER_ID, PAUSETIME_MAX
 from source.includes.shared import SendToDevilsEye
+
+from source.anims import PASSIVE_ANIM
 
 @statedef(stateno = INFILTRATION_CONTROLLER_ID, movetype = MoveType.A, scope = SCOPE_HELPER(INFILTRATION_CONTROLLER_ID))
 def InfiltrationController_Actions():

@@ -14,7 +14,7 @@ from mdk.stdlib import (
     helperID, parent, target, root, enemy, rescope
 )
 
-from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, EXPLORER_BUFFER_ID, EXPLORER_HELPER_ID, STORAGE_HELPER_ID, PASSIVE_ANIM
+from source.includes.constants import CROSSTALK_HELPER_ID, CROSSTALK_TARGET_ID, SPY_HELPER_ID, EXPLORER_BUFFER_ID, EXPLORER_HELPER_ID, STORAGE_HELPER_ID
 from source.includes.variables import (
     CrossTalkTarget_TargetObtained, 
     ExplorerStorage_SavedMoveTypeH_Low, ExplorerStorage_SavedMoveTypeH_High, ## ayuayu
@@ -23,10 +23,9 @@ from source.includes.variables import (
 from source.includes.shared import SendToDevilsEye, TargetVarSet, SetStorageVar_Self
 #from source.includes.types import ExplorerActionTypeT, ExplorerActionType
 
-CT_GROUP_INDEX = Const("size.shadowoffset")
+from source.anims import SMALL_ATTACK_ANIM, PASSIVE_ANIM
 
-CT_GETHIT_ANIM = 10000
-CT_ATTACK_ANIM = 10001
+CT_GROUP_INDEX = Const("size.shadowoffset")
 
 def GetExplorationStateNo() -> Expression:
     """
@@ -56,7 +55,7 @@ def CrossTalk_Base():
 
     ## setup: gain a target if not already gained
     if not NumTarget():
-        ChangeAnim(value = CT_ATTACK_ANIM)
+        ChangeAnim(value = SMALL_ATTACK_ANIM)
         PosSet(x = -500, y = -15 * CT_GROUP_INDEX)
         HitDef(
             attr = (HitType.SCA, HitAttr.AA, HitAttr.AT, HitAttr.AP),

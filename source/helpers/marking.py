@@ -13,10 +13,10 @@ from mdk.stdlib import (
     enemy, parent, target, root
 )
 
-from source.includes.constants import MARKING_HELPER_ID, PASSIVE_ANIM
+from source.includes.constants import MARKING_HELPER_ID
 from source.includes.shared import SendToDevilsEye, InRange
 
-MARKING_ATTACK_ANIM = 2694501
+from source.anims import PASSIVE_ANIM, MARKING_ATTACK_ANIM
 
 @statedef(stateno = MARKING_HELPER_ID, movetype = MoveType.A, scope = SCOPE_HELPER(MARKING_HELPER_ID))
 def MarkingHelper_Actions():

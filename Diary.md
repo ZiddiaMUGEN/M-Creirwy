@@ -2,6 +2,12 @@
 
 This is a log of any work I do on the character so I remember what I worked on.
 
+### 2026-01-07
+
+- bump MTL/MDK to latest 0.2.x
+- move animsearch animations into code
+- link critical animations as externals in code
+
 ### 2025-08-31
 
 - fix a bug in MDK where pausetime/guard.pausetime on HitDef were not Tuples

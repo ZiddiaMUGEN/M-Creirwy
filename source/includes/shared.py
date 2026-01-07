@@ -1,6 +1,6 @@
 from mdk.compiler import statefunc, trigger
 from mdk.stdlib import Name, IsHelper, root, ChangeState, SelfState, Random, Cond, Null, rescope, target, enemy, enemyID, helperID, NumHelper
-from mdk.types import Expression, ConvertibleExpression, VariableExpression, IntType, BoolType, StateScope, SCOPE_PLAYER, TypeSpecifier
+from mdk.types import Expression, ConvertibleExpression, VariableExpression, IntType, BoolType, StateScope, SCOPE_PLAYER
 
 from mdk.utils.shared import convert
 

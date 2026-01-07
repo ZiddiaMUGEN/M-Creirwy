@@ -8,11 +8,13 @@ from mdk.stdlib import (
 )
 
 from source.includes.shared import SendToSafeStates, ReadStorageVar_Enemy, SetStorageVar_Enemy
-from source.includes.constants import SPY_HELPER_ID, EXPLORER_BUFFER_ID, PASSIVE_ANIM, PAUSETIME_MAX, ANIMSEARCH_BASE
+from source.includes.constants import SPY_HELPER_ID, EXPLORER_BUFFER_ID, PAUSETIME_MAX, ANIMSEARCH_BASE
 from source.includes.variables import (
     Spy_AnimTestNumber, SpyStorage_AnimationSearchState, SpyStorage_SavedClsn1, SpyStorage_SavedClsn2, Spy_LastAnimChecked
 )
 from source.includes.types import AnimationSearchStateType, AnimationSearchStateTypeT
+
+from source.anims import PASSIVE_ANIM
 
 creirwy = enemyID(enemy.Name != "M-Creirwy")
 """A custom redirect to the correct enemy index for Creirwy."""

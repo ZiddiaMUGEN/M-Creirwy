@@ -6,7 +6,7 @@ from mdk.compiler import statedef
 from mdk.types import SCOPE_HELPER, HitAttr, HitType, AssertType
 from mdk.stdlib import NotHitBy, AssertSpecial, ChangeAnim
 
-from source.includes.constants import STORAGE_HELPER_ID, PASSIVE_ANIM
+from source.includes.constants import STORAGE_HELPER_ID
 from source.includes.shared import SendToDevilsEye
 from source.includes.variables import (
     SpyStorage_SavedClsn1, SpyStorage_SavedClsn2, 
@@ -14,6 +14,8 @@ from source.includes.variables import (
     ExplorerStorage_SavedAttackState, ExplorerStorage_SavedHitDefState,
     ExplorerStorage_SavedHitByState
 )
+
+from source.anims import PASSIVE_ANIM
 
 @statedef(stateno = STORAGE_HELPER_ID, scope = SCOPE_HELPER(STORAGE_HELPER_ID))
 def StorageHelper_Actions():

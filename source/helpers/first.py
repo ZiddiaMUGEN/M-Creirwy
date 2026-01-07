@@ -7,8 +7,10 @@ from mdk.compiler import statedef
 from mdk.types import SCOPE_HELPER, MoveType
 from mdk.stdlib import ChangeAnim
 
-from source.includes.constants import FIRST_HELPER_ID, PASSIVE_ANIM
+from source.includes.constants import FIRST_HELPER_ID
 from source.includes.shared import SendToDevilsEye
+
+from source.anims import PASSIVE_ANIM
 
 @statedef(stateno = FIRST_HELPER_ID, movetype = MoveType.A, scope = SCOPE_HELPER(FIRST_HELPER_ID))
 def FirstHelper_Actions():

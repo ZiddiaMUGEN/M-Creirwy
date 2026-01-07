@@ -1,9 +1,6 @@
 MC_DEVILS_TARGET_STATE = 2694491
 """Target state for Devil's Eye Killer. Should be the state number used for `TargetLandingState`."""
 
-PASSIVE_ANIM = 10002
-"""ID of an animation with no Clsn1/Clsn2; used by various Helpers when they don't need to be doing anything."""
-
 ######################################################
 ## Helper IDs for quick reference
 ######################################################

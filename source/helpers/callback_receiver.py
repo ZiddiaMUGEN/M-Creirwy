@@ -10,12 +10,12 @@ from mdk.stdlib import ChangeAnim, HitBy, PosSet, root
 from source.includes.constants import RECEIVER_HELPER_ID
 from source.includes.shared import SendToDevilsEye
 
-RECEIVER_ANIM = 2694500
+from source.anims import CALLBACK_RECEIVER_ANIM
 
 @statedef(stateno = RECEIVER_HELPER_ID, movetype = MoveType.H, scope = SCOPE_HELPER(RECEIVER_HELPER_ID))
 def CallbackReceiver_Actions():
     SendToDevilsEye()
 
-    ChangeAnim(value = RECEIVER_ANIM)
+    ChangeAnim(value = CALLBACK_RECEIVER_ANIM)
     PosSet(x = root.Pos.x, y = root.Pos.y)
     HitBy(value = (HitType.C, HitAttr.HP))
